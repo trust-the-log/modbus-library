@@ -1,7 +1,6 @@
-const CACHE = 'modbus-library-v3';
-const BASE = '/modbus-library/';
+const CACHE = 'modbus-library-v4';
 
-const PRECACHE_URLS = [
+const DATA_URLS = [
   "/modbus-library/data/devices.json",
   "/modbus-library/data/registers/BTicino__F4N200.json",
   "/modbus-library/data/registers/abb__3p81.json",
@@ -288,22 +287,17 @@ const PRECACHE_URLS = [
   "/modbus-library/data/registers/ziegler__delta-energy.json"
 ];
 
+// On install: cache app shell only
 self.addEventListener('install', e => {
   self.skipWaiting();
   e.waitUntil(
-    caches.open(CACHE).then(async cache => {
-      // Cache app shell
-      await cache.addAll([BASE, BASE + 'index.html']);
-      // Pre-cache all data files in background
-      PRECACHE_URLS.forEach(url => {
-        fetch(url)
-          .then(res => { if (res.ok) cache.put(url, res); })
-          .catch(() => {});
-      });
-    })
+    caches.open(CACHE).then(cache =>
+      cache.addAll(['/modbus-library/', '/modbus-library/index.html'])
+    )
   );
 });
 
+// On activate: delete old caches
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
@@ -312,21 +306,39 @@ self.addEventListener('activate', e => {
   );
 });
 
+// On activate: refresh ALL data files in background
+self.addEventListener('activate', e => {
+  e.waitUntil(
+    caches.open(CACHE).then(cache =>
+      Promise.all(
+        DATA_URLS.map(url =>
+          fetch(url)
+            .then(res => { if (res.ok) cache.put(url, res); })
+            .catch(() => {})
+        )
+      )
+    )
+  );
+});
+
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   const isData = url.pathname.includes('/data/');
 
   if (isData) {
+    // Network-first: try network, fallback to cache
     e.respondWith(
-      caches.open(CACHE).then(async cache => {
-        const cached = await cache.match(e.request);
-        const fetchPromise = fetch(e.request)
-          .then(res => { if (res.ok) cache.put(e.request, res.clone()); return res; })
-          .catch(() => null);
-        return cached || fetchPromise;
-      })
+      fetch(e.request)
+        .then(res => {
+          if (res.ok) {
+            caches.open(CACHE).then(c => c.put(e.request, res.clone()));
+          }
+          return res;
+        })
+        .catch(() => caches.match(e.request))
     );
   } else {
+    // App shell: network-first, fallback to cache
     e.respondWith(
       fetch(e.request)
         .then(res => {
