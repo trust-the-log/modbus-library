@@ -198,12 +198,19 @@ export default function App() {
   const [showImport, setShowImport] = useState(false);
   const [status, setStatus] = useState('');
 
+  const [buildDate, setBuildDate] = useState('');
+
   // Load device index on startup
   useEffect(() => {
     fetch(`${BASE}data/devices.json`)
       .then(r => r.json())
       .then(d => { setAllDevices(d); setStatus(`${d.length} dispositivi caricati`); })
       .catch(() => setStatus('Errore caricamento dati'));
+    // Load build date
+    fetch(`${BASE}version.json`)
+      .then(r => r.json())
+      .then(v => setBuildDate(new Date(v.date).toLocaleDateString('it-IT', {day:'2-digit',month:'2-digit',year:'numeric'})))
+      .catch(() => {});
   }, []);
 
   const devices = useMemo(() => [...allDevices, ...customDevices], [allDevices, customDevices]);
@@ -393,7 +400,7 @@ export default function App() {
 
       {/* Status bar */}
       <div className="statusbar">
-        <span>{status || `Aggiornato il ${new Date(__BUILD_DATE__).toLocaleDateString('it-IT', {day:'2-digit',month:'2-digit',year:'numeric'})}`}</span>
+        <span>{status || (buildDate ? `Aggiornato il ${buildDate}` : '')}</span>
         {selectedDevice && <span>{filteredRegs.length !== registers.length ? `${filteredRegs.length} di ${registers.length} registri` : `${registers.length} registri`}</span>}
       </div>
     </div>
