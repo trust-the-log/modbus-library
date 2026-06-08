@@ -41,19 +41,41 @@ function ImportPanel({ onSave, onClose }) {
     onClose();
   };
 
+  const onFileChange = e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => { setText(ev.target.result); setParsed(null); setError(''); };
+    reader.readAsText(file);
+    e.target.value = '';
+  };
+
   const cats = ['Energy Meter','Solar Inverter','PLC','Variable Speed Drive','Generator','HVAC Controller','Building Automation','Gateway/RTU','Other'];
 
   return (
     <div className="panel-overlay" onClick={e => e.target===e.currentTarget && onClose()}>
       <div className="panel">
-        <h2>Importa registri</h2>
+        <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:4}}>
+          <h2>Importa registri</h2>
+          <a href={`${BASE}guide.pdf`} target="_blank" rel="noreferrer" className="btn"
+            style={{fontSize:11,display:'flex',alignItems:'center',gap:5,textDecoration:'none'}}>
+            📖 Guida prompt AI
+          </a>
+        </div>
         <div className="hint-box">
           Formato: virgola, punto e virgola o tab. Colonne:
           <code>indirizzo, tipo (HR/IR/CO/DI), nome, descrizione, unità, data_type, accesso (R/RW)</code>
           Esempio:
           <code>3000,HR,Voltage L1,Tensione fase L1,V,float32,R{'\n'}3054,HR,Active power,Potenza attiva,kW,float32,R</code>
         </div>
-        <textarea value={text} onChange={e=>{setText(e.target.value);setParsed(null);setError('');}} placeholder="Incolla qui la tabella dei registri..." />
+        <div style={{display:'flex',gap:8,alignItems:'center',marginBottom:4}}>
+          <label className="btn" style={{cursor:'pointer',fontSize:11,margin:0}}>
+            📂 Carica CSV/TXT
+            <input type="file" accept=".csv,.txt,.tsv" style={{display:'none'}} onChange={onFileChange}/>
+          </label>
+          <span style={{fontSize:11,color:'var(--text-3)'}}>oppure incolla il testo sotto</span>
+        </div>
+        <textarea value={text} onChange={e=>{setText(e.target.value);setParsed(null);setError('');}} placeholder="Incolla qui la tabella dei registri, oppure carica un file CSV..." />
         <div style={{display:'flex',gap:8,alignItems:'center'}}>
           <button className="btn btn-primary" onClick={doParse} disabled={!text.trim()}>▶ Analizza</button>
           {parsed && <span className="parse-result">✓ {parsed.length} registri trovati</span>}
