@@ -269,17 +269,10 @@ export default function App() {
     setStatus(`Esportato: modbus_${selectedDevice.model}.xml`);
   };
 
-  const handleSaveCustom = dev => {
-    setCustomDevices(prev => [...prev, dev]);
-    setSelectedId(dev.id);
-    setStatus(`Importato: ${dev.brand} ${dev.model} · ${dev.regCount} registri`);
-  };
-
   const totalRegs = devices.reduce((s,d)=>s+d.regCount,0);
 
   return (
     <div className="layout">
-      {showImport && <ImportPanel onSave={handleSaveCustom} onClose={()=>setShowImport(false)} />}
 
       {/* Toolbar */}
       <div className="toolbar">
@@ -293,7 +286,6 @@ export default function App() {
             placeholder="Cerca indirizzo, nome, unità..." />
         </div>
         <div className="toolbar-actions">
-          <button className="btn" onClick={()=>setShowImport(true)}>📥 Importa</button>
           <button className="btn" onClick={handleExport} disabled={!selectedDevice}>📤 Esporta XML</button>
         </div>
       </div>
@@ -401,7 +393,7 @@ export default function App() {
 
       {/* Status bar */}
       <div className="statusbar">
-        <span>{status || 'Pronto'}</span>
+        <span>{status || `Aggiornato il ${new Date(__BUILD_DATE__).toLocaleDateString('it-IT', {day:'2-digit',month:'2-digit',year:'numeric'})}`}</span>
         {selectedDevice && <span>{filteredRegs.length !== registers.length ? `${filteredRegs.length} di ${registers.length} registri` : `${registers.length} registri`}</span>}
       </div>
     </div>
