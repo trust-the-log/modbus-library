@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Company Code",
+    "desc": "Company Code",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Product Code",
+    "desc": "Product Code",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Barcode Check",
+    "desc": "Barcode Check",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Program Communication Version",
+    "desc": "Program Communication Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "User Define Number H",
+    "desc": "User Define Number H",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "User Define Number L",
+    "desc": "User Define Number L",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Current Transformer Ratio",
+    "desc": "Current Transformer Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4097,
+    "type": "HR",
+    "name": "Device Working Information Bits",
+    "desc": "Device Working Information Bits",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Input Voltage Phase1",
+    "desc": "Input Voltage Phase1",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Input Voltage Phase2",
+    "desc": "Input Voltage Phase2",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Input Voltage Phase3",
+    "desc": "Input Voltage Phase3",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Input Current Phase1",
+    "desc": "Input Current Phase1",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Input Current Phase2",
+    "desc": "Input Current Phase2",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Input Current Phase3",
+    "desc": "Input Current Phase3",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Input Active Power Phase1",
+    "desc": "Input Active Power Phase1",
+    "unit": "watt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "Input Active Power Phase2",
+    "desc": "Input Active Power Phase2",
+    "unit": "watt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Input Active Power Phase3",
+    "desc": "Input Active Power Phase3",
+    "unit": "watt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "Input Reactive Power Phase1",
+    "desc": "Input Reactive Power Phase1",
+    "unit": "Var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Input Reactive Power Phase2",
+    "desc": "Input Reactive Power Phase2",
+    "unit": "Var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4109,
+    "type": "HR",
+    "name": "Input Reactive Power Phase3",
+    "desc": "Input Reactive Power Phase3",
+    "unit": "Var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Input Appearent Power Phase1",
+    "desc": "Input Appearent Power Phase1",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4111,
+    "type": "HR",
+    "name": "Input Appearent Power Phase2",
+    "desc": "Input Appearent Power Phase2",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Input Appearent Power Phase3",
+    "desc": "Input Appearent Power Phase3",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4113,
+    "type": "HR",
+    "name": "Cos Phase1",
+    "desc": "Cos Phase1",
+    "unit": "0.001",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Cos Phase2",
+    "desc": "Cos Phase2",
+    "unit": "0.001",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4115,
+    "type": "HR",
+    "name": "Cos Phase3",
+    "desc": "Cos Phase3",
+    "unit": "0.001",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Sum Cos",
+    "desc": "Sum Cos",
+    "unit": "0.001",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4117,
+    "type": "HR",
+    "name": "Tan 1 Phase1",
+    "desc": "Tan 1 Phase1",
+    "unit": "0.01",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "Tan 2 Phase2",
+    "desc": "Tan 2 Phase2",
+    "unit": "0.01",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "Tan 3 Phase3",
+    "desc": "Tan 3 Phase3",
+    "unit": "0.01",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Sum Tan",
+    "desc": "Sum Tan",
+    "unit": "0.01",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4121,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "watt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Total Inductive Power",
+    "desc": "Total Inductive Power",
+    "unit": "Var",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "Total Capacitive Power",
+    "desc": "Total Capacitive Power",
+    "unit": "Var",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Sum Reactive Power",
+    "desc": "Sum Reactive Power",
+    "unit": "Var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4125,
+    "type": "HR",
+    "name": "Sum Appearent Power",
+    "desc": "Sum Appearent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "Temperature",
+    "desc": "Temperature",
+    "unit": "CD",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Phase Alarms Output Bits For Phase1",
+    "desc": "Phase Alarms Output Bits For Phase1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4129,
+    "type": "HR",
+    "name": "Phase Alarms Output Bits For Phase2",
+    "desc": "Phase Alarms Output Bits For Phase2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Phase Alarms Output Bits For Phase3",
+    "desc": "Phase Alarms Output Bits For Phase3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Step Protection Types",
+    "desc": "Step Protection Types",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4133,
+    "type": "HR",
+    "name": "Warnings For Voltage And No Current",
+    "desc": "Warnings For Voltage And No Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Voltage1 Zerocrossoverangle",
+    "desc": "Voltage1 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4135,
+    "type": "HR",
+    "name": "Current1 Zerocrossoverangle",
+    "desc": "Current1 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Voltage2 Zerocrossoverangle",
+    "desc": "Voltage2 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4137,
+    "type": "HR",
+    "name": "Current2 Zerocrossoverangle",
+    "desc": "Current2 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Voltage3 Zerocrossoverangle",
+    "desc": "Voltage3 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4139,
+    "type": "HR",
+    "name": "Current3 Zerocrossoverangle",
+    "desc": "Current3 Zerocrossoverangle",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "The Steps That Are Running 17 0 Steps, 31 Alarm , ",
+    "desc": "The Steps That Are Running 17 0 Steps, 31 Alarm , 30 Fan",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

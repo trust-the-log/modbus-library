@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 99,
+    "type": "HR",
+    "name": "0 = Direct Connect 1 = Vt",
+    "desc": "0 = Direct Connect 1 = Vt",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "=Realvalue*1000",
+    "desc": "=Realvalue*1000",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Current Phase A",
+    "desc": "Current Phase A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Current Phase B",
+    "desc": "Current Phase B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Current Phase C",
+    "desc": "Current Phase C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Current Phase N",
+    "desc": "Current Phase N",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Average Of Ia, Ib, Ic",
+    "desc": "Average Of Ia, Ib, Ic",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Voltage Ua Un",
+    "desc": "Voltage Ua Un",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Voltage Ub Un",
+    "desc": "Voltage Ub Un",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Voltage Uc Un",
+    "desc": "Voltage Uc Un",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Voltage Un Ue",
+    "desc": "Voltage Un Ue",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Average Of Ua, Ub, Uc",
+    "desc": "Average Of Ua, Ub, Uc",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Voltage Ua Ub",
+    "desc": "Voltage Ua Ub",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Voltage Ub Uc",
+    "desc": "Voltage Ub Uc",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Voltage Uc Ua",
+    "desc": "Voltage Uc Ua",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Average Of Uab, Ubc, Uca",
+    "desc": "Average Of Uab, Ubc, Uca",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Active Power Phase A",
+    "desc": "Active Power Phase A",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Active Power Phase B",
+    "desc": "Active Power Phase B",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Active Power Phase C",
+    "desc": "Active Power Phase C",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Reactive Power Phase A",
+    "desc": "Reactive Power Phase A",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Reactive Power Phase B",
+    "desc": "Reactive Power Phase B",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Reactive Power Phase C",
+    "desc": "Reactive Power Phase C",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Apparent Power Phase A",
+    "desc": "Apparent Power Phase A",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Apparent Power Phase B",
+    "desc": "Apparent Power Phase B",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Apparent Power Phase C",
+    "desc": "Apparent Power Phase C",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Power Factor Phase A",
+    "desc": "Power Factor Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Power Factor Phase B",
+    "desc": "Power Factor Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Power Factor Phase C",
+    "desc": "Power Factor Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Displacement Power Factor Phase A",
+    "desc": "Displacement Power Factor Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Displacement Power Factor Phase B",
+    "desc": "Displacement Power Factor Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Displacement Power Factor Phase C",
+    "desc": "Displacement Power Factor Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Total Displacement Power Factor",
+    "desc": "Total Displacement Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1068,
+    "type": "HR",
+    "name": "Frequency Phase A",
+    "desc": "Frequency Phase A",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1070,
+    "type": "HR",
+    "name": "Frequency Phase B",
+    "desc": "Frequency Phase B",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1072,
+    "type": "HR",
+    "name": "Frequency Phase C",
+    "desc": "Frequency Phase C",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1074,
+    "type": "HR",
+    "name": "Average Of Freqa, Freqb, Freqc",
+    "desc": "Average Of Freqa, Freqb, Freqc",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Active Energy Import Phase A",
+    "desc": "Active Energy Import Phase A",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Active Energy Import Phase B",
+    "desc": "Active Energy Import Phase B",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Active Energy Import Phase C",
+    "desc": "Active Energy Import Phase C",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "Total Active Energy Import Phase All",
+    "desc": "Total Active Energy Import Phase All",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "Active Energy Export Phase A",
+    "desc": "Active Energy Export Phase A",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2010,
+    "type": "HR",
+    "name": "Active Energy Export Phase B",
+    "desc": "Active Energy Export Phase B",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2012,
+    "type": "HR",
+    "name": "Active Energy Export Phase C",
+    "desc": "Active Energy Export Phase C",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2014,
+    "type": "HR",
+    "name": "Total Active Energy Export Phase All",
+    "desc": "Total Active Energy Export Phase All",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Reactive Energy Import Phase A",
+    "desc": "Reactive Energy Import Phase A",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2018,
+    "type": "HR",
+    "name": "Reactive Energy Import Phase B",
+    "desc": "Reactive Energy Import Phase B",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

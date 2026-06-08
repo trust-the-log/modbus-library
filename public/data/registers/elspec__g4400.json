@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 543,
+    "type": "HR",
+    "name": "Compliance Name (En 50160 Or Any Other Compliance ",
+    "desc": "Compliance Name (En 50160 Or Any Other Compliance Standard)",
+    "unit": "String",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 563,
+    "type": "HR",
+    "name": "Compliance Description",
+    "desc": "Compliance Description",
+    "unit": "String",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 603,
+    "type": "HR",
+    "name": "Ok / Fail / Na Status Of The Compliance Currently ",
+    "desc": "Ok / Fail / Na Status Of The Compliance Currently Running",
+    "unit": "UINT16",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 621,
+    "type": "HR",
+    "name": "Percentage From The Entire Time (Including Off Tim",
+    "desc": "Percentage From The Entire Time (Including Off Time) In Which This Compliance Pa",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 623,
+    "type": "HR",
+    "name": "Percentage From The Entire Time (Including Off Tim",
+    "desc": "Percentage From The Entire Time (Including Off Time) In Which This The Complianc",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 625,
+    "type": "HR",
+    "name": "Percentage From The Entire Time (Including Off Tim",
+    "desc": "Percentage From The Entire Time (Including Off Time) In Which This Compliance Pa",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 627,
+    "type": "HR",
+    "name": "Number Of Compliance Parameters Under Check",
+    "desc": "Number Of Compliance Parameters Under Check",
+    "unit": "UINT32",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 537,
+    "type": "HR",
+    "name": "Power Supply Temperature (Read Every Second)",
+    "desc": "Power Supply Temperature (Read Every Second)",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 999,
+    "type": "HR",
+    "name": "The Measured Frequency , Calculated Every 200 Msec",
+    "desc": "The Measured Frequency , Calculated Every 200 Msec (10/12 Cycles)",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Line 1 Active Power (W), Calculate Every Cycle",
+    "desc": "Line 1 Active Power (W), Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Line 2 Active Power (W), Calculate Every Cycle",
+    "desc": "Line 2 Active Power (W), Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Line 3 Active Power (W), Calculate Every Cycle",
+    "desc": "Line 3 Active Power (W), Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1037,
+    "type": "HR",
+    "name": "Total Active Power (W), Calculate Every Cycle",
+    "desc": "Total Active Power (W), Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1041,
+    "type": "HR",
+    "name": "Line 1 Reactive Power (Var) Calculate Every Cycle",
+    "desc": "Line 1 Reactive Power (Var) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1043,
+    "type": "HR",
+    "name": "Line 2 Reactive Power (Var) Calculate Every Cycle",
+    "desc": "Line 2 Reactive Power (Var) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1045,
+    "type": "HR",
+    "name": "Line 3 Reactive Power (Var) Calculate Every Cycle",
+    "desc": "Line 3 Reactive Power (Var) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1053,
+    "type": "HR",
+    "name": "Reactive Power   Total (Var) Calculate Every Cycle",
+    "desc": "Reactive Power   Total (Var) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1057,
+    "type": "HR",
+    "name": "Line 1 Apparent Power (Va) Calculate Every Cycle",
+    "desc": "Line 1 Apparent Power (Va) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1059,
+    "type": "HR",
+    "name": "Line 2 Apparent Power (Va) Calculate Every Cycle",
+    "desc": "Line 2 Apparent Power (Va) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1061,
+    "type": "HR",
+    "name": "Line 3 Apparent Power (Va) Calculate Every Cycle",
+    "desc": "Line 3 Apparent Power (Va) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1069,
+    "type": "HR",
+    "name": "Apparent Power Total (Va) Calculate Every Cycle",
+    "desc": "Apparent Power Total (Va) Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1103,
+    "type": "HR",
+    "name": "Rms Voltage V1, Calculate Every Cycle",
+    "desc": "Rms Voltage V1, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1105,
+    "type": "HR",
+    "name": "Rms Voltage V2, Calculate Every Cycle",
+    "desc": "Rms Voltage V2, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1107,
+    "type": "HR",
+    "name": "Rms Voltage V3, Calculate Every Cycle",
+    "desc": "Rms Voltage V3, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1109,
+    "type": "HR",
+    "name": "Rms Voltage V12, Calculate Every Cycle",
+    "desc": "Rms Voltage V12, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1111,
+    "type": "HR",
+    "name": "Rms Voltage V23, Calculate Every Cycle",
+    "desc": "Rms Voltage V23, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1113,
+    "type": "HR",
+    "name": "Rms Voltage V31, Calculate Every Cycle",
+    "desc": "Rms Voltage V31, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1117,
+    "type": "HR",
+    "name": "Rms Voltage I1, Calculate Every Cycle",
+    "desc": "Rms Voltage I1, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1119,
+    "type": "HR",
+    "name": "Rms Voltage I2, Calculate Every Cycle",
+    "desc": "Rms Voltage I2, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1121,
+    "type": "HR",
+    "name": "Rms Current I3, Calculate Every Cycle",
+    "desc": "Rms Current I3, Calculate Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1123,
+    "type": "HR",
+    "name": "Cycle By Cycle Average Rms Voltage",
+    "desc": "Cycle By Cycle Average Rms Voltage",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1125,
+    "type": "HR",
+    "name": "Cycle By Cycle Average Rms Phase To Phase Voltage",
+    "desc": "Cycle By Cycle Average Rms Phase To Phase Voltage",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1127,
+    "type": "HR",
+    "name": "Cycle By Cycle Average Rms Current",
+    "desc": "Cycle By Cycle Average Rms Current",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1159,
+    "type": "HR",
+    "name": "Internal Dsp Temperature, Read Every Cycle",
+    "desc": "Internal Dsp Temperature, Read Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1161,
+    "type": "HR",
+    "name": "External Dsp Temperature (Pt100 Reading) , Read Ev",
+    "desc": "External Dsp Temperature (Pt100 Reading) , Read Every Cycle",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1659,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)   L1   Calculated Over 2 ",
+    "desc": "Pst (Short Term Flicker)   L1   Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1661,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)   L1   Calculated Over 2 ",
+    "desc": "Pst (Short Term Flicker)   L1   Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1663,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)   L1   Calculated Over 2 ",
+    "desc": "Pst (Short Term Flicker)   L1   Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1665,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L12   Calculated Over 2 ",
+    "desc": "Pst (Short Term Flicker)  L12   Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1667,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L23  Calculated Over 2 S",
+    "desc": "Pst (Short Term Flicker)  L23  Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1669,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L31   Calculated Over 2 ",
+    "desc": "Pst (Short Term Flicker)  L31   Calculated Over 2 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1671,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)   L1   Calculated Over 10",
+    "desc": "Pst (Short Term Flicker)   L1   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1673,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L2   Calculated Over 10 ",
+    "desc": "Pst (Short Term Flicker)  L2   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1675,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L3   Calculated Over 10 ",
+    "desc": "Pst (Short Term Flicker)  L3   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1677,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L12   Calculated Over 10",
+    "desc": "Pst (Short Term Flicker)  L12   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1679,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L23   Calculated Over 10",
+    "desc": "Pst (Short Term Flicker)  L23   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1681,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L31   Calculated Over 10",
+    "desc": "Pst (Short Term Flicker)  L31   Calculated Over 10 Seconds",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1683,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L1   Calculated Over 10 ",
+    "desc": "Pst (Short Term Flicker)  L1   Calculated Over 10 Minutes",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1685,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L2   Calculated Over 10 ",
+    "desc": "Pst (Short Term Flicker)  L2   Calculated Over 10 Minutes",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1687,
+    "type": "HR",
+    "name": "Pst (Short Term Flicker)  L3   Calculated Over 10 ",
+    "desc": "Pst (Short Term Flicker)  L3   Calculated Over 10 Minutes",
+    "unit": "float",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 350,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "Ia",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 352,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 354,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 356,
+    "type": "HR",
+    "name": "In",
+    "desc": "In",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 358,
+    "type": "HR",
+    "name": "Va",
+    "desc": "Va",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 360,
+    "type": "HR",
+    "name": "Vc",
+    "desc": "Vc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 362,
+    "type": "HR",
+    "name": "Vb",
+    "desc": "Vb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 364,
+    "type": "HR",
+    "name": "Vab",
+    "desc": "Vab",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 366,
+    "type": "HR",
+    "name": "Vbc",
+    "desc": "Vbc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 368,
+    "type": "HR",
+    "name": "Vca",
+    "desc": "Vca",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 370,
+    "type": "HR",
+    "name": "W3",
+    "desc": "W3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 372,
+    "type": "HR",
+    "name": "U3",
+    "desc": "U3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 374,
+    "type": "HR",
+    "name": "Q3",
+    "desc": "Q3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 376,
+    "type": "HR",
+    "name": "Wa",
+    "desc": "Wa",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 378,
+    "type": "HR",
+    "name": "Wb",
+    "desc": "Wb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 380,
+    "type": "HR",
+    "name": "Wc",
+    "desc": "Wc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 382,
+    "type": "HR",
+    "name": "Ua",
+    "desc": "Ua",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 384,
+    "type": "HR",
+    "name": "Ub",
+    "desc": "Ub",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 386,
+    "type": "HR",
+    "name": "Uc",
+    "desc": "Uc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 388,
+    "type": "HR",
+    "name": "Qa",
+    "desc": "Qa",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 390,
+    "type": "HR",
+    "name": "Qb",
+    "desc": "Qb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 392,
+    "type": "HR",
+    "name": "Qc",
+    "desc": "Qc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 400,
+    "type": "HR",
+    "name": "Wd3 Del",
+    "desc": "Wd3 Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 402,
+    "type": "HR",
+    "name": "Wd3 Rec",
+    "desc": "Wd3 Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 404,
+    "type": "HR",
+    "name": "Ud3 Del",
+    "desc": "Ud3 Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 406,
+    "type": "HR",
+    "name": "Ud3 Rec",
+    "desc": "Ud3 Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 408,
+    "type": "HR",
+    "name": "Qd3 Del",
+    "desc": "Qd3 Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 410,
+    "type": "HR",
+    "name": "Qd3 Rec",
+    "desc": "Qd3 Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 412,
+    "type": "HR",
+    "name": "Ida",
+    "desc": "Ida",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 414,
+    "type": "HR",
+    "name": "Idb",
+    "desc": "Idb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 416,
+    "type": "HR",
+    "name": "Idc",
+    "desc": "Idc",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 418,
+    "type": "HR",
+    "name": "Idn",
+    "desc": "Idn",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 420,
+    "type": "HR",
+    "name": "3I0D",
+    "desc": "3I0D",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 422,
+    "type": "HR",
+    "name": "3I2D",
+    "desc": "3I2D",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 424,
+    "type": "HR",
+    "name": "Wda Del",
+    "desc": "Wda Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 426,
+    "type": "HR",
+    "name": "Wdb Del",
+    "desc": "Wdb Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 428,
+    "type": "HR",
+    "name": "Wdc Del",
+    "desc": "Wdc Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 430,
+    "type": "HR",
+    "name": "Wda Rec",
+    "desc": "Wda Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 432,
+    "type": "HR",
+    "name": "Wdb Rec",
+    "desc": "Wdb Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 434,
+    "type": "HR",
+    "name": "Wdc Rec",
+    "desc": "Wdc Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 436,
+    "type": "HR",
+    "name": "Uda Del",
+    "desc": "Uda Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 438,
+    "type": "HR",
+    "name": "Udb Del",
+    "desc": "Udb Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 440,
+    "type": "HR",
+    "name": "Udc Del",
+    "desc": "Udc Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 442,
+    "type": "HR",
+    "name": "Uda Rec",
+    "desc": "Uda Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 444,
+    "type": "HR",
+    "name": "Udb Rec",
+    "desc": "Udb Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 446,
+    "type": "HR",
+    "name": "Ucd Rec",
+    "desc": "Ucd Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 448,
+    "type": "HR",
+    "name": "Qda Del",
+    "desc": "Qda Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 450,
+    "type": "HR",
+    "name": "Qdb Del",
+    "desc": "Qdb Del",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 452,
+    "type": "HR",
+    "name": "Qdc Rec",
+    "desc": "Qdc Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 454,
+    "type": "HR",
+    "name": "Qda Rec",
+    "desc": "Qda Rec",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

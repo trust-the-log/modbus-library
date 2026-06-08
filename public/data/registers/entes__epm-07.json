@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "L3 Phase Min. Apparent Power",
+    "desc": "L3 Phase Min. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "Total Min. Import Active Power",
+    "desc": "Total Min. Import Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Total Min. Export Active Power",
+    "desc": "Total Min. Export Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Total Min. Import Reactive Power",
+    "desc": "Total Min. Import Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Total Min. Export Reactive Power",
+    "desc": "Total Min. Export Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "Total Min. Apparent Power",
+    "desc": "Total Min. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "L1 Phase Max. Voltage",
+    "desc": "L1 Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 166,
+    "type": "HR",
+    "name": "L2 Phase Max. Voltage",
+    "desc": "L2 Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "L3 Phase Max. Voltage",
+    "desc": "L3 Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 170,
+    "type": "HR",
+    "name": "L1 L2 Phase Phase Max. Voltage",
+    "desc": "L1 L2 Phase Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "L2 L3 Phase Phase Max. Voltage",
+    "desc": "L2 L3 Phase Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "L3 L1 Phase Phase Max. Voltage",
+    "desc": "L3 L1 Phase Phase Max. Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "L1 Phase Max. Current",
+    "desc": "L1 Phase Max. Current",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 178,
+    "type": "HR",
+    "name": "L2 Phase Max. Current",
+    "desc": "L2 Phase Max. Current",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 180,
+    "type": "HR",
+    "name": "L3 Phase Max. Current",
+    "desc": "L3 Phase Max. Current",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 182,
+    "type": "HR",
+    "name": "L1 Phase Max. Active Power",
+    "desc": "L1 Phase Max. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 184,
+    "type": "HR",
+    "name": "L2 Phase Max. Active Power",
+    "desc": "L2 Phase Max. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 186,
+    "type": "HR",
+    "name": "L3 Phase Max. Active Power",
+    "desc": "L3 Phase Max. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 188,
+    "type": "HR",
+    "name": "L1 Phase Max. Reactive Power",
+    "desc": "L1 Phase Max. Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 190,
+    "type": "HR",
+    "name": "L2 Phase Max. Reactive Power",
+    "desc": "L2 Phase Max. Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 192,
+    "type": "HR",
+    "name": "L3 Phase Max. Reactive Power",
+    "desc": "L3 Phase Max. Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 194,
+    "type": "HR",
+    "name": "L1 Phase Max. Apparent Power",
+    "desc": "L1 Phase Max. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 196,
+    "type": "HR",
+    "name": "L2 Phase Max. Apparent Power",
+    "desc": "L2 Phase Max. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 198,
+    "type": "HR",
+    "name": "L3 Phase Max. Apparent Power",
+    "desc": "L3 Phase Max. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Total Max. Import Active Power",
+    "desc": "Total Max. Import Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Total Max. Export Active Power",
+    "desc": "Total Max. Export Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Total Max. Import Reactive Power",
+    "desc": "Total Max. Import Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Total Max. Export Reactive Power",
+    "desc": "Total Max. Export Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Total Max. Apparent Power",
+    "desc": "Total Max. Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "L1 Phase Max. Current Demand",
+    "desc": "L1 Phase Max. Current Demand",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "L2 Phase Max. Current Demand",
+    "desc": "L2 Phase Max. Current Demand",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "L3 Phase Max. Current Demand",
+    "desc": "L3 Phase Max. Current Demand",
+    "unit": "Amper",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "L1 Phase Import Max. Demand Active Power",
+    "desc": "L1 Phase Import Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 218,
+    "type": "HR",
+    "name": "L1 Phase Export Max. Demand Active Power",
+    "desc": "L1 Phase Export Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "L2 Phase Import Max. Demand Active Power",
+    "desc": "L2 Phase Import Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 222,
+    "type": "HR",
+    "name": "L2 Phase Export Max. Demand Active Power",
+    "desc": "L2 Phase Export Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 224,
+    "type": "HR",
+    "name": "L3 Phase Import Max. Demand Active Power",
+    "desc": "L3 Phase Import Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 226,
+    "type": "HR",
+    "name": "L3 Phase Export Max. Demand Active Power",
+    "desc": "L3 Phase Export Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 228,
+    "type": "HR",
+    "name": "L1 Phase Import Max. Demand Reactive Power",
+    "desc": "L1 Phase Import Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 230,
+    "type": "HR",
+    "name": "L1 Phase Export Max. Demand Reactive Power",
+    "desc": "L1 Phase Export Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 232,
+    "type": "HR",
+    "name": "L2 Phase Import Max. Demand Reactive Power",
+    "desc": "L2 Phase Import Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 234,
+    "type": "HR",
+    "name": "L2 Phase Export Max. Demand Reactive Power",
+    "desc": "L2 Phase Export Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 236,
+    "type": "HR",
+    "name": "L3 Phase Import Max. Demand Reactive Power",
+    "desc": "L3 Phase Import Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 238,
+    "type": "HR",
+    "name": "L3 Phase Export Max. Demand Reactive Power",
+    "desc": "L3 Phase Export Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 240,
+    "type": "HR",
+    "name": "L1 Phase Max. Demand Apparent Power",
+    "desc": "L1 Phase Max. Demand Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 242,
+    "type": "HR",
+    "name": "L2 Phase Max. Demand Apparent Power",
+    "desc": "L2 Phase Max. Demand Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 244,
+    "type": "HR",
+    "name": "L3 Phase Max. Demand Apparent Power",
+    "desc": "L3 Phase Max. Demand Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 246,
+    "type": "HR",
+    "name": "Total Import Max. Demand Active Power",
+    "desc": "Total Import Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 248,
+    "type": "HR",
+    "name": "Total Export Max. Demand Active Power",
+    "desc": "Total Export Max. Demand Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 250,
+    "type": "HR",
+    "name": "Total Import Max. Demand Reactive Power",
+    "desc": "Total Import Max. Demand Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

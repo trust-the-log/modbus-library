@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Real Energy (Diet Import Export)",
+    "desc": "Real Energy (Diet Import Export)",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Real Energy (Q1 4 Import)",
+    "desc": "Real Energy (Q1 4 Import)",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Real Energy (Q2 3 Import)",
+    "desc": "Real Energy (Q2 3 Import)",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Reactive Energy Q1",
+    "desc": "Reactive Energy Q1",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Reactive Energy Q2",
+    "desc": "Reactive Energy Q2",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Reactive Energy Q3",
+    "desc": "Reactive Energy Q3",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Reactive Energy Q4",
+    "desc": "Reactive Energy Q4",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Apparent Energy: Net (Import Export)",
+    "desc": "Apparent Energy: Net (Import Export)",
+    "unit": "kVAh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Apparent: Q1 4 Import",
+    "desc": "Apparent: Q1 4 Import",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Apparent: Q2 3 Import",
+    "desc": "Apparent: Q2 3 Import",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Total Instantaneous Real Power",
+    "desc": "Total Instantaneous Real Power",
+    "unit": "kW",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Total Instantaneous Reactive Power",
+    "desc": "Total Instantaneous Reactive Power",
+    "unit": "kVAR",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Total Instantaneous Apparent Power",
+    "desc": "Total Instantaneous Apparent Power",
+    "unit": "KVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Total Power Factor (Total Kw /Total Kva)",
+    "desc": "Total Power Factor (Total Kw /Total Kva)",
+    "unit": "Ratio",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Voltage L L, Average Of Active Phases",
+    "desc": "Voltage L L, Average Of Active Phases",
+    "unit": "yolt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Current, Average Of Active Phases",
+    "desc": "Current, Average Of Active Phases",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Total Real Power Present Demand",
+    "desc": "Total Real Power Present Demand",
+    "unit": "kW",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Total Reactive Power Present Demand",
+    "desc": "Total Reactive Power Present Demand",
+    "unit": "kVAR",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Total Apparent Power Present Demand",
+    "desc": "Total Apparent Power Present Demand",
+    "unit": "KVA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Total Real Power Max. Demand",
+    "desc": "Total Real Power Max. Demand",
+    "unit": "kW",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Total Reactive Power Max. Demand",
+    "desc": "Total Reactive Power Max. Demand",
+    "unit": "kVAR",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Total Apparent Power Max. Demand",
+    "desc": "Total Apparent Power Max. Demand",
+    "unit": "KVA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Total Real Power Max. Demand",
+    "desc": "Total Real Power Max. Demand",
+    "unit": "kW",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Total Reactive Power Max. Demand",
+    "desc": "Total Reactive Power Max. Demand",
+    "unit": "kVAR",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Total Apparent Power Max. Demand",
+    "desc": "Total Apparent Power Max. Demand",
+    "unit": "KVA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Pulse Counter 1 (Import Real Energy)",
+    "desc": "Pulse Counter 1 (Import Real Energy)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Pulse Counter 2 (Export Real Energy)",
+    "desc": "Pulse Counter 2 (Export Real Energy)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase A",
+    "desc": "Accumulated Real Energy, Phase A",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase B",
+    "desc": "Accumulated Real Energy, Phase B",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase C",
+    "desc": "Accumulated Real Energy, Phase C",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase A",
+    "desc": "Accumulated Real Energy, Phase A",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase B",
+    "desc": "Accumulated Real Energy, Phase B",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Accumulated Real Energy, Phase C",
+    "desc": "Accumulated Real Energy, Phase C",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Accumulated Q1 Reactive Energy Phase A",
+    "desc": "Accumulated Q1 Reactive Energy Phase A",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Accumulated Q1 Reactive Energy Phase B",
+    "desc": "Accumulated Q1 Reactive Energy Phase B",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Accumulated Q1 Reactive Energy Phase C",
+    "desc": "Accumulated Q1 Reactive Energy Phase C",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Accumulated Q2 Reactive Energy Phase A",
+    "desc": "Accumulated Q2 Reactive Energy Phase A",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Accumulated Q2 Reactive Energy Phase B",
+    "desc": "Accumulated Q2 Reactive Energy Phase B",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Accumulated Q2 Reactive Energy Phase C",
+    "desc": "Accumulated Q2 Reactive Energy Phase C",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Accumulated Q3 Reactive Energy Phase A",
+    "desc": "Accumulated Q3 Reactive Energy Phase A",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Accumulated Q3 Reactive Energy Phase B",
+    "desc": "Accumulated Q3 Reactive Energy Phase B",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Accumulated Q3 Reactive Energy Phase C",
+    "desc": "Accumulated Q3 Reactive Energy Phase C",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 73,
+    "type": "HR",
+    "name": "Accumulated Q4 Reactive Energy Phase A",
+    "desc": "Accumulated Q4 Reactive Energy Phase A",
+    "unit": "kYARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Accumulated Q4 Reactive Energy Phase B",
+    "desc": "Accumulated Q4 Reactive Energy Phase B",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Accumulated Q4 Reactive Energy Phase C",
+    "desc": "Accumulated Q4 Reactive Energy Phase C",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Accumulated Apparent Energy, Phase A",
+    "desc": "Accumulated Apparent Energy, Phase A",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 81,
+    "type": "HR",
+    "name": "Accumulated Apparent Energy, Phase B",
+    "desc": "Accumulated Apparent Energy, Phase B",
+    "unit": "kYAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 83,
+    "type": "HR",
+    "name": "Accumulated Apparent Energy, Phase C",
+    "desc": "Accumulated Apparent Energy, Phase C",
+    "unit": "kYAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 85,
+    "type": "HR",
+    "name": "Accumulated Apparent Energy, Phase A",
+    "desc": "Accumulated Apparent Energy, Phase A",
+    "unit": "kYAh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

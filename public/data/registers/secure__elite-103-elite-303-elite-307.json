@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Modbus Id ( Start From 1 Up To 247)",
+    "desc": "Modbus Id ( Start From 1 Up To 247)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Protocol Version (Ms Byte) And Revision (Ls Byte)",
+    "desc": "Protocol Version (Ms Byte) And Revision (Ls Byte)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Modbus Baud Rate",
+    "desc": "Modbus Baud Rate",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Metre Type: 3W/4Wire Info",
+    "desc": "Metre Type: 3W/4Wire Info",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Ct Primary",
+    "desc": "Ct Primary",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Ct Secondary",
+    "desc": "Ct Secondary",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Pt Primary",
+    "desc": "Pt Primary",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Pt Secondary",
+    "desc": "Pt Secondary",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Pole: Number Of Poles For Rpm",
+    "desc": "Pole: Number Of Poles For Rpm",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Slip: Slip Of The Motor",
+    "desc": "Slip: Slip Of The Motor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Update Rate: Display Update Rates",
+    "desc": "Update Rate: Display Update Rates",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Energy Reset : 0X01",
+    "desc": "Energy Reset : 0X01",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Demand Reset: 0X01",
+    "desc": "Demand Reset: 0X01",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Demand Time",
+    "desc": "Demand Time",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Alert On/Off",
+    "desc": "Alert On/Off",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Alert Threshold High Current",
+    "desc": "Alert Threshold High Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Alert Threshold High Pf",
+    "desc": "Alert Threshold High Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Alert Threshold High Frequency",
+    "desc": "Alert Threshold High Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Alert Threshold High W",
+    "desc": "Alert Threshold High W",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Alert Threshold High Var",
+    "desc": "Alert Threshold High Var",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Alert Threshold High Va",
+    "desc": "Alert Threshold High Va",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Alert Threshold Low Current",
+    "desc": "Alert Threshold Low Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Alert Threshold Low Pf",
+    "desc": "Alert Threshold Low Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 73,
+    "type": "HR",
+    "name": "Alert Threshold Low Frequency",
+    "desc": "Alert Threshold Low Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Alert Threshold Low W",
+    "desc": "Alert Threshold Low W",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Alert Threshold Low Var",
+    "desc": "Alert Threshold Low Var",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Alert Threshold Low Va",
+    "desc": "Alert Threshold Low Va",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 99,
+    "type": "HR",
+    "name": "V1: R Phase To Neutral Voltage",
+    "desc": "V1: R Phase To Neutral Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 101,
+    "type": "HR",
+    "name": "V2: Y Phase To Neutral Voltage",
+    "desc": "V2: Y Phase To Neutral Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 103,
+    "type": "HR",
+    "name": "V3: B Phase To Neutral Voltage",
+    "desc": "V3: B Phase To Neutral Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 105,
+    "type": "HR",
+    "name": "Vavg: Average Voltage",
+    "desc": "Vavg: Average Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 107,
+    "type": "HR",
+    "name": "V12: Ry Voltage",
+    "desc": "V12: Ry Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 109,
+    "type": "HR",
+    "name": "V23: Yb Voltage",
+    "desc": "V23: Yb Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 111,
+    "type": "HR",
+    "name": "V31: Br Voltage",
+    "desc": "V31: Br Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 113,
+    "type": "HR",
+    "name": "L1: R Phase Line Current",
+    "desc": "L1: R Phase Line Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 115,
+    "type": "HR",
+    "name": "L2: Y Phase Line Current",
+    "desc": "L2: Y Phase Line Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 117,
+    "type": "HR",
+    "name": "L3: B Phase Line Current",
+    "desc": "L3: B Phase Line Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 119,
+    "type": "HR",
+    "name": "Ln: Neutral Line Current",
+    "desc": "Ln: Neutral Line Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 133,
+    "type": "HR",
+    "name": "Q1: Power Factor",
+    "desc": "Q1: Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 135,
+    "type": "HR",
+    "name": "Q2: Power Factor",
+    "desc": "Q2: Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 137,
+    "type": "HR",
+    "name": "Q3: Power Factor",
+    "desc": "Q3: Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 139,
+    "type": "HR",
+    "name": "Qa: Avg Power Factor",
+    "desc": "Qa: Avg Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 141,
+    "type": "HR",
+    "name": "Kt1: R  Phase Active Power",
+    "desc": "Kt1: R  Phase Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 143,
+    "type": "HR",
+    "name": "Kt2: Y  Phase Active Power",
+    "desc": "Kt2: Y  Phase Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 145,
+    "type": "HR",
+    "name": "Kt3: B  Phase Active Power",
+    "desc": "Kt3: B  Phase Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 147,
+    "type": "HR",
+    "name": "Kt: 3 Phase Active Power",
+    "desc": "Kt: 3 Phase Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 149,
+    "type": "HR",
+    "name": "Kv1: R  Phase Reactive Power",
+    "desc": "Kv1: R  Phase Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 151,
+    "type": "HR",
+    "name": "Kv2: Y  Phase Reactive Power",
+    "desc": "Kv2: Y  Phase Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 153,
+    "type": "HR",
+    "name": "Kv3: B  Phase Reactive Power",
+    "desc": "Kv3: B  Phase Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 155,
+    "type": "HR",
+    "name": "Kv: 3 Phase Reactive Power",
+    "desc": "Kv: 3 Phase Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  }
+]

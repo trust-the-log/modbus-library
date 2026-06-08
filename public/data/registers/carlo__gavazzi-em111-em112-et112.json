@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "A",
+    "desc": "A",
+    "unit": "Ampere",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "W",
+    "desc": "W",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Va",
+    "desc": "Va",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Var",
+    "desc": "Var",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "W Dmd",
+    "desc": "W Dmd",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "W Dmd Peak",
+    "desc": "W Dmd Peak",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "PF",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Hz",
+    "desc": "Hz",
+    "unit": "Hz",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Kwh (+) Tot",
+    "desc": "Kwh (+) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Kvarh (+) Tot",
+    "desc": "Kvarh (+) Tot",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Kwh (+) Partial",
+    "desc": "Kwh (+) Partial",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Kvarh (+) Partial",
+    "desc": "Kvarh (+) Partial",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Kwh (+) T1",
+    "desc": "Kwh (+) T1",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Kwh (+) T2",
+    "desc": "Kwh (+) T2",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Kwh ( ) Tot",
+    "desc": "Kwh ( ) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot",
+    "desc": "Kvarh ( ) Tot",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Hour Counter",
+    "desc": "Hour Counter",
+    "unit": "hours",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "A",
+    "desc": "A",
+    "unit": "Ampere",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "V L N",
+    "desc": "V L N",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "W",
+    "desc": "W",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Va",
+    "desc": "Va",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Var",
+    "desc": "Var",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "PF",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Hz",
+    "desc": "Hz",
+    "unit": "Hz",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Kwh (+) Tot",
+    "desc": "Kwh (+) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Kvarh (+) Tot",
+    "desc": "Kvarh (+) Tot",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Kwh ( ) Tot",
+    "desc": "Kwh ( ) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot",
+    "desc": "Kvarh ( ) Tot",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Kw Dmd",
+    "desc": "Kw Dmd",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Kw Dmd Peak",
+    "desc": "Kw Dmd Peak",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 328,
+    "type": "HR",
+    "name": "Kwh (+) Partial",
+    "desc": "Kwh (+) Partial",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 330,
+    "type": "HR",
+    "name": "Kvarh (+) Partial",
+    "desc": "Kvarh (+) Partial",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 338,
+    "type": "HR",
+    "name": "Kwh (+) T1",
+    "desc": "Kwh (+) T1",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 340,
+    "type": "HR",
+    "name": "Kwh (+) T2",
+    "desc": "Kwh (+) T2",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Kwh (+) Tot Integer Part",
+    "desc": "Kwh (+) Tot Integer Part",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Kwh (+) Tot Decimal Part",
+    "desc": "Kwh (+) Tot Decimal Part",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Kvarh (+) Tot Integer Part",
+    "desc": "Kvarh (+) Tot Integer Part",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Kvarh (+) Tot Decimal Part",
+    "desc": "Kvarh (+) Tot Decimal Part",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Kwh ( ) Tot Integer Part",
+    "desc": "Kwh ( ) Tot Integer Part",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Kwh ( ) Tot Decimal Part",
+    "desc": "Kwh ( ) Tot Decimal Part",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot Integer Part",
+    "desc": "Kvarh ( ) Tot Integer Part",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot Decimal Part",
+    "desc": "Kvarh ( ) Tot Decimal Part",
+    "unit": "kvarh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1280,
+    "type": "HR",
+    "name": "Kwh (+) Tot",
+    "desc": "Kwh (+) Tot",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1284,
+    "type": "HR",
+    "name": "Kvarh (+) Tot",
+    "desc": "Kvarh (+) Tot",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1288,
+    "type": "HR",
+    "name": "Kwh (+) Partial",
+    "desc": "Kwh (+) Partial",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1292,
+    "type": "HR",
+    "name": "Kvarh (+) Partial",
+    "desc": "Kvarh (+) Partial",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1308,
+    "type": "HR",
+    "name": "Kwh ( ) Tot",
+    "desc": "Kwh ( ) Tot",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1312,
+    "type": "HR",
+    "name": "Kwh ( ) Partial",
+    "desc": "Kwh ( ) Partial",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1316,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot",
+    "desc": "Kvarh ( ) Tot",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 1320,
+    "type": "HR",
+    "name": "Kvarh ( ) Partial",
+    "desc": "Kvarh ( ) Partial",
+    "unit": "",
+    "dataType": "int64",
+    "access": "R"
+  }
+]

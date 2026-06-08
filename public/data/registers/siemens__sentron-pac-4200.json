@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Voltage A N",
+    "desc": "Voltage A N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Voltage B N",
+    "desc": "Voltage B N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Voltage C N",
+    "desc": "Voltage C N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Voltage A B",
+    "desc": "Voltage A B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Voltage B C",
+    "desc": "Voltage B C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Voltage C A",
+    "desc": "Voltage C A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Current A",
+    "desc": "Current A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Current B",
+    "desc": "Current B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Current C",
+    "desc": "Current C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Apparent Power A",
+    "desc": "Apparent Power A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Apparent Power B",
+    "desc": "Apparent Power B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Apparent Power C",
+    "desc": "Apparent Power C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Active Power A",
+    "desc": "Active Power A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Active Power B",
+    "desc": "Active Power B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Active Power C",
+    "desc": "Active Power C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Reactive Power A (Varn)",
+    "desc": "Reactive Power A (Varn)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Reactive Power B (Varn)",
+    "desc": "Reactive Power B (Varn)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Reactive Power C (Varn)",
+    "desc": "Reactive Power C (Varn)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Power Factor A",
+    "desc": "Power Factor A",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Power Factor B",
+    "desc": "Power Factor B",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Power Factor C",
+    "desc": "Power Factor C",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Thd Voltage A B",
+    "desc": "Thd Voltage A B",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Thd Voltage B C",
+    "desc": "Thd Voltage B C",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Thd Voltage C A",
+    "desc": "Thd Voltage C A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "H",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "3 Phase Average Voltage Ph N",
+    "desc": "3 Phase Average Voltage Ph N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "3 Phase Average Voltage Ph Ph",
+    "desc": "3 Phase Average Voltage Ph Ph",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "3 Phase Average Current Ph Ph",
+    "desc": "3 Phase Average Current Ph Ph",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Total Reactive Power (Varn)",
+    "desc": "Total Reactive Power (Varn)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Amplitude Unbalance Voltage",
+    "desc": "Amplitude Unbalance Voltage",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 73,
+    "type": "HR",
+    "name": "Amplitude Unbalance Current",
+    "desc": "Amplitude Unbalance Current",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Maximum Voltage A N",
+    "desc": "Maximum Voltage A N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Maximum Voltage B N",
+    "desc": "Maximum Voltage B N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Maximum Voltage C N",
+    "desc": "Maximum Voltage C N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 81,
+    "type": "HR",
+    "name": "Maximum Voltage A B",
+    "desc": "Maximum Voltage A B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 83,
+    "type": "HR",
+    "name": "Maximum Voltage B C",
+    "desc": "Maximum Voltage B C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 85,
+    "type": "HR",
+    "name": "Maximum Voltage C A",
+    "desc": "Maximum Voltage C A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 87,
+    "type": "HR",
+    "name": "Maximum Current A",
+    "desc": "Maximum Current A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 89,
+    "type": "HR",
+    "name": "Maximum Current B",
+    "desc": "Maximum Current B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 91,
+    "type": "HR",
+    "name": "Maximum Current C",
+    "desc": "Maximum Current C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 93,
+    "type": "HR",
+    "name": "Maximum Apparent Power A",
+    "desc": "Maximum Apparent Power A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 95,
+    "type": "HR",
+    "name": "Maximum Apparent Power B",
+    "desc": "Maximum Apparent Power B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 97,
+    "type": "HR",
+    "name": "Maximum Apparent Power C",
+    "desc": "Maximum Apparent Power C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 99,
+    "type": "HR",
+    "name": "Maximum Active Power A",
+    "desc": "Maximum Active Power A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 101,
+    "type": "HR",
+    "name": "Maximum Active Power B",
+    "desc": "Maximum Active Power B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 103,
+    "type": "HR",
+    "name": "Maximum Active Power C",
+    "desc": "Maximum Active Power C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 105,
+    "type": "HR",
+    "name": "Maximum Reactive Power A (Varn)",
+    "desc": "Maximum Reactive Power A (Varn)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  }
+]

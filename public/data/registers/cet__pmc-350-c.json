@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Ubn",
+    "desc": "Ubn",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Ucn",
+    "desc": "Ucn",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Uln Average",
+    "desc": "Uln Average",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Uab",
+    "desc": "Uab",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Ubc",
+    "desc": "Ubc",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Uca",
+    "desc": "Uca",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Ull Average",
+    "desc": "Ull Average",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "Ia",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "I Average",
+    "desc": "I Average",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Kwa",
+    "desc": "Kwa",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Kwb",
+    "desc": "Kwb",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Kwc",
+    "desc": "Kwc",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Kw Total",
+    "desc": "Kw Total",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Kvara",
+    "desc": "Kvara",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Kvarb",
+    "desc": "Kvarb",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Kvarc",
+    "desc": "Kvarc",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Kvar Total",
+    "desc": "Kvar Total",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Kvaa",
+    "desc": "Kvaa",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Kvab",
+    "desc": "Kvab",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Kvac",
+    "desc": "Kvac",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Kva Total",
+    "desc": "Kva Total",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Pfa",
+    "desc": "Pfa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Pfb",
+    "desc": "Pfb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Pfc",
+    "desc": "Pfc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Pf Total",
+    "desc": "Pf Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Uan/Uab (3P3W) Angle",
+    "desc": "Uan/Uab (3P3W) Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Ubn/Ubc (3P3W) Angle",
+    "desc": "Ubn/Ubc (3P3W) Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Ucn/Uca (3P3W) Angle",
+    "desc": "Ucn/Uca (3P3W) Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Ia Angle",
+    "desc": "Ia Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Ib Angle",
+    "desc": "Ib Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Ic Angle",
+    "desc": "Ic Angle",
+    "unit": "D",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "In (Calculated)",
+    "desc": "In (Calculated)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Ir1",
+    "desc": "Ir1",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Displacement Pfa",
+    "desc": "Displacement Pfa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Displacement Pfb",
+    "desc": "Displacement Pfb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Displacement Pfc",
+    "desc": "Displacement Pfc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Displacement Pf Total",
+    "desc": "Displacement Pf Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Tc11",
+    "desc": "Tc11",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Tc21",
+    "desc": "Tc21",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Tc31",
+    "desc": "Tc31",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Tc41",
+    "desc": "Tc41",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Di Status1, 2",
+    "desc": "Di Status1, 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Do Status 1, 3",
+    "desc": "Do Status 1, 3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Setpoint Alarm Status4",
+    "desc": "Setpoint Alarm Status4",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 101,
+    "type": "HR",
+    "name": "Wiring Diagnostic Status5",
+    "desc": "Wiring Diagnostic Status5",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Soe Pointer6",
+    "desc": "Soe Pointer6",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Device Operating Time7",
+    "desc": "Device Operating Time7",
+    "unit": "Hour",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

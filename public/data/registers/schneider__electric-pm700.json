@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Real Energy, Total",
+    "desc": "Real Energy, Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Apparent Energy, Total",
+    "desc": "Apparent Energy, Total",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Reactive Energy, Total",
+    "desc": "Reactive Energy, Total",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "Real Power, Total",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "Apparent Power, Total",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "Reactive Power, Total",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Power Factor, Total",
+    "desc": "Power Factor, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Voltage, L L, 3P Average",
+    "desc": "Voltage, L L, 3P Average",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Voltage, L N, 3P Average",
+    "desc": "Voltage, L N, 3P Average",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Current, 3P Average",
+    "desc": "Current, 3P Average",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Current, A",
+    "desc": "Current, A",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Current, B",
+    "desc": "Current, B",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Current, C",
+    "desc": "Current, C",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Current, N",
+    "desc": "Current, N",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Voltage, A B",
+    "desc": "Voltage, A B",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Voltage, B C",
+    "desc": "Voltage, B C",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Voltage, C A",
+    "desc": "Voltage, C A",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Voltage, A N",
+    "desc": "Voltage, A N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Voltage, B N",
+    "desc": "Voltage, B N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Voltage, C N",
+    "desc": "Voltage, C N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Real Power, A",
+    "desc": "Real Power, A",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1068,
+    "type": "HR",
+    "name": "Real Power, B",
+    "desc": "Real Power, B",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1070,
+    "type": "HR",
+    "name": "Real Power, C",
+    "desc": "Real Power, C",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1072,
+    "type": "HR",
+    "name": "Apparent Power, A",
+    "desc": "Apparent Power, A",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1074,
+    "type": "HR",
+    "name": "Apparent Power, B",
+    "desc": "Apparent Power, B",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1076,
+    "type": "HR",
+    "name": "Apparent Power, C",
+    "desc": "Apparent Power, C",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1078,
+    "type": "HR",
+    "name": "Reactive Power, A",
+    "desc": "Reactive Power, A",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1080,
+    "type": "HR",
+    "name": "Reactive Power, B",
+    "desc": "Reactive Power, B",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1082,
+    "type": "HR",
+    "name": "Reactive Power, C",
+    "desc": "Reactive Power, C",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1084,
+    "type": "HR",
+    "name": "Current, A, Thd",
+    "desc": "Current, A, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1086,
+    "type": "HR",
+    "name": "Current, B, Thd",
+    "desc": "Current, B, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1088,
+    "type": "HR",
+    "name": "Current, C, Thd",
+    "desc": "Current, C, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1092,
+    "type": "HR",
+    "name": "Voltage, A N, Thd",
+    "desc": "Voltage, A N, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1094,
+    "type": "HR",
+    "name": "Voltage, B N, Thd",
+    "desc": "Voltage, B N, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1096,
+    "type": "HR",
+    "name": "Voltage, C N, Thd",
+    "desc": "Voltage, C N, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1098,
+    "type": "HR",
+    "name": "Voltage, A B, Thd",
+    "desc": "Voltage, A B, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1100,
+    "type": "HR",
+    "name": "Voltage, B C, Thd",
+    "desc": "Voltage, B C, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1102,
+    "type": "HR",
+    "name": "Voltage, C A, Thd",
+    "desc": "Voltage, C A, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Real Power, Total Demand Present",
+    "desc": "Real Power, Total Demand Present",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Present",
+    "desc": "Apparent Power, Total Demand Present",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Present",
+    "desc": "Reactive Power, Total Demand Present",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Real Power, Total Demand Peak",
+    "desc": "Real Power, Total Demand Peak",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Peak",
+    "desc": "Apparent Power, Total Demand Peak",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Peak",
+    "desc": "Reactive Power, Total Demand Peak",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Current, A, Demand Present",
+    "desc": "Current, A, Demand Present",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Current, B, Demand Present",
+    "desc": "Current, B, Demand Present",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Current, C, Demand Present",
+    "desc": "Current, C, Demand Present",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Current, A, Demand Peak",
+    "desc": "Current, A, Demand Peak",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Current, B, Demand Peak",
+    "desc": "Current, B, Demand Peak",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  }
+]

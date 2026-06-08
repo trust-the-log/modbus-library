@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 38020,
+    "type": "HR",
+    "name": "Input 1 Absolute Value",
+    "desc": "Input 1 Absolute Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38023,
+    "type": "HR",
+    "name": "Input 2 Absolute Value",
+    "desc": "Input 2 Absolute Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38027,
+    "type": "HR",
+    "name": "Input 1 Value For 0Ma",
+    "desc": "Input 1 Value For 0Ma",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38029,
+    "type": "HR",
+    "name": "Input 1 Value For 20Ma",
+    "desc": "Input 1 Value For 20Ma",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38033,
+    "type": "HR",
+    "name": "Input 2 Value For 0Ma",
+    "desc": "Input 2 Value For 0Ma",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38035,
+    "type": "HR",
+    "name": "Input 2 Value For 20Ma",
+    "desc": "Input 2 Value For 20Ma",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39170,
+    "type": "HR",
+    "name": "Integration Period",
+    "desc": "Integration Period",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39172,
+    "type": "HR",
+    "name": "Numerator Rate",
+    "desc": "Numerator Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39173,
+    "type": "HR",
+    "name": "Denominator Rate",
+    "desc": "Denominator Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39177,
+    "type": "HR",
+    "name": "Value Without Ct*Vt Rate",
+    "desc": "Value Without Ct*Vt Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39314,
+    "type": "HR",
+    "name": "Integration Period",
+    "desc": "Integration Period",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39316,
+    "type": "HR",
+    "name": "Numerator Rate",
+    "desc": "Numerator Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39317,
+    "type": "HR",
+    "name": "Denominator Rate",
+    "desc": "Denominator Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39321,
+    "type": "HR",
+    "name": "Value Without Ct*Vt Rate",
+    "desc": "Value Without Ct*Vt Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39936,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 39941,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: 0 20Ma 2: 4 20Ma",
+    "desc": "Mode: 0: Disabled 1: 0 20Ma 2: 4 20Ma",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39942,
+    "type": "HR",
+    "name": "Unit: 0: A 1: V 2: W 3: Kw 4: Var 5: Kvar 6: Va 7:",
+    "desc": "Unit: 0: A 1: V 2: W 3: Kw 4: Var 5: Kvar 6: Va 7: Kva 8: C 9: F 10: Mbar 11: Ba",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39943,
+    "type": "HR",
+    "name": "Integration Time",
+    "desc": "Integration Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39944,
+    "type": "HR",
+    "name": "Synchro Type: 0: Rtc 1: External",
+    "desc": "Synchro Type: 0: Rtc 1: External",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39945,
+    "type": "HR",
+    "name": "X Pt1",
+    "desc": "X Pt1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39946,
+    "type": "HR",
+    "name": "Y Pt1",
+    "desc": "Y Pt1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39948,
+    "type": "HR",
+    "name": "X Pt2",
+    "desc": "X Pt2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39949,
+    "type": "HR",
+    "name": "Y Pt2",
+    "desc": "Y Pt2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39951,
+    "type": "HR",
+    "name": "X Pt3",
+    "desc": "X Pt3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39952,
+    "type": "HR",
+    "name": "Y Pt3",
+    "desc": "Y Pt3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39954,
+    "type": "HR",
+    "name": "X Pt4",
+    "desc": "X Pt4",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39955,
+    "type": "HR",
+    "name": "Y Pt4",
+    "desc": "Y Pt4",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39957,
+    "type": "HR",
+    "name": "X Pt5",
+    "desc": "X Pt5",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39958,
+    "type": "HR",
+    "name": "Y Pt5",
+    "desc": "Y Pt5",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39960,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 39965,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: 0 20Ma 2: 4 20Ma",
+    "desc": "Mode: 0: Disabled 1: 0 20Ma 2: 4 20Ma",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39966,
+    "type": "HR",
+    "name": "Unit: 0: A 1: V 2: W 3: Kw 4: Var 5: Kvar 6: Va 7:",
+    "desc": "Unit: 0: A 1: V 2: W 3: Kw 4: Var 5: Kvar 6: Va 7: Kva 8: C 9: F 10: Mbar 11: Ba",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39967,
+    "type": "HR",
+    "name": "Integration Time",
+    "desc": "Integration Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39968,
+    "type": "HR",
+    "name": "Synchro Type: 0: Rtc 1: External",
+    "desc": "Synchro Type: 0: Rtc 1: External",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39969,
+    "type": "HR",
+    "name": "X Pt1",
+    "desc": "X Pt1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39970,
+    "type": "HR",
+    "name": "Y Pt1",
+    "desc": "Y Pt1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39972,
+    "type": "HR",
+    "name": "X Pt2",
+    "desc": "X Pt2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39973,
+    "type": "HR",
+    "name": "Y Pt2",
+    "desc": "Y Pt2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39975,
+    "type": "HR",
+    "name": "X Pt3",
+    "desc": "X Pt3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39976,
+    "type": "HR",
+    "name": "Y Pt3",
+    "desc": "Y Pt3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39978,
+    "type": "HR",
+    "name": "X Pt4",
+    "desc": "X Pt4",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39979,
+    "type": "HR",
+    "name": "Y Pt4",
+    "desc": "Y Pt4",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39981,
+    "type": "HR",
+    "name": "X Pt5",
+    "desc": "X Pt5",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39982,
+    "type": "HR",
+    "name": "Y Pt5",
+    "desc": "Y Pt5",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 39869,
+    "type": "HR",
+    "name": "Load Curves Base Integration Time",
+    "desc": "Load Curves Base Integration Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39872,
+    "type": "HR",
+    "name": "External Synchro Type: 0: Disabled 1: Input 7 2: C",
+    "desc": "External Synchro Type: 0: Disabled 1: Input 7 2: Com",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39873,
+    "type": "HR",
+    "name": "External Synchro Period",
+    "desc": "External Synchro Period",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39874,
+    "type": "HR",
+    "name": "Currency Unit: 0: Euro 1: Us Dollar 2: Gb Pound 3:",
+    "desc": "Currency Unit: 0: Euro 1: Us Dollar 2: Gb Pound 3: Yuan 4: Other",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37072,
+    "type": "HR",
+    "name": "Label Of Custom Unit",
+    "desc": "Label Of Custom Unit",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 45058,
+    "type": "HR",
+    "name": "Save Context Count",
+    "desc": "Save Context Count",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

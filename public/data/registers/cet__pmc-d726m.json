@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Ubn1",
+    "desc": "Ubn1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Ucn1",
+    "desc": "Ucn1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Uln Average",
+    "desc": "Uln Average",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Uab",
+    "desc": "Uab",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Ubc",
+    "desc": "Ubc",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Uca",
+    "desc": "Uca",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Ull Average",
+    "desc": "Ull Average",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "Ia",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "I Average",
+    "desc": "I Average",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Kwa1",
+    "desc": "Kwa1",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Kwb1",
+    "desc": "Kwb1",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Kwc1",
+    "desc": "Kwc1",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Kw Total",
+    "desc": "Kw Total",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Kvara1",
+    "desc": "Kvara1",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Kvarb1",
+    "desc": "Kvarb1",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Kvarc1",
+    "desc": "Kvarc1",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Kvar Total",
+    "desc": "Kvar Total",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Kvaa1",
+    "desc": "Kvaa1",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Kvab1",
+    "desc": "Kvab1",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Kvac1",
+    "desc": "Kvac1",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Kva Total",
+    "desc": "Kva Total",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Pfa1",
+    "desc": "Pfa1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Pfb1",
+    "desc": "Pfb1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Pfc1",
+    "desc": "Pfc1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Pf Average",
+    "desc": "Pf Average",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Freq",
+    "desc": "Freq",
+    "unit": "Hz",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Uan/Uab (3P3W) Angle",
+    "desc": "Uan/Uab (3P3W) Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Ubn/Ubc (3P3W) Angle",
+    "desc": "Ubn/Ubc (3P3W) Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Ucn/Uca (3P3W) Angle",
+    "desc": "Ucn/Uca (3P3W) Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Ia Angle",
+    "desc": "Ia Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Ib Angle",
+    "desc": "Ib Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Ic Angle",
+    "desc": "Ic Angle",
+    "unit": "D",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "In (Calculated)",
+    "desc": "In (Calculated)",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Phase A Fundamental Pf",
+    "desc": "Phase A Fundamental Pf",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Phase B Fundamental Pf",
+    "desc": "Phase B Fundamental Pf",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Phase C Fundamental Pf",
+    "desc": "Phase C Fundamental Pf",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 95,
+    "type": "HR",
+    "name": "Setpoint Status3",
+    "desc": "Setpoint Status3",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Do Status4",
+    "desc": "Do Status4",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 97,
+    "type": "HR",
+    "name": "Di Status5",
+    "desc": "Di Status5",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Soe Pointer6",
+    "desc": "Soe Pointer6",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1300,
+    "type": "HR",
+    "name": "Ia Tdd",
+    "desc": "Ia Tdd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1302,
+    "type": "HR",
+    "name": "Ib Tdd",
+    "desc": "Ib Tdd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1304,
+    "type": "HR",
+    "name": "Ic Tdd",
+    "desc": "Ic Tdd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1306,
+    "type": "HR",
+    "name": "Ia Tdd Odd",
+    "desc": "Ia Tdd Odd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1308,
+    "type": "HR",
+    "name": "Ib Tdd Odd",
+    "desc": "Ib Tdd Odd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1310,
+    "type": "HR",
+    "name": "Ic Tdd Odd",
+    "desc": "Ic Tdd Odd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1312,
+    "type": "HR",
+    "name": "Ia Tdd Even",
+    "desc": "Ia Tdd Even",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1314,
+    "type": "HR",
+    "name": "Ib Tdd Even",
+    "desc": "Ib Tdd Even",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

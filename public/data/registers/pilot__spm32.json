@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Vb (Ph N)",
+    "desc": "Vb (Ph N)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Vc (Ph N)",
+    "desc": "Vc (Ph N)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Vab (Ph Ph)",
+    "desc": "Vab (Ph Ph)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Vbc (Ph Ph)",
+    "desc": "Vbc (Ph Ph)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Vca (Ph Ph)",
+    "desc": "Vca (Ph Ph)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "Ia",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Phase A Active Power",
+    "desc": "Phase A Active Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Phase B Active Power",
+    "desc": "Phase B Active Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Phase C Active Power",
+    "desc": "Phase C Active Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Phase A Reactive Power",
+    "desc": "Phase A Reactive Power",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Phase B Reactive Power",
+    "desc": "Phase B Reactive Power",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Phase C Reactive Power",
+    "desc": "Phase C Reactive Power",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Phase A Power Factor",
+    "desc": "Phase A Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Phase B Power Factor",
+    "desc": "Phase B Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Phase C Power Factor",
+    "desc": "Phase C Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Total Kwh",
+    "desc": "Total Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Total Kvarh",
+    "desc": "Total Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Import. Kwh",
+    "desc": "Import. Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Export. Kwh",
+    "desc": "Export. Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Import Kvarh",
+    "desc": "Import Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Export. Kvarh",
+    "desc": "Export. Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Digital Input (On Off Status)",
+    "desc": "Digital Input (On Off Status)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Relay Status",
+    "desc": "Relay Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Alarm Status",
+    "desc": "Alarm Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Ct Ratio",
+    "desc": "Ct Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Pt Ratio",
+    "desc": "Pt Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Average Voltage (Ph N)",
+    "desc": "Average Voltage (Ph N)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Average Voltage (Ph Ph)",
+    "desc": "Average Voltage (Ph Ph)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Average Current",
+    "desc": "Average Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Current Unbalance Rate",
+    "desc": "Current Unbalance Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Phase A Apparent Power",
+    "desc": "Phase A Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Phase B Apparent Power",
+    "desc": "Phase B Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Phase C Apparent Power",
+    "desc": "Phase C Apparent Power",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Total Apparent Energy",
+    "desc": "Total Apparent Energy",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 700,
+    "type": "HR",
+    "name": "Demand For Ia",
+    "desc": "Demand For Ia",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 701,
+    "type": "HR",
+    "name": "Demand For Ib",
+    "desc": "Demand For Ib",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 702,
+    "type": "HR",
+    "name": "Demand For Ic",
+    "desc": "Demand For Ic",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 703,
+    "type": "HR",
+    "name": "Demand For Pa",
+    "desc": "Demand For Pa",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 704,
+    "type": "HR",
+    "name": "Demand For Pb",
+    "desc": "Demand For Pb",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 705,
+    "type": "HR",
+    "name": "Demand For Pc",
+    "desc": "Demand For Pc",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 706,
+    "type": "HR",
+    "name": "Demand For Ptot (Low)",
+    "desc": "Demand For Ptot (Low)",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 708,
+    "type": "HR",
+    "name": "Max. Demand For Ia",
+    "desc": "Max. Demand For Ia",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

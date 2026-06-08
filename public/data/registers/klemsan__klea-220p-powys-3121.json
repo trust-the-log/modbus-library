@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Phase 1 2 Voltage (L L)",
+    "desc": "Phase 1 2 Voltage (L L)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Phase 1 Cos",
+    "desc": "Phase 1 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Phase 1 Power Factor",
+    "desc": "Phase 1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Phase 1 Active Power",
+    "desc": "Phase 1 Active Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Phase 1 Reactive Power",
+    "desc": "Phase 1 Reactive Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Phase 1 Apparent Power",
+    "desc": "Phase 1 Apparent Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Phase 1 Thdv",
+    "desc": "Phase 1 Thdv",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Phase 1 Thdi",
+    "desc": "Phase 1 Thdi",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Phase 2 Voltage (L N)",
+    "desc": "Phase 2 Voltage (L N)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Phase 2 3 Voltage (L L)",
+    "desc": "Phase 2 3 Voltage (L L)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Phase 2 Cos",
+    "desc": "Phase 2 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Phase 2 Power Factor",
+    "desc": "Phase 2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Phase 2 Active Power",
+    "desc": "Phase 2 Active Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Phase 2 Reactive Power",
+    "desc": "Phase 2 Reactive Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Phase 2 Apparent Power",
+    "desc": "Phase 2 Apparent Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Phase 2 Thdv",
+    "desc": "Phase 2 Thdv",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Phase 2 Thdi",
+    "desc": "Phase 2 Thdi",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Phase 3 Voltage (L N)",
+    "desc": "Phase 3 Voltage (L N)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Phase 3 1 Voltage (L L)",
+    "desc": "Phase 3 1 Voltage (L L)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Phase 3 Cos",
+    "desc": "Phase 3 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Phase 3 Power Factor",
+    "desc": "Phase 3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Phase 3 Active Power",
+    "desc": "Phase 3 Active Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Phase 3 Reactive Power",
+    "desc": "Phase 3 Reactive Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Phase 3 Apparent Power",
+    "desc": "Phase 3 Apparent Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Phase 3 Thdv",
+    "desc": "Phase 3 Thdv",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Phase 3 Thdi",
+    "desc": "Phase 3 Thdi",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Average Voltage (L N)",
+    "desc": "Average Voltage (L N)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Average Voltage (L L)",
+    "desc": "Average Voltage (L L)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Total Current",
+    "desc": "Total Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "System Power Factor",
+    "desc": "System Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "System Frequency",
+    "desc": "System Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 1",
+    "desc": "Phase 1 Voltage Harmonics 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 3",
+    "desc": "Phase 1 Voltage Harmonics 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 5",
+    "desc": "Phase 1 Voltage Harmonics 5",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 7",
+    "desc": "Phase 1 Voltage Harmonics 7",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 9",
+    "desc": "Phase 1 Voltage Harmonics 9",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 11",
+    "desc": "Phase 1 Voltage Harmonics 11",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 13",
+    "desc": "Phase 1 Voltage Harmonics 13",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 15",
+    "desc": "Phase 1 Voltage Harmonics 15",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 17",
+    "desc": "Phase 1 Voltage Harmonics 17",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 19",
+    "desc": "Phase 1 Voltage Harmonics 19",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 21",
+    "desc": "Phase 1 Voltage Harmonics 21",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Phase 1 Voltage Harmonics 23",
+    "desc": "Phase 1 Voltage Harmonics 23",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

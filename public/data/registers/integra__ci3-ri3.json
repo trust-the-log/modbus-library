@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "V1",
+    "desc": "V1",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "V2",
+    "desc": "V2",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "V3",
+    "desc": "V3",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "A1",
+    "desc": "A1",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "A2",
+    "desc": "A2",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "A3",
+    "desc": "A3",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Kp1",
+    "desc": "Kp1",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Kp2",
+    "desc": "Kp2",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Kp3",
+    "desc": "Kp3",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Kva1",
+    "desc": "Kva1",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Kva2",
+    "desc": "Kva2",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Kva3",
+    "desc": "Kva3",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Kvar1",
+    "desc": "Kvar1",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Kvar2",
+    "desc": "Kvar2",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Kvar3",
+    "desc": "Kvar3",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Pa1",
+    "desc": "Pa1",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Pa2",
+    "desc": "Pa2",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Pa3",
+    "desc": "Pa3",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "An",
+    "desc": "An",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "V12",
+    "desc": "V12",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "V23",
+    "desc": "V23",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "V31",
+    "desc": "V31",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Vlnavg",
+    "desc": "Vlnavg",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Aavg",
+    "desc": "Aavg",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Asum",
+    "desc": "Asum",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Vllavg",
+    "desc": "Vllavg",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Kpsum",
+    "desc": "Kpsum",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Kvasum",
+    "desc": "Kvasum",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Kvarsum",
+    "desc": "Kvarsum",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Patot",
+    "desc": "Patot",
+    "unit": "Degree",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Freq",
+    "desc": "Freq",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Lo Egy Imp Pow",
+    "desc": "Lo Egy Imp Pow",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Hi Egy Imp Pow",
+    "desc": "Hi Egy Imp Pow",
+    "unit": "MWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Lo Egy Exp Pow",
+    "desc": "Lo Egy Exp Pow",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Hi Egy Exp Pow",
+    "desc": "Hi Egy Exp Pow",
+    "unit": "MWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Lo Egy Imp Var",
+    "desc": "Lo Egy Imp Var",
+    "unit": "kVArh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Hi Egy Imp Var",
+    "desc": "Hi Egy Imp Var",
+    "unit": "MVArh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Lo Egy Exp Var",
+    "desc": "Lo Egy Exp Var",
+    "unit": "kVArh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Hi Egy Exp Var",
+    "desc": "Hi Egy Exp Var",
+    "unit": "MVArh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Lo Egy Va",
+    "desc": "Lo Egy Va",
+    "unit": "kAh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Hi Egy Va",
+    "desc": "Hi Egy Va",
+    "unit": "MVAh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Lo Egy Amp",
+    "desc": "Lo Egy Amp",
+    "unit": "Ah",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Hi Egy Amp",
+    "desc": "Hi Egy Amp",
+    "unit": "kAh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Kpsum Dmd",
+    "desc": "Kpsum Dmd",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Kpsum Max Dmd",
+    "desc": "Kpsum Max Dmd",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Kvasum Dmd",
+    "desc": "Kvasum Dmd",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Kvasum Max Dmd",
+    "desc": "Kvasum Max Dmd",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "A1 Dmd",
+    "desc": "A1 Dmd",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "A1 Max Dmd",
+    "desc": "A1 Max Dmd",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "A2 Dmd",
+    "desc": "A2 Dmd",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

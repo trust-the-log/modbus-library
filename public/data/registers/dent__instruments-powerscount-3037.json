@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "System Total True Energy",
+    "desc": "System Total True Energy",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "System Total True Power",
+    "desc": "System Total True Power",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4003,
+    "type": "HR",
+    "name": "System Maximum Demand",
+    "desc": "System Maximum Demand",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Average Power",
+    "desc": "Average Power",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4005,
+    "type": "HR",
+    "name": "System Maximum Instantaneous Kw",
+    "desc": "System Maximum Instantaneous Kw",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "System Minimum Instantaneous Kw",
+    "desc": "System Minimum Instantaneous Kw",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4007,
+    "type": "HR",
+    "name": "System Total Reactive Energy",
+    "desc": "System Total Reactive Energy",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4009,
+    "type": "HR",
+    "name": "System Total Reactive Power",
+    "desc": "System Total Reactive Power",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "System Total Apparent Energy",
+    "desc": "System Total Apparent Energy",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "System Total Apparent Power",
+    "desc": "System Total Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4013,
+    "type": "HR",
+    "name": "System Displacement Power Factor",
+    "desc": "System Displacement Power Factor",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "System Apparent Power Factor",
+    "desc": "System Apparent Power Factor",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4015,
+    "type": "HR",
+    "name": "Average Of All Phases",
+    "desc": "Average Of All Phases",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4016,
+    "type": "HR",
+    "name": "Voltage Line To Line",
+    "desc": "Voltage Line To Line",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4017,
+    "type": "HR",
+    "name": "Voltage Line To Neutral",
+    "desc": "Voltage Line To Neutral",
+    "unit": "volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4018,
+    "type": "HR",
+    "name": "Phase To Phase Voltages, L1",
+    "desc": "Phase To Phase Voltages, L1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4019,
+    "type": "HR",
+    "name": "Phase To Phase Voltages, L2",
+    "desc": "Phase To Phase Voltages, L2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4020,
+    "type": "HR",
+    "name": "Phase To Phase Voltages, L1",
+    "desc": "Phase To Phase Voltages, L1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4021,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4022,
+    "type": "HR",
+    "name": "Phase True Energy, L1",
+    "desc": "Phase True Energy, L1",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Phase True Energy, L2",
+    "desc": "Phase True Energy, L2",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4026,
+    "type": "HR",
+    "name": "Phase True Energy, L3",
+    "desc": "Phase True Energy, L3",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4028,
+    "type": "HR",
+    "name": "Phase True Powers, L1",
+    "desc": "Phase True Powers, L1",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4029,
+    "type": "HR",
+    "name": "Phase True Powers, L2",
+    "desc": "Phase True Powers, L2",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4030,
+    "type": "HR",
+    "name": "Phase True Powers, L3",
+    "desc": "Phase True Powers, L3",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4031,
+    "type": "HR",
+    "name": "Phase Reactive Energy, L1",
+    "desc": "Phase Reactive Energy, L1",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4033,
+    "type": "HR",
+    "name": "Phase Reactive Energy, L2",
+    "desc": "Phase Reactive Energy, L2",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4035,
+    "type": "HR",
+    "name": "Phase Reactive Energy, L3",
+    "desc": "Phase Reactive Energy, L3",
+    "unit": "kVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4037,
+    "type": "HR",
+    "name": "Phase Reactive Powers, L1",
+    "desc": "Phase Reactive Powers, L1",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4038,
+    "type": "HR",
+    "name": "Phase Reactive Powers, L2",
+    "desc": "Phase Reactive Powers, L2",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4039,
+    "type": "HR",
+    "name": "Phase Reactive Powers, L3",
+    "desc": "Phase Reactive Powers, L3",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4040,
+    "type": "HR",
+    "name": "Phase Apparent Energy, L1",
+    "desc": "Phase Apparent Energy, L1",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4042,
+    "type": "HR",
+    "name": "Phase Apparent Energy, L2",
+    "desc": "Phase Apparent Energy, L2",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4044,
+    "type": "HR",
+    "name": "Phase Apparent Energy, L3",
+    "desc": "Phase Apparent Energy, L3",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4046,
+    "type": "HR",
+    "name": "Phase Apparent Powers, L1",
+    "desc": "Phase Apparent Powers, L1",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4047,
+    "type": "HR",
+    "name": "Phase Apparent Powers, L2",
+    "desc": "Phase Apparent Powers, L2",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4048,
+    "type": "HR",
+    "name": "Phase Apparent Powers, L3",
+    "desc": "Phase Apparent Powers, L3",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4049,
+    "type": "HR",
+    "name": "Phase Displacement Power Factor, L1",
+    "desc": "Phase Displacement Power Factor, L1",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4050,
+    "type": "HR",
+    "name": "Phase Displacement Power Factor, L2",
+    "desc": "Phase Displacement Power Factor, L2",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4051,
+    "type": "HR",
+    "name": "Phase Displacement Power Factor, L3",
+    "desc": "Phase Displacement Power Factor, L3",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4052,
+    "type": "HR",
+    "name": "Phase Apparent Power Factors, L1",
+    "desc": "Phase Apparent Power Factors, L1",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4053,
+    "type": "HR",
+    "name": "Phase Apparent Power Factors, L2",
+    "desc": "Phase Apparent Power Factors, L2",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4054,
+    "type": "HR",
+    "name": "Phase Apparent Power Factors, L3",
+    "desc": "Phase Apparent Power Factors, L3",
+    "unit": "PF",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4055,
+    "type": "HR",
+    "name": "Phase Currents, L1",
+    "desc": "Phase Currents, L1",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4056,
+    "type": "HR",
+    "name": "Phase Currents, L2",
+    "desc": "Phase Currents, L2",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4057,
+    "type": "HR",
+    "name": "Phase Currents, L3",
+    "desc": "Phase Currents, L3",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4058,
+    "type": "HR",
+    "name": "Phase To Neutral Voltages, L1",
+    "desc": "Phase To Neutral Voltages, L1",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4059,
+    "type": "HR",
+    "name": "Phase To Neutral Voltages, L2",
+    "desc": "Phase To Neutral Voltages, L2",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4060,
+    "type": "HR",
+    "name": "Phase To Neutral Voltages, L3",
+    "desc": "Phase To Neutral Voltages, L3",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4061,
+    "type": "HR",
+    "name": "Seconds Since Kwh Register Was Reset",
+    "desc": "Seconds Since Kwh Register Was Reset",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

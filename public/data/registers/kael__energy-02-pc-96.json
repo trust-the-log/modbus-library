@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Company Code (7436)",
+    "desc": "Company Code (7436)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Product Code (88503)",
+    "desc": "Product Code (88503)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Barcode Check (9)",
+    "desc": "Barcode Check (9)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Program Version (V2.30)(0X0230)",
+    "desc": "Program Version (V2.30)(0X0230)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "User Define Device Number H",
+    "desc": "User Define Device Number H",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "User Define Device Number L",
+    "desc": "User Define Device Number L",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "File System Version (V1.00)(0X0100)",
+    "desc": "File System Version (V1.00)(0X0100)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4092,
+    "type": "HR",
+    "name": "Realtime Date Year Month (0Xyymm)",
+    "desc": "Realtime Date Year Month (0Xyymm)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4093,
+    "type": "HR",
+    "name": "Realtime Date Day Hour (0Xddhh)",
+    "desc": "Realtime Date Day Hour (0Xddhh)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4094,
+    "type": "HR",
+    "name": "Realtime Date Minute Second (0Xmmss)",
+    "desc": "Realtime Date Minute Second (0Xmmss)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4095,
+    "type": "HR",
+    "name": "Vtrfwm",
+    "desc": "Vtrfwm",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Ctrf",
+    "desc": "Ctrf",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4097,
+    "type": "HR",
+    "name": "Device Working Informations",
+    "desc": "Device Working Informations",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Phase1 Voltage Trms Value",
+    "desc": "Phase1 Voltage Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Phase2 Voltage Trms Value",
+    "desc": "Phase2 Voltage Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Phase3 Voltage Trms Value",
+    "desc": "Phase3 Voltage Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Phase1 Current Trms Value",
+    "desc": "Phase1 Current Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Phase2 Current Trms Value",
+    "desc": "Phase2 Current Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Phase3 Current Trms Value",
+    "desc": "Phase3 Current Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Phase1 Active Power Trms Value",
+    "desc": "Phase1 Active Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "Phase2 Active Power Trms Value",
+    "desc": "Phase2 Active Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Phase3 Active Power Trms Value",
+    "desc": "Phase3 Active Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "Phase1 Reactive Power Trms Value",
+    "desc": "Phase1 Reactive Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Phase2 Reactive Power Trms Value",
+    "desc": "Phase2 Reactive Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4109,
+    "type": "HR",
+    "name": "Phase3 Reactive Power Trms Value",
+    "desc": "Phase3 Reactive Power Trms Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Phase1 Appeared Power Trms Value",
+    "desc": "Phase1 Appeared Power Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4111,
+    "type": "HR",
+    "name": "Phase2 Appeared Power Trms Value",
+    "desc": "Phase2 Appeared Power Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Phase3 Appeared Power Trms Value",
+    "desc": "Phase3 Appeared Power Trms Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4113,
+    "type": "HR",
+    "name": "Phase1 Cosfivalue",
+    "desc": "Phase1 Cosfivalue",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Phase2 Cosfivalue",
+    "desc": "Phase2 Cosfivalue",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4115,
+    "type": "HR",
+    "name": "Phase3 Cosfivalue",
+    "desc": "Phase3 Cosfivalue",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Sum Cosfivalue",
+    "desc": "Sum Cosfivalue",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4117,
+    "type": "HR",
+    "name": "Phase1 Powerfactor",
+    "desc": "Phase1 Powerfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "Phase2 Powerfactor",
+    "desc": "Phase2 Powerfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "Phase3 Powerfactor",
+    "desc": "Phase3 Powerfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Sum Powerfactor",
+    "desc": "Sum Powerfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4121,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Total Positive Reactivepower (+Q) (Unsigned)",
+    "desc": "Total Positive Reactivepower (+Q) (Unsigned)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "Total Negative Reactive Power ( Q) (Unsigned)",
+    "desc": "Total Negative Reactive Power ( Q) (Unsigned)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Sum Reactive Power ((+Q) ( Q))",
+    "desc": "Sum Reactive Power ((+Q) ( Q))",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4125,
+    "type": "HR",
+    "name": "Sum Appeared Power",
+    "desc": "Sum Appeared Power",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "Phase Order Number Of Frequency Supply Phase",
+    "desc": "Phase Order Number Of Frequency Supply Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4133,
+    "type": "HR",
+    "name": "Phase Current Connection And Error Messages",
+    "desc": "Phase Current Connection And Error Messages",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Voltage1 Zerocrossover (Referance)(Everytime 0)",
+    "desc": "Voltage1 Zerocrossover (Referance)(Everytime 0)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4135,
+    "type": "HR",
+    "name": "Current1 Zerocrossover (Angle Value)(0 359)",
+    "desc": "Current1 Zerocrossover (Angle Value)(0 359)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Voltage2 Zerocrossover (Angle Value)(0 359)",
+    "desc": "Voltage2 Zerocrossover (Angle Value)(0 359)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4137,
+    "type": "HR",
+    "name": "Current2 Zerocrossover (Angle Value)(0 359)",
+    "desc": "Current2 Zerocrossover (Angle Value)(0 359)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Voltage3 Zerocrossover (Angle Value)(0 359)",
+    "desc": "Voltage3 Zerocrossover (Angle Value)(0 359)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4139,
+    "type": "HR",
+    "name": "Current3 Zerocrossover (Angle Value)(0 359)",
+    "desc": "Current3 Zerocrossover (Angle Value)(0 359)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

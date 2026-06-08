@@ -1,0 +1,2369 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER KWt",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER KVAt",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER KVARt",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Under",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "UNDER POWER FACTOR T",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER U Vll 3p Ave",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER V Vln 3p Ave",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Under",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "UNDER U Vll 3p Ave",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Under",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "UNDER V Vln 3p Ave",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER CURRENT I 3p Av",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER FREQUENCY",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Under",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "UNDER FREQUENCY",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER THD CURRENT Ia",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Over",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "OVER THD VOLTAGE Vab",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Digital (OFF to ON)",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "DIGITAL INPUT S1",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Digital (OFF to ON)",
+    "desc": "Alarms",
+    "unit": "",
+    "dataType": "DIGITAL INPUT S2",
+    "access": "R"
+  },
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Signed Real Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kWh",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Apparent Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kVAh",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Signed Reactive Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kVARh",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "Metering",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "Metering",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "Metering",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Power Factor, Total",
+    "desc": "Metering",
+    "unit": "-",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Voltage, L-L, 3P Average",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Voltage, L-N, 3P Average",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Current, 3P Average",
+    "desc": "Metering",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Metering",
+    "unit": "Hz",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Real Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Real Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Current, A",
+    "desc": "Metering",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Current, B",
+    "desc": "Metering",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Current, C",
+    "desc": "Metering",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Current, N",
+    "desc": "Metering",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Current, A, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Current, B, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Current, C, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Current, A, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Current, B, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Current, C, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Voltage, A-B",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Voltage, B-C",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Voltage, C-A",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Voltage, A-N",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Voltage, B-N",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Voltage, C-N",
+    "desc": "Metering",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Real Power, A",
+    "desc": "Metering",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1068,
+    "type": "HR",
+    "name": "Real Power, B",
+    "desc": "Metering",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1070,
+    "type": "HR",
+    "name": "Real Power, C",
+    "desc": "Metering",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1072,
+    "type": "HR",
+    "name": "Apparent Power, A",
+    "desc": "Metering",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1074,
+    "type": "HR",
+    "name": "Apparent Power, B",
+    "desc": "Metering",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1076,
+    "type": "HR",
+    "name": "Apparent Power, C",
+    "desc": "Metering",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1078,
+    "type": "HR",
+    "name": "Reactive Power, A",
+    "desc": "Metering",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1080,
+    "type": "HR",
+    "name": "Reactive Power, B",
+    "desc": "Metering",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1082,
+    "type": "HR",
+    "name": "Reactive Power, C",
+    "desc": "Metering",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1084,
+    "type": "HR",
+    "name": "Current, A, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1086,
+    "type": "HR",
+    "name": "Current, B, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1088,
+    "type": "HR",
+    "name": "Current, C, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1092,
+    "type": "HR",
+    "name": "Voltage, A-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1094,
+    "type": "HR",
+    "name": "Voltage, B-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1096,
+    "type": "HR",
+    "name": "Voltage, C-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1098,
+    "type": "HR",
+    "name": "Voltage, A-B, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1100,
+    "type": "HR",
+    "name": "Voltage, B-C, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1102,
+    "type": "HR",
+    "name": "Voltage, C-A, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1104,
+    "type": "HR",
+    "name": "Real Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1106,
+    "type": "HR",
+    "name": "Apparent Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1108,
+    "type": "HR",
+    "name": "Reactive Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1110,
+    "type": "HR",
+    "name": "Power Factor, Total Minimum",
+    "desc": "Min Max",
+    "unit": "-",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1112,
+    "type": "HR",
+    "name": "Frequency Minimum",
+    "desc": "Min Max",
+    "unit": "Hz",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1114,
+    "type": "HR",
+    "name": "Current, A, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1116,
+    "type": "HR",
+    "name": "Current, B, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1118,
+    "type": "HR",
+    "name": "Current, C, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1120,
+    "type": "HR",
+    "name": "Current, N, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1122,
+    "type": "HR",
+    "name": "Voltage, A-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1124,
+    "type": "HR",
+    "name": "Voltage, B-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1126,
+    "type": "HR",
+    "name": "Voltage, C-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1128,
+    "type": "HR",
+    "name": "Voltage, A-B, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1130,
+    "type": "HR",
+    "name": "Voltage, B-C, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1132,
+    "type": "HR",
+    "name": "Voltage, C-A, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1134,
+    "type": "HR",
+    "name": "Current, A, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1136,
+    "type": "HR",
+    "name": "Current, B, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1138,
+    "type": "HR",
+    "name": "Current, C, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1142,
+    "type": "HR",
+    "name": "Voltage, A-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1144,
+    "type": "HR",
+    "name": "Voltage, B-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1146,
+    "type": "HR",
+    "name": "Voltage, C-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1148,
+    "type": "HR",
+    "name": "Voltage, A-B, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1150,
+    "type": "HR",
+    "name": "Voltage, B-C, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1152,
+    "type": "HR",
+    "name": "Voltage, C-A, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1154,
+    "type": "HR",
+    "name": "Real Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kW",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1156,
+    "type": "HR",
+    "name": "Apparent Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kVA",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1158,
+    "type": "HR",
+    "name": "Reactive Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kVAR",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1160,
+    "type": "HR",
+    "name": "Power Factor, Total Maximum",
+    "desc": "Min Max",
+    "unit": "-",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1162,
+    "type": "HR",
+    "name": "Frequency Maximum",
+    "desc": "Min Max",
+    "unit": "Hz",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1164,
+    "type": "HR",
+    "name": "Current, A, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1166,
+    "type": "HR",
+    "name": "Current, B, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1168,
+    "type": "HR",
+    "name": "Current, C, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1170,
+    "type": "HR",
+    "name": "Current, N, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1172,
+    "type": "HR",
+    "name": "Voltage, A-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1174,
+    "type": "HR",
+    "name": "Voltage, B-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1176,
+    "type": "HR",
+    "name": "Voltage, C-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1178,
+    "type": "HR",
+    "name": "Voltage, A-B, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1180,
+    "type": "HR",
+    "name": "Voltage, B-C, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1182,
+    "type": "HR",
+    "name": "Voltage, C-A, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1184,
+    "type": "HR",
+    "name": "Current, A, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1186,
+    "type": "HR",
+    "name": "Current, B, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1188,
+    "type": "HR",
+    "name": "Current, C, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1192,
+    "type": "HR",
+    "name": "Voltage, A-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1194,
+    "type": "HR",
+    "name": "Voltage, B-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1196,
+    "type": "HR",
+    "name": "Voltage, C-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1198,
+    "type": "HR",
+    "name": "Voltage, A-B, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1200,
+    "type": "HR",
+    "name": "Voltage, B-C, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1202,
+    "type": "HR",
+    "name": "Voltage, C-A, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1204,
+    "type": "HR",
+    "name": "Usage Hours",
+    "desc": "Setup & Status",
+    "unit": "Hours",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 1206,
+    "type": "HR",
+    "name": "Usage Minutes",
+    "desc": "Setup & Status",
+    "unit": "Minutes",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "Real Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kWh/Scale",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "Apparent Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kVAh/Scale",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Reactive Energy, Consumption",
+    "desc": "Metering",
+    "unit": "kVARh/Scale",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "Metering",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4007,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "Metering",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4008,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "Metering",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4009,
+    "type": "HR",
+    "name": "Power Factor, Total",
+    "desc": "Metering",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "Voltage, L-L, 3P Average",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4011,
+    "type": "HR",
+    "name": "Voltage, L-N, 3P Average",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Current, 3P Average",
+    "desc": "Metering",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4013,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Metering",
+    "unit": "Hz",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Real Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4015,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4016,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Present",
+    "desc": "Demand",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4017,
+    "type": "HR",
+    "name": "Real Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4018,
+    "type": "HR",
+    "name": "Apparent Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4019,
+    "type": "HR",
+    "name": "Reactive Power, Total Demand Peak",
+    "desc": "Demand",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4020,
+    "type": "HR",
+    "name": "Current, A",
+    "desc": "Metering",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4021,
+    "type": "HR",
+    "name": "Current, B",
+    "desc": "Metering",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4022,
+    "type": "HR",
+    "name": "Current, C",
+    "desc": "Metering",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4023,
+    "type": "HR",
+    "name": "Current, N",
+    "desc": "Metering",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Current, A, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4025,
+    "type": "HR",
+    "name": "Current, B, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4026,
+    "type": "HR",
+    "name": "Current, C, Demand Present",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4027,
+    "type": "HR",
+    "name": "Current, A, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4028,
+    "type": "HR",
+    "name": "Current, B, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4029,
+    "type": "HR",
+    "name": "Current, C, Demand Peak",
+    "desc": "Demand",
+    "unit": "Amp/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4030,
+    "type": "HR",
+    "name": "Voltage, A-B",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4031,
+    "type": "HR",
+    "name": "Voltage, B-C",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4032,
+    "type": "HR",
+    "name": "Voltage, C-A",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4033,
+    "type": "HR",
+    "name": "Voltage, A-N",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4034,
+    "type": "HR",
+    "name": "Voltage, B-N",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4035,
+    "type": "HR",
+    "name": "Voltage, C-N",
+    "desc": "Metering",
+    "unit": "Volt/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4036,
+    "type": "HR",
+    "name": "Real Power, A",
+    "desc": "Metering",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4037,
+    "type": "HR",
+    "name": "Real Power, B",
+    "desc": "Metering",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4038,
+    "type": "HR",
+    "name": "Real Power, C",
+    "desc": "Metering",
+    "unit": "kW/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4039,
+    "type": "HR",
+    "name": "Apparent Power, A",
+    "desc": "Metering",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4040,
+    "type": "HR",
+    "name": "Apparent Power, B",
+    "desc": "Metering",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4041,
+    "type": "HR",
+    "name": "Apparent Power, C",
+    "desc": "Metering",
+    "unit": "kVA/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4042,
+    "type": "HR",
+    "name": "Reactive Power, A",
+    "desc": "Metering",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4043,
+    "type": "HR",
+    "name": "Reactive Power, B",
+    "desc": "Metering",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4044,
+    "type": "HR",
+    "name": "Reactive Power, C",
+    "desc": "Metering",
+    "unit": "kVAR/Scale",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4045,
+    "type": "HR",
+    "name": "Current, A, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4046,
+    "type": "HR",
+    "name": "Current, B, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4047,
+    "type": "HR",
+    "name": "Current, C, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4048,
+    "type": "HR",
+    "name": "Power Factor, Total Signed",
+    "desc": "Metering",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4049,
+    "type": "HR",
+    "name": "Voltage, A-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4050,
+    "type": "HR",
+    "name": "Voltage, B-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4051,
+    "type": "HR",
+    "name": "Voltage, C-N, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4052,
+    "type": "HR",
+    "name": "Voltage, A-B, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4053,
+    "type": "HR",
+    "name": "Voltage, B-C, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4054,
+    "type": "HR",
+    "name": "Voltage, C-A, THD",
+    "desc": "Metering",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4055,
+    "type": "HR",
+    "name": "Real Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4056,
+    "type": "HR",
+    "name": "Apparent Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4057,
+    "type": "HR",
+    "name": "Reactive Power, Total Minimum",
+    "desc": "Min Max",
+    "unit": "kVAR",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4058,
+    "type": "HR",
+    "name": "Power Factor, Total Minimum",
+    "desc": "Min Max",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4059,
+    "type": "HR",
+    "name": "Frequency Minimum",
+    "desc": "Min Max",
+    "unit": "Hz",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4060,
+    "type": "HR",
+    "name": "Current, A, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4061,
+    "type": "HR",
+    "name": "Current, B, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4062,
+    "type": "HR",
+    "name": "Current, C, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4063,
+    "type": "HR",
+    "name": "Current, N, Minimum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4064,
+    "type": "HR",
+    "name": "Voltage, A-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4065,
+    "type": "HR",
+    "name": "Voltage, B-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4066,
+    "type": "HR",
+    "name": "Voltage, C-N, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4067,
+    "type": "HR",
+    "name": "Voltage, A-B, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4068,
+    "type": "HR",
+    "name": "Voltage, B-C, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4069,
+    "type": "HR",
+    "name": "Voltage, C-A, Minimum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4070,
+    "type": "HR",
+    "name": "Current, A, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4071,
+    "type": "HR",
+    "name": "Current, B, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4072,
+    "type": "HR",
+    "name": "Current, C, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4073,
+    "type": "HR",
+    "name": "Reset Counter",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Uint",
+    "access": "RW"
+  },
+  {
+    "addr": 4074,
+    "type": "HR",
+    "name": "Voltage, A-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4075,
+    "type": "HR",
+    "name": "Voltage, B-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4076,
+    "type": "HR",
+    "name": "Voltage, C-N, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4077,
+    "type": "HR",
+    "name": "Voltage, A-B, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4078,
+    "type": "HR",
+    "name": "Voltage, B-C, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4079,
+    "type": "HR",
+    "name": "Voltage, C-A, THD Minimum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4080,
+    "type": "HR",
+    "name": "Real Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4081,
+    "type": "HR",
+    "name": "Apparent Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4082,
+    "type": "HR",
+    "name": "Reactive Power, Total Maximum",
+    "desc": "Min Max",
+    "unit": "kVAR",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4083,
+    "type": "HR",
+    "name": "Power Factor, Total Maximum",
+    "desc": "Min Max",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4084,
+    "type": "HR",
+    "name": "Frequency Maximum",
+    "desc": "Min Max",
+    "unit": "Hz",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4085,
+    "type": "HR",
+    "name": "Current, A, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4086,
+    "type": "HR",
+    "name": "Current, B, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4087,
+    "type": "HR",
+    "name": "Current, C, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4088,
+    "type": "HR",
+    "name": "Current, N, Maximum",
+    "desc": "Min Max",
+    "unit": "Amp",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4089,
+    "type": "HR",
+    "name": "Voltage, A-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4090,
+    "type": "HR",
+    "name": "Voltage, B-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4091,
+    "type": "HR",
+    "name": "Voltage, C-N, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4092,
+    "type": "HR",
+    "name": "Voltage, A-B, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4093,
+    "type": "HR",
+    "name": "Voltage, B-C, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4094,
+    "type": "HR",
+    "name": "Voltage, C-A, Maximum",
+    "desc": "Min Max",
+    "unit": "Volt",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4095,
+    "type": "HR",
+    "name": "Current, A, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Current, B, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4097,
+    "type": "HR",
+    "name": "Current, C, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Voltage, A-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Voltage, B-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Voltage, C-N, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Voltage, A-B, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Voltage, B-C, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Voltage, C-A, THD Maximum",
+    "desc": "Min Max",
+    "unit": "%",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "Scale Factor I (current)",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Scale Factor V (voltage)",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "Scale Factor W (power)",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Scale Factor E (energy)",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Usage Hours",
+    "desc": "Setup & Status",
+    "unit": "Hours",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4111,
+    "type": "HR",
+    "name": "Usage Minutes",
+    "desc": "Setup & Status",
+    "unit": "Minutes",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Error Bitmap",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4113,
+    "type": "HR",
+    "name": "Alarm Status Bitmap",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Digital Output Status",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4115,
+    "type": "HR",
+    "name": "Digital Input S1 Status",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Digital Input S2 Status",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4117,
+    "type": "HR",
+    "name": "Thermal Demand Interval",
+    "desc": "Setup & Status",
+    "unit": "Minutes",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "Power Block Demand Interval",
+    "desc": "Setup & Status",
+    "unit": "Minutes",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "Power Block Demand Number of Sub-Intervals",
+    "desc": "Setup & Status",
+    "unit": "Seconds",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "CT Ratio - Primary",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4121,
+    "type": "HR",
+    "name": "CT Ratio - Secondary",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "PT Ratio - Primary",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "PT Ratio - Scale (0 = No PT)",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "PT Ratio - Secondary",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4125,
+    "type": "HR",
+    "name": "Service Frequency",
+    "desc": "Setup & Status",
+    "unit": "Hz",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Reset Commands",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "System Type",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Display Mode",
+    "desc": "Setup & Status",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4129,
+    "type": "HR",
+    "name": "Digital Output Mode",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Digital Input S1 Mode",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4131,
+    "type": "HR",
+    "name": "Digital Input S2 Mode",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Digital Output Counter",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Digital Input S1 Counter",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Digital Input S2 Counter",
+    "desc": "IO",
+    "unit": "-",
+    "dataType": "Long",
+    "access": "R"
+  },
+  {
+    "addr": 4139,
+    "type": "HR",
+    "name": "Alarm Setup Semaphore",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Alarm Position 1 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4156,
+    "type": "HR",
+    "name": "Alarm Position 2 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4172,
+    "type": "HR",
+    "name": "Alarm Position 3 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4188,
+    "type": "HR",
+    "name": "Alarm Position 4 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4204,
+    "type": "HR",
+    "name": "Alarm Position 5 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4220,
+    "type": "HR",
+    "name": "Alarm Position 6 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4236,
+    "type": "HR",
+    "name": "Alarm Position 7 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4252,
+    "type": "HR",
+    "name": "Alarm Position 8 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4268,
+    "type": "HR",
+    "name": "Alarm Position 9 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4284,
+    "type": "HR",
+    "name": "Alarm Position 10 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4300,
+    "type": "HR",
+    "name": "Alarm Position 11 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4316,
+    "type": "HR",
+    "name": "Alarm Position 12 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4332,
+    "type": "HR",
+    "name": "Alarm Position 13 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4348,
+    "type": "HR",
+    "name": "Alarm Position 14 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 4364,
+    "type": "HR",
+    "name": "Alarm Position 15 Configuration",
+    "desc": "Alarms",
+    "unit": "-",
+    "dataType": "-",
+    "access": "RW"
+  },
+  {
+    "addr": 6209,
+    "type": "HR",
+    "name": "The contents of registers 4000-4005 . Note that the CT and P",
+    "desc": "Reset Commands",
+    "unit": "",
+    "dataType": "",
+    "access": "R"
+  }
+]

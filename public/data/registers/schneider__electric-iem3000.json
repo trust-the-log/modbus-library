@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 7274,
+    "type": "HR",
+    "name": "Digital Input Control Mode",
+    "desc": "Digital Input Control Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8905,
+    "type": "HR",
+    "name": "Digital Input Status (Only Bit 1 Is Used): Bit",
+    "desc": "Digital Input Status (Only Bit 1 Is Used): Bit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9673,
+    "type": "HR",
+    "name": "Digital Output Control Mode Status",
+    "desc": "Digital Output Control Mode Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "I1: Phase 1 Current",
+    "desc": "I1: Phase 1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3002,
+    "type": "HR",
+    "name": "I2: Phase 2 Current",
+    "desc": "I2: Phase 2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3004,
+    "type": "HR",
+    "name": "I3: Phase 3 Current",
+    "desc": "I3: Phase 3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3010,
+    "type": "HR",
+    "name": "Currentavg",
+    "desc": "Currentavg",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3020,
+    "type": "HR",
+    "name": "Voltage L1 L2",
+    "desc": "Voltage L1 L2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3022,
+    "type": "HR",
+    "name": "Voltage L2 L3",
+    "desc": "Voltage L2 L3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3024,
+    "type": "HR",
+    "name": "Voltage L3 L1",
+    "desc": "Voltage L3 L1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3026,
+    "type": "HR",
+    "name": "Voltage Ll Avg",
+    "desc": "Voltage Ll Avg",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3028,
+    "type": "HR",
+    "name": "Voltage L1 N",
+    "desc": "Voltage L1 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3030,
+    "type": "HR",
+    "name": "Voltage L2 N",
+    "desc": "Voltage L2 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3032,
+    "type": "HR",
+    "name": "Voltage L3 N",
+    "desc": "Voltage L3 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3036,
+    "type": "HR",
+    "name": "Voltage Ln Avg",
+    "desc": "Voltage Ln Avg",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3054,
+    "type": "HR",
+    "name": "Active Power Phase 1",
+    "desc": "Active Power Phase 1",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3056,
+    "type": "HR",
+    "name": "Active Power Phase 2",
+    "desc": "Active Power Phase 2",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3058,
+    "type": "HR",
+    "name": "Active Power Phase 3",
+    "desc": "Active Power Phase 3",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3060,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3068,
+    "type": "HR",
+    "name": "Total Reactive Power Not Applicable For Iem3150 / ",
+    "desc": "Total Reactive Power Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3076,
+    "type": "HR",
+    "name": "Total Apparent Power Not Applicable For Iem3150 / ",
+    "desc": "Total Apparent Power Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3084,
+    "type": "HR",
+    "name": "Total Power Factor: 1 &Lt; Pf",
+    "desc": "Total Power Factor: 1 &Lt; Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3110,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4191,
+    "type": "HR",
+    "name": "Multitariffs Energy Active Rate 0: Multi Tariff Di",
+    "desc": "Multitariffs Energy Active Rate 0: Multi Tariff Disabled 1 To 4: Rate A To Rate ",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3204,
+    "type": "HR",
+    "name": "Total Active Energy Import",
+    "desc": "Total Active Energy Import",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3208,
+    "type": "HR",
+    "name": "Total Active Energy Export Not Applicable For Iem3",
+    "desc": "Total Active Energy Export Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3220,
+    "type": "HR",
+    "name": "Total Reactive Energy Import Not Applicable For Ie",
+    "desc": "Total Reactive Energy Import Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "VARh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3224,
+    "type": "HR",
+    "name": "Total Reactive Energy Export Not Applicable For Ie",
+    "desc": "Total Reactive Energy Export Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "VARh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3256,
+    "type": "HR",
+    "name": "Partial Active Energy Import",
+    "desc": "Partial Active Energy Import",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3272,
+    "type": "HR",
+    "name": "Partial Reactive Energy Import Not Applicable For ",
+    "desc": "Partial Reactive Energy Import Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "VARh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3518,
+    "type": "HR",
+    "name": "Active Energy Import Phase1",
+    "desc": "Active Energy Import Phase1",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3522,
+    "type": "HR",
+    "name": "Active Energy Import Phase 2",
+    "desc": "Active Energy Import Phase 2",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3526,
+    "type": "HR",
+    "name": "Active Energy Import Phase 3",
+    "desc": "Active Energy Import Phase 3",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3558,
+    "type": "HR",
+    "name": "Input Metering Accumulation Not Applicable For Iem",
+    "desc": "Input Metering Accumulation Not Applicable For Iem3150 / Iem3250 / Iem3350",
+    "unit": "Unit",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 3701,
+    "type": "HR",
+    "name": "Demand Method",
+    "desc": "Demand Method",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3702,
+    "type": "HR",
+    "name": "Demand Interval Duration",
+    "desc": "Demand Interval Duration",
+    "unit": "Minute",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3766,
+    "type": "HR",
+    "name": "Active Power Demand",
+    "desc": "Active Power Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3770,
+    "type": "HR",
+    "name": "Active Power Peak Demand",
+    "desc": "Active Power Peak Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3782,
+    "type": "HR",
+    "name": "Reactive Power Demand",
+    "desc": "Reactive Power Demand",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3786,
+    "type": "HR",
+    "name": "Reactive Power Peak Demand",
+    "desc": "Reactive Power Peak Demand",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3798,
+    "type": "HR",
+    "name": "Apparent Power Demand",
+    "desc": "Apparent Power Demand",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3802,
+    "type": "HR",
+    "name": "Apparent Power Peak Demand",
+    "desc": "Apparent Power Peak Demand",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3814,
+    "type": "HR",
+    "name": "Current I1 Demand",
+    "desc": "Current I1 Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3818,
+    "type": "HR",
+    "name": "Current I1 Peak Demand",
+    "desc": "Current I1 Peak Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3830,
+    "type": "HR",
+    "name": "Current I2 Demand",
+    "desc": "Current I2 Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3834,
+    "type": "HR",
+    "name": "Current I2 Peak Demand",
+    "desc": "Current I2 Peak Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3846,
+    "type": "HR",
+    "name": "Current I3 Demand",
+    "desc": "Current I3 Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3850,
+    "type": "HR",
+    "name": "Current I3 Peak Demand",
+    "desc": "Current I3 Peak Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3878,
+    "type": "HR",
+    "name": "Current Avg Demand",
+    "desc": "Current Avg Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3882,
+    "type": "HR",
+    "name": "Current Avg Peak Demand",
+    "desc": "Current Avg Peak Demand",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  }
+]

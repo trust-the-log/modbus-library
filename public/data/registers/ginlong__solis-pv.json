@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 3021,
+    "type": "HR",
+    "name": "System Time Year",
+    "desc": "System Time Year",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3022,
+    "type": "HR",
+    "name": "System Time Month",
+    "desc": "System Time Month",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3023,
+    "type": "HR",
+    "name": "System Time Day",
+    "desc": "System Time Day",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3024,
+    "type": "HR",
+    "name": "System Time",
+    "desc": "System Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3025,
+    "type": "HR",
+    "name": "System Time",
+    "desc": "System Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3026,
+    "type": "HR",
+    "name": "System Time Second",
+    "desc": "System Time Second",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3028,
+    "type": "HR",
+    "name": "Inverter Total Power Generation",
+    "desc": "Inverter Total Power Generation",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3030,
+    "type": "HR",
+    "name": "Inverter Power Generation In The Month",
+    "desc": "Inverter Power Generation In The Month",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3032,
+    "type": "HR",
+    "name": "Inverted Last Month'S Power Generation",
+    "desc": "Inverted Last Month'S Power Generation",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3034,
+    "type": "HR",
+    "name": "Inverter Power Generation Today",
+    "desc": "Inverter Power Generation Today",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3035,
+    "type": "HR",
+    "name": "Inverter Yesterday'S Power Generation",
+    "desc": "Inverter Yesterday'S Power Generation",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3036,
+    "type": "HR",
+    "name": "Inverter Power Generation This Year",
+    "desc": "Inverter Power Generation This Year",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3038,
+    "type": "HR",
+    "name": "Inverter Last Year'S Power Generation",
+    "desc": "Inverter Last Year'S Power Generation",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3048,
+    "type": "HR",
+    "name": "Dc Voltage 1",
+    "desc": "Dc Voltage 1",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3049,
+    "type": "HR",
+    "name": "Dc Current 1",
+    "desc": "Dc Current 1",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3050,
+    "type": "HR",
+    "name": "Dc Voltage 2",
+    "desc": "Dc Voltage 2",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3051,
+    "type": "HR",
+    "name": "Dc Current 2",
+    "desc": "Dc Current 2",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3052,
+    "type": "HR",
+    "name": "Dc Voltage 3",
+    "desc": "Dc Voltage 3",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3053,
+    "type": "HR",
+    "name": "Dc Current 3",
+    "desc": "Dc Current 3",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3054,
+    "type": "HR",
+    "name": "Dc Voltage 4",
+    "desc": "Dc Voltage 4",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3055,
+    "type": "HR",
+    "name": "Dc Current 4",
+    "desc": "Dc Current 4",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3056,
+    "type": "HR",
+    "name": "Total Dc Output Power",
+    "desc": "Total Dc Output Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3070,
+    "type": "HR",
+    "name": "Dc Bus Voltage",
+    "desc": "Dc Bus Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3071,
+    "type": "HR",
+    "name": "Dc Bus Half Voltage",
+    "desc": "Dc Bus Half Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3072,
+    "type": "HR",
+    "name": "Ab Line Voltage / Phase A Voltage",
+    "desc": "Ab Line Voltage / Phase A Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3073,
+    "type": "HR",
+    "name": "Bc Line Voltage / Phase B Voltage",
+    "desc": "Bc Line Voltage / Phase B Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3074,
+    "type": "HR",
+    "name": "Ca Line Voltage / C Phase Voltage",
+    "desc": "Ca Line Voltage / C Phase Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3075,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3076,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3077,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3078,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3082,
+    "type": "HR",
+    "name": "Apparent Power",
+    "desc": "Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3091,
+    "type": "HR",
+    "name": "National Standard",
+    "desc": "National Standard",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3092,
+    "type": "HR",
+    "name": "Inverter Temperature",
+    "desc": "Inverter Temperature",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3093,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3094,
+    "type": "HR",
+    "name": "Current State Of The Inverter",
+    "desc": "Current State Of The Inverter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3103,
+    "type": "HR",
+    "name": "Actual Power",
+    "desc": "Actual Power",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3104,
+    "type": "HR",
+    "name": "Actual Power",
+    "desc": "Actual Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3114,
+    "type": "HR",
+    "name": "Set The Flag Bit",
+    "desc": "Set The Flag Bit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3125,
+    "type": "HR",
+    "name": "Electricity Meter Total Active Power Generation",
+    "desc": "Electricity Meter Total Active Power Generation",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3127,
+    "type": "HR",
+    "name": "Meter Voltage",
+    "desc": "Meter Voltage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3128,
+    "type": "HR",
+    "name": "Meter Current",
+    "desc": "Meter Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3129,
+    "type": "HR",
+    "name": "Meter Active Power",
+    "desc": "Meter Active Power",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3131,
+    "type": "HR",
+    "name": "Energy Storage Control Switch",
+    "desc": "Energy Storage Control Switch",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3132,
+    "type": "HR",
+    "name": "Battery Voltage",
+    "desc": "Battery Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3133,
+    "type": "HR",
+    "name": "Battery Current",
+    "desc": "Battery Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3134,
+    "type": "HR",
+    "name": "Battery Current Direction",
+    "desc": "Battery Current Direction",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3135,
+    "type": "HR",
+    "name": "Llcbus Voltage",
+    "desc": "Llcbus Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3136,
+    "type": "HR",
+    "name": "Bypassac Voltage",
+    "desc": "Bypassac Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3137,
+    "type": "HR",
+    "name": "Bypass Ac Current",
+    "desc": "Bypass Ac Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

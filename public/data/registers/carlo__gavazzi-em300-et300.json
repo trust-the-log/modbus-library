@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "V L2 N",
+    "desc": "V L2 N",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "V L3 N",
+    "desc": "V L3 N",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "V L1 L2",
+    "desc": "V L1 L2",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "V L2 L3",
+    "desc": "V L2 L3",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "V L3 L1",
+    "desc": "V L3 L1",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "A L1",
+    "desc": "A L1",
+    "unit": "Ampere",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "A L2",
+    "desc": "A L2",
+    "unit": "Ampere",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "A L3",
+    "desc": "A L3",
+    "unit": "Ampere",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Kw L1",
+    "desc": "Kw L1",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Kw L2",
+    "desc": "Kw L2",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Kw L3",
+    "desc": "Kw L3",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Kva L1",
+    "desc": "Kva L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Kva L2",
+    "desc": "Kva L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Kva L3",
+    "desc": "Kva L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Kvar L1",
+    "desc": "Kvar L1",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Kvar L2",
+    "desc": "Kvar L2",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Kvar L3",
+    "desc": "Kvar L3",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "V L N Sys",
+    "desc": "V L N Sys",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "V L L Sys",
+    "desc": "V L L Sys",
+    "unit": "Volt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Kw Sys",
+    "desc": "Kw Sys",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Kva Sys",
+    "desc": "Kva Sys",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Kvar Sys",
+    "desc": "Kvar Sys",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Pf L1",
+    "desc": "Pf L1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Pf L2",
+    "desc": "Pf L2",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Pf L3",
+    "desc": "Pf L3",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Pf Sys",
+    "desc": "Pf Sys",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Phase Sequence",
+    "desc": "Phase Sequence",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Hz",
+    "desc": "Hz",
+    "unit": "Hz",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Kwh (+) Tot",
+    "desc": "Kwh (+) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Kvarh (+) Tot",
+    "desc": "Kvarh (+) Tot",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Kw Dmd",
+    "desc": "Kw Dmd",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Kw Dmd Peak",
+    "desc": "Kw Dmd Peak",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Kwh (+) Partial",
+    "desc": "Kwh (+) Partial",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Kvarh (+) Partial",
+    "desc": "Kvarh (+) Partial",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Kwh (+) L1",
+    "desc": "Kwh (+) L1",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Kwh (+) L2",
+    "desc": "Kwh (+) L2",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Kwh (+) L3",
+    "desc": "Kwh (+) L3",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Kwh (+) T1",
+    "desc": "Kwh (+) T1",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Kwh (+) T2",
+    "desc": "Kwh (+) T2",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Kwh (+) T3",
+    "desc": "Kwh (+) T3",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Kwh (+) T4",
+    "desc": "Kwh (+) T4",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Kwh ( ) Tot",
+    "desc": "Kwh ( ) Tot",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Kvarh ( ) Tot",
+    "desc": "Kvarh ( ) Tot",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Hour Meter",
+    "desc": "Hour Meter",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Kwh ( ) L1",
+    "desc": "Kwh ( ) L1",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Kwh ( ) L2",
+    "desc": "Kwh ( ) L2",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Kwh ( ) L3",
+    "desc": "Kwh ( ) L3",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Thd A L1",
+    "desc": "Thd A L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Thd A L2",
+    "desc": "Thd A L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "Thd A L3",
+    "desc": "Thd A L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

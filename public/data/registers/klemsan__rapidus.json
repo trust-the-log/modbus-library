@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Total Current",
+    "desc": "Total Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Total Appearent Power",
+    "desc": "Total Appearent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Average Cos",
+    "desc": "Average Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Average Pf",
+    "desc": "Average Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "L L Voltage 1 2",
+    "desc": "L L Voltage 1 2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L L Voltage 2 3",
+    "desc": "L L Voltage 2 3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L L Voltage 3 1",
+    "desc": "L L Voltage 3 1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Average L L Voltage",
+    "desc": "Average L L Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Total Thdv",
+    "desc": "Total Thdv",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Total Thdi",
+    "desc": "Total Thdi",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Voltage",
+    "desc": "Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Appearent Power",
+    "desc": "Appearent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Cos",
+    "desc": "Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Total V Harmonic Distortion",
+    "desc": "Total V Harmonic Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Total I Harmonic Distortion",
+    "desc": "Total I Harmonic Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "V Harmonics 1",
+    "desc": "V Harmonics 1",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "V Harmonics 3",
+    "desc": "V Harmonics 3",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "V Harmonics 5",
+    "desc": "V Harmonics 5",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "V Harmonics 7",
+    "desc": "V Harmonics 7",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "V Harmonics 9",
+    "desc": "V Harmonics 9",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "V Harmonics 11",
+    "desc": "V Harmonics 11",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "V Harmonics 13",
+    "desc": "V Harmonics 13",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "V Harmonics 15",
+    "desc": "V Harmonics 15",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "V Harmonics 17",
+    "desc": "V Harmonics 17",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "V Harmonics 19",
+    "desc": "V Harmonics 19",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "V Harmonics 21",
+    "desc": "V Harmonics 21",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "V Harmonics 23",
+    "desc": "V Harmonics 23",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "V Harmonics 25",
+    "desc": "V Harmonics 25",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "V Harmonics 27",
+    "desc": "V Harmonics 27",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "V Harmonics 29",
+    "desc": "V Harmonics 29",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "V Harmonics 31",
+    "desc": "V Harmonics 31",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "V Harmonics 33",
+    "desc": "V Harmonics 33",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "V Harmonics 35",
+    "desc": "V Harmonics 35",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "V Harmonics 37",
+    "desc": "V Harmonics 37",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "V Harmonics 39",
+    "desc": "V Harmonics 39",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "V Harmonics 41",
+    "desc": "V Harmonics 41",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "V Harmonics 43",
+    "desc": "V Harmonics 43",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "V Harmonics 45",
+    "desc": "V Harmonics 45",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "V Harmonics 47",
+    "desc": "V Harmonics 47",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "V Harmonics 49",
+    "desc": "V Harmonics 49",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "V Harmonics 51",
+    "desc": "V Harmonics 51",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "I Harmonics 1",
+    "desc": "I Harmonics 1",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  }
+]

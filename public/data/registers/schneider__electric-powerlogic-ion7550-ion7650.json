@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 149,
+    "type": "HR",
+    "name": "I A, Amp/Freq/Unbal",
+    "desc": "I A, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "I B, Amp/Freq/Unbal",
+    "desc": "I B, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 151,
+    "type": "HR",
+    "name": "I C, Amp/Freq/Unbal",
+    "desc": "I C, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "I 4, Amp/Freq/Unbal",
+    "desc": "I 4, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 153,
+    "type": "HR",
+    "name": "I 5, Amp/Freq/Unbal",
+    "desc": "I 5, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "I Avg, Amp/Freq/Unbal",
+    "desc": "I Avg, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 155,
+    "type": "HR",
+    "name": "I Avg Mn, Amp/Freq/Unbal",
+    "desc": "I Avg Mn, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "I Avg Mx, Amp/Freq/Unbal",
+    "desc": "I Avg Mx, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 157,
+    "type": "HR",
+    "name": "I Avg Mean, Amp/Freq/Unbal",
+    "desc": "I Avg Mean, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Freq, Amp/Freq/Unbal",
+    "desc": "Freq, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 159,
+    "type": "HR",
+    "name": "Freq Mn, Amp/Freq/Unbal",
+    "desc": "Freq Mn, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Freq Mx, Amp/Freq/Unbal",
+    "desc": "Freq Mx, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 161,
+    "type": "HR",
+    "name": "Freq Mean, Amp/Freq/Unbal",
+    "desc": "Freq Mean, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "V Unbal, Amp/Freq/Unbal",
+    "desc": "V Unbal, Amp/Freq/Unbal",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 163,
+    "type": "HR",
+    "name": "I Unbal, Amp/Freq/Unbal",
+    "desc": "I Unbal, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Phase Rev, Amp/Freq/Unbal",
+    "desc": "Phase Rev, Amp/Freq/Unbal",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 165,
+    "type": "HR",
+    "name": "Vln A, Volts",
+    "desc": "Vln A, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 167,
+    "type": "HR",
+    "name": "Vln B, Volts",
+    "desc": "Vln B, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 169,
+    "type": "HR",
+    "name": "Vln C, Volts",
+    "desc": "Vln C, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 171,
+    "type": "HR",
+    "name": "Vln Avg, Volts",
+    "desc": "Vln Avg, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 173,
+    "type": "HR",
+    "name": "Vln Avg Mx, Volts",
+    "desc": "Vln Avg Mx, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 177,
+    "type": "HR",
+    "name": "Vll Ab, Volts",
+    "desc": "Vll Ab, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 179,
+    "type": "HR",
+    "name": "Vll Bc, Volts",
+    "desc": "Vll Bc, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 181,
+    "type": "HR",
+    "name": "Vll Ca, Volts",
+    "desc": "Vll Ca, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 183,
+    "type": "HR",
+    "name": "Vll Avg, Volts",
+    "desc": "Vll Avg, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 185,
+    "type": "HR",
+    "name": "Vll Avg Mx, Volts",
+    "desc": "Vll Avg Mx, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 187,
+    "type": "HR",
+    "name": "Vll Avg Mean, Volts",
+    "desc": "Vll Avg Mean, Volts",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 197,
+    "type": "HR",
+    "name": "Kw A, Kw/Kvar/Kva",
+    "desc": "Kw A, Kw/Kvar/Kva",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 199,
+    "type": "HR",
+    "name": "Kw B, Kw/Kvar/Kva",
+    "desc": "Kw B, Kw/Kvar/Kva",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 201,
+    "type": "HR",
+    "name": "Kw C, Kw/Kvar/Kva",
+    "desc": "Kw C, Kw/Kvar/Kva",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 203,
+    "type": "HR",
+    "name": "Kw Tot, Kw/Kvar/Kva",
+    "desc": "Kw Tot, Kw/Kvar/Kva",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 205,
+    "type": "HR",
+    "name": "Kw Tot Mx, Kw/Kvar/Kva",
+    "desc": "Kw Tot Mx, Kw/Kvar/Kva",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 207,
+    "type": "HR",
+    "name": "Kvar A, Kw/Kvar/Kva",
+    "desc": "Kvar A, Kw/Kvar/Kva",
+    "unit": "kVAR",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 209,
+    "type": "HR",
+    "name": "Kvar B, Kw/Kvar/Kva",
+    "desc": "Kvar B, Kw/Kvar/Kva",
+    "unit": "kVAR",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 211,
+    "type": "HR",
+    "name": "Kvar C, Kw/Kvar/Kva",
+    "desc": "Kvar C, Kw/Kvar/Kva",
+    "unit": "kVAR",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 213,
+    "type": "HR",
+    "name": "Kvar Tot, Kw/Kvar/Kva",
+    "desc": "Kvar Tot, Kw/Kvar/Kva",
+    "unit": "kVAR",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 215,
+    "type": "HR",
+    "name": "Kvar Tot Mx, Kw/Kvar/Kva",
+    "desc": "Kvar Tot Mx, Kw/Kvar/Kva",
+    "unit": "kVAR",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 217,
+    "type": "HR",
+    "name": "Kva A, Kw/Kvar/Kva",
+    "desc": "Kva A, Kw/Kvar/Kva",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 219,
+    "type": "HR",
+    "name": "Kva B, Kw/Kvar/Kva",
+    "desc": "Kva B, Kw/Kvar/Kva",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 221,
+    "type": "HR",
+    "name": "Kva C, Kw/Kvar/Kva",
+    "desc": "Kva C, Kw/Kvar/Kva",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 223,
+    "type": "HR",
+    "name": "Kva Tot, Kw/Kvar/Kva",
+    "desc": "Kva Tot, Kw/Kvar/Kva",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 225,
+    "type": "HR",
+    "name": "Kva Tot Mx, Kw/Kvar/Kva",
+    "desc": "Kva Tot Mx, Kw/Kvar/Kva",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 229,
+    "type": "HR",
+    "name": "Kwh Del, Kwh/Kvarh",
+    "desc": "Kwh Del, Kwh/Kvarh",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 231,
+    "type": "HR",
+    "name": "Kwh Rec, Kwh/Kvarh",
+    "desc": "Kwh Rec, Kwh/Kvarh",
+    "unit": "kWh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 233,
+    "type": "HR",
+    "name": "Kvarh Del, Kwh/Kvarh",
+    "desc": "Kvarh Del, Kwh/Kvarh",
+    "unit": "kVARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 235,
+    "type": "HR",
+    "name": "Kvarh Rec, Kwh/Kvarh",
+    "desc": "Kvarh Rec, Kwh/Kvarh",
+    "unit": "kVARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 237,
+    "type": "HR",
+    "name": "Kvah Del+Rec, Kwh/Kvarh",
+    "desc": "Kvah Del+Rec, Kwh/Kvarh",
+    "unit": "kVArh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 261,
+    "type": "HR",
+    "name": "Pf Sign A, Pf/Thd/Kfactor",
+    "desc": "Pf Sign A, Pf/Thd/Kfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Pf Sign B, Pf/Thd/Kfactor",
+    "desc": "Pf Sign B, Pf/Thd/Kfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 263,
+    "type": "HR",
+    "name": "Pf Sign C, Pf/Thd/Kfactor",
+    "desc": "Pf Sign C, Pf/Thd/Kfactor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

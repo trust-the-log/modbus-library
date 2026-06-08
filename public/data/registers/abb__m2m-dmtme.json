@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "3 Phase System Voltage",
+    "desc": "3 Phase System Voltage",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Phase Voltage L1 N",
+    "desc": "Phase Voltage L1 N",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Phase Voltage L2 N",
+    "desc": "Phase Voltage L2 N",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Phase Voltage L3 N",
+    "desc": "Phase Voltage L3 N",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Line Voltage L1 2",
+    "desc": "Line Voltage L1 2",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Line Voltage L2 3",
+    "desc": "Line Voltage L2 3",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Line Voltage L3 1",
+    "desc": "Line Voltage L3 1",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "3 Phase System Current",
+    "desc": "3 Phase System Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Line Current L1",
+    "desc": "Line Current L1",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Line Current L2",
+    "desc": "Line Current L2",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Line Current L3",
+    "desc": "Line Current L3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "3 Phase System Power Factor",
+    "desc": "3 Phase System Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Power Factor L2",
+    "desc": "Power Factor L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Power Factor L3",
+    "desc": "Power Factor L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "3 Phase System Cos",
+    "desc": "3 Phase System Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Phase Cos 1",
+    "desc": "Phase Cos 1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Phase Cos 2",
+    "desc": "Phase Cos 2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Phase Cos 3",
+    "desc": "Phase Cos 3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "3 Phase System Apparent Power",
+    "desc": "3 Phase System Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Apparent Power L1",
+    "desc": "Apparent Power L1",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Apparent Power L2",
+    "desc": "Apparent Power L2",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Apparent Power L3",
+    "desc": "Apparent Power L3",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "3 Phase System Active Power",
+    "desc": "3 Phase System Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Active Power L1",
+    "desc": "Active Power L1",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Active Power L2",
+    "desc": "Active Power L2",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Active Power L3",
+    "desc": "Active Power L3",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "3 Phase System Reactive Power",
+    "desc": "3 Phase System Reactive Power",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4156,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4158,
+    "type": "HR",
+    "name": "3 Phase System Active Energy",
+    "desc": "3 Phase System Active Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4160,
+    "type": "HR",
+    "name": "3 Phase System Reactive Energy",
+    "desc": "3 Phase System Reactive Energy",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4166,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "mHz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4192,
+    "type": "HR",
+    "name": "Max Line Current L1",
+    "desc": "Max Line Current L1",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4194,
+    "type": "HR",
+    "name": "Max Line Current L2",
+    "desc": "Max Line Current L2",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4196,
+    "type": "HR",
+    "name": "Max Line Current L3",
+    "desc": "Max Line Current L3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4198,
+    "type": "HR",
+    "name": "Max 3 Phase System Active Power",
+    "desc": "Max 3 Phase System Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4200,
+    "type": "HR",
+    "name": "Max 3 Phase System Apparent Power",
+    "desc": "Max 3 Phase System Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4208,
+    "type": "HR",
+    "name": "3 Phase System Active Power 15 Aver",
+    "desc": "3 Phase System Active Power 15 Aver",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4210,
+    "type": "HR",
+    "name": "3 Phase System Apparent Power 15 Aver",
+    "desc": "3 Phase System Apparent Power 15 Aver",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4212,
+    "type": "HR",
+    "name": "Active Energy L1",
+    "desc": "Active Energy L1",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4214,
+    "type": "HR",
+    "name": "Active Energy L2",
+    "desc": "Active Energy L2",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4216,
+    "type": "HR",
+    "name": "Active Energy L3",
+    "desc": "Active Energy L3",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4218,
+    "type": "HR",
+    "name": "Reactive Energy L1",
+    "desc": "Reactive Energy L1",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4220,
+    "type": "HR",
+    "name": "Reactive Energy L2",
+    "desc": "Reactive Energy L2",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4222,
+    "type": "HR",
+    "name": "Reactive Energy L3",
+    "desc": "Reactive Energy L3",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4224,
+    "type": "HR",
+    "name": "Max 3 Phase System Active Power 15 Aver",
+    "desc": "Max 3 Phase System Active Power 15 Aver",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4226,
+    "type": "HR",
+    "name": "Voltage Thdf L1",
+    "desc": "Voltage Thdf L1",
+    "unit": "Watt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4228,
+    "type": "HR",
+    "name": "Voltage Thdf L2",
+    "desc": "Voltage Thdf L2",
+    "unit": "Watt",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Voltage A N",
+    "desc": "Voltage A N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Voltage B N",
+    "desc": "Voltage B N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Voltage C N",
+    "desc": "Voltage C N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Voltage L N Avg",
+    "desc": "Voltage L N Avg",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Voltage A B",
+    "desc": "Voltage A B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Voltage B C",
+    "desc": "Voltage B C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Voltage C A",
+    "desc": "Voltage C A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "Voltage L L Avg",
+    "desc": "Voltage L L Avg",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Voltage Unbalance A N",
+    "desc": "Voltage Unbalance A N",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Voltage Unbalance B N",
+    "desc": "Voltage Unbalance B N",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Voltage Unbalance C N",
+    "desc": "Voltage Unbalance C N",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Voltage Unbalance L N Avg",
+    "desc": "Voltage Unbalance L N Avg",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Voltage Unbalance A B",
+    "desc": "Voltage Unbalance A B",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Voltage Unbalance B C",
+    "desc": "Voltage Unbalance B C",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Voltage Unbalance C A",
+    "desc": "Voltage Unbalance C A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Voltage Unbalance L L Avg",
+    "desc": "Voltage Unbalance L L Avg",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Current A",
+    "desc": "Current A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Current B",
+    "desc": "Current B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 292,
+    "type": "HR",
+    "name": "Current C",
+    "desc": "Current C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "Current Avg",
+    "desc": "Current Avg",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Current N",
+    "desc": "Current N",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 298,
+    "type": "HR",
+    "name": "Current Unbalance A",
+    "desc": "Current Unbalance A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Current Unbalance B",
+    "desc": "Current Unbalance B",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 302,
+    "type": "HR",
+    "name": "Current Unbalance C",
+    "desc": "Current Unbalance C",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "Current Unbalance Avg",
+    "desc": "Current Unbalance Avg",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "Power Factor Total",
+    "desc": "Power Factor Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "Power Factor A",
+    "desc": "Power Factor A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Power Factor B",
+    "desc": "Power Factor B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "Power Factor C",
+    "desc": "Power Factor C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 314,
+    "type": "HR",
+    "name": "Displacement Power Factor Total",
+    "desc": "Displacement Power Factor Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 316,
+    "type": "HR",
+    "name": "Displacement Power Factor A",
+    "desc": "Displacement Power Factor A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 318,
+    "type": "HR",
+    "name": "Displacement Power Factor B",
+    "desc": "Displacement Power Factor B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 320,
+    "type": "HR",
+    "name": "Displacement Power Factor C",
+    "desc": "Displacement Power Factor C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 322,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 324,
+    "type": "HR",
+    "name": "Active Power Total",
+    "desc": "Active Power Total",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 326,
+    "type": "HR",
+    "name": "Active Power A",
+    "desc": "Active Power A",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 328,
+    "type": "HR",
+    "name": "Active Power B",
+    "desc": "Active Power B",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 330,
+    "type": "HR",
+    "name": "Active Power C",
+    "desc": "Active Power C",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 332,
+    "type": "HR",
+    "name": "Reactive Power Total",
+    "desc": "Reactive Power Total",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 334,
+    "type": "HR",
+    "name": "Reactive Power A",
+    "desc": "Reactive Power A",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 336,
+    "type": "HR",
+    "name": "Reactive Power B",
+    "desc": "Reactive Power B",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 338,
+    "type": "HR",
+    "name": "Reactive Power C",
+    "desc": "Reactive Power C",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 340,
+    "type": "HR",
+    "name": "Apparent Power Total",
+    "desc": "Apparent Power Total",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 342,
+    "type": "HR",
+    "name": "Apparent Power A",
+    "desc": "Apparent Power A",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 344,
+    "type": "HR",
+    "name": "Apparent Power B",
+    "desc": "Apparent Power B",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 346,
+    "type": "HR",
+    "name": "Apparent Power C",
+    "desc": "Apparent Power C",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 348,
+    "type": "HR",
+    "name": "Active Energy Delivered",
+    "desc": "Active Energy Delivered",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 350,
+    "type": "HR",
+    "name": "Active Energy Received",
+    "desc": "Active Energy Received",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 352,
+    "type": "HR",
+    "name": "Reactive Energy Delivered",
+    "desc": "Reactive Energy Delivered",
+    "unit": "VARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 354,
+    "type": "HR",
+    "name": "Reactive Energy Received",
+    "desc": "Reactive Energy Received",
+    "unit": "VARh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

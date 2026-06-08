@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Avg. Current",
+    "desc": "Avg. Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "L1 N Voltage",
+    "desc": "L1 N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "L2 N Voltage",
+    "desc": "L2 N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "L3 N Voltage",
+    "desc": "L3 N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Avg. L N Voltage",
+    "desc": "Avg. L N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "L1 L2 Voltage",
+    "desc": "L1 L2 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "L2 L3 Voltage",
+    "desc": "L2 L3 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "L3 L1 Voltage",
+    "desc": "L3 L1 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "Avg L L Voltage",
+    "desc": "Avg L L Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Frequency, Last Cycle",
+    "desc": "Frequency, Last Cycle",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 126,
+    "type": "HR",
+    "name": "Metering Iteration",
+    "desc": "Metering Iteration",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "L4 (Zero Sequence) Current",
+    "desc": "L4 (Zero Sequence) Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Positive Sequence Current",
+    "desc": "Positive Sequence Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Negative Sequence Current",
+    "desc": "Negative Sequence Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "% Current Unbalance",
+    "desc": "% Current Unbalance",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Positive Sequence Voltage",
+    "desc": "Positive Sequence Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Negaflvesequencevoltage",
+    "desc": "Negaflvesequencevoltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "% Voltage Unbalance",
+    "desc": "% Voltage Unbalance",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Phase Rotation",
+    "desc": "Phase Rotation",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "Average Frequency",
+    "desc": "Average Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 218,
+    "type": "HR",
+    "name": "Frequency Source",
+    "desc": "Frequency Source",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "Metering Iteration",
+    "desc": "Metering Iteration",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "L1 Real Power",
+    "desc": "L1 Real Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 302,
+    "type": "HR",
+    "name": "L2 Real Power",
+    "desc": "L2 Real Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "L3 Real Power",
+    "desc": "L3 Real Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "Total Real Power",
+    "desc": "Total Real Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "L1 Reactive Power",
+    "desc": "L1 Reactive Power",
+    "unit": "VAR",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "L2 Reactive Power",
+    "desc": "L2 Reactive Power",
+    "unit": "VAR",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "L3 Reactive Power",
+    "desc": "L3 Reactive Power",
+    "unit": "VAR",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 314,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "VAR",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 316,
+    "type": "HR",
+    "name": "L1 Apparent Power",
+    "desc": "L1 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 318,
+    "type": "HR",
+    "name": "L2 Apparent Power",
+    "desc": "L2 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 320,
+    "type": "HR",
+    "name": "L3 Apparent Power",
+    "desc": "L3 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 322,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 324,
+    "type": "HR",
+    "name": "Metering Iteration",
+    "desc": "Metering Iteration",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 400,
+    "type": "HR",
+    "name": "Demand Current",
+    "desc": "Demand Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 402,
+    "type": "HR",
+    "name": "Demand Power",
+    "desc": "Demand Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 404,
+    "type": "HR",
+    "name": "Demand Reactive Power",
+    "desc": "Demand Reactive Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 406,
+    "type": "HR",
+    "name": "Demand Apparent Power",
+    "desc": "Demand Apparent Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 408,
+    "type": "HR",
+    "name": "Projected Demand I",
+    "desc": "Projected Demand I",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 410,
+    "type": "HR",
+    "name": "Projected Demand W",
+    "desc": "Projected Demand W",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 412,
+    "type": "HR",
+    "name": "Projected Demand Var",
+    "desc": "Projected Demand Var",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 414,
+    "type": "HR",
+    "name": "Projected Demand Va",
+    "desc": "Projected Demand Va",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 416,
+    "type": "HR",
+    "name": "Elapsed Demand Period Time",
+    "desc": "Elapsed Demand Period Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 418,
+    "type": "HR",
+    "name": "Metering Iteration",
+    "desc": "Metering Iteration",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 500,
+    "type": "HR",
+    "name": "L1 True Power Factor",
+    "desc": "L1 True Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 502,
+    "type": "HR",
+    "name": "L2 True Power Factor",
+    "desc": "L2 True Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

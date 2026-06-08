@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 628,
+    "type": "HR",
+    "name": "Ethernet Physical Connection",
+    "desc": "Ethernet Physical Connection",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 629,
+    "type": "HR",
+    "name": "Baud Rate",
+    "desc": "Baud Rate",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 630,
+    "type": "HR",
+    "name": "Parity",
+    "desc": "Parity",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 631,
+    "type": "HR",
+    "name": "Wire Mode",
+    "desc": "Wire Mode",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 632,
+    "type": "HR",
+    "name": "Port Protocol Mode",
+    "desc": "Port Protocol Mode",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 633,
+    "type": "HR",
+    "name": "Pm8Ecc Reset Counter",
+    "desc": "Pm8Ecc Reset Counter",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 634,
+    "type": "HR",
+    "name": "Frame Type",
+    "desc": "Frame Type",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1100,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "Current, Phase A",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1101,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "Current, Phase B",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1102,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "Current, Phase C",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1103,
+    "type": "HR",
+    "name": "Current, Neutral",
+    "desc": "Current, Neutral",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1104,
+    "type": "HR",
+    "name": "Current, Ground",
+    "desc": "Current, Ground",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1105,
+    "type": "HR",
+    "name": "Current, 3 Phase Average",
+    "desc": "Current, 3 Phase Average",
+    "unit": "Amps/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1107,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase A",
+    "desc": "Current, Unbalance, Phase A",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1108,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase B",
+    "desc": "Current, Unbalance, Phase B",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1109,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase C",
+    "desc": "Current, Unbalance, Phase C",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1110,
+    "type": "HR",
+    "name": "Current, Unbalance, Max",
+    "desc": "Current, Unbalance, Max",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1120,
+    "type": "HR",
+    "name": "Voltage, A B",
+    "desc": "Voltage, A B",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1121,
+    "type": "HR",
+    "name": "Voltage, B C",
+    "desc": "Voltage, B C",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1122,
+    "type": "HR",
+    "name": "Voltage, C A",
+    "desc": "Voltage, C A",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1123,
+    "type": "HR",
+    "name": "Voltage, L L Average",
+    "desc": "Voltage, L L Average",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1124,
+    "type": "HR",
+    "name": "Voltage, A N",
+    "desc": "Voltage, A N",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1125,
+    "type": "HR",
+    "name": "Voltage, B N",
+    "desc": "Voltage, B N",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1126,
+    "type": "HR",
+    "name": "Voltage, C N",
+    "desc": "Voltage, C N",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1127,
+    "type": "HR",
+    "name": "Voltage, N R",
+    "desc": "Voltage, N R",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1128,
+    "type": "HR",
+    "name": "Voltage, L N Average",
+    "desc": "Voltage, L N Average",
+    "unit": "Volts/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1129,
+    "type": "HR",
+    "name": "Voltage, Unbalance, A B",
+    "desc": "Voltage, Unbalance, A B",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1130,
+    "type": "HR",
+    "name": "Voltage, Unbalance, B C",
+    "desc": "Voltage, Unbalance, B C",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1131,
+    "type": "HR",
+    "name": "Voltage, Unbalance, C A",
+    "desc": "Voltage, Unbalance, C A",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1132,
+    "type": "HR",
+    "name": "Voltage, Unbalance, Max L L",
+    "desc": "Voltage, Unbalance, Max L L",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1133,
+    "type": "HR",
+    "name": "Voltage, Unbalance, A N",
+    "desc": "Voltage, Unbalance, A N",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1134,
+    "type": "HR",
+    "name": "Voltage, Unbalance, B N",
+    "desc": "Voltage, Unbalance, B N",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1135,
+    "type": "HR",
+    "name": "Voltage, Unbalance, C N",
+    "desc": "Voltage, Unbalance, C N",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1136,
+    "type": "HR",
+    "name": "Voltage, Unbalance, Max L N",
+    "desc": "Voltage, Unbalance, Max L N",
+    "unit": "%",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1140,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "Real Power, Phase A",
+    "unit": "kW/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1141,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "Real Power, Phase B",
+    "unit": "kW/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1142,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "Real Power, Phase C",
+    "unit": "kW/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1143,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "Real Power, Total",
+    "unit": "kW/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1144,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "Reactive Power, Phase A",
+    "unit": "kVAr/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1145,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "Reactive Power, Phase B",
+    "unit": "kVAr/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1146,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "Reactive Power, Phase C",
+    "unit": "kVAr/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1147,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "Reactive Power, Total",
+    "unit": "kVAr/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1148,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "Apparent Power, Phase A",
+    "unit": "kVA/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1149,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "Apparent Power, Phase B",
+    "unit": "kVA/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1150,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "Apparent Power, Phase C",
+    "unit": "kVA/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1151,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "Apparent Power, Total",
+    "unit": "kVA/Scale",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1160,
+    "type": "HR",
+    "name": "True Power Factor, Phase A",
+    "desc": "True Power Factor, Phase A",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1161,
+    "type": "HR",
+    "name": "True Power Factor, Phase B",
+    "desc": "True Power Factor, Phase B",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1162,
+    "type": "HR",
+    "name": "True Power Factor, Phase C",
+    "desc": "True Power Factor, Phase C",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1163,
+    "type": "HR",
+    "name": "True Power Factor, Total",
+    "desc": "True Power Factor, Total",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

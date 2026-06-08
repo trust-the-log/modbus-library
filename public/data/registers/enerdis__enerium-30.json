@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1280,
+    "type": "HR",
+    "name": "V1",
+    "desc": "V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1282,
+    "type": "HR",
+    "name": "V2",
+    "desc": "V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1284,
+    "type": "HR",
+    "name": "V3",
+    "desc": "V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1288,
+    "type": "HR",
+    "name": "U12",
+    "desc": "U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1290,
+    "type": "HR",
+    "name": "U23",
+    "desc": "U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1292,
+    "type": "HR",
+    "name": "U31",
+    "desc": "U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1294,
+    "type": "HR",
+    "name": "I1",
+    "desc": "I1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1296,
+    "type": "HR",
+    "name": "I2",
+    "desc": "I2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1298,
+    "type": "HR",
+    "name": "I3",
+    "desc": "I3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1300,
+    "type": "HR",
+    "name": "In",
+    "desc": "In",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1302,
+    "type": "HR",
+    "name": "P1",
+    "desc": "P1",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1304,
+    "type": "HR",
+    "name": "P2",
+    "desc": "P2",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1306,
+    "type": "HR",
+    "name": "P3",
+    "desc": "P3",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1308,
+    "type": "HR",
+    "name": "Pt",
+    "desc": "Pt",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1310,
+    "type": "HR",
+    "name": "Q1",
+    "desc": "Q1",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1312,
+    "type": "HR",
+    "name": "Q2",
+    "desc": "Q2",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1314,
+    "type": "HR",
+    "name": "Q3",
+    "desc": "Q3",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1316,
+    "type": "HR",
+    "name": "Qt",
+    "desc": "Qt",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1318,
+    "type": "HR",
+    "name": "S1",
+    "desc": "S1",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1320,
+    "type": "HR",
+    "name": "S2",
+    "desc": "S2",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1322,
+    "type": "HR",
+    "name": "S3",
+    "desc": "S3",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1324,
+    "type": "HR",
+    "name": "St",
+    "desc": "St",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1326,
+    "type": "HR",
+    "name": "Fp1",
+    "desc": "Fp1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1327,
+    "type": "HR",
+    "name": "Quadrant Fp1",
+    "desc": "Quadrant Fp1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1328,
+    "type": "HR",
+    "name": "Fp2",
+    "desc": "Fp2",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1329,
+    "type": "HR",
+    "name": "Quadrant Fp2",
+    "desc": "Quadrant Fp2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1330,
+    "type": "HR",
+    "name": "Fp3",
+    "desc": "Fp3",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1331,
+    "type": "HR",
+    "name": "Quadrant Fp3",
+    "desc": "Quadrant Fp3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1332,
+    "type": "HR",
+    "name": "Fpt",
+    "desc": "Fpt",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1333,
+    "type": "HR",
+    "name": "Quadrant, Fpt",
+    "desc": "Quadrant, Fpt",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1348,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1350,
+    "type": "HR",
+    "name": "Total Tan Phi",
+    "desc": "Total Tan Phi",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2832,
+    "type": "HR",
+    "name": "Minima Of Pt Receiver",
+    "desc": "Minima Of Pt Receiver",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2836,
+    "type": "HR",
+    "name": "Minima Of Pt Generator",
+    "desc": "Minima Of Pt Generator",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3140,
+    "type": "HR",
+    "name": "Minima Of St",
+    "desc": "Minima Of St",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2868,
+    "type": "HR",
+    "name": "Maxima Of V1",
+    "desc": "Maxima Of V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2872,
+    "type": "HR",
+    "name": "Maxima Of V2",
+    "desc": "Maxima Of V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2876,
+    "type": "HR",
+    "name": "Maxima Of V3",
+    "desc": "Maxima Of V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2880,
+    "type": "HR",
+    "name": "Maxima Of Vt",
+    "desc": "Maxima Of Vt",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2884,
+    "type": "HR",
+    "name": "Maxima Of U12",
+    "desc": "Maxima Of U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2888,
+    "type": "HR",
+    "name": "Maxima Of U23",
+    "desc": "Maxima Of U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2892,
+    "type": "HR",
+    "name": "Maxima Of U31",
+    "desc": "Maxima Of U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2896,
+    "type": "HR",
+    "name": "Maxima Dofi1",
+    "desc": "Maxima Dofi1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2900,
+    "type": "HR",
+    "name": "Maxima Of I2",
+    "desc": "Maxima Of I2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2904,
+    "type": "HR",
+    "name": "Maxima Of I3",
+    "desc": "Maxima Of I3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2908,
+    "type": "HR",
+    "name": "Maxima Of In",
+    "desc": "Maxima Of In",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2936,
+    "type": "HR",
+    "name": "Maxima Of Pt Receiver",
+    "desc": "Maxima Of Pt Receiver",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2940,
+    "type": "HR",
+    "name": "Maxima Of Pt Generator",
+    "desc": "Maxima Of Pt Generator",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2968,
+    "type": "HR",
+    "name": "Maxima Of Qt Receiver",
+    "desc": "Maxima Of Qt Receiver",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2972,
+    "type": "HR",
+    "name": "Maxima Of Qt Generator",
+    "desc": "Maxima Of Qt Generator",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

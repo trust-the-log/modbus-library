@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "L1 Active Power",
+    "desc": "L1 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "L1 Inductive Reactive Power",
+    "desc": "L1 Inductive Reactive Power",
+    "unit": "varL",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "L1 Capacitive Reactive Power",
+    "desc": "L1 Capacitive Reactive Power",
+    "unit": "varC",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "L1 Reactive Power",
+    "desc": "L1 Reactive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "L1 Apparent Power",
+    "desc": "L1 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "L1 Reactive Power Consumed",
+    "desc": "L1 Reactive Power Consumed",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L1 Reactive Power Generated",
+    "desc": "L1 Reactive Power Generated",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L1 Power Factor",
+    "desc": "L1 Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "L1 Cos",
+    "desc": "L1 Cos",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "L1 Kw Sign",
+    "desc": "L1 Kw Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "L1 Kvar Sign",
+    "desc": "L1 Kvar Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "L2 Phase Voltage",
+    "desc": "L2 Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "L2 Active Power",
+    "desc": "L2 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "L2 Inductive Reactive Power",
+    "desc": "L2 Inductive Reactive Power",
+    "unit": "varL",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "L2 Capacitive Reactive Power",
+    "desc": "L2 Capacitive Reactive Power",
+    "unit": "varC",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "L2 Reactive Power",
+    "desc": "L2 Reactive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "L2 Apparent Power",
+    "desc": "L2 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "L2 Reactive Power Consumed",
+    "desc": "L2 Reactive Power Consumed",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "L2 Reactive Power Generated",
+    "desc": "L2 Reactive Power Generated",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "L2 Power Factor",
+    "desc": "L2 Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "L2 Cos",
+    "desc": "L2 Cos",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "L2 Kw Sign",
+    "desc": "L2 Kw Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "L2 Kvar Sign",
+    "desc": "L2 Kvar Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "L3 Phase Voltage",
+    "desc": "L3 Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "L3 Active Power",
+    "desc": "L3 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "L3 Inductive Reactive Power",
+    "desc": "L3 Inductive Reactive Power",
+    "unit": "varL",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "L3 Capacitive Reactive Power",
+    "desc": "L3 Capacitive Reactive Power",
+    "unit": "varC",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "L3 Reactive Power",
+    "desc": "L3 Reactive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "L3 Apparent Power",
+    "desc": "L3 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "L3 Reactive Power Consumed",
+    "desc": "L3 Reactive Power Consumed",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "L3 Reactive Power Generated",
+    "desc": "L3 Reactive Power Generated",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "L3 Power Factor",
+    "desc": "L3 Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "L3 Cos",
+    "desc": "L3 Cos",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "L3 Kw Sign",
+    "desc": "L3 Kw Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "L3 Kvar Sign",
+    "desc": "L3 Kvar Sign",
+    "unit": "+1 or -1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Three Phase Voltage",
+    "desc": "Three Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Three Phase Current",
+    "desc": "Three Phase Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Three Phase Active Power",
+    "desc": "Three Phase Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Three Phase Inductive Power",
+    "desc": "Three Phase Inductive Power",
+    "unit": "varL",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Three Phase Capacitive Power",
+    "desc": "Three Phase Capacitive Power",
+    "unit": "varC",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Three Phase Reactive Power",
+    "desc": "Three Phase Reactive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Three Phase Apparent Power",
+    "desc": "Three Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Three Phase Reactive Power Consumed",
+    "desc": "Three Phase Reactive Power Consumed",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Three Phase Reactive Power Generated",
+    "desc": "Three Phase Reactive Power Generated",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Three Phase Power Factor",
+    "desc": "Three Phase Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Three Phase Cos",
+    "desc": "Three Phase Cos",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Three Phase Kw Sign",
+    "desc": "Three Phase Kw Sign",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

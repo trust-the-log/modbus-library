@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1537,
+    "type": "HR",
+    "name": "Real Energy (Ph) Consumption",
+    "desc": "Real Energy (Ph) Consumption",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1539,
+    "type": "HR",
+    "name": "Reactive Energy (Qh) Consumption",
+    "desc": "Reactive Energy (Qh) Consumption",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1541,
+    "type": "HR",
+    "name": "Apparent Energy (Sh) Consumption",
+    "desc": "Apparent Energy (Sh) Consumption",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1543,
+    "type": "HR",
+    "name": "Total Instantaneous Real Power (P)",
+    "desc": "Total Instantaneous Real Power (P)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1545,
+    "type": "HR",
+    "name": "Total Instantaneous Reactive Power (Q)",
+    "desc": "Total Instantaneous Reactive Power (Q)",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1547,
+    "type": "HR",
+    "name": "Total Instantaneous Apparent Power (S)",
+    "desc": "Total Instantaneous Apparent Power (S)",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1549,
+    "type": "HR",
+    "name": "Average Power Factor (Pf: Total Kw / Total Kva)",
+    "desc": "Average Power Factor (Pf: Total Kw / Total Kva)",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1551,
+    "type": "HR",
+    "name": "Voltage Line To Line (U), Average Of Active Phases",
+    "desc": "Voltage Line To Line (U), Average Of Active Phases",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1553,
+    "type": "HR",
+    "name": "Voltageline To Neutral (V), Average Of Active Phas",
+    "desc": "Voltageline To Neutral (V), Average Of Active Phases",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1555,
+    "type": "HR",
+    "name": "Current, Average Of Active Phases",
+    "desc": "Current, Average Of Active Phases",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1557,
+    "type": "HR",
+    "name": "Frequency (Derived From Phase A, B, Or C In That O",
+    "desc": "Frequency (Derived From Phase A, B, Or C In That Order)",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1559,
+    "type": "HR",
+    "name": "Total Real Power Present Demand",
+    "desc": "Total Real Power Present Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1561,
+    "type": "HR",
+    "name": "Total Reactive Power Present Demand",
+    "desc": "Total Reactive Power Present Demand",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1563,
+    "type": "HR",
+    "name": "Total Apparent Power Present Demand",
+    "desc": "Total Apparent Power Present Demand",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1565,
+    "type": "HR",
+    "name": "Total Real Power Max Demand",
+    "desc": "Total Real Power Max Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1567,
+    "type": "HR",
+    "name": "Total Reactive Power Max Demand",
+    "desc": "Total Reactive Power Max Demand",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1569,
+    "type": "HR",
+    "name": "Total Apparent Power Max Demand",
+    "desc": "Total Apparent Power Max Demand",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1577,
+    "type": "HR",
+    "name": "Pulse Counter 1 (Real Energy)",
+    "desc": "Pulse Counter 1 (Real Energy)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1579,
+    "type": "HR",
+    "name": "Pulse Counter 2 (Reactive Energy)",
+    "desc": "Pulse Counter 2 (Reactive Energy)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1589,
+    "type": "HR",
+    "name": "Real Energy Consumption, L1",
+    "desc": "Real Energy Consumption, L1",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1591,
+    "type": "HR",
+    "name": "Real Energy Consumption, L2",
+    "desc": "Real Energy Consumption, L2",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1593,
+    "type": "HR",
+    "name": "Real Energy Consumption, L3",
+    "desc": "Real Energy Consumption, L3",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1595,
+    "type": "HR",
+    "name": "Reactive Energy Consumption, L1",
+    "desc": "Reactive Energy Consumption, L1",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1597,
+    "type": "HR",
+    "name": "Reactive Energy Consumption, L2",
+    "desc": "Reactive Energy Consumption, L2",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1599,
+    "type": "HR",
+    "name": "Reactive Energy Consumption, L3",
+    "desc": "Reactive Energy Consumption, L3",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1601,
+    "type": "HR",
+    "name": "Apparent Energy Consumption, L1",
+    "desc": "Apparent Energy Consumption, L1",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1603,
+    "type": "HR",
+    "name": "Apparent Energy Consumption, L2",
+    "desc": "Apparent Energy Consumption, L2",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1605,
+    "type": "HR",
+    "name": "Apparent Energy Consumption, L3",
+    "desc": "Apparent Energy Consumption, L3",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1607,
+    "type": "HR",
+    "name": "Real Power, L1",
+    "desc": "Real Power, L1",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1609,
+    "type": "HR",
+    "name": "Real Power, L2",
+    "desc": "Real Power, L2",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1611,
+    "type": "HR",
+    "name": "Real Power, L3",
+    "desc": "Real Power, L3",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1613,
+    "type": "HR",
+    "name": "Reactive Power, L1",
+    "desc": "Reactive Power, L1",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1615,
+    "type": "HR",
+    "name": "Reactive Power, L2",
+    "desc": "Reactive Power, L2",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1617,
+    "type": "HR",
+    "name": "Reactive Power, L3",
+    "desc": "Reactive Power, L3",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1619,
+    "type": "HR",
+    "name": "Apparent Power, L1",
+    "desc": "Apparent Power, L1",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1621,
+    "type": "HR",
+    "name": "Apparent Power, L2",
+    "desc": "Apparent Power, L2",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1623,
+    "type": "HR",
+    "name": "Apparent Power, L3",
+    "desc": "Apparent Power, L3",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1625,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1627,
+    "type": "HR",
+    "name": "Power Factor, L2",
+    "desc": "Power Factor, L2",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1629,
+    "type": "HR",
+    "name": "Power Factor, L3",
+    "desc": "Power Factor, L3",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1631,
+    "type": "HR",
+    "name": "Voltage, L1 L2",
+    "desc": "Voltage, L1 L2",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1633,
+    "type": "HR",
+    "name": "Voltage, L2 L3",
+    "desc": "Voltage, L2 L3",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1635,
+    "type": "HR",
+    "name": "Voltage, L3 L1",
+    "desc": "Voltage, L3 L1",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1637,
+    "type": "HR",
+    "name": "Voltage, L1 N",
+    "desc": "Voltage, L1 N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1639,
+    "type": "HR",
+    "name": "Voltage, L2 N",
+    "desc": "Voltage, L2 N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1641,
+    "type": "HR",
+    "name": "Voltage, L3 N",
+    "desc": "Voltage, L3 N",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1643,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "Current, Phase A",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1645,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "Current, Phase B",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1647,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "Current, Phase C",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1649,
+    "type": "HR",
+    "name": "Current, Neutral",
+    "desc": "Current, Neutral",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  }
+]

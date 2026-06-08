@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "A Phase Voltage",
+    "desc": "A Phase Voltage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4097,
+    "type": "HR",
+    "name": "B Phase Voltage",
+    "desc": "B Phase Voltage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "C Phase Voltage",
+    "desc": "C Phase Voltage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Phase Voltage Mean Value",
+    "desc": "Phase Voltage Mean Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Zero Phase Voltage",
+    "desc": "Zero Phase Voltage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Line Voltage (A B)",
+    "desc": "Line Voltage (A B)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Line Voltage (B C)",
+    "desc": "Line Voltage (B C)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Line Voltage (C A)",
+    "desc": "Line Voltage (C A)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Line Voltage Mean Value",
+    "desc": "Line Voltage Mean Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "A Phase Current",
+    "desc": "A Phase Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "B Phase Current",
+    "desc": "B Phase Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "C Phase Current",
+    "desc": "C Phase Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Current Mean Value",
+    "desc": "Current Mean Value",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4109,
+    "type": "HR",
+    "name": "Zero Phase Current",
+    "desc": "Zero Phase Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "A Phase Active Power",
+    "desc": "A Phase Active Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4111,
+    "type": "HR",
+    "name": "B Phase Active Power",
+    "desc": "B Phase Active Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "C Phase Active Power",
+    "desc": "C Phase Active Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4113,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "A Phase Reactive Power",
+    "desc": "A Phase Reactive Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4115,
+    "type": "HR",
+    "name": "B Phase Reactive Power",
+    "desc": "B Phase Reactive Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "C Phase Reactive Power",
+    "desc": "C Phase Reactive Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4117,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "A Phase Apparent Power",
+    "desc": "A Phase Apparent Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "B Phase Apparent Power",
+    "desc": "B Phase Apparent Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "C Phase Apparent Power",
+    "desc": "C Phase Apparent Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4121,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "A Phase Power Factor",
+    "desc": "A Phase Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "B Phase Power Factor",
+    "desc": "B Phase Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "C Phase Power Factor",
+    "desc": "C Phase Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4125,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "Voltage Unbalance",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Current Unbalance",
+    "desc": "Current Unbalance",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5376,
+    "type": "HR",
+    "name": "A Phase Voltage",
+    "desc": "A Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5378,
+    "type": "HR",
+    "name": "B Phase Voltage",
+    "desc": "B Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5380,
+    "type": "HR",
+    "name": "C Phase Voltage",
+    "desc": "C Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5382,
+    "type": "HR",
+    "name": "Phase Voltage Mean Value",
+    "desc": "Phase Voltage Mean Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5384,
+    "type": "HR",
+    "name": "Zero Phase Voltage",
+    "desc": "Zero Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5386,
+    "type": "HR",
+    "name": "Line Voltage (A B)",
+    "desc": "Line Voltage (A B)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5388,
+    "type": "HR",
+    "name": "Line Voltage (B C)",
+    "desc": "Line Voltage (B C)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5390,
+    "type": "HR",
+    "name": "Line Voltage (C A)",
+    "desc": "Line Voltage (C A)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5392,
+    "type": "HR",
+    "name": "Line Voltage Mean Value",
+    "desc": "Line Voltage Mean Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5394,
+    "type": "HR",
+    "name": "A Phase Current",
+    "desc": "A Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5396,
+    "type": "HR",
+    "name": "B Phase Current",
+    "desc": "B Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5398,
+    "type": "HR",
+    "name": "C Phase Current",
+    "desc": "C Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5400,
+    "type": "HR",
+    "name": "Current Mean Value",
+    "desc": "Current Mean Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5402,
+    "type": "HR",
+    "name": "Zero Phase Current",
+    "desc": "Zero Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5404,
+    "type": "HR",
+    "name": "A Phase Active Power",
+    "desc": "A Phase Active Power",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 5406,
+    "type": "HR",
+    "name": "B Phase Active Power",
+    "desc": "B Phase Active Power",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 5408,
+    "type": "HR",
+    "name": "C Phase Active Power",
+    "desc": "C Phase Active Power",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Average Value Of Three Phase Voltages",
+    "desc": "Average Value Of Three Phase Voltages",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Average Value Of Three Line Voltages",
+    "desc": "Average Value Of Three Line Voltages",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Average Value Of Three Phase Currents",
+    "desc": "Average Value Of Three Phase Currents",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Ep+",
+    "desc": "Ep+",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Ep ",
+    "desc": "Ep ",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Eq+",
+    "desc": "Eq+",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Eq ",
+    "desc": "Eq ",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Apparent Energy",
+    "desc": "Apparent Energy",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Trip Energy",
+    "desc": "Trip Energy",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "First Quadrant Reactive Energy Eql+",
+    "desc": "First Quadrant Reactive Energy Eql+",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Second Quadrant Reactive Energy Eqc+",
+    "desc": "Second Quadrant Reactive Energy Eqc+",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Third Quadrant Reactive Energy Eql ",
+    "desc": "Third Quadrant Reactive Energy Eql ",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Four Quadrant Reactive Energy Eqc ",
+    "desc": "Four Quadrant Reactive Energy Eqc ",
+    "unit": "kvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "Import Active Energy[Total",
+    "desc": "Import Active Energy[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Import Active Energy[Tip",
+    "desc": "Import Active Energy[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Import Active Energy[Peak",
+    "desc": "Import Active Energy[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "Import Active Energy[Flat",
+    "desc": "Import Active Energy[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Import Active Energy[Valley",
+    "desc": "Import Active Energy[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Export Active Energy[Total",
+    "desc": "Export Active Energy[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Export Active Energy[Tip",
+    "desc": "Export Active Energy[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Export Active Energy[Peak",
+    "desc": "Export Active Energy[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Export Active Energy[Flat",
+    "desc": "Export Active Energy[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Export Active Energy[Valley",
+    "desc": "Export Active Energy[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Import Active Energy Of This Month[Total",
+    "desc": "Import Active Energy Of This Month[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Import Active Energy Of This Month[Tip",
+    "desc": "Import Active Energy Of This Month[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Import Active Energy Of This Month[Peak",
+    "desc": "Import Active Energy Of This Month[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Import Active Energy Of This Month[Flat",
+    "desc": "Import Active Energy Of This Month[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Import Active Energy Of This Month[Valley",
+    "desc": "Import Active Energy Of This Month[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Export Active Energy Of This Month[Total",
+    "desc": "Export Active Energy Of This Month[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Export Active Energy Of This Month[Tip",
+    "desc": "Export Active Energy Of This Month[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Export Active Energy Of This Month[Peak",
+    "desc": "Export Active Energy Of This Month[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Export Active Energy Of This Month[Flat",
+    "desc": "Export Active Energy Of This Month[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 292,
+    "type": "HR",
+    "name": "Export Active Energy Of This Month[Valley",
+    "desc": "Export Active Energy Of This Month[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "Import Active Energy Of Last Month[Total",
+    "desc": "Import Active Energy Of Last Month[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Import Active Energy Of Last Month[Tip",
+    "desc": "Import Active Energy Of Last Month[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "Import Active Energy Of Last Month[Peak",
+    "desc": "Import Active Energy Of Last Month[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "Import Active Energy Of Last Month[Flat",
+    "desc": "Import Active Energy Of Last Month[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "Import Active Energy Of Last Month[Valley",
+    "desc": "Import Active Energy Of Last Month[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Export Active Energy Of Last Month[Total",
+    "desc": "Export Active Energy Of Last Month[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "Export Active Energy Of Last Month[Tip",
+    "desc": "Export Active Energy Of Last Month[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 320,
+    "type": "HR",
+    "name": "Export Active Energy Of Last Month[Peak",
+    "desc": "Export Active Energy Of Last Month[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 322,
+    "type": "HR",
+    "name": "Export Active Energy Of Last Month[Flat",
+    "desc": "Export Active Energy Of Last Month[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 324,
+    "type": "HR",
+    "name": "Export Active Energy Of Last Month[Valley",
+    "desc": "Export Active Energy Of Last Month[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 326,
+    "type": "HR",
+    "name": "Import Active Energy Two Month Before[Total",
+    "desc": "Import Active Energy Two Month Before[Total",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 328,
+    "type": "HR",
+    "name": "Import Active Energy Two Month Before[Tip",
+    "desc": "Import Active Energy Two Month Before[Tip",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 336,
+    "type": "HR",
+    "name": "Import Active Energy Two Month Before[Peak",
+    "desc": "Import Active Energy Two Month Before[Peak",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 338,
+    "type": "HR",
+    "name": "Import Active Energy Two Month Before[Flat",
+    "desc": "Import Active Energy Two Month Before[Flat",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 340,
+    "type": "HR",
+    "name": "Import Active Energy Two Month Before[Valley",
+    "desc": "Import Active Energy Two Month Before[Valley",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

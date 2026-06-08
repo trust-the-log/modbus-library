@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 20480,
+    "type": "HR",
+    "name": "Active Import",
+    "desc": "Active Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20484,
+    "type": "HR",
+    "name": "Active Export",
+    "desc": "Active Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20488,
+    "type": "HR",
+    "name": "Active Net",
+    "desc": "Active Net",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20496,
+    "type": "HR",
+    "name": "Reactive Export",
+    "desc": "Reactive Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20500,
+    "type": "HR",
+    "name": "Reactive Net",
+    "desc": "Reactive Net",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20504,
+    "type": "HR",
+    "name": "Apparent Import",
+    "desc": "Apparent Import",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20508,
+    "type": "HR",
+    "name": "Apparent Export",
+    "desc": "Apparent Export",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20512,
+    "type": "HR",
+    "name": "Apparent Net",
+    "desc": "Apparent Net",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20516,
+    "type": "HR",
+    "name": "Active Import Co2",
+    "desc": "Active Import Co2",
+    "unit": "kg",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20532,
+    "type": "HR",
+    "name": "Active Import Currency",
+    "desc": "Active Import Currency",
+    "unit": "currency",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20848,
+    "type": "HR",
+    "name": "Active Import",
+    "desc": "Active Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20852,
+    "type": "HR",
+    "name": "Active Import",
+    "desc": "Active Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20856,
+    "type": "HR",
+    "name": "Active Import",
+    "desc": "Active Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20860,
+    "type": "HR",
+    "name": "Active Import",
+    "desc": "Active Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20880,
+    "type": "HR",
+    "name": "Active Export",
+    "desc": "Active Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20884,
+    "type": "HR",
+    "name": "Active Export",
+    "desc": "Active Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20888,
+    "type": "HR",
+    "name": "Active Export",
+    "desc": "Active Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20892,
+    "type": "HR",
+    "name": "Active Export",
+    "desc": "Active Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20912,
+    "type": "HR",
+    "name": "Reactive Import",
+    "desc": "Reactive Import",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20916,
+    "type": "HR",
+    "name": "Reactive Import",
+    "desc": "Reactive Import",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20920,
+    "type": "HR",
+    "name": "Reactive Import",
+    "desc": "Reactive Import",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20924,
+    "type": "HR",
+    "name": "Reactive Import",
+    "desc": "Reactive Import",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20944,
+    "type": "HR",
+    "name": "Reactive Export",
+    "desc": "Reactive Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20948,
+    "type": "HR",
+    "name": "Reactive Export",
+    "desc": "Reactive Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20952,
+    "type": "HR",
+    "name": "Reactive Export",
+    "desc": "Reactive Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20956,
+    "type": "HR",
+    "name": "Reactive Export",
+    "desc": "Reactive Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21600,
+    "type": "HR",
+    "name": "Active Import, L1",
+    "desc": "Active Import, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21604,
+    "type": "HR",
+    "name": "Active Import, L2",
+    "desc": "Active Import, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21608,
+    "type": "HR",
+    "name": "Active Import, L3",
+    "desc": "Active Import, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21612,
+    "type": "HR",
+    "name": "Active Export, L1",
+    "desc": "Active Export, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21616,
+    "type": "HR",
+    "name": "Active Export, L2",
+    "desc": "Active Export, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21620,
+    "type": "HR",
+    "name": "Active Export, L3",
+    "desc": "Active Export, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21624,
+    "type": "HR",
+    "name": "Active Net, L1",
+    "desc": "Active Net, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21628,
+    "type": "HR",
+    "name": "Active Net, L2",
+    "desc": "Active Net, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21632,
+    "type": "HR",
+    "name": "Active Net, L3",
+    "desc": "Active Net, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21636,
+    "type": "HR",
+    "name": "Reactiveimport, L1",
+    "desc": "Reactiveimport, L1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21640,
+    "type": "HR",
+    "name": "Reactive Import, L2",
+    "desc": "Reactive Import, L2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21644,
+    "type": "HR",
+    "name": "Reactive Import, L3",
+    "desc": "Reactive Import, L3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21648,
+    "type": "HR",
+    "name": "Reactiveexport, L1",
+    "desc": "Reactiveexport, L1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21652,
+    "type": "HR",
+    "name": "Reactiveexport, L2",
+    "desc": "Reactiveexport, L2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21656,
+    "type": "HR",
+    "name": "Reactiveexport, L3",
+    "desc": "Reactiveexport, L3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21660,
+    "type": "HR",
+    "name": "Reactivenet, L1",
+    "desc": "Reactivenet, L1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21664,
+    "type": "HR",
+    "name": "Reactive Net, L2",
+    "desc": "Reactive Net, L2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21668,
+    "type": "HR",
+    "name": "Reactivenet, L3",
+    "desc": "Reactivenet, L3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21672,
+    "type": "HR",
+    "name": "Apparent Import, L1",
+    "desc": "Apparent Import, L1",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21676,
+    "type": "HR",
+    "name": "Apparent Import, L2",
+    "desc": "Apparent Import, L2",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21680,
+    "type": "HR",
+    "name": "Apparent Import, L3",
+    "desc": "Apparent Import, L3",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21684,
+    "type": "HR",
+    "name": "Apparent Export, L1",
+    "desc": "Apparent Export, L1",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21688,
+    "type": "HR",
+    "name": "Apparent Export, L2",
+    "desc": "Apparent Export, L2",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21692,
+    "type": "HR",
+    "name": "Apparent Export, L3",
+    "desc": "Apparent Export, L3",
+    "unit": "kVAh",
+    "dataType": "int64",
+    "access": "R"
+  }
+]

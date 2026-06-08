@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 3913,
+    "type": "HR",
+    "name": "Current Average (A)",
+    "desc": "Current Average (A)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3929,
+    "type": "HR",
+    "name": "Current, Phase 1 (A1)",
+    "desc": "Current, Phase 1 (A1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3943,
+    "type": "HR",
+    "name": "Current, Phase 2 (A2)",
+    "desc": "Current, Phase 2 (A2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3957,
+    "type": "HR",
+    "name": "Current, Phase 3 (A3)",
+    "desc": "Current, Phase 3 (A3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3909,
+    "type": "HR",
+    "name": "Line To Line Average Voltage (Vll)",
+    "desc": "Line To Line Average Voltage (Vll)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3911,
+    "type": "HR",
+    "name": "Line To Neutral Voltage (Vln)",
+    "desc": "Line To Neutral Voltage (Vln)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3925,
+    "type": "HR",
+    "name": "Voltage Phase 1 To Phase 2 (V12)",
+    "desc": "Voltage Phase 1 To Phase 2 (V12)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3939,
+    "type": "HR",
+    "name": "Voltage Phase 2 To Phase 3 (V23)",
+    "desc": "Voltage Phase 2 To Phase 3 (V23)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3953,
+    "type": "HR",
+    "name": "Voltage Phase 3 To Phase 1 (V31)",
+    "desc": "Voltage Phase 3 To Phase 1 (V31)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3927,
+    "type": "HR",
+    "name": "Voltage Phase 1 To Neutral (V1)",
+    "desc": "Voltage Phase 1 To Neutral (V1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3941,
+    "type": "HR",
+    "name": "Voltage Phase 2 To Neutral (V2)",
+    "desc": "Voltage Phase 2 To Neutral (V2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3955,
+    "type": "HR",
+    "name": "Voltage Phase 3 To Neutral (V3)",
+    "desc": "Voltage Phase 3 To Neutral (V3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3903,
+    "type": "HR",
+    "name": "Active Power, Total (W)",
+    "desc": "Active Power, Total (W)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3919,
+    "type": "HR",
+    "name": "Active Power, Phase 1 (W1)",
+    "desc": "Active Power, Phase 1 (W1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3933,
+    "type": "HR",
+    "name": "Active Power, Phase 2 (W2)",
+    "desc": "Active Power, Phase 2 (W2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3947,
+    "type": "HR",
+    "name": "Active Power, Phase 3 (W3)",
+    "desc": "Active Power, Phase 3 (W3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3905,
+    "type": "HR",
+    "name": "Reactive Power, Total (Var)",
+    "desc": "Reactive Power, Total (Var)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3921,
+    "type": "HR",
+    "name": "Reactive Power, Phase 1 (Var1)",
+    "desc": "Reactive Power, Phase 1 (Var1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3935,
+    "type": "HR",
+    "name": "Reactive Power, Phase 2 (Var2)",
+    "desc": "Reactive Power, Phase 2 (Var2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3949,
+    "type": "HR",
+    "name": "Reactive Power, Phase3 (Var3)",
+    "desc": "Reactive Power, Phase3 (Var3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3901,
+    "type": "HR",
+    "name": "Apparent Power, Total (Va)",
+    "desc": "Apparent Power, Total (Va)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3917,
+    "type": "HR",
+    "name": "Apparent Power, Phase 1 (Va1)",
+    "desc": "Apparent Power, Phase 1 (Va1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3931,
+    "type": "HR",
+    "name": "Apparent Power, Phase 2 (Va2)",
+    "desc": "Apparent Power, Phase 2 (Va2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3945,
+    "type": "HR",
+    "name": "Apparent Power, Phase 3 (Va3)",
+    "desc": "Apparent Power, Phase 3 (Va3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3907,
+    "type": "HR",
+    "name": "Power Factor Average (Pf)",
+    "desc": "Power Factor Average (Pf)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3923,
+    "type": "HR",
+    "name": "Power Factor, Phase 1 (Pf1)",
+    "desc": "Power Factor, Phase 1 (Pf1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3937,
+    "type": "HR",
+    "name": "Power Factor, Phase 2 (Pf2)",
+    "desc": "Power Factor, Phase 2 (Pf2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3951,
+    "type": "HR",
+    "name": "Power Factor, Phase 3 (Pf3)",
+    "desc": "Power Factor, Phase 3 (Pf3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3915,
+    "type": "HR",
+    "name": "Frequency, Hz (F)",
+    "desc": "Frequency, Hz (F)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3861,
+    "type": "HR",
+    "name": "Voltage Thd, Phase 1 (%V1)",
+    "desc": "Voltage Thd, Phase 1 (%V1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3863,
+    "type": "HR",
+    "name": "Voltage Thd, Phase 2 (%V2)",
+    "desc": "Voltage Thd, Phase 2 (%V2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3865,
+    "type": "HR",
+    "name": "Voltage Thd, Phase 3 (%V3)",
+    "desc": "Voltage Thd, Phase 3 (%V3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3867,
+    "type": "HR",
+    "name": "Current Thd, Phase 1 (%A1)",
+    "desc": "Current Thd, Phase 1 (%A1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3869,
+    "type": "HR",
+    "name": "Current Thd, Phase 2 (%A2)",
+    "desc": "Current Thd, Phase 2 (%A2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3871,
+    "type": "HR",
+    "name": "Current Thd, Phase 3 (%A3)",
+    "desc": "Current Thd, Phase 3 (%A3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3959,
+    "type": "HR",
+    "name": "Forward Apparent Energy (Fwdvah)",
+    "desc": "Forward Apparent Energy (Fwdvah)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3961,
+    "type": "HR",
+    "name": "Forward Active Energy (Fwdwh)",
+    "desc": "Forward Active Energy (Fwdwh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3963,
+    "type": "HR",
+    "name": "Forward Reactive Inductive Energy (Fwdvarh)",
+    "desc": "Forward Reactive Inductive Energy (Fwdvarh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3965,
+    "type": "HR",
+    "name": "Forward Reactive Capacitive Energy (Fwdvarh)",
+    "desc": "Forward Reactive Capacitive Energy (Fwdvarh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3967,
+    "type": "HR",
+    "name": "Reverse Apparent Energy (Revvah)",
+    "desc": "Reverse Apparent Energy (Revvah)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3969,
+    "type": "HR",
+    "name": "Reverse Active Energy (Revwh)",
+    "desc": "Reverse Active Energy (Revwh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3971,
+    "type": "HR",
+    "name": "Reverse Reactive Inductive Energy (Revvarh)",
+    "desc": "Reverse Reactive Inductive Energy (Revvarh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3973,
+    "type": "HR",
+    "name": "Reverse Reactive Capacitive Energy (Revvarh)",
+    "desc": "Reverse Reactive Capacitive Energy (Revvarh)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3993,
+    "type": "HR",
+    "name": "On Hours (On Hrs)",
+    "desc": "On Hours (On Hrs)",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3995,
+    "type": "HR",
+    "name": "Forward Run Seconds (Fwdrun Secs)",
+    "desc": "Forward Run Seconds (Fwdrun Secs)",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3997,
+    "type": "HR",
+    "name": "Reverse Run Seconds (Revrun Secs)",
+    "desc": "Reverse Run Seconds (Revrun Secs)",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3999,
+    "type": "HR",
+    "name": "Number Of Power Interruptions (Intr)",
+    "desc": "Number Of Power Interruptions (Intr)",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3975,
+    "type": "HR",
+    "name": "Present Demand (Present Demand)",
+    "desc": "Present Demand (Present Demand)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3977,
+    "type": "HR",
+    "name": "Rising Demand (Rising Demand)",
+    "desc": "Rising Demand (Rising Demand)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3979,
+    "type": "HR",
+    "name": "Maximum Demand (Max Md)",
+    "desc": "Maximum Demand (Max Md)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

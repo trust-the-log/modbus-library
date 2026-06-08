@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Conductor Voltage To N U1",
+    "desc": "Conductor Voltage To N U1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Conductor Voltage To N U2",
+    "desc": "Conductor Voltage To N U2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Conductor Voltage To N U3",
+    "desc": "Conductor Voltage To N U3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Conductor Voltage To Conductor U12",
+    "desc": "Conductor Voltage To Conductor U12",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Conductor Voltage To Conductor U23",
+    "desc": "Conductor Voltage To Conductor U23",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Conductor Voltage To Conductor U31",
+    "desc": "Conductor Voltage To Conductor U31",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "External Conductor Voltage System",
+    "desc": "External Conductor Voltage System",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Current In Conductor I1",
+    "desc": "Current In Conductor I1",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Current In Conductor I2",
+    "desc": "Current In Conductor I2",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Current In Conductor I3",
+    "desc": "Current In Conductor I3",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Current In Conductor In",
+    "desc": "Current In Conductor In",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "System Current",
+    "desc": "System Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Power Factor Phase 1 +/ ",
+    "desc": "Power Factor Phase 1 +/ ",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Power Factor Phase 2 +/ ",
+    "desc": "Power Factor Phase 2 +/ ",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Power Factor Phase 3 +/ ",
+    "desc": "Power Factor Phase 3 +/ ",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "System Power Factor",
+    "desc": "System Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Active Power Phase 1 +/ ",
+    "desc": "Active Power Phase 1 +/ ",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Active Power Phase 2 +/ ",
+    "desc": "Active Power Phase 2 +/ ",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Active Power Phase 3 +/ ",
+    "desc": "Active Power Phase 3 +/ ",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Total Active Power +/ ",
+    "desc": "Total Active Power +/ ",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Apparent Power Phase 1",
+    "desc": "Apparent Power Phase 1",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Apparent Power Phase 2",
+    "desc": "Apparent Power Phase 2",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Apparent Power Phase 3",
+    "desc": "Apparent Power Phase 3",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "Total Apparent Power +/ ",
+    "desc": "Total Apparent Power +/ ",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Reactive Power Phase 1 +/ ",
+    "desc": "Reactive Power Phase 1 +/ ",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Reactive Power Phase 2 +/ ",
+    "desc": "Reactive Power Phase 2 +/ ",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Reactive Power Phase 3 +/ ",
+    "desc": "Reactive Power Phase 3 +/ ",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "Total Reactive Power +/ ",
+    "desc": "Total Reactive Power +/ ",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Phase Sequence 0.123",
+    "desc": "Phase Sequence 0.123",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4352,
+    "type": "HR",
+    "name": "Total Active Energy Procurement L1",
+    "desc": "Total Active Energy Procurement L1",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4354,
+    "type": "HR",
+    "name": "Total Active Energy Procurement L2",
+    "desc": "Total Active Energy Procurement L2",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4356,
+    "type": "HR",
+    "name": "Total Active Energy Procurement L3",
+    "desc": "Total Active Energy Procurement L3",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4358,
+    "type": "HR",
+    "name": "Total Active Energy Procurement Sum",
+    "desc": "Total Active Energy Procurement Sum",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4360,
+    "type": "HR",
+    "name": "Total Active Energy Supply L1",
+    "desc": "Total Active Energy Supply L1",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4362,
+    "type": "HR",
+    "name": "Total Active Energy Supply L2",
+    "desc": "Total Active Energy Supply L2",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4364,
+    "type": "HR",
+    "name": "Total Active Energy Supply L3",
+    "desc": "Total Active Energy Supply L3",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4366,
+    "type": "HR",
+    "name": "Total Active Energy Supply Sum",
+    "desc": "Total Active Energy Supply Sum",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4368,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Procurement L1",
+    "desc": "Total Inductive Apparent Energy Procurement L1",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4370,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Procurement L2",
+    "desc": "Total Inductive Apparent Energy Procurement L2",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4372,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Procurement L3",
+    "desc": "Total Inductive Apparent Energy Procurement L3",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4376,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Supply L1",
+    "desc": "Total Inductive Apparent Energy Supply L1",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4378,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Supply L2",
+    "desc": "Total Inductive Apparent Energy Supply L2",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4380,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Supply L3",
+    "desc": "Total Inductive Apparent Energy Supply L3",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4382,
+    "type": "HR",
+    "name": "Total Inductive Apparent Energy Supply Sum",
+    "desc": "Total Inductive Apparent Energy Supply Sum",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4384,
+    "type": "HR",
+    "name": "Total Capacitive Apparent Energy Procurement L1",
+    "desc": "Total Capacitive Apparent Energy Procurement L1",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4386,
+    "type": "HR",
+    "name": "Total Capacitive Apparent Energy Procurement L2",
+    "desc": "Total Capacitive Apparent Energy Procurement L2",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4388,
+    "type": "HR",
+    "name": "Total Capacitive Apparent Energy Procurement L3",
+    "desc": "Total Capacitive Apparent Energy Procurement L3",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4390,
+    "type": "HR",
+    "name": "Total Capacitive Apparent Energy Procurement Sum",
+    "desc": "Total Capacitive Apparent Energy Procurement Sum",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4392,
+    "type": "HR",
+    "name": "Total Capacitive Apparent Energy Supply L1",
+    "desc": "Total Capacitive Apparent Energy Supply L1",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

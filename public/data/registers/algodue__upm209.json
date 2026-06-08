@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4608,
+    "type": "HR",
+    "name": "Phase 1 N Voltage Max",
+    "desc": "Phase 1 N Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4610,
+    "type": "HR",
+    "name": "Phase 2 N Voltage Max",
+    "desc": "Phase 2 N Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4612,
+    "type": "HR",
+    "name": "Phase 3 N Voltage Max",
+    "desc": "Phase 3 N Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4614,
+    "type": "HR",
+    "name": "Line 12 Voltage Max",
+    "desc": "Line 12 Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4616,
+    "type": "HR",
+    "name": "Line 23 Voltage Max",
+    "desc": "Line 23 Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4618,
+    "type": "HR",
+    "name": "Line 31 Voltage Max",
+    "desc": "Line 31 Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4620,
+    "type": "HR",
+    "name": "System Voltage Max",
+    "desc": "System Voltage Max",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4622,
+    "type": "HR",
+    "name": "Phase 1 Current Max",
+    "desc": "Phase 1 Current Max",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4624,
+    "type": "HR",
+    "name": "Phase 2 Current Max",
+    "desc": "Phase 2 Current Max",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4626,
+    "type": "HR",
+    "name": "Phase 3 Current Max",
+    "desc": "Phase 3 Current Max",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4628,
+    "type": "HR",
+    "name": "Neutral Current Max",
+    "desc": "Neutral Current Max",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4630,
+    "type": "HR",
+    "name": "System Current Max",
+    "desc": "System Current Max",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4632,
+    "type": "HR",
+    "name": "Phase 1 Imported Active Power Max",
+    "desc": "Phase 1 Imported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4634,
+    "type": "HR",
+    "name": "Phase 1 Exported Active Power Max",
+    "desc": "Phase 1 Exported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4636,
+    "type": "HR",
+    "name": "Phase 2 Imported Active Power Max",
+    "desc": "Phase 2 Imported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4638,
+    "type": "HR",
+    "name": "Phase 2 Exported Active Power Max",
+    "desc": "Phase 2 Exported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4640,
+    "type": "HR",
+    "name": "Phase 3 Imported Active Power Max",
+    "desc": "Phase 3 Imported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4642,
+    "type": "HR",
+    "name": "Phase 3 Exported Active Power Max",
+    "desc": "Phase 3 Exported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4644,
+    "type": "HR",
+    "name": "System Imported Active Power Max",
+    "desc": "System Imported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4646,
+    "type": "HR",
+    "name": "System Exported Active Power Max",
+    "desc": "System Exported Active Power Max",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4648,
+    "type": "HR",
+    "name": "Phase 1 Imported Apparent Power Max",
+    "desc": "Phase 1 Imported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4650,
+    "type": "HR",
+    "name": "Phase 1 Exported Apparent Power Max",
+    "desc": "Phase 1 Exported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4652,
+    "type": "HR",
+    "name": "Phase 2 Imported Apparent Power Max",
+    "desc": "Phase 2 Imported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4654,
+    "type": "HR",
+    "name": "Phase 2 Exported Apparent Power Max",
+    "desc": "Phase 2 Exported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4656,
+    "type": "HR",
+    "name": "Phase 3 Imported Apparent Power Max",
+    "desc": "Phase 3 Imported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4658,
+    "type": "HR",
+    "name": "Phase 3 Exported Apparent Power Max",
+    "desc": "Phase 3 Exported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4660,
+    "type": "HR",
+    "name": "System Imported Apparent Power Max",
+    "desc": "System Imported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4662,
+    "type": "HR",
+    "name": "System Exported Apparent Power Max",
+    "desc": "System Exported Apparent Power Max",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4664,
+    "type": "HR",
+    "name": "Phase 1 Imported Reactive Power Max",
+    "desc": "Phase 1 Imported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4666,
+    "type": "HR",
+    "name": "Phase 1 Exported Reactive Power Max",
+    "desc": "Phase 1 Exported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4668,
+    "type": "HR",
+    "name": "Phase 2 Imported Reactive Power Max",
+    "desc": "Phase 2 Imported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4670,
+    "type": "HR",
+    "name": "Phase 2 Exported Reactive Power Max",
+    "desc": "Phase 2 Exported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4672,
+    "type": "HR",
+    "name": "Phase 3 Imported Reactive Power Max",
+    "desc": "Phase 3 Imported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4674,
+    "type": "HR",
+    "name": "Phase 3 Exported Reactive Power Max",
+    "desc": "Phase 3 Exported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4676,
+    "type": "HR",
+    "name": "System Imported Reactive Power Max",
+    "desc": "System Imported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4678,
+    "type": "HR",
+    "name": "System Exported Reactive Power Max",
+    "desc": "System Exported Reactive Power Max",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4680,
+    "type": "HR",
+    "name": "Phase 1 Inductive Power Factor Max",
+    "desc": "Phase 1 Inductive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4682,
+    "type": "HR",
+    "name": "Phase 1 Capacitive Power Factor Max",
+    "desc": "Phase 1 Capacitive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4684,
+    "type": "HR",
+    "name": "Phase 2 Inductive Power Factor Max",
+    "desc": "Phase 2 Inductive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4686,
+    "type": "HR",
+    "name": "Phase 2 Capacitive Power Factor Max",
+    "desc": "Phase 2 Capacitive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4688,
+    "type": "HR",
+    "name": "Phase 3 Inductive Power Factor Max",
+    "desc": "Phase 3 Inductive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4690,
+    "type": "HR",
+    "name": "Phase 3 Capacitive Power Factor Max",
+    "desc": "Phase 3 Capacitive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4692,
+    "type": "HR",
+    "name": "System Inductive Power Factor Max",
+    "desc": "System Inductive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4694,
+    "type": "HR",
+    "name": "System Capacitive Power Factor Max",
+    "desc": "System Capacitive Power Factor Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4696,
+    "type": "HR",
+    "name": "Phase 1 Imported Tangent Max",
+    "desc": "Phase 1 Imported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4698,
+    "type": "HR",
+    "name": "Phase 1 Exported Tangent Max",
+    "desc": "Phase 1 Exported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4700,
+    "type": "HR",
+    "name": "Phase 2 Imported Tangent Max",
+    "desc": "Phase 2 Imported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4702,
+    "type": "HR",
+    "name": "Phase 2 Exported Tangent Max",
+    "desc": "Phase 2 Exported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4704,
+    "type": "HR",
+    "name": "Phase 3 Imported Tangent Max",
+    "desc": "Phase 3 Imported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4706,
+    "type": "HR",
+    "name": "Phase 3 Exported Tangent Max",
+    "desc": "Phase 3 Exported Tangent Max",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

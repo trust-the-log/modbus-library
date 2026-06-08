@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 50000,
+    "type": "HR",
+    "name": "Product Name",
+    "desc": "Product Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50004,
+    "type": "HR",
+    "name": "Product Order Id (Countis:100, Protection:200, Aty",
+    "desc": "Product Order Id (Countis:100, Protection:200, Atys:300, Diris:400)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50005,
+    "type": "HR",
+    "name": "Product Id",
+    "desc": "Product Id",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50007,
+    "type": "HR",
+    "name": "Product Software Version",
+    "desc": "Product Software Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50018,
+    "type": "HR",
+    "name": "Product Version (Major)",
+    "desc": "Product Version (Major)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50019,
+    "type": "HR",
+    "name": "Product Version (Minor)",
+    "desc": "Product Version (Minor)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50020,
+    "type": "HR",
+    "name": "Product Version (Revision)",
+    "desc": "Product Version (Revision)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50021,
+    "type": "HR",
+    "name": "Product Version (Build)",
+    "desc": "Product Version (Build)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50025,
+    "type": "HR",
+    "name": "Software Technical Base Version (Major)",
+    "desc": "Software Technical Base Version (Major)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50026,
+    "type": "HR",
+    "name": "Software Technical Base Version (Minor)",
+    "desc": "Software Technical Base Version (Minor)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50027,
+    "type": "HR",
+    "name": "Software Technical Base Version (Revision)",
+    "desc": "Software Technical Base Version (Revision)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50028,
+    "type": "HR",
+    "name": "Customization Version (Major)",
+    "desc": "Customization Version (Major)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50029,
+    "type": "HR",
+    "name": "Customization Version (Minor)",
+    "desc": "Customization Version (Minor)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50030,
+    "type": "HR",
+    "name": "Product Vlo",
+    "desc": "Product Vlo",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50034,
+    "type": "HR",
+    "name": "Customization Vlo",
+    "desc": "Customization Vlo",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50038,
+    "type": "HR",
+    "name": "Software Technical Base Vlo",
+    "desc": "Software Technical Base Vlo",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50042,
+    "type": "HR",
+    "name": "Vendor Name",
+    "desc": "Vendor Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50050,
+    "type": "HR",
+    "name": "Product Name",
+    "desc": "Product Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50058,
+    "type": "HR",
+    "name": "Extended Name",
+    "desc": "Extended Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50514,
+    "type": "HR",
+    "name": "Phase To Phase Voltage: U12",
+    "desc": "Phase To Phase Voltage: U12",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50516,
+    "type": "HR",
+    "name": "Phase To Phase Voltage: U23",
+    "desc": "Phase To Phase Voltage: U23",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50518,
+    "type": "HR",
+    "name": "Phase To Phase Voltage: U31",
+    "desc": "Phase To Phase Voltage: U31",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50520,
+    "type": "HR",
+    "name": "Simple Voltage: V1",
+    "desc": "Simple Voltage: V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50522,
+    "type": "HR",
+    "name": "Simple Voltage: V2",
+    "desc": "Simple Voltage: V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50524,
+    "type": "HR",
+    "name": "Simple Voltage: V3",
+    "desc": "Simple Voltage: V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50528,
+    "type": "HR",
+    "name": "Current: I1",
+    "desc": "Current: I1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50530,
+    "type": "HR",
+    "name": "Current: I2",
+    "desc": "Current: I2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50532,
+    "type": "HR",
+    "name": "Current: I3",
+    "desc": "Current: I3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50534,
+    "type": "HR",
+    "name": "Neutral Current: In",
+    "desc": "Neutral Current: In",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50536,
+    "type": "HR",
+    "name": "Active Power +/ : P",
+    "desc": "Active Power +/ : P",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50538,
+    "type": "HR",
+    "name": "Reactive Power +/ : Q",
+    "desc": "Reactive Power +/ : Q",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50540,
+    "type": "HR",
+    "name": "Apparent Power: S",
+    "desc": "Apparent Power: S",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50542,
+    "type": "HR",
+    "name": "Power Factor:  : Leading Et +: Lagging: Pf",
+    "desc": "Power Factor:  : Leading Et +: Lagging: Pf",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50544,
+    "type": "HR",
+    "name": "Active Power Phase 1 +/ : P1",
+    "desc": "Active Power Phase 1 +/ : P1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50546,
+    "type": "HR",
+    "name": "Active Power Phase 2 +/ : P2",
+    "desc": "Active Power Phase 2 +/ : P2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50548,
+    "type": "HR",
+    "name": "Active Power Phase 3 +/ : P3",
+    "desc": "Active Power Phase 3 +/ : P3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50550,
+    "type": "HR",
+    "name": "Reactive Power Phase 1 +/ : Q1",
+    "desc": "Reactive Power Phase 1 +/ : Q1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50552,
+    "type": "HR",
+    "name": "Reactive Power Phase 2 +/ : Q2",
+    "desc": "Reactive Power Phase 2 +/ : Q2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50554,
+    "type": "HR",
+    "name": "Reactive Power Phase 3 +/ : Q3",
+    "desc": "Reactive Power Phase 3 +/ : Q3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50556,
+    "type": "HR",
+    "name": "Apparent Power Phase 1: S1",
+    "desc": "Apparent Power Phase 1: S1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50558,
+    "type": "HR",
+    "name": "Apparent Power Phase 2: S2",
+    "desc": "Apparent Power Phase 2: S2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50560,
+    "type": "HR",
+    "name": "Apparent Power Phase 3: S3",
+    "desc": "Apparent Power Phase 3: S3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50562,
+    "type": "HR",
+    "name": "Power Factor Phase 1  : Leading And +: Lagging: Pf",
+    "desc": "Power Factor Phase 1  : Leading And +: Lagging: Pf1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50564,
+    "type": "HR",
+    "name": "Power Factor Phase 2  : Leading And +: Lagging: Pf",
+    "desc": "Power Factor Phase 2  : Leading And +: Lagging: Pf2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50566,
+    "type": "HR",
+    "name": "Power Factor Phase 3  : Leading And +: Lagging: Pf",
+    "desc": "Power Factor Phase 3  : Leading And +: Lagging: Pf3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50770,
+    "type": "HR",
+    "name": "Total Positive Active Energy (No Resetable): Ea+",
+    "desc": "Total Positive Active Energy (No Resetable): Ea+",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50772,
+    "type": "HR",
+    "name": "Total Positive Reactive Energy (No Resetable): Er ",
+    "desc": "Total Positive Reactive Energy (No Resetable): Er +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50776,
+    "type": "HR",
+    "name": "Total Negative Active Energy (No Resetable): Ea ",
+    "desc": "Total Negative Active Energy (No Resetable): Ea ",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50780,
+    "type": "HR",
+    "name": "Partial Positive Active Energy: Ea+",
+    "desc": "Partial Positive Active Energy: Ea+",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50782,
+    "type": "HR",
+    "name": "Partial Positive Reactive Energy: Er +",
+    "desc": "Partial Positive Reactive Energy: Er +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

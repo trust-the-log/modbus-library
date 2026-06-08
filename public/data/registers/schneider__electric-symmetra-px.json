@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Alarm/Status Register",
+    "desc": "Alarm/Status Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Alarm/Status Register",
+    "desc": "Alarm/Status Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Alarm/Status Register",
+    "desc": "Alarm/Status Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Alarm/Status Register",
+    "desc": "Alarm/Status Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Alarm/Status Register",
+    "desc": "Alarm/Status Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Line Quality 00Ff=Acceptable Utility Line Quality ",
+    "desc": "Line Quality 00Ff=Acceptable Utility Line Quality 0000=Unacceptable Utility Line",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "% Battery Capacity Remaining Battery Capacity As A",
+    "desc": "% Battery Capacity Remaining Battery Capacity As A Percent Of The Fully Charged ",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Runtime Remaining",
+    "desc": "Runtime Remaining",
+    "unit": "minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Battery Voltage Present Ups Battery Voltage",
+    "desc": "Battery Voltage Present Ups Battery Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Ups Internal Temperature (0 209) 00Xx=Valid Readin",
+    "desc": "Ups Internal Temperature (0 209) 00Xx=Valid Reading Ffxx=Invalid Reading Xx=Sens",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Amps Drawn By Load",
+    "desc": "Amps Drawn By Load",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Number Of Battery Packs With Bad Batteries",
+    "desc": "Number Of Battery Packs With Bad Batteries",
+    "unit": "each",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Number Of Battery Packs",
+    "desc": "Number Of Battery Packs",
+    "unit": "each",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Ups Output Load As A Percentage Of Full Rated Load",
+    "desc": "Ups Output Load As A Percentage Of Full Rated Load In Watts",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Maximum Input Voltage Since Last Reading",
+    "desc": "Maximum Input Voltage Since Last Reading",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Minimum Input Voltage Since Last Reading",
+    "desc": "Minimum Input Voltage Since Last Reading",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Nominal Battery Voltage",
+    "desc": "Nominal Battery Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Actual Battery Voltage",
+    "desc": "Actual Battery Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Utility Input Frequency",
+    "desc": "Utility Input Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Phase A Utility Input Voltage",
+    "desc": "Phase A Utility Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Phase A Utility Input Current",
+    "desc": "Phase A Utility Input Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Phase A Bypass Input Voltage",
+    "desc": "Phase A Bypass Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Phase A Percent Of Maximum Output Va @ N + 0",
+    "desc": "Phase A Percent Of Maximum Output Va @ N + 0",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Phase A Percent Of Maximum Output Va @ N + X",
+    "desc": "Phase A Percent Of Maximum Output Va @ N + X",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Phase A Output",
+    "desc": "Phase A Output",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Phase A Output Voltage",
+    "desc": "Phase A Output Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Phase A Output Current",
+    "desc": "Phase A Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Phase A Peak Output Current",
+    "desc": "Phase A Peak Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Phase B Utility Input Voltage",
+    "desc": "Phase B Utility Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Phase B Utility Input Current",
+    "desc": "Phase B Utility Input Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Phase B Bypass Input Voltage",
+    "desc": "Phase B Bypass Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Phase B Percent Of Maximum Output Va @ N + 0",
+    "desc": "Phase B Percent Of Maximum Output Va @ N + 0",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Phase B Percent Of Maximum Output Va @ N + X",
+    "desc": "Phase B Percent Of Maximum Output Va @ N + X",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Phase B Output",
+    "desc": "Phase B Output",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Phase B Output Voltage",
+    "desc": "Phase B Output Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Phase B Output Current",
+    "desc": "Phase B Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Phase B Peak Output Current",
+    "desc": "Phase B Peak Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Phase C Utility Input Voltage",
+    "desc": "Phase C Utility Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Phase C Utility Input Current",
+    "desc": "Phase C Utility Input Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Phase C Bypass Input Voltage",
+    "desc": "Phase C Bypass Input Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Phase C Percent Of Maximum Output Va @ N + 0",
+    "desc": "Phase C Percent Of Maximum Output Va @ N + 0",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Phase C Percent Of Maximum Output Va @ N + X",
+    "desc": "Phase C Percent Of Maximum Output Va @ N + X",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Phase C Output",
+    "desc": "Phase C Output",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Phase C Output Voltage",
+    "desc": "Phase C Output Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Phase C Output Current",
+    "desc": "Phase C Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Phase C Peak Output Current",
+    "desc": "Phase C Peak Output Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Environmental Monitoring Card Temperature Reading ",
+    "desc": "Environmental Monitoring Card Temperature Reading (Sensor 1)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Environmental Monitoring Card Humidity Reading (Se",
+    "desc": "Environmental Monitoring Card Humidity Reading (Sensor 1)",
+    "unit": "%RH",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Environmental Monitoring Card Temperature Reading ",
+    "desc": "Environmental Monitoring Card Temperature Reading (Sensor 2)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Environmental Monitoring Card Humidity Reading (Se",
+    "desc": "Environmental Monitoring Card Humidity Reading (Sensor 2)",
+    "unit": "%RH",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

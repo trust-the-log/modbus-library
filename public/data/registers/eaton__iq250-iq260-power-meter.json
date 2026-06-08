@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1999,
+    "type": "HR",
+    "name": "Amps A, Average",
+    "desc": "Amps A, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2001,
+    "type": "HR",
+    "name": "Amps B, Average",
+    "desc": "Amps B, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2003,
+    "type": "HR",
+    "name": "Amps C, Average",
+    "desc": "Amps C, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2005,
+    "type": "HR",
+    "name": "Positive Watts, 3 Ph, Average",
+    "desc": "Positive Watts, 3 Ph, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2007,
+    "type": "HR",
+    "name": "Positive Vars, 3 Ph, Average",
+    "desc": "Positive Vars, 3 Ph, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2009,
+    "type": "HR",
+    "name": "Negative Watts, 3 Ph, Average",
+    "desc": "Negative Watts, 3 Ph, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2011,
+    "type": "HR",
+    "name": "Negative Vars, 3 Ph, Average",
+    "desc": "Negative Vars, 3 Ph, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2013,
+    "type": "HR",
+    "name": "Vas, 3 Ph, Average",
+    "desc": "Vas, 3 Ph, Average",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2015,
+    "type": "HR",
+    "name": "Positive Pf, 3 Ph, Average",
+    "desc": "Positive Pf, 3 Ph, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Negative Pf, 3 Pf, Average",
+    "desc": "Negative Pf, 3 Pf, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2019,
+    "type": "HR",
+    "name": "Neutral Current, Average",
+    "desc": "Neutral Current, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2021,
+    "type": "HR",
+    "name": "Positive Watts, Phase A, Average",
+    "desc": "Positive Watts, Phase A, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2023,
+    "type": "HR",
+    "name": "Positive Watts, Phase B, Average",
+    "desc": "Positive Watts, Phase B, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2025,
+    "type": "HR",
+    "name": "Positive Watts, Phase C, Average",
+    "desc": "Positive Watts, Phase C, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2027,
+    "type": "HR",
+    "name": "Positive Vars, Phase A, Average",
+    "desc": "Positive Vars, Phase A, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2029,
+    "type": "HR",
+    "name": "Positive Vars, Phase B, Average",
+    "desc": "Positive Vars, Phase B, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2031,
+    "type": "HR",
+    "name": "Positive Vars, Phase C, Average",
+    "desc": "Positive Vars, Phase C, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2033,
+    "type": "HR",
+    "name": "Negative Watts, Phase A, Average",
+    "desc": "Negative Watts, Phase A, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2035,
+    "type": "HR",
+    "name": "Negative Watts, Phase B, Average",
+    "desc": "Negative Watts, Phase B, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2037,
+    "type": "HR",
+    "name": "Negative Watts, Phase C, Average",
+    "desc": "Negative Watts, Phase C, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2039,
+    "type": "HR",
+    "name": "Negative Vars, Phase A, Average",
+    "desc": "Negative Vars, Phase A, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2041,
+    "type": "HR",
+    "name": "Negative Vars, Phase B, Average",
+    "desc": "Negative Vars, Phase B, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2043,
+    "type": "HR",
+    "name": "Negative Vars, Phase C, Average",
+    "desc": "Negative Vars, Phase C, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2045,
+    "type": "HR",
+    "name": "Vas, Phase A, Average",
+    "desc": "Vas, Phase A, Average",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2047,
+    "type": "HR",
+    "name": "Vas, Phase B, Average",
+    "desc": "Vas, Phase B, Average",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2049,
+    "type": "HR",
+    "name": "Vas, Phase C, Average",
+    "desc": "Vas, Phase C, Average",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2051,
+    "type": "HR",
+    "name": "Positive Pf, Phase A, Average",
+    "desc": "Positive Pf, Phase A, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2053,
+    "type": "HR",
+    "name": "Positive Pf, Phase B, Average",
+    "desc": "Positive Pf, Phase B, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2055,
+    "type": "HR",
+    "name": "Positive Pf, Phase C, Average",
+    "desc": "Positive Pf, Phase C, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2057,
+    "type": "HR",
+    "name": "Negative Pf, Phase A, Average",
+    "desc": "Negative Pf, Phase A, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2059,
+    "type": "HR",
+    "name": "Negative Pf, Phase B, Average",
+    "desc": "Negative Pf, Phase B, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2061,
+    "type": "HR",
+    "name": "Negative Pf, Phase C, Average",
+    "desc": "Negative Pf, Phase C, Average",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2999,
+    "type": "HR",
+    "name": "Watts, 3 Ph Total",
+    "desc": "Watts, 3 Ph Total",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3001,
+    "type": "HR",
+    "name": "Vars, 3 Ph Total",
+    "desc": "Vars, 3 Ph Total",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3003,
+    "type": "HR",
+    "name": "Vas, 3 Ph Total",
+    "desc": "Vas, 3 Ph Total",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3005,
+    "type": "HR",
+    "name": "Power Factor, 3 Ph Total",
+    "desc": "Power Factor, 3 Ph Total",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3007,
+    "type": "HR",
+    "name": "Watts, Phase A",
+    "desc": "Watts, Phase A",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3009,
+    "type": "HR",
+    "name": "Watts, Phase B",
+    "desc": "Watts, Phase B",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3011,
+    "type": "HR",
+    "name": "Watts, Phase C",
+    "desc": "Watts, Phase C",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3013,
+    "type": "HR",
+    "name": "Vars, Phase A",
+    "desc": "Vars, Phase A",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3017,
+    "type": "HR",
+    "name": "Vars, Phase C",
+    "desc": "Vars, Phase C",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3019,
+    "type": "HR",
+    "name": "Vas, Phase A",
+    "desc": "Vas, Phase A",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3021,
+    "type": "HR",
+    "name": "Vas, Phase B",
+    "desc": "Vas, Phase B",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3023,
+    "type": "HR",
+    "name": "Vas, Phase C",
+    "desc": "Vas, Phase C",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3025,
+    "type": "HR",
+    "name": "Power Factor, Phase A",
+    "desc": "Power Factor, Phase A",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3027,
+    "type": "HR",
+    "name": "Power Factor, Phase B",
+    "desc": "Power Factor, Phase B",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3029,
+    "type": "HR",
+    "name": "Power Factor, Phase C",
+    "desc": "Power Factor, Phase C",
+    "unit": "none",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3031,
+    "type": "HR",
+    "name": "W Hours, Received",
+    "desc": "W Hours, Received",
+    "unit": "Wh per energy format",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3033,
+    "type": "HR",
+    "name": "W Hours, Delivered",
+    "desc": "W Hours, Delivered",
+    "unit": "Wh per energy format",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 3035,
+    "type": "HR",
+    "name": "W Hours, Net",
+    "desc": "W Hours, Net",
+    "unit": "Wh per energy format",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

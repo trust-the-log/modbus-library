@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Monitor 2 Alarm Flags",
+    "desc": "Monitor 2 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Monitor 3 Alarm Flags",
+    "desc": "Monitor 3 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Monitor 4 Alarm Flags",
+    "desc": "Monitor 4 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Monitor 5 Alarm Flags",
+    "desc": "Monitor 5 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Monitor 6 Alarm Flags",
+    "desc": "Monitor 6 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Monitor 7 Alarm Flags",
+    "desc": "Monitor 7 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Monitor 8 Alarm Flags",
+    "desc": "Monitor 8 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Monitor 9 Alarm Flags",
+    "desc": "Monitor 9 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Monitor 10 Alarm Flags",
+    "desc": "Monitor 10 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Monitor 11 Alarm Flags",
+    "desc": "Monitor 11 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Monitor 12 Alarm Flags",
+    "desc": "Monitor 12 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Monitor 13 Alarm Flags",
+    "desc": "Monitor 13 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Monitor 14 Alarm Flags",
+    "desc": "Monitor 14 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Monitor 15 Alarm Flags",
+    "desc": "Monitor 15 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Monitor 16 Alarm Flags",
+    "desc": "Monitor 16 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Monitor 17 Alarm Flags",
+    "desc": "Monitor 17 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Monitor 18 Alarm Flags",
+    "desc": "Monitor 18 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Monitor 19 Alarm Flags",
+    "desc": "Monitor 19 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Monitor 20 Alarm Flags",
+    "desc": "Monitor 20 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Monitor 21 Alarm Flags",
+    "desc": "Monitor 21 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Monitor 22 Alarm Flags",
+    "desc": "Monitor 22 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Monitor 23 Alarm Flags",
+    "desc": "Monitor 23 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Monitor 24 Alarm Flags",
+    "desc": "Monitor 24 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Monitor 25 Alarm Flags",
+    "desc": "Monitor 25 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Monitor 26 Alarm Flags",
+    "desc": "Monitor 26 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Monitor 27 Alarm Flags",
+    "desc": "Monitor 27 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Monitor 28 Alarm Flags",
+    "desc": "Monitor 28 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Monitor 29 Alarm Flags",
+    "desc": "Monitor 29 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Monitor 30 Alarm Flags",
+    "desc": "Monitor 30 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Monitor 31 Alarm Flags",
+    "desc": "Monitor 31 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Monitor 32 Alarm Flags",
+    "desc": "Monitor 32 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Monitor 33 Alarm Flags",
+    "desc": "Monitor 33 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Monitor 34 Alarm Flags",
+    "desc": "Monitor 34 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Monitor 35 Alarm Flags",
+    "desc": "Monitor 35 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Monitor 36 Alarm Flags",
+    "desc": "Monitor 36 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Monitor 37 Alarm Flags",
+    "desc": "Monitor 37 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Monitor 38 Alarm Flags",
+    "desc": "Monitor 38 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Monitor 39 Alarm Flags",
+    "desc": "Monitor 39 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Monitor 40 Alarm Flags",
+    "desc": "Monitor 40 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Monitor 41 Alarm Flags",
+    "desc": "Monitor 41 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Monitor 42 Alarm Flags",
+    "desc": "Monitor 42 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Monitor 43 Alarm Flags",
+    "desc": "Monitor 43 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Monitor 44 Alarm Flags",
+    "desc": "Monitor 44 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Monitor 45 Alarm Flags",
+    "desc": "Monitor 45 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Monitor 46 Alarm Flags",
+    "desc": "Monitor 46 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Monitor 47 Alarm Flags",
+    "desc": "Monitor 47 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Monitor 48 Alarm Flags",
+    "desc": "Monitor 48 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Monitor 49 Alarm Flags",
+    "desc": "Monitor 49 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Monitor 50 Alarm Flags",
+    "desc": "Monitor 50 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Monitor 51 Alarm Flags",
+    "desc": "Monitor 51 Alarm Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

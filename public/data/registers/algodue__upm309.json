@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Phase 1 N Voltage",
+    "desc": "Phase 1 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Phase 2 N Voltage",
+    "desc": "Phase 2 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Phase 3 N Voltage",
+    "desc": "Phase 3 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Line 12 Voltage",
+    "desc": "Line 12 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Line 23 Voltage",
+    "desc": "Line 23 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Line 31 Voltage",
+    "desc": "Line 31 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "System Voltage",
+    "desc": "System Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "System Current",
+    "desc": "System Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Phase 1 Active Power",
+    "desc": "Phase 1 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Phase 2 Active Power",
+    "desc": "Phase 2 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Phase 3 Active Power",
+    "desc": "Phase 3 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "System Active Power",
+    "desc": "System Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Phase 1 Apparent Power",
+    "desc": "Phase 1 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Phase 2 Apparent Power",
+    "desc": "Phase 2 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Phase 3 Apparent Power",
+    "desc": "Phase 3 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "System Apparent Power",
+    "desc": "System Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Phase 1 Reactive Power",
+    "desc": "Phase 1 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Phase 2 Reactive Power",
+    "desc": "Phase 2 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Phase 3 Reactive Power",
+    "desc": "Phase 3 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "System Reactive Power",
+    "desc": "System Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Phase 1 Power Factor",
+    "desc": "Phase 1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Phase 2 Power Factor",
+    "desc": "Phase 2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Phase 3 Power Factor",
+    "desc": "Phase 3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "System Power Factor",
+    "desc": "System Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Phase 1 Dpf",
+    "desc": "Phase 1 Dpf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Phase 2 Dpf",
+    "desc": "Phase 2 Dpf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4156,
+    "type": "HR",
+    "name": "Phase 3 Dpf",
+    "desc": "Phase 3 Dpf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4158,
+    "type": "HR",
+    "name": "Phase 1 Tangent",
+    "desc": "Phase 1 Tangent",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4160,
+    "type": "HR",
+    "name": "Phase 2 Tangent",
+    "desc": "Phase 2 Tangent",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4162,
+    "type": "HR",
+    "name": "Phase 3 Tangent",
+    "desc": "Phase 3 Tangent",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4164,
+    "type": "HR",
+    "name": "System Tangent",
+    "desc": "System Tangent",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4166,
+    "type": "HR",
+    "name": "Phase 1 N Voltage Thd",
+    "desc": "Phase 1 N Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4168,
+    "type": "HR",
+    "name": "Phase 2 N Voltage Thd",
+    "desc": "Phase 2 N Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4170,
+    "type": "HR",
+    "name": "Phase 3 N Voltage Thd",
+    "desc": "Phase 3 N Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4172,
+    "type": "HR",
+    "name": "Line 12 Voltage Thd",
+    "desc": "Line 12 Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4174,
+    "type": "HR",
+    "name": "Line 23 Voltage Thd",
+    "desc": "Line 23 Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4176,
+    "type": "HR",
+    "name": "Line 31 Voltage Thd",
+    "desc": "Line 31 Voltage Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4178,
+    "type": "HR",
+    "name": "Phase 1 Current Thd",
+    "desc": "Phase 1 Current Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4180,
+    "type": "HR",
+    "name": "Phase 2 Current Thd",
+    "desc": "Phase 2 Current Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4182,
+    "type": "HR",
+    "name": "Phase 3 Current Thd",
+    "desc": "Phase 3 Current Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4184,
+    "type": "HR",
+    "name": "Neutral Current Thd",
+    "desc": "Neutral Current Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4186,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4188,
+    "type": "HR",
+    "name": "Phase Sequence ($00=123 Ccw, $01=321 Cw, $02=Not D",
+    "desc": "Phase Sequence ($00=123 Ccw, $01=321 Cw, $02=Not Defined)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4190,
+    "type": "HR",
+    "name": "Installation Hourcounter",
+    "desc": "Installation Hourcounter",
+    "unit": "h",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4192,
+    "type": "HR",
+    "name": "Measurement Hourcounter",
+    "desc": "Measurement Hourcounter",
+    "unit": "h",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4366,
+    "type": "HR",
+    "name": "Phase 1 Current Dmd",
+    "desc": "Phase 1 Current Dmd",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  }
+]

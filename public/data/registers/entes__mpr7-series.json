@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "L2 Phase Voltage",
+    "desc": "L2 Phase Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "L3 Phase Voltage",
+    "desc": "L3 Phase Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "L1 Phase Current",
+    "desc": "L1 Phase Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "L2 Phase Current",
+    "desc": "L2 Phase Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "L3 Phase Current",
+    "desc": "L3 Phase Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "L1 L2 Phase Phase Voltage",
+    "desc": "L1 L2 Phase Phase Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L2 L3 Phase Phase Voltage",
+    "desc": "L2 L3 Phase Phase Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L3 L1 Phase Phase Voltage",
+    "desc": "L3 L1 Phase Phase Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "L1 Phase Active Power",
+    "desc": "L1 Phase Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "L2 Phase Active Power",
+    "desc": "L2 Phase Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "L3 Phase Active Power",
+    "desc": "L3 Phase Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "L1 Phase Reactive Power",
+    "desc": "L1 Phase Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "L2 Phase Reactive Power",
+    "desc": "L2 Phase Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "L3 Phase Reactive Power",
+    "desc": "L3 Phase Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "L1 Phase Apparent Power",
+    "desc": "L1 Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "L2 Phase Apparent Power",
+    "desc": "L2 Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "L3 Phase Apparent Power",
+    "desc": "L3 Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "L1 Phase Cos",
+    "desc": "L1 Phase Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "L2 Phase Cos",
+    "desc": "L2 Phase Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "L3 Phase Cos",
+    "desc": "L3 Phase Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Total Import Active Power",
+    "desc": "Total Import Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Total Export Active Power",
+    "desc": "Total Export Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Total Inductive Reactive Power",
+    "desc": "Total Inductive Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Total Capacitive Reactive Power",
+    "desc": "Total Capacitive Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Average Inductive Cos",
+    "desc": "Average Inductive Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Average Capacitive Cos",
+    "desc": "Average Capacitive Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Import Active Energy 1",
+    "desc": "Import Active Energy 1",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Export Active Energy 1",
+    "desc": "Export Active Energy 1",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Inductive Reactive Energy 1",
+    "desc": "Inductive Reactive Energy 1",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Capacitive Reactive Energy 1",
+    "desc": "Capacitive Reactive Energy 1",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Import Active Energy 2",
+    "desc": "Import Active Energy 2",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Export Active Energy 2",
+    "desc": "Export Active Energy 2",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Inductive Reactive Energy 2",
+    "desc": "Inductive Reactive Energy 2",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Capacitive Reactive Energy 2",
+    "desc": "Capacitive Reactive Energy 2",
+    "unit": "VArh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "L1 Phase Min. Voltage",
+    "desc": "L1 Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "L2 Phase Min. Voltage",
+    "desc": "L2 Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "L3 Phase Min. Voltage",
+    "desc": "L3 Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "L1 L2 Phase Phase Min. Voltage",
+    "desc": "L1 L2 Phase Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 126,
+    "type": "HR",
+    "name": "L2 L3 Phase Phase Min. Voltage",
+    "desc": "L2 L3 Phase Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "L3 L1 Phase Phase Min. Voltage",
+    "desc": "L3 L1 Phase Phase Min. Voltage",
+    "unit": "Vot",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "L1 Phase Min. Current",
+    "desc": "L1 Phase Min. Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "L2 Phase Min. Current",
+    "desc": "L2 Phase Min. Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "L3 Phase Min. Current",
+    "desc": "L3 Phase Min. Current",
+    "unit": "Amper",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "L1 Phase Min. Active Power",
+    "desc": "L1 Phase Min. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 138,
+    "type": "HR",
+    "name": "L2 Phase Min. Active Power",
+    "desc": "L2 Phase Min. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "L3 Phase Min. Active Power",
+    "desc": "L3 Phase Min. Active Power",
+    "unit": "Watt",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 142,
+    "type": "HR",
+    "name": "L1 Phase Min. Reactive Power",
+    "desc": "L1 Phase Min. Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

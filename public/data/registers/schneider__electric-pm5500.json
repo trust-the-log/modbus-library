@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Meter Name",
+    "desc": "Meter Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Meter Model",
+    "desc": "Meter Model",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Manufacturer",
+    "desc": "Manufacturer",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 89,
+    "type": "HR",
+    "name": "Product Id Number",
+    "desc": "Product Id Number",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 129,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 135,
+    "type": "HR",
+    "name": "Hardware Revision",
+    "desc": "Hardware Revision",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1636,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Present Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1637,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1638,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1639,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1641,
+    "type": "HR",
+    "name": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1642,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1643,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1644,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1668,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Present Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1700,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Present Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1827,
+    "type": "HR",
+    "name": "Number Of Metering System Restarts",
+    "desc": "Number Of Metering System Restarts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1828,
+    "type": "HR",
+    "name": "Number Of Control Power Failures",
+    "desc": "Number Of Control Power Failures",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1833,
+    "type": "HR",
+    "name": "Duration Of Last Control Power Failure",
+    "desc": "Duration Of Last Control Power Failure",
+    "unit": "seconds",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1835,
+    "type": "HR",
+    "name": "Cause Of Last Meter Reset",
+    "desc": "Cause Of Last Meter Reset",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1836,
+    "type": "HR",
+    "name": "Year",
+    "desc": "Year",
+    "unit": "year",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1837,
+    "type": "HR",
+    "name": "Month",
+    "desc": "Month",
+    "unit": "month",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1838,
+    "type": "HR",
+    "name": "Day",
+    "desc": "Day",
+    "unit": "days",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1839,
+    "type": "HR",
+    "name": "Hour",
+    "desc": "Hour",
+    "unit": "hours",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1840,
+    "type": "HR",
+    "name": "Minute",
+    "desc": "Minute",
+    "unit": "minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1841,
+    "type": "HR",
+    "name": "Second",
+    "desc": "Second",
+    "unit": "seconds",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1842,
+    "type": "HR",
+    "name": "Millisecond",
+    "desc": "Millisecond",
+    "unit": "msec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1844,
+    "type": "HR",
+    "name": "Year",
+    "desc": "Year",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1845,
+    "type": "HR",
+    "name": "Month And Day",
+    "desc": "Month And Day",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1846,
+    "type": "HR",
+    "name": "Hour And Minute",
+    "desc": "Hour And Minute",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1847,
+    "type": "HR",
+    "name": "Milliseconds",
+    "desc": "Milliseconds",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1919,
+    "type": "HR",
+    "name": "Revenue Security Switch Status",
+    "desc": "Revenue Security Switch Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1920,
+    "type": "HR",
+    "name": "Revenue Security Status",
+    "desc": "Revenue Security Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2001,
+    "type": "HR",
+    "name": "Active Load Timer",
+    "desc": "Active Load Timer",
+    "unit": "seconds",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2003,
+    "type": "HR",
+    "name": "Meter Operation Timer",
+    "desc": "Meter Operation Timer",
+    "unit": "seconds",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2013,
+    "type": "HR",
+    "name": "Number Of Phases",
+    "desc": "Number Of Phases",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2014,
+    "type": "HR",
+    "name": "Number Of Wires",
+    "desc": "Number Of Wires",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2015,
+    "type": "HR",
+    "name": "Power System Configuration",
+    "desc": "Power System Configuration",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Nominal Frequency",
+    "desc": "Nominal Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Nominal Voltage",
+    "desc": "Nominal Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2019,
+    "type": "HR",
+    "name": "Nominal Current",
+    "desc": "Nominal Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2023,
+    "type": "HR",
+    "name": "Normal Phase Rotation",
+    "desc": "Normal Phase Rotation",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2024,
+    "type": "HR",
+    "name": "Number Vts",
+    "desc": "Number Vts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2025,
+    "type": "HR",
+    "name": "Vt Primary",
+    "desc": "Vt Primary",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2027,
+    "type": "HR",
+    "name": "Vt Secondary",
+    "desc": "Vt Secondary",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2028,
+    "type": "HR",
+    "name": "Number Cts",
+    "desc": "Number Cts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2029,
+    "type": "HR",
+    "name": "Ct Primary",
+    "desc": "Ct Primary",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2030,
+    "type": "HR",
+    "name": "Ct Secondary",
+    "desc": "Ct Secondary",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2031,
+    "type": "HR",
+    "name": "Ct Primary N",
+    "desc": "Ct Primary N",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2032,
+    "type": "HR",
+    "name": "Ct Secondary N",
+    "desc": "Ct Secondary N",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

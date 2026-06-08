@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 7222,
+    "type": "HR",
+    "name": "Peak Demand Forward Watts",
+    "desc": "Peak Demand Forward Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7264,
+    "type": "HR",
+    "name": "Peak Demand Reverse Watts",
+    "desc": "Peak Demand Reverse Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7305,
+    "type": "HR",
+    "name": "Peak Demand Lagging Vars",
+    "desc": "Peak Demand Lagging Vars",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7347,
+    "type": "HR",
+    "name": "Peak Demand Leading Vars",
+    "desc": "Peak Demand Leading Vars",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "Status",
+    "desc": "Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "Vab",
+    "desc": "Vab",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Vbc",
+    "desc": "Vbc",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "Vca",
+    "desc": "Vca",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "Van",
+    "desc": "Van",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Vbn",
+    "desc": "Vbn",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Vcn",
+    "desc": "Vcn",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5002,
+    "type": "HR",
+    "name": "La",
+    "desc": "La",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5004,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5006,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5014,
+    "type": "HR",
+    "name": "Peak Demand La",
+    "desc": "Peak Demand La",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5016,
+    "type": "HR",
+    "name": "Peak Demand Lb",
+    "desc": "Peak Demand Lb",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5018,
+    "type": "HR",
+    "name": "Peak Demand Ic",
+    "desc": "Peak Demand Ic",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5250,
+    "type": "HR",
+    "name": "Demand La",
+    "desc": "Demand La",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5252,
+    "type": "HR",
+    "name": "Demand Ib",
+    "desc": "Demand Ib",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5254,
+    "type": "HR",
+    "name": "Demand Ic",
+    "desc": "Demand Ic",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6006,
+    "type": "HR",
+    "name": "Real Power",
+    "desc": "Real Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6070,
+    "type": "HR",
+    "name": "Apparent Power",
+    "desc": "Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6134,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6218,
+    "type": "HR",
+    "name": "Pf Displacement",
+    "desc": "Pf Displacement",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6220,
+    "type": "HR",
+    "name": "Pf Apparent",
+    "desc": "Pf Apparent",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7004,
+    "type": "HR",
+    "name": "Forward Real Energy",
+    "desc": "Forward Real Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7006,
+    "type": "HR",
+    "name": "Reverse Real Energy",
+    "desc": "Reverse Real Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7008,
+    "type": "HR",
+    "name": "Net Real Energy",
+    "desc": "Net Real Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7010,
+    "type": "HR",
+    "name": "Leading Reactive Energy",
+    "desc": "Leading Reactive Energy",
+    "unit": "Varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7012,
+    "type": "HR",
+    "name": "Lagging Reactive Energy",
+    "desc": "Lagging Reactive Energy",
+    "unit": "Varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7014,
+    "type": "HR",
+    "name": "Net Reactive Energy",
+    "desc": "Net Reactive Energy",
+    "unit": "reactive-hours",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7016,
+    "type": "HR",
+    "name": "Apparent Energy",
+    "desc": "Apparent Energy",
+    "unit": "hours",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7023,
+    "type": "HR",
+    "name": "Demand Watts",
+    "desc": "Demand Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7220,
+    "type": "HR",
+    "name": "Demand Forward Watts",
+    "desc": "Demand Forward Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7262,
+    "type": "HR",
+    "name": "Demand Reverse Watts",
+    "desc": "Demand Reverse Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7029,
+    "type": "HR",
+    "name": "Demand Vars",
+    "desc": "Demand Vars",
+    "unit": "VA- reactive",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7303,
+    "type": "HR",
+    "name": "Demand Lagging Vars",
+    "desc": "Demand Lagging Vars",
+    "unit": "VA- reactive",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7345,
+    "type": "HR",
+    "name": "Demand Leading Vars",
+    "desc": "Demand Leading Vars",
+    "unit": "reactive",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7035,
+    "type": "HR",
+    "name": "Demand Vas",
+    "desc": "Demand Vas",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7040,
+    "type": "HR",
+    "name": "Peak Demand Watts",
+    "desc": "Peak Demand Watts",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7045,
+    "type": "HR",
+    "name": "Peak Demand Vars",
+    "desc": "Peak Demand Vars",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7050,
+    "type": "HR",
+    "name": "Peak Demand Vas",
+    "desc": "Peak Demand Vas",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7628,
+    "type": "HR",
+    "name": "Total Reactive Energy",
+    "desc": "Total Reactive Energy",
+    "unit": "reactive-hours",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7679,
+    "type": "HR",
+    "name": "Total Real Energy",
+    "desc": "Total Real Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 9436,
+    "type": "HR",
+    "name": "Percent Thd La",
+    "desc": "Percent Thd La",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 9438,
+    "type": "HR",
+    "name": "Percent Thd Lb",
+    "desc": "Percent Thd Lb",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 9440,
+    "type": "HR",
+    "name": "Percent Thd Ic",
+    "desc": "Percent Thd Ic",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8148,
+    "type": "HR",
+    "name": "Percent Thd Vab",
+    "desc": "Percent Thd Vab",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8150,
+    "type": "HR",
+    "name": "Percent Thd Vbc",
+    "desc": "Percent Thd Vbc",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8152,
+    "type": "HR",
+    "name": "Percent Thd Vca",
+    "desc": "Percent Thd Vca",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 16387,
+    "type": "HR",
+    "name": "Modbus Id",
+    "desc": "Modbus Id",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16388,
+    "type": "HR",
+    "name": "Baud Rate",
+    "desc": "Baud Rate",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16389,
+    "type": "HR",
+    "name": "Protocol Version",
+    "desc": "Protocol Version",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16391,
+    "type": "HR",
+    "name": "Software Version",
+    "desc": "Software Version",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16393,
+    "type": "HR",
+    "name": "Hardware Version",
+    "desc": "Hardware Version",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16395,
+    "type": "HR",
+    "name": "Meter Amps",
+    "desc": "Meter Amps",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16397,
+    "type": "HR",
+    "name": "S0 Output Rate",
+    "desc": "S0 Output Rate",
+    "unit": "imp/kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16399,
+    "type": "HR",
+    "name": "Combination Code",
+    "desc": "Combination Code",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16401,
+    "type": "HR",
+    "name": "Parity Setting",
+    "desc": "Parity Setting",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16402,
+    "type": "HR",
+    "name": "Current Direction",
+    "desc": "Current Direction",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 16403,
+    "type": "HR",
+    "name": "L2 Current Direction",
+    "desc": "L2 Current Direction",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 16404,
+    "type": "HR",
+    "name": "L3 Current Direction",
+    "desc": "L3 Current Direction",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 16405,
+    "type": "HR",
+    "name": "Error Code",
+    "desc": "Error Code",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16406,
+    "type": "HR",
+    "name": "Power Down Counter",
+    "desc": "Power Down Counter",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16407,
+    "type": "HR",
+    "name": "Present Quadrant",
+    "desc": "Present Quadrant",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16408,
+    "type": "HR",
+    "name": "L1 Quadrant",
+    "desc": "L1 Quadrant",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16409,
+    "type": "HR",
+    "name": "L2 Quadrant",
+    "desc": "L2 Quadrant",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16410,
+    "type": "HR",
+    "name": "L3 Quadrant",
+    "desc": "L3 Quadrant",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16415,
+    "type": "HR",
+    "name": "Ct Mode",
+    "desc": "Ct Mode",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20480,
+    "type": "HR",
+    "name": "Voltage",
+    "desc": "Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20482,
+    "type": "HR",
+    "name": "L1 Voltage",
+    "desc": "L1 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20484,
+    "type": "HR",
+    "name": "L2 Voltage",
+    "desc": "L2 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20486,
+    "type": "HR",
+    "name": "L3 Voltage",
+    "desc": "L3 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20488,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20490,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20492,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20494,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20496,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20498,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20500,
+    "type": "HR",
+    "name": "L1 Active Power",
+    "desc": "L1 Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20502,
+    "type": "HR",
+    "name": "L2 Active Power",
+    "desc": "L2 Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20504,
+    "type": "HR",
+    "name": "L3 Active Power",
+    "desc": "L3 Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20506,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20508,
+    "type": "HR",
+    "name": "L1 Reactive Power",
+    "desc": "L1 Reactive Power",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20510,
+    "type": "HR",
+    "name": "L2 Reactive Power",
+    "desc": "L2 Reactive Power",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20512,
+    "type": "HR",
+    "name": "L3 Reactive Power",
+    "desc": "L3 Reactive Power",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20514,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20516,
+    "type": "HR",
+    "name": "L1 Apparent Power",
+    "desc": "L1 Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20518,
+    "type": "HR",
+    "name": "L2 Apparent Power",
+    "desc": "L2 Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20520,
+    "type": "HR",
+    "name": "L3 Apparent Power",
+    "desc": "L3 Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20522,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20524,
+    "type": "HR",
+    "name": "L1 Power Factor",
+    "desc": "L1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20526,
+    "type": "HR",
+    "name": "L2 Power Factor",
+    "desc": "L2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20528,
+    "type": "HR",
+    "name": "L3 Power Factor",
+    "desc": "L3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24576,
+    "type": "HR",
+    "name": "Total Active Energy",
+    "desc": "Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24578,
+    "type": "HR",
+    "name": "T1 Total Active Energy",
+    "desc": "T1 Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24580,
+    "type": "HR",
+    "name": "T2 Total Active Energy",
+    "desc": "T2 Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24582,
+    "type": "HR",
+    "name": "L1 Total Active Energy",
+    "desc": "L1 Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24584,
+    "type": "HR",
+    "name": "L2 Total Active Energy",
+    "desc": "L2 Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24586,
+    "type": "HR",
+    "name": "L3 Total Active Energy",
+    "desc": "L3 Total Active Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

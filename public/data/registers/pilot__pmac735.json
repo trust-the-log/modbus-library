@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Phase B Voltage",
+    "desc": "Phase B Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Phase C Voltage",
+    "desc": "Phase C Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Line Ab Voltage",
+    "desc": "Line Ab Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Line Bc Voltage",
+    "desc": "Line Bc Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Line Ca Voltage",
+    "desc": "Line Ca Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Three Phase Active Power",
+    "desc": "Three Phase Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Three Phase Reactive Power",
+    "desc": "Three Phase Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Three Phase Apparent Power",
+    "desc": "Three Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Input Active Energy",
+    "desc": "Input Active Energy",
+    "unit": "kwh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Input Reactive Energy",
+    "desc": "Input Reactive Energy",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Output Active Energy",
+    "desc": "Output Active Energy",
+    "unit": "kwh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Output Reactive Energy",
+    "desc": "Output Reactive Energy",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "On Off Status",
+    "desc": "On Off Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Relay Status",
+    "desc": "Relay Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Va/Vab Thd",
+    "desc": "Va/Vab Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Vb/Vbc Thd",
+    "desc": "Vb/Vbc Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Vc/Vca Thd",
+    "desc": "Vc/Vca Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Ia Thd",
+    "desc": "Ia Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Ib Thd",
+    "desc": "Ib Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Ic Thd",
+    "desc": "Ic Thd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Ia K Factor",
+    "desc": "Ia K Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Ib K Factor",
+    "desc": "Ib K Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Ic K Factor",
+    "desc": "Ic K Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Average Phase Current Demand",
+    "desc": "Average Phase Current Demand",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Three Phase Active Power Demand",
+    "desc": "Three Phase Active Power Demand",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Three Phase Reactive Power Demand",
+    "desc": "Three Phase Reactive Power Demand",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Three Phase Apparent Power Demand",
+    "desc": "Three Phase Apparent Power Demand",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Soe Event Counter",
+    "desc": "Soe Event Counter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Phase A Voltage",
+    "desc": "Phase A Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 101,
+    "type": "HR",
+    "name": "Phase B Voltage",
+    "desc": "Phase B Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Phase C Voltage",
+    "desc": "Phase C Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 103,
+    "type": "HR",
+    "name": "Phase Voltage Unbalance Rate",
+    "desc": "Phase Voltage Unbalance Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Average Phase Voltage",
+    "desc": "Average Phase Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 105,
+    "type": "HR",
+    "name": "Line Ab Voltage",
+    "desc": "Line Ab Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Line Bc Voltage",
+    "desc": "Line Bc Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 107,
+    "type": "HR",
+    "name": "Line Ca Voltage",
+    "desc": "Line Ca Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Line Voltage Unbalance Rate",
+    "desc": "Line Voltage Unbalance Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 109,
+    "type": "HR",
+    "name": "Average Line Voltage",
+    "desc": "Average Line Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Neutral Voltage",
+    "desc": "Neutral Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 111,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 113,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Current Unbalance Rate",
+    "desc": "Current Unbalance Rate",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 115,
+    "type": "HR",
+    "name": "Average Phase Current",
+    "desc": "Average Phase Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

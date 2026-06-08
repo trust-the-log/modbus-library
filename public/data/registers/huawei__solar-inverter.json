@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Model Id",
+    "desc": "Model Id",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Number Of Mpp Trackers",
+    "desc": "Number Of Mpp Trackers",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Rated Power",
+    "desc": "Rated Power",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Maximum Active Power ( Max)",
+    "desc": "Maximum Active Power ( Max)",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Maximum Apparent Power (Smax)",
+    "desc": "Maximum Apparent Power (Smax)",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Maximum Reactive Power (Qmax, Fed To The Power Gri",
+    "desc": "Maximum Reactive Power (Qmax, Fed To The Power Grid)",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Maximum Reactive Power Absorbed From The Power Gri",
+    "desc": "Maximum Reactive Power Absorbed From The Power Grid)",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1999,
+    "type": "HR",
+    "name": "State 1",
+    "desc": "State 1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "Alarm 2",
+    "desc": "Alarm 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2009,
+    "type": "HR",
+    "name": "Alarm 3",
+    "desc": "Alarm 3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2015,
+    "type": "HR",
+    "name": "Pvlvoltage",
+    "desc": "Pvlvoltage",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Pvlcurrent",
+    "desc": "Pvlcurrent",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Pv2Voltage",
+    "desc": "Pv2Voltage",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2018,
+    "type": "HR",
+    "name": "Pv2Current",
+    "desc": "Pv2Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2019,
+    "type": "HR",
+    "name": "Pv3Voltage",
+    "desc": "Pv3Voltage",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2020,
+    "type": "HR",
+    "name": "Pv3Current",
+    "desc": "Pv3Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2022,
+    "type": "HR",
+    "name": "Pv4Current",
+    "desc": "Pv4Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2063,
+    "type": "HR",
+    "name": "Input Power",
+    "desc": "Input Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2065,
+    "type": "HR",
+    "name": "Power Grid Voltage/Line Voltage Between Phases A A",
+    "desc": "Power Grid Voltage/Line Voltage Between Phases A And B",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2066,
+    "type": "HR",
+    "name": "Line Voltage Between Phases B And C",
+    "desc": "Line Voltage Between Phases B And C",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2067,
+    "type": "HR",
+    "name": "Line Voltage Between Phases C And A",
+    "desc": "Line Voltage Between Phases C And A",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2068,
+    "type": "HR",
+    "name": "Phase A Voltage",
+    "desc": "Phase A Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2069,
+    "type": "HR",
+    "name": "Phase B Voltage",
+    "desc": "Phase B Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2070,
+    "type": "HR",
+    "name": "Phase C Voltage",
+    "desc": "Phase C Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2071,
+    "type": "HR",
+    "name": "Power Grid Current/Phase A Current",
+    "desc": "Power Grid Current/Phase A Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2073,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2075,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2077,
+    "type": "HR",
+    "name": "Peak Active Power Of Current Day",
+    "desc": "Peak Active Power Of Current Day",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2079,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2081,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2083,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2084,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2085,
+    "type": "HR",
+    "name": "Efficiency",
+    "desc": "Efficiency",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2086,
+    "type": "HR",
+    "name": "Internal Temperature",
+    "desc": "Internal Temperature",
+    "unit": "DC",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2087,
+    "type": "HR",
+    "name": "Insulation Resistance",
+    "desc": "Insulation Resistance",
+    "unit": "MW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2088,
+    "type": "HR",
+    "name": "Device Status",
+    "desc": "Device Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2089,
+    "type": "HR",
+    "name": "Fault Code",
+    "desc": "Fault Code",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2090,
+    "type": "HR",
+    "name": "Startup Time",
+    "desc": "Startup Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2092,
+    "type": "HR",
+    "name": "Shutdown Time",
+    "desc": "Shutdown Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2105,
+    "type": "HR",
+    "name": "Accumulated Energy Yield",
+    "desc": "Accumulated Energy Yield",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2113,
+    "type": "HR",
+    "name": "Daily Energy Yield",
+    "desc": "Daily Energy Yield",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5299,
+    "type": "HR",
+    "name": "[Active] Adjustment Mode",
+    "desc": "[Active] Adjustment Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5301,
+    "type": "HR",
+    "name": "[Active] Adjustment Value",
+    "desc": "[Active] Adjustment Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5302,
+    "type": "HR",
+    "name": "[Active] Adjustment Command",
+    "desc": "[Active] Adjustment Command",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5303,
+    "type": "HR",
+    "name": "[Reactive] Adjustment Mode",
+    "desc": "[Reactive] Adjustment Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5304,
+    "type": "HR",
+    "name": "[Reactive] Adjustment Value",
+    "desc": "[Reactive] Adjustment Value",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5306,
+    "type": "HR",
+    "name": "[Reactive] Adjustment Command",
+    "desc": "[Reactive] Adjustment Command",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6999,
+    "type": "HR",
+    "name": "[Energy Storage Unit 1] Running Status",
+    "desc": "[Energy Storage Unit 1] Running Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7000,
+    "type": "HR",
+    "name": "[Energy Storage Unit 1] Charge And Discharge Power",
+    "desc": "[Energy Storage Unit 1] Charge And Discharge Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 7014,
+    "type": "HR",
+    "name": "[Energy Storage Unit 1] Current Day Charge Capacit",
+    "desc": "[Energy Storage Unit 1] Current Day Charge Capacity",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

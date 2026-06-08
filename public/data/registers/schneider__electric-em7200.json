@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Meter Name",
+    "desc": "Meter Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Meter Model",
+    "desc": "Meter Model",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Manufacturer",
+    "desc": "Manufacturer",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Product Id Number",
+    "desc": "Product Id Number",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Hardware Revision",
+    "desc": "Hardware Revision",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 141,
+    "type": "HR",
+    "name": "Production History 01",
+    "desc": "Production History 01",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 142,
+    "type": "HR",
+    "name": "Production History 02",
+    "desc": "Production History 02",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 143,
+    "type": "HR",
+    "name": "Production History 03",
+    "desc": "Production History 03",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Production History 04",
+    "desc": "Production History 04",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 145,
+    "type": "HR",
+    "name": "Production History 05",
+    "desc": "Production History 05",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "Production History 06",
+    "desc": "Production History 06",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 147,
+    "type": "HR",
+    "name": "Production History 07",
+    "desc": "Production History 07",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Production History 08",
+    "desc": "Production History 08",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 149,
+    "type": "HR",
+    "name": "Production History 09",
+    "desc": "Production History 09",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Production History 10",
+    "desc": "Production History 10",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 151,
+    "type": "HR",
+    "name": "Production History 11",
+    "desc": "Production History 11",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Production History 12",
+    "desc": "Production History 12",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 153,
+    "type": "HR",
+    "name": "Production History 13",
+    "desc": "Production History 13",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "Production History 14",
+    "desc": "Production History 14",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 155,
+    "type": "HR",
+    "name": "Production History 15",
+    "desc": "Production History 15",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Production History 16",
+    "desc": "Production History 16",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 157,
+    "type": "HR",
+    "name": "Production History 17",
+    "desc": "Production History 17",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Production History 18",
+    "desc": "Production History 18",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 159,
+    "type": "HR",
+    "name": "Production History 19",
+    "desc": "Production History 19",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Production History 20",
+    "desc": "Production History 20",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 161,
+    "type": "HR",
+    "name": "Checksum",
+    "desc": "Checksum",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1637,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Present Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1638,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1639,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1640,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1641,
+    "type": "HR",
+    "name": "T Internal Evolutions",
+    "desc": "T Internal Evolutions",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1642,
+    "type": "HR",
+    "name": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1643,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1644,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1645,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1646,
+    "type": "HR",
+    "name": "T Internal Evolutions",
+    "desc": "T Internal Evolutions",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1701,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Present Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1702,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1703,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1704,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1705,
+    "type": "HR",
+    "name": "T Internal Evolutions",
+    "desc": "T Internal Evolutions",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1706,
+    "type": "HR",
+    "name": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "desc": "Previous Firmware Version (Dlf Format) X.Y.T",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1707,
+    "type": "HR",
+    "name": "X Major",
+    "desc": "X Major",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1708,
+    "type": "HR",
+    "name": "Y Minor",
+    "desc": "Y Minor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1709,
+    "type": "HR",
+    "name": "Z Quality",
+    "desc": "Z Quality",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1710,
+    "type": "HR",
+    "name": "T Internal Evolutions",
+    "desc": "T Internal Evolutions",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1715,
+    "type": "HR",
+    "name": "Checksum",
+    "desc": "Checksum",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1716,
+    "type": "HR",
+    "name": "Bridge Code Version",
+    "desc": "Bridge Code Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1828,
+    "type": "HR",
+    "name": "Number Of Metering System Restarts",
+    "desc": "Number Of Metering System Restarts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

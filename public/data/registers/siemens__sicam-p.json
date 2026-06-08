@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 199,
+    "type": "HR",
+    "name": "Overflow Voltage L1 N (Ov Ul1)",
+    "desc": "Overflow Voltage L1 N (Ov Ul1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Voltage L N (U L1)",
+    "desc": "Voltage L N (U L1)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Voltage L N (U L2)",
+    "desc": "Voltage L N (U L2)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Voltage L N (U L3)",
+    "desc": "Voltage L N (U L3)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Sum Of Voltages L N (Calculated) (U Ne)",
+    "desc": "Sum Of Voltages L N (Calculated) (U Ne)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Current (I L1)",
+    "desc": "Current (I L1)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Current (I L2)",
+    "desc": "Current (I L2)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "Current (I L3)",
+    "desc": "Current (I L3)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Current (I Ne)",
+    "desc": "Current (I Ne)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "Voltage L L (U L12)",
+    "desc": "Voltage L L (U L12)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 218,
+    "type": "HR",
+    "name": "Voltage L L (U L23)",
+    "desc": "Voltage L L (U L23)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "Voltage L L (U L31)",
+    "desc": "Voltage L L (U L31)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 222,
+    "type": "HR",
+    "name": "Voltage Sum (U Sum)",
+    "desc": "Voltage Sum (U Sum)",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 224,
+    "type": "HR",
+    "name": "Current Sum (I Sum)",
+    "desc": "Current Sum (I Sum)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 226,
+    "type": "HR",
+    "name": "Active Power (P L1)",
+    "desc": "Active Power (P L1)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 228,
+    "type": "HR",
+    "name": "Active Power (P L2)",
+    "desc": "Active Power (P L2)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 230,
+    "type": "HR",
+    "name": "Active Power (P L3)",
+    "desc": "Active Power (P L3)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 232,
+    "type": "HR",
+    "name": "Active Power (P)",
+    "desc": "Active Power (P)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 234,
+    "type": "HR",
+    "name": "Reactive Power (Q L1)",
+    "desc": "Reactive Power (Q L1)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 236,
+    "type": "HR",
+    "name": "Reactive Power (Q L2)",
+    "desc": "Reactive Power (Q L2)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 238,
+    "type": "HR",
+    "name": "Reactive Power (Q L3)",
+    "desc": "Reactive Power (Q L3)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 240,
+    "type": "HR",
+    "name": "Reactive Power (Q)",
+    "desc": "Reactive Power (Q)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 242,
+    "type": "HR",
+    "name": "Apparent Power (S L1)",
+    "desc": "Apparent Power (S L1)",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 244,
+    "type": "HR",
+    "name": "Apparent Power (S L2)",
+    "desc": "Apparent Power (S L2)",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 246,
+    "type": "HR",
+    "name": "Apparent Power (S L3)",
+    "desc": "Apparent Power (S L3)",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 248,
+    "type": "HR",
+    "name": "Apparent Power (S)",
+    "desc": "Apparent Power (S)",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 250,
+    "type": "HR",
+    "name": "Active Factor Cos (Cos Phi L1)",
+    "desc": "Active Factor Cos (Cos Phi L1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 252,
+    "type": "HR",
+    "name": "Active Factor Cos (Cos Phi L2)",
+    "desc": "Active Factor Cos (Cos Phi L2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 254,
+    "type": "HR",
+    "name": "Active Factor Cos (Cos Phi L3)",
+    "desc": "Active Factor Cos (Cos Phi L3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Active Factor Cos (Cos Phi)",
+    "desc": "Active Factor Cos (Cos Phi)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Power Factor (Pf L1)",
+    "desc": "Power Factor (Pf L1)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Power Factor (Pf L2)",
+    "desc": "Power Factor (Pf L2)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Power Factor (Pf L3)",
+    "desc": "Power Factor (Pf L3)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Power Factor (Pf)",
+    "desc": "Power Factor (Pf)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Phase Angle (Phi L1)",
+    "desc": "Phase Angle (Phi L1)",
+    "unit": "D (degree)",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Phase Angle (Phi L2)",
+    "desc": "Phase Angle (Phi L2)",
+    "unit": "D (degree)",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "Phase Angle (Phi L3)",
+    "desc": "Phase Angle (Phi L3)",
+    "unit": "D (degree)",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Phase Angle (Phi Sum)",
+    "desc": "Phase Angle (Phi Sum)",
+    "unit": "D (degree)",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Frequency (F)",
+    "desc": "Frequency (F)",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Voltage Unbalance (Asym U)",
+    "desc": "Voltage Unbalance (Asym U)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Current Unbalance (Asym I)",
+    "desc": "Current Unbalance (Asym I)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Thd Voltage (Thdu L1)",
+    "desc": "Thd Voltage (Thdu L1)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Thd Voltage (Thdu L2)",
+    "desc": "Thd Voltage (Thdu L2)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Thd Voltage (Thdu L3)",
+    "desc": "Thd Voltage (Thdu L3)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Thd Current (Thdi L1)",
+    "desc": "Thd Current (Thdi L1)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Thd Current (Thdi L2)",
+    "desc": "Thd Current (Thdi L2)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Thd Current (Thdi L3)",
+    "desc": "Thd Current (Thdi L3)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 292,
+    "type": "HR",
+    "name": "Harmonic Voltage, 5Th Harmonic Wave (Hu L1 5)",
+    "desc": "Harmonic Voltage, 5Th Harmonic Wave (Hu L1 5)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "Harmonic Voltage, 5Th Harmonic Wave (Hu L2 5)",
+    "desc": "Harmonic Voltage, 5Th Harmonic Wave (Hu L2 5)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Harmonic Voltage, 5Th Harmonic Wave (Hu L3 5)",
+    "desc": "Harmonic Voltage, 5Th Harmonic Wave (Hu L3 5)",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Grid Current (X1)",
+    "desc": "Grid Current (X1)",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Grid Power (X1)",
+    "desc": "Grid Power (X1)",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Pv Voltage1 (Hybrid)",
+    "desc": "Pv Voltage1 (Hybrid)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Pv Voltage2 (Hybrid)",
+    "desc": "Pv Voltage2 (Hybrid)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Pv Current1 (Hybrid)",
+    "desc": "Pv Current1 (Hybrid)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Pv Current2 (Hybrid)",
+    "desc": "Pv Current2 (Hybrid)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Grid Frequency (X1)",
+    "desc": "Grid Frequency (X1)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Temperature",
+    "desc": "Temperature",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Run Mode",
+    "desc": "Run Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Powerdc1 (Hybrid)",
+    "desc": "Powerdc1 (Hybrid)",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Powerdc2 (Hybrid)",
+    "desc": "Powerdc2 (Hybrid)",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Temper Fault Value",
+    "desc": "Temper Fault Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Pv1Volt Fault Value",
+    "desc": "Pv1Volt Fault Value",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Pv2Volt Fault Value",
+    "desc": "Pv2Volt Fault Value",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Gfci Fault Value",
+    "desc": "Gfci Fault Value",
+    "unit": "mA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Grid Volt Fault Value",
+    "desc": "Grid Volt Fault Value",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Grid Freq Fault Value T",
+    "desc": "Grid Freq Fault Value T",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Dci Fault Value",
+    "desc": "Dci Fault Value",
+    "unit": "mA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Time Count Down",
+    "desc": "Time Count Down",
+    "unit": "ms",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Bat Voltage Charge1",
+    "desc": "Bat Voltage Charge1",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Bat Current Charge1",
+    "desc": "Bat Current Charge1",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Batpower Charge1",
+    "desc": "Batpower Charge1",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Bms Connect State",
+    "desc": "Bms Connect State",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Temperature Bat",
+    "desc": "Temperature Bat",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Battery Capacity",
+    "desc": "Battery Capacity",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Output Energy Charge.Lsb",
+    "desc": "Output Energy Charge.Lsb",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Output Energy Charge.Msb",
+    "desc": "Output Energy Charge.Msb",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Bms Warning Lsb",
+    "desc": "Bms Warning Lsb",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Output Energy Charge Today",
+    "desc": "Output Energy Charge Today",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Input Energy Charge.Lsb",
+    "desc": "Input Energy Charge.Lsb",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Input Energy Charge.Msb",
+    "desc": "Input Energy Charge.Msb",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Input Energy Charge Today",
+    "desc": "Input Energy Charge Today",
+    "unit": "KWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Bms Charge Max Current",
+    "desc": "Bms Charge Max Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Bms Discharge Max Current",
+    "desc": "Bms Discharge Max Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Bms Warning Msb",
+    "desc": "Bms Warning Msb",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Inv Fault Message.Lsb",
+    "desc": "Inv Fault Message.Lsb",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Inv Fault Message.Msb",
+    "desc": "Inv Fault Message.Msb",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Mgr Fault Message",
+    "desc": "Mgr Fault Message",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Feedin Power (Meter)",
+    "desc": "Feedin Power (Meter)",
+    "unit": "w",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Feedin Energy Total (Meter)",
+    "desc": "Feedin Energy Total (Meter)",
+    "unit": "kwh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Consum Energy Total (Meter)",
+    "desc": "Consum Energy Total (Meter)",
+    "unit": "kwh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Eps Volt (X1)",
+    "desc": "Eps Volt (X1)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Eps Current (X1)",
+    "desc": "Eps Current (X1)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Eps Power (X1)",
+    "desc": "Eps Power (X1)",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Eps Frequency (X1)",
+    "desc": "Eps Frequency (X1)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Etoday Togrid",
+    "desc": "Etoday Togrid",
+    "unit": "kwh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Etotal Togrid",
+    "desc": "Etotal Togrid",
+    "unit": "kwh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Lock State",
+    "desc": "Lock State",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Bus Volt",
+    "desc": "Bus Volt",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 103,
+    "type": "HR",
+    "name": "W Dcv Fault Val",
+    "desc": "W Dcv Fault Val",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

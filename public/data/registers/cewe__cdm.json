@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "V1 L N Voltage Phase 1",
+    "desc": "V1 L N Voltage Phase 1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "V2 L N Voltage Phase 2",
+    "desc": "V2 L N Voltage Phase 2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "V3 L N Voltage Phase 3",
+    "desc": "V3 L N Voltage Phase 3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "V12 L L Voltage Line 12",
+    "desc": "V12 L L Voltage Line 12",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "V23 L L Voltage Line 23",
+    "desc": "V23 L L Voltage Line 23",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "V31 L L Voltage Line 31",
+    "desc": "V31 L L Voltage Line 31",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "V System Voltage",
+    "desc": "V System Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "A1 Phase 1 Current",
+    "desc": "A1 Phase 1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "A2 Phase 2 Current",
+    "desc": "A2 Phase 2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "A3 Phase 3 Current",
+    "desc": "A3 Phase 3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "An Neutral Current",
+    "desc": "An Neutral Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "A System Current",
+    "desc": "A System Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Pf1 Phase 1 Power Factor",
+    "desc": "Pf1 Phase 1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Pf2 Phase 2 Power Factor",
+    "desc": "Pf2 Phase 2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Pf3 Phase 3 Power Factor",
+    "desc": "Pf3 Phase 3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Pf System Power Factor",
+    "desc": "Pf System Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "P1 Phase 1 Active Power",
+    "desc": "P1 Phase 1 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "P2 Phase 2 Active Power",
+    "desc": "P2 Phase 2 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "P3 Phase 3 Active Power",
+    "desc": "P3 Phase 3 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "P System Active Power",
+    "desc": "P System Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "S1 Phase 1 Apparent Power",
+    "desc": "S1 Phase 1 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "S2 Phase 2 Apparent Power",
+    "desc": "S2 Phase 2 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "S3 Phase 3 Apparent Power",
+    "desc": "S3 Phase 3 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "S System Apparent Power",
+    "desc": "S System Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Q1 Phase 1 Reactive Power",
+    "desc": "Q1 Phase 1 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Q2 Phase 2 Reactive Power",
+    "desc": "Q2 Phase 2 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Q3 Phase 3 Reactive Power",
+    "desc": "Q3 Phase 3 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "Q System Reactive Power",
+    "desc": "Q System Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "F Frequency",
+    "desc": "F Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4352,
+    "type": "HR",
+    "name": "+Kwh1 Phase 1 Imported Active Energy",
+    "desc": "+Kwh1 Phase 1 Imported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4354,
+    "type": "HR",
+    "name": "+Kwh2 Phase 2 Imported Active Energy",
+    "desc": "+Kwh2 Phase 2 Imported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4356,
+    "type": "HR",
+    "name": "+Kwh3 Phase 3 Imported Active Energy",
+    "desc": "+Kwh3 Phase 3 Imported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4358,
+    "type": "HR",
+    "name": "+Kwh System Imported Active Energy",
+    "desc": "+Kwh System Imported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4360,
+    "type": "HR",
+    "name": "Kwh1 Phase 1 Exported Active Energy",
+    "desc": "Kwh1 Phase 1 Exported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4362,
+    "type": "HR",
+    "name": "Kwh2 Phase 2 Exported Active Energy",
+    "desc": "Kwh2 Phase 2 Exported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4364,
+    "type": "HR",
+    "name": "Kwh3 Phase 3 Exported Active Energy",
+    "desc": "Kwh3 Phase 3 Exported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4366,
+    "type": "HR",
+    "name": "Kwh System Exported Active Energy",
+    "desc": "Kwh System Exported Active Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4368,
+    "type": "HR",
+    "name": "+Kvah1 L Phase 1 Imported Lagging Apparent Energy",
+    "desc": "+Kvah1 L Phase 1 Imported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4370,
+    "type": "HR",
+    "name": "+Kvah2 L Phase 2 Imported Lagging Apparent Energy",
+    "desc": "+Kvah2 L Phase 2 Imported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4372,
+    "type": "HR",
+    "name": "+Kvah3 L Phase 3 Imported Lagging Apparent Energy",
+    "desc": "+Kvah3 L Phase 3 Imported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4374,
+    "type": "HR",
+    "name": "+Kvah L System Imported Lagging Apparent Energy",
+    "desc": "+Kvah L System Imported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4376,
+    "type": "HR",
+    "name": "Kvah1 L Phase 1 Exported Lagging Apparent Energy",
+    "desc": "Kvah1 L Phase 1 Exported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4378,
+    "type": "HR",
+    "name": "Kvah2 L Phase 2 Exported Lagging Apparent Energy",
+    "desc": "Kvah2 L Phase 2 Exported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4380,
+    "type": "HR",
+    "name": "Kvah3 L Phase 3 Exported Lagging Apparent Energy",
+    "desc": "Kvah3 L Phase 3 Exported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4382,
+    "type": "HR",
+    "name": "Kvah L System Exported Lagging Apparent Energy",
+    "desc": "Kvah L System Exported Lagging Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4384,
+    "type": "HR",
+    "name": "+Kvah1 C Phase 1 Imported Leading Apparent Energy",
+    "desc": "+Kvah1 C Phase 1 Imported Leading Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4386,
+    "type": "HR",
+    "name": "+Kvah2 C Phase 2 Imported Leading Apparent Energy",
+    "desc": "+Kvah2 C Phase 2 Imported Leading Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4388,
+    "type": "HR",
+    "name": "+Kvah3 C Phase 3 Imported Leading Apparent Energy",
+    "desc": "+Kvah3 C Phase 3 Imported Leading Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4390,
+    "type": "HR",
+    "name": "+Kvah C System Imported Leading Apparent Energy",
+    "desc": "+Kvah C System Imported Leading Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4392,
+    "type": "HR",
+    "name": "Kvah1 C Phase 1 Exported Leading Apparent Energy",
+    "desc": "Kvah1 C Phase 1 Exported Leading Apparent Energy",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,8372 @@
+[
+  {
+    "addr": 1100,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "1s Metering – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1101,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "1s Metering – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1102,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "1s Metering – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1103,
+    "type": "HR",
+    "name": "Current, Neutral",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1104,
+    "type": "HR",
+    "name": "Current, Ground",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1105,
+    "type": "HR",
+    "name": "Current, 3-Phase Average",
+    "desc": "1s Metering – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1107,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase A",
+    "desc": "1s Metering – Current",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1108,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase B",
+    "desc": "1s Metering – Current",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1109,
+    "type": "HR",
+    "name": "Current, Unbalance, Phase C",
+    "desc": "1s Metering – Current",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1110,
+    "type": "HR",
+    "name": "Current, Unbalance, Max",
+    "desc": "1s Metering – Current",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1120,
+    "type": "HR",
+    "name": "Voltage, A-B",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1121,
+    "type": "HR",
+    "name": "Voltage, B-C",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1122,
+    "type": "HR",
+    "name": "Voltage, C-A",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1123,
+    "type": "HR",
+    "name": "Voltage, L-L Average",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1124,
+    "type": "HR",
+    "name": "Voltage, A-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1125,
+    "type": "HR",
+    "name": "Voltage, B-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1126,
+    "type": "HR",
+    "name": "Voltage, C-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1127,
+    "type": "HR",
+    "name": "Voltage, N-R",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1128,
+    "type": "HR",
+    "name": "Voltage, L-N Average",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1129,
+    "type": "HR",
+    "name": "Voltage, Unbalance, A-B",
+    "desc": "1s Metering – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1130,
+    "type": "HR",
+    "name": "Voltage, Unbalance, B-C",
+    "desc": "1s Metering – Voltage",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1131,
+    "type": "HR",
+    "name": "Voltage, Unbalance, C-A",
+    "desc": "1s Metering – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1132,
+    "type": "HR",
+    "name": "Voltage, Unbalance, Max L-L",
+    "desc": "1s Metering – Voltage",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1133,
+    "type": "HR",
+    "name": "Voltage, Unbalance, A-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1134,
+    "type": "HR",
+    "name": "Voltage, Unbalance, B-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1135,
+    "type": "HR",
+    "name": "Voltage, Unbalance, C-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1136,
+    "type": "HR",
+    "name": "Voltage, Unbalance, Max L-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1140,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "1Second Metering – Power",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1141,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "1Second Metering – Power",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1142,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "1Second Metering – Power",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1143,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "1Second Metering – Power",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1144,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "1Second Metering – Power",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1145,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "1Second Metering – Power",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1146,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "1Second Metering – Power",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1147,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "1Second Metering – Power",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1148,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "1Second Metering – Power",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1149,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "1Second Metering – Power",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1150,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "1Second Metering – Power",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1151,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "1Second Metering – Power",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1160,
+    "type": "HR",
+    "name": "True Power Factor, Phase A",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1161,
+    "type": "HR",
+    "name": "True Power Factor, Phase B",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1162,
+    "type": "HR",
+    "name": "True Power Factor, Phase C",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1163,
+    "type": "HR",
+    "name": "True Power Factor, Total",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1164,
+    "type": "HR",
+    "name": "Alternate True Power Factor, Phase A",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1165,
+    "type": "HR",
+    "name": "Alternate True Power Factor, Phase B",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1166,
+    "type": "HR",
+    "name": "Alternate True Power Factor, Phase C",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1167,
+    "type": "HR",
+    "name": "Alternate True Power Factor, Total",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1168,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase A",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1169,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase B",
+    "desc": "1Second Metering – Power Factor",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1170,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase C",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1171,
+    "type": "HR",
+    "name": "Displacement Power Factor, Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1172,
+    "type": "HR",
+    "name": "Alternate Displacement Power Factor,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1173,
+    "type": "HR",
+    "name": "Alternate Displacement Power Factor,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1174,
+    "type": "HR",
+    "name": "Alternate Displacement Power Factor,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1175,
+    "type": "HR",
+    "name": "Alternate Displacement Power Factor,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1180,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "1Second Metering – Frequency",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1190,
+    "type": "HR",
+    "name": "True Power Factor, Phase A",
+    "desc": "1Second Metering – 4-Quadrant Power Factor (with load direct",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1191,
+    "type": "HR",
+    "name": "True Power Factor, Phase B",
+    "desc": "1Second Metering – 4-Quadrant Power Factor (with load direct",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1192,
+    "type": "HR",
+    "name": "True Power Factor, Phase C",
+    "desc": "1Second Metering – 4-Quadrant Power Factor (with load direct",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1193,
+    "type": "HR",
+    "name": "True Power Factor, Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1194,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase A",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1195,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase B",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1196,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase C",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1197,
+    "type": "HR",
+    "name": "Displacement Power Factor, Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1200,
+    "type": "HR",
+    "name": "THD/thd Current, Phase A",
+    "desc": "THD",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1201,
+    "type": "HR",
+    "name": "THD/thd Current, Phase B",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1202,
+    "type": "HR",
+    "name": "THD/thd Current, Phase C",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1203,
+    "type": "HR",
+    "name": "THD/thd Current, Phase N",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1207,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase A-N",
+    "desc": "THD",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1208,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase B-N",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1209,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase C-N",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1211,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase A-B",
+    "desc": "THD",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1212,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase B-C",
+    "desc": "THD",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1213,
+    "type": "HR",
+    "name": "THD/thd Voltage, Phase C-A",
+    "desc": "THD",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1230,
+    "type": "HR",
+    "name": "Current Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1231,
+    "type": "HR",
+    "name": "Current Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1232,
+    "type": "HR",
+    "name": "Current Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1233,
+    "type": "HR",
+    "name": "Current Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1234,
+    "type": "HR",
+    "name": "Current Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1235,
+    "type": "HR",
+    "name": "Current Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1236,
+    "type": "HR",
+    "name": "Current Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1237,
+    "type": "HR",
+    "name": "Current Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Current",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1244,
+    "type": "HR",
+    "name": "Voltage Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1245,
+    "type": "HR",
+    "name": "Voltage Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1246,
+    "type": "HR",
+    "name": "Voltage Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1247,
+    "type": "HR",
+    "name": "Voltage Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1248,
+    "type": "HR",
+    "name": "Voltage Fundamental RMS",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1249,
+    "type": "HR",
+    "name": "Voltage Fundamental Coincident",
+    "desc": "Fundamental Magnitudes & Angles – Voltage",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1284,
+    "type": "HR",
+    "name": "Current, Positive Sequence,",
+    "desc": "Sequence Components",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1285,
+    "type": "HR",
+    "name": "Current, Positive Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1286,
+    "type": "HR",
+    "name": "Current, Negative Sequence,",
+    "desc": "Sequence Components",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1287,
+    "type": "HR",
+    "name": "Current, Negative Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1288,
+    "type": "HR",
+    "name": "Current, Zero Sequence, Magnitude",
+    "desc": "Sequence Components",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1289,
+    "type": "HR",
+    "name": "Current, Zero Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1290,
+    "type": "HR",
+    "name": "Voltage, Positive Sequence,",
+    "desc": "Sequence Components",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1291,
+    "type": "HR",
+    "name": "Voltage, Positive Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1292,
+    "type": "HR",
+    "name": "Voltage, Negative Sequence,",
+    "desc": "Sequence Components",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1293,
+    "type": "HR",
+    "name": "Voltage, Negative Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1294,
+    "type": "HR",
+    "name": "Voltage, Zero Sequence, Magnitude",
+    "desc": "Sequence Components",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1295,
+    "type": "HR",
+    "name": "Voltage, Zero Sequence,",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1296,
+    "type": "HR",
+    "name": "Current, Sequence, Unbalance",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1297,
+    "type": "HR",
+    "name": "Voltage, Sequence, Unbalance",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1298,
+    "type": "HR",
+    "name": "Current, Sequence Unbalance Factor",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1299,
+    "type": "HR",
+    "name": "Voltage, Sequence Unbalance Factor",
+    "desc": "Sequence Components",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1794,
+    "type": "HR",
+    "name": "Conditional Energy Control Status",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1806,
+    "type": "HR",
+    "name": "Time Elapsed in Interval",
+    "desc": "Demand – Current Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1807,
+    "type": "HR",
+    "name": "Time Elapsed in Subinterval",
+    "desc": "Demand – Current Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1808,
+    "type": "HR",
+    "name": "Interval Count",
+    "desc": "Demand – Current Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1809,
+    "type": "HR",
+    "name": "Subinterval Count",
+    "desc": "Demand – Current Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1814,
+    "type": "HR",
+    "name": "Min/Max Reset Count",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1846,
+    "type": "HR",
+    "name": "Time Elapsed in Interval",
+    "desc": "Demand – Power Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1847,
+    "type": "HR",
+    "name": "Time Elapsed in Subinterval",
+    "desc": "Demand – Power Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1848,
+    "type": "HR",
+    "name": "Interval Count",
+    "desc": "Demand – Power Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1849,
+    "type": "HR",
+    "name": "Subinterval Count",
+    "desc": "Demand – Power Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1854,
+    "type": "HR",
+    "name": "Min/Max Reset Count",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1866,
+    "type": "HR",
+    "name": "Time Elapsed in Interval",
+    "desc": "Demand – Input Metering Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1867,
+    "type": "HR",
+    "name": "Time Elapsed in Subinterval",
+    "desc": "Demand – Input Metering Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1868,
+    "type": "HR",
+    "name": "Interval Count",
+    "desc": "Demand – Input Metering Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1869,
+    "type": "HR",
+    "name": "Subinterval Count",
+    "desc": "Demand – Input Metering Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1874,
+    "type": "HR",
+    "name": "Min/Max Reset Count",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1886,
+    "type": "HR",
+    "name": "Time Elapsed in Interval",
+    "desc": "Demand – Generic Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1887,
+    "type": "HR",
+    "name": "Time Elapsed in Subinterval",
+    "desc": "Demand – Generic Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1888,
+    "type": "HR",
+    "name": "Interval Count",
+    "desc": "Demand – Generic Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1889,
+    "type": "HR",
+    "name": "Subinterval Count",
+    "desc": "Demand – Generic Demand System Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1894,
+    "type": "HR",
+    "name": "Min/Max Reset Count",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1924,
+    "type": "HR",
+    "name": "Power Factor Average Over Last",
+    "desc": "Demand – Miscellaneous Configuration and Data",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1940,
+    "type": "HR",
+    "name": "Last Incremental Interval, Real",
+    "desc": "Demand – Miscellaneous Configuration and Data",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1945,
+    "type": "HR",
+    "name": "Last Incremental Interval, Reactive",
+    "desc": "Demand – Miscellaneous Configuration and Data",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1950,
+    "type": "HR",
+    "name": "Last Incremental Interval, Apparent",
+    "desc": "Demand – Miscellaneous Configuration and Data",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1960,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1961,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1962,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1963,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1970,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1971,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1972,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1973,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1980,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1981,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1982,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Current Demand Channels",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1983,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1990,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1991,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1992,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 1993,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2001,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2003,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2150,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2151,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2152,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2153,
+    "type": "HR",
+    "name": "Predicted Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2154,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2161,
+    "type": "HR",
+    "name": "Power Factor, Average @ Peak",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2162,
+    "type": "HR",
+    "name": "Power Demand, Reactive @ Peak",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2163,
+    "type": "HR",
+    "name": "Power Demand, Apparent @ Peak",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2165,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2166,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2167,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2168,
+    "type": "HR",
+    "name": "Predicted Demand",
+    "desc": "Demand – Power Demand Channels",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2169,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2176,
+    "type": "HR",
+    "name": "Power Factor, Average @ Peak",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2177,
+    "type": "HR",
+    "name": "Power Demand, Real @",
+    "desc": "",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2178,
+    "type": "HR",
+    "name": "Power Demand, Apparent @ Peak",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2180,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2181,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2182,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2183,
+    "type": "HR",
+    "name": "Predicted Demand",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2184,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "",
+    "unit": "kVA",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2191,
+    "type": "HR",
+    "name": "Power Factor, Average @ Peak",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2192,
+    "type": "HR",
+    "name": "Power Demand, Real @ Peak",
+    "desc": "",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2193,
+    "type": "HR",
+    "name": "Power Demand, Reactive @ Peak",
+    "desc": "",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2202,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Input Metering Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2203,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Input Metering Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2204,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Input Metering Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2205,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Demand – Input Metering Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2210,
+    "type": "HR",
+    "name": "Minimum Demand",
+    "desc": "Demand – Input Metering Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2403,
+    "type": "HR",
+    "name": "Last Demand",
+    "desc": "Demand – Generic Group 1 Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2404,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Demand – Generic Group 1 Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2405,
+    "type": "HR",
+    "name": "Running Average Demand",
+    "desc": "Demand – Generic Group 1 Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2406,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Demand – Generic Group 1 Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2411,
+    "type": "HR",
+    "name": "Minimum Demand",
+    "desc": "Demand – Generic Group 1 Demand Channels",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2600,
+    "type": "HR",
+    "name": "Energy, Real Total (signed/absolute)",
+    "desc": "Duplicate Floating Point 1s Metering Registers (2600-2607)",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 2602,
+    "type": "HR",
+    "name": "Energy, Reactive Total",
+    "desc": "Duplicate Floating Point 1s Metering Registers (2600-2607)",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 2604,
+    "type": "HR",
+    "name": "Energy, Apparent",
+    "desc": "Duplicate Floating Point 1s Metering Registers (2600-2607)",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 2606,
+    "type": "HR",
+    "name": "True Power Factor, Total",
+    "desc": "Duplicate Floating Point 1s Metering Registers (2600-2607)",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 2800,
+    "type": "HR",
+    "name": "Current, Highest Phase Value",
+    "desc": "Phase Extremes",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2801,
+    "type": "HR",
+    "name": "Current, Lowest Phase Value",
+    "desc": "Phase Extremes",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2802,
+    "type": "HR",
+    "name": "Voltage, L-L, Highest Value",
+    "desc": "Phase Extremes",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2803,
+    "type": "HR",
+    "name": "Voltage, L-L, Lowest Value",
+    "desc": "Phase Extremes",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2804,
+    "type": "HR",
+    "name": "Voltage, L-N, Highest Value",
+    "desc": "Phase Extremes",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 2805,
+    "type": "HR",
+    "name": "Voltage, L-N, Lowest Value",
+    "desc": "Phase Extremes",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3010,
+    "type": "HR",
+    "name": "Power Meter Feature Revision Level",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3011,
+    "type": "HR",
+    "name": "Power Meter Product ID Number",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3014,
+    "type": "HR",
+    "name": "Power Meter Present Operating",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3015,
+    "type": "HR",
+    "name": "Power Meter Present Reset System",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3016,
+    "type": "HR",
+    "name": "Power Meter Present Download",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3023,
+    "type": "HR",
+    "name": "Power Meter Production History",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3037,
+    "type": "HR",
+    "name": "Present Millisecond",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3038,
+    "type": "HR",
+    "name": "Power Meter Firmware Bridge Code",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3042,
+    "type": "HR",
+    "name": "Power Fail Override",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3043,
+    "type": "HR",
+    "name": "Number of Metering System Restarts",
+    "desc": "System Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3044,
+    "type": "HR",
+    "name": "Number of Control Power Failures",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3049,
+    "type": "HR",
+    "name": "Cause of Last Meter Reset",
+    "desc": "",
+    "unit": "W",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3052,
+    "type": "HR",
+    "name": "Configuration Modified",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3053,
+    "type": "HR",
+    "name": "FLASH MFG ID",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3054,
+    "type": "HR",
+    "name": "FLASH DEVICE ID",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3056,
+    "type": "HR",
+    "name": "Hardware Detected",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3057,
+    "type": "HR",
+    "name": "Last Power-Fail Duration",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3059,
+    "type": "HR",
+    "name": "Present FW module",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3060,
+    "type": "HR",
+    "name": "Processor Idle Time",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3061,
+    "type": "HR",
+    "name": "Present Watchdog Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3064,
+    "type": "HR",
+    "name": "Active Load Timer MSB",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3065,
+    "type": "HR",
+    "name": "Active Load Timer LSB",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3066,
+    "type": "HR",
+    "name": "GMT Management (Future)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3073,
+    "type": "HR",
+    "name": "Installed Option 1 (Input/Output)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3074,
+    "type": "HR",
+    "name": "Installed Option 2 (TBD)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3075,
+    "type": "HR",
+    "name": "Installed Option 3 (TBD)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3076,
+    "type": "HR",
+    "name": "Installed Option 4 (TBD)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3083,
+    "type": "HR",
+    "name": "Meter Demo Mode Enable",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3084,
+    "type": "HR",
+    "name": "Demo Mode Metering Input Override",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3086,
+    "type": "HR",
+    "name": "Model ID",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3091,
+    "type": "HR",
+    "name": "NVRAM Status",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3092,
+    "type": "HR",
+    "name": "NVRAM Bad Locations Count",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3093,
+    "type": "HR",
+    "name": "Present Month",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3094,
+    "type": "HR",
+    "name": "Present Day",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3095,
+    "type": "HR",
+    "name": "Present Year",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3096,
+    "type": "HR",
+    "name": "Present Hour",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3097,
+    "type": "HR",
+    "name": "Present Minute",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3098,
+    "type": "HR",
+    "name": "Present Second",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3099,
+    "type": "HR",
+    "name": "Day of Week",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3112,
+    "type": "HR",
+    "name": "Current-Voltage Production History",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3122,
+    "type": "HR",
+    "name": "Current Gain, Phase A",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3123,
+    "type": "HR",
+    "name": "Current Gain, Phase B",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3124,
+    "type": "HR",
+    "name": "Current Gain, Phase C",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3126,
+    "type": "HR",
+    "name": "Voltage Gain A-N",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3127,
+    "type": "HR",
+    "name": "Voltage Gain B-N",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3128,
+    "type": "HR",
+    "name": "Voltage Gain C-N",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3129,
+    "type": "HR",
+    "name": "Voltage Gain N-G",
+    "desc": "Current/Voltage Configuration",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3199,
+    "type": "HR",
+    "name": "Manufacturing Data CRC",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3228,
+    "type": "HR",
+    "name": "Phase Rotation Direction",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3233,
+    "type": "HR",
+    "name": "Peak Current Demand Over Last Year",
+    "desc": "",
+    "unit": "Amps",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3240,
+    "type": "HR",
+    "name": "Harmonic Quantity Selection",
+    "desc": "Metering Configuration & Status – Harmonics",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3244,
+    "type": "HR",
+    "name": "Time Remaining Until Harmonic",
+    "desc": "Metering Configuration & Status – Harmonics",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 3246,
+    "type": "HR",
+    "name": "Harmonic Report Status",
+    "desc": "Metering Configuration & Status – Harmonics",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3248,
+    "type": "HR",
+    "name": "Display 1 Second Metering",
+    "desc": "Metering Configuration & Status – Harmonics",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 3264,
+    "type": "HR",
+    "name": "Active Load Elapsed Time",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3341,
+    "type": "HR",
+    "name": "Fixed Length Waveform Capture A",
+    "desc": "Metering Configuration & Status – Waveform Capture Status",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3410,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3411,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3412,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3413,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3414,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3415,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3416,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "Communications – RS485",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3417,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3418,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3419,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3420,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3421,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3422,
+    "type": "HR",
+    "name": "Rs-485 Comm Port ,",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3423,
+    "type": "HR",
+    "name": "Rs-485 Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3440,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3441,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3442,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3443,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3444,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3445,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3446,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3447,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "Communications –AUX Comms (Remote)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3448,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3449,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3450,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3451,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3452,
+    "type": "HR",
+    "name": "AUX Comm Port ,",
+    "desc": "",
+    "unit": "a",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3453,
+    "type": "HR",
+    "name": "AUX Comm Port,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3750,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "ITIC/SEMI Evaluation – (3750-3899)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3751,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "ITIC/SEMI Evaluation – (3750-3899)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3752,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "ITIC/SEMI Evaluation – (3750-3899)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3753,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3754,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3755,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3756,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3757,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3758,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3759,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3760,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3761,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3762,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3763,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3764,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3765,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3766,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3767,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3768,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3769,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3770,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3771,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3772,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3773,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3774,
+    "type": "HR",
+    "name": "Total ITI(CBEMA)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3783,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3784,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3785,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3786,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3787,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3788,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3789,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3790,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3791,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3792,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3793,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3794,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3795,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3796,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3797,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3798,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3799,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3800,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3801,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3802,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3803,
+    "type": "HR",
+    "name": "Duration: <20ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3804,
+    "type": "HR",
+    "name": "Duration: 20ms-0.5s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3805,
+    "type": "HR",
+    "name": "Duration: 0.5-10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3806,
+    "type": "HR",
+    "name": "Duration: >10s",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3807,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3808,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3809,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3810,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3811,
+    "type": "HR",
+    "name": "Total Voltage Swells",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3812,
+    "type": "HR",
+    "name": "Total ITI(CBEMA)",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3821,
+    "type": "HR",
+    "name": "Duration: <50ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3822,
+    "type": "HR",
+    "name": "Duration: 50-200ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3823,
+    "type": "HR",
+    "name": "Duration: 200-500ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3824,
+    "type": "HR",
+    "name": "Duration: 500-1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3825,
+    "type": "HR",
+    "name": "Duration: >1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3826,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3827,
+    "type": "HR",
+    "name": "Duration: <50ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3828,
+    "type": "HR",
+    "name": "Duration: 50-200ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3829,
+    "type": "HR",
+    "name": "Duration: 200-500ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3830,
+    "type": "HR",
+    "name": "Duration: 500-1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3831,
+    "type": "HR",
+    "name": "Duration: >1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3832,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3833,
+    "type": "HR",
+    "name": "Duration: <50ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3834,
+    "type": "HR",
+    "name": "Duration: 50-200ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3835,
+    "type": "HR",
+    "name": "Duration: 200-500ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3836,
+    "type": "HR",
+    "name": "Duration: 500-1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3837,
+    "type": "HR",
+    "name": "Duration: >1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3838,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3839,
+    "type": "HR",
+    "name": "Duration: <50ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3840,
+    "type": "HR",
+    "name": "Duration: 50-200ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3841,
+    "type": "HR",
+    "name": "Duration: 200-500ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3842,
+    "type": "HR",
+    "name": "Duration: 500-1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3843,
+    "type": "HR",
+    "name": "Duration: >1000ms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3844,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3845,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3846,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3847,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3848,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3849,
+    "type": "HR",
+    "name": "Total Voltage Sags",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3850,
+    "type": "HR",
+    "name": "Total SEMI F47",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3901,
+    "type": "HR",
+    "name": "PQ Advanced Nominal Voltage",
+    "desc": "Advanced PQ Configuration & Status – (3900 – 3950)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3909,
+    "type": "HR",
+    "name": "PQ Advanced Last Enable Status",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 3916,
+    "type": "HR",
+    "name": "EN50160 Count of 10-minute Intervals",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "Discrete Input Status",
+    "desc": "Auxiliary Inputs & Outputs",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4017,
+    "type": "HR",
+    "name": "GPS Time Sync Accuracy",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4020,
+    "type": "HR",
+    "name": "Present Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4021,
+    "type": "HR",
+    "name": "Present Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4022,
+    "type": "HR",
+    "name": "Present Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4023,
+    "type": "HR",
+    "name": "Extended MBUS Device",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Extended MBUS Device",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4025,
+    "type": "HR",
+    "name": "Previous Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4026,
+    "type": "HR",
+    "name": "Previous Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4027,
+    "type": "HR",
+    "name": "Previous Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 4030,
+    "type": "HR",
+    "name": "Last Module Type",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 5320,
+    "type": "HR",
+    "name": "Trending & Forecasting Control",
+    "desc": "Trending & Forecasting Configuration (5320 - 5369)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 5321,
+    "type": "HR",
+    "name": "Trend Item To Post In Registers",
+    "desc": "Trending & Forecasting Configuration (5320 - 5369)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 5835,
+    "type": "HR",
+    "name": "Alarm Summary",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 5850,
+    "type": "HR",
+    "name": "Acknowledge/Relay/Priority Entry 1",
+    "desc": "Active Alarm Log (5850-6299)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 5861,
+    "type": "HR",
+    "name": "Pickup Value for Entry 1",
+    "desc": "Active Alarm Log (5850-6299)",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6225,
+    "type": "HR",
+    "name": "Number of unacknowledged alarms in",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6226,
+    "type": "HR",
+    "name": "Number of unacknowledged alarms in",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6250,
+    "type": "HR",
+    "name": "Acknowledge/Relay/Priority Entry 1",
+    "desc": "Alarm History Log (6250-6699)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6261,
+    "type": "HR",
+    "name": "Extreme Value for History Log Entry 1",
+    "desc": "Alarm History Log (6250-6699)",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6675,
+    "type": "HR",
+    "name": "Number of unacknowledged alarms in",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 6676,
+    "type": "HR",
+    "name": "Lost Alarms",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 8000,
+    "type": "HR",
+    "name": "Requested Command",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 8001,
+    "type": "HR",
+    "name": "Command Parameters",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 8016,
+    "type": "HR",
+    "name": "Comms Channel",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 8017,
+    "type": "HR",
+    "name": "Status Pointer",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 8018,
+    "type": "HR",
+    "name": "Result Pointer",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 8019,
+    "type": "HR",
+    "name": "Data Pointer",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 8020,
+    "type": "HR",
+    "name": "Data Buffer Area",
+    "desc": "Command Interface",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 9000,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9001,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9002,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9003,
+    "type": "HR",
+    "name": "Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9004,
+    "type": "HR",
+    "name": "Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9005,
+    "type": "HR",
+    "name": "Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9006,
+    "type": "HR",
+    "name": "Vb",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9007,
+    "type": "HR",
+    "name": "Vb",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9008,
+    "type": "HR",
+    "name": "Vb",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9009,
+    "type": "HR",
+    "name": "Vc",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9010,
+    "type": "HR",
+    "name": "Vc",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9011,
+    "type": "HR",
+    "name": "Vc",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9012,
+    "type": "HR",
+    "name": "Flicker Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9013,
+    "type": "HR",
+    "name": "Flicker Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9014,
+    "type": "HR",
+    "name": "Flicker Va",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9015,
+    "type": "HR",
+    "name": "Flicker Vb",
+    "desc": "EN50160 Summary (9000-9359)",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9016,
+    "type": "HR",
+    "name": "Flicker Vb",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9017,
+    "type": "HR",
+    "name": "Flicker Vb",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9018,
+    "type": "HR",
+    "name": "Flicker Vc",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9019,
+    "type": "HR",
+    "name": "Flicker Vc",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9020,
+    "type": "HR",
+    "name": "Flicker Vc",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9021,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9022,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9023,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9024,
+    "type": "HR",
+    "name": "THD Va",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9025,
+    "type": "HR",
+    "name": "THD Va",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9026,
+    "type": "HR",
+    "name": "THD Va",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9027,
+    "type": "HR",
+    "name": "THD Vb",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9028,
+    "type": "HR",
+    "name": "THD Vb",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9029,
+    "type": "HR",
+    "name": "THD Vb",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9030,
+    "type": "HR",
+    "name": "THD Vc",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9031,
+    "type": "HR",
+    "name": "THD Vc",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9032,
+    "type": "HR",
+    "name": "THD Vc",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9033,
+    "type": "HR",
+    "name": "Va H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9034,
+    "type": "HR",
+    "name": "Va H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9035,
+    "type": "HR",
+    "name": "Va H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9036,
+    "type": "HR",
+    "name": "Va H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9037,
+    "type": "HR",
+    "name": "Va H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9038,
+    "type": "HR",
+    "name": "Va H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9039,
+    "type": "HR",
+    "name": "Va H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9040,
+    "type": "HR",
+    "name": "Va H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9041,
+    "type": "HR",
+    "name": "Va H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9042,
+    "type": "HR",
+    "name": "Va H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9043,
+    "type": "HR",
+    "name": "Va H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9044,
+    "type": "HR",
+    "name": "Va H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9045,
+    "type": "HR",
+    "name": "Va H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9046,
+    "type": "HR",
+    "name": "Va H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9047,
+    "type": "HR",
+    "name": "Va H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9048,
+    "type": "HR",
+    "name": "Va H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9049,
+    "type": "HR",
+    "name": "Va H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9050,
+    "type": "HR",
+    "name": "Va H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9051,
+    "type": "HR",
+    "name": "Va H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9052,
+    "type": "HR",
+    "name": "Va H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9053,
+    "type": "HR",
+    "name": "Va H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9054,
+    "type": "HR",
+    "name": "Va H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9055,
+    "type": "HR",
+    "name": "Va H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9056,
+    "type": "HR",
+    "name": "Va H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9057,
+    "type": "HR",
+    "name": "Va H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9058,
+    "type": "HR",
+    "name": "Va H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9059,
+    "type": "HR",
+    "name": "Va H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9060,
+    "type": "HR",
+    "name": "Va H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9061,
+    "type": "HR",
+    "name": "Va H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9062,
+    "type": "HR",
+    "name": "Va H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9063,
+    "type": "HR",
+    "name": "Va H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9064,
+    "type": "HR",
+    "name": "Va H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9065,
+    "type": "HR",
+    "name": "Va H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9066,
+    "type": "HR",
+    "name": "Va H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9067,
+    "type": "HR",
+    "name": "Va H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9068,
+    "type": "HR",
+    "name": "Va H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9069,
+    "type": "HR",
+    "name": "Va H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9070,
+    "type": "HR",
+    "name": "Va H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9071,
+    "type": "HR",
+    "name": "Va H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9072,
+    "type": "HR",
+    "name": "Va H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9073,
+    "type": "HR",
+    "name": "Va H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9074,
+    "type": "HR",
+    "name": "Va H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9075,
+    "type": "HR",
+    "name": "Va H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9076,
+    "type": "HR",
+    "name": "Va H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9077,
+    "type": "HR",
+    "name": "Va H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9078,
+    "type": "HR",
+    "name": "Va H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9079,
+    "type": "HR",
+    "name": "Va H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9080,
+    "type": "HR",
+    "name": "Va H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9081,
+    "type": "HR",
+    "name": "Va H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9082,
+    "type": "HR",
+    "name": "Va H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9083,
+    "type": "HR",
+    "name": "Va H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9084,
+    "type": "HR",
+    "name": "Va H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9085,
+    "type": "HR",
+    "name": "Va H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9086,
+    "type": "HR",
+    "name": "Va H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9087,
+    "type": "HR",
+    "name": "Va H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9088,
+    "type": "HR",
+    "name": "Va H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9089,
+    "type": "HR",
+    "name": "Va H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9090,
+    "type": "HR",
+    "name": "Va H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9091,
+    "type": "HR",
+    "name": "Va H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9092,
+    "type": "HR",
+    "name": "Va H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9093,
+    "type": "HR",
+    "name": "Va H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9094,
+    "type": "HR",
+    "name": "Va H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9095,
+    "type": "HR",
+    "name": "Va H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9096,
+    "type": "HR",
+    "name": "Va H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9097,
+    "type": "HR",
+    "name": "Va H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9098,
+    "type": "HR",
+    "name": "Va H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9099,
+    "type": "HR",
+    "name": "Va H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9100,
+    "type": "HR",
+    "name": "Va H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9101,
+    "type": "HR",
+    "name": "Va H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9102,
+    "type": "HR",
+    "name": "Va H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9103,
+    "type": "HR",
+    "name": "Va H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9104,
+    "type": "HR",
+    "name": "Va H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9105,
+    "type": "HR",
+    "name": "Vb H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9106,
+    "type": "HR",
+    "name": "Vb H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9107,
+    "type": "HR",
+    "name": "Vb H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9108,
+    "type": "HR",
+    "name": "Vb H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9109,
+    "type": "HR",
+    "name": "Vb H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9110,
+    "type": "HR",
+    "name": "Vb H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9111,
+    "type": "HR",
+    "name": "Vb H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9112,
+    "type": "HR",
+    "name": "Vb H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9113,
+    "type": "HR",
+    "name": "Vb H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9114,
+    "type": "HR",
+    "name": "Vb H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9115,
+    "type": "HR",
+    "name": "Vb H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9116,
+    "type": "HR",
+    "name": "Vb H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9117,
+    "type": "HR",
+    "name": "Vb H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9118,
+    "type": "HR",
+    "name": "Vb H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9119,
+    "type": "HR",
+    "name": "Vb H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9120,
+    "type": "HR",
+    "name": "Vb H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9121,
+    "type": "HR",
+    "name": "Vb H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9122,
+    "type": "HR",
+    "name": "Vb H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9123,
+    "type": "HR",
+    "name": "Vb H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9124,
+    "type": "HR",
+    "name": "Vb H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9125,
+    "type": "HR",
+    "name": "Vb H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9126,
+    "type": "HR",
+    "name": "Vb H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9127,
+    "type": "HR",
+    "name": "Vb H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9128,
+    "type": "HR",
+    "name": "Vb H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9129,
+    "type": "HR",
+    "name": "Vb H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9130,
+    "type": "HR",
+    "name": "Vb H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9131,
+    "type": "HR",
+    "name": "Vb H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9132,
+    "type": "HR",
+    "name": "Vb H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9133,
+    "type": "HR",
+    "name": "Vb H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9134,
+    "type": "HR",
+    "name": "Vb H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9135,
+    "type": "HR",
+    "name": "Vb H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9136,
+    "type": "HR",
+    "name": "Vb H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9137,
+    "type": "HR",
+    "name": "Vb H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9138,
+    "type": "HR",
+    "name": "Vb H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9139,
+    "type": "HR",
+    "name": "Vb H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9140,
+    "type": "HR",
+    "name": "Vb H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9141,
+    "type": "HR",
+    "name": "Vb H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9142,
+    "type": "HR",
+    "name": "Vb H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9143,
+    "type": "HR",
+    "name": "Vb H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9144,
+    "type": "HR",
+    "name": "Vb H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9145,
+    "type": "HR",
+    "name": "Vb H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9146,
+    "type": "HR",
+    "name": "Vb H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9147,
+    "type": "HR",
+    "name": "Vb H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9148,
+    "type": "HR",
+    "name": "Vb H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9149,
+    "type": "HR",
+    "name": "Vb H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9150,
+    "type": "HR",
+    "name": "Vb H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9151,
+    "type": "HR",
+    "name": "Vb H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9152,
+    "type": "HR",
+    "name": "Vb H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9153,
+    "type": "HR",
+    "name": "Vb H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9154,
+    "type": "HR",
+    "name": "Vb H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9155,
+    "type": "HR",
+    "name": "Vb H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9156,
+    "type": "HR",
+    "name": "Vb H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9157,
+    "type": "HR",
+    "name": "Vb H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9158,
+    "type": "HR",
+    "name": "Vb H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9159,
+    "type": "HR",
+    "name": "Vb H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9160,
+    "type": "HR",
+    "name": "Vb H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9161,
+    "type": "HR",
+    "name": "Vb H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9162,
+    "type": "HR",
+    "name": "Vb H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9163,
+    "type": "HR",
+    "name": "Vb H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9164,
+    "type": "HR",
+    "name": "Vb H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9165,
+    "type": "HR",
+    "name": "Vb H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9166,
+    "type": "HR",
+    "name": "Vb H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9167,
+    "type": "HR",
+    "name": "Vb H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9168,
+    "type": "HR",
+    "name": "Vb H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9169,
+    "type": "HR",
+    "name": "Vb H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9170,
+    "type": "HR",
+    "name": "Vb H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9171,
+    "type": "HR",
+    "name": "Vb H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9172,
+    "type": "HR",
+    "name": "Vb H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9173,
+    "type": "HR",
+    "name": "Vb H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9174,
+    "type": "HR",
+    "name": "Vb H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9175,
+    "type": "HR",
+    "name": "Vb H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9176,
+    "type": "HR",
+    "name": "Vb H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9177,
+    "type": "HR",
+    "name": "Vc H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9178,
+    "type": "HR",
+    "name": "Vc H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9179,
+    "type": "HR",
+    "name": "Vc H2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9180,
+    "type": "HR",
+    "name": "Vc H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9181,
+    "type": "HR",
+    "name": "Vc H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9182,
+    "type": "HR",
+    "name": "Vc H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9183,
+    "type": "HR",
+    "name": "Vc H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9184,
+    "type": "HR",
+    "name": "Vc H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9185,
+    "type": "HR",
+    "name": "Vc H4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9186,
+    "type": "HR",
+    "name": "Vc H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9187,
+    "type": "HR",
+    "name": "Vc H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9188,
+    "type": "HR",
+    "name": "Vc H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9189,
+    "type": "HR",
+    "name": "Vc H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9190,
+    "type": "HR",
+    "name": "Vc H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9191,
+    "type": "HR",
+    "name": "Vc H6",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9192,
+    "type": "HR",
+    "name": "Vc H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9193,
+    "type": "HR",
+    "name": "Vc H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9194,
+    "type": "HR",
+    "name": "Vc H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9195,
+    "type": "HR",
+    "name": "Vc H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9196,
+    "type": "HR",
+    "name": "Vc H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9197,
+    "type": "HR",
+    "name": "Vc H8",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9198,
+    "type": "HR",
+    "name": "Vc H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9199,
+    "type": "HR",
+    "name": "Vc H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9200,
+    "type": "HR",
+    "name": "Vc H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9201,
+    "type": "HR",
+    "name": "Vc H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9202,
+    "type": "HR",
+    "name": "Vc H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9203,
+    "type": "HR",
+    "name": "Vc H10",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9204,
+    "type": "HR",
+    "name": "Vc H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9205,
+    "type": "HR",
+    "name": "Vc H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9206,
+    "type": "HR",
+    "name": "Vc H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9207,
+    "type": "HR",
+    "name": "Vc H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9208,
+    "type": "HR",
+    "name": "Vc H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9209,
+    "type": "HR",
+    "name": "Vc H12",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9210,
+    "type": "HR",
+    "name": "Vc H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9211,
+    "type": "HR",
+    "name": "Vc H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9212,
+    "type": "HR",
+    "name": "Vc H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9213,
+    "type": "HR",
+    "name": "Vc H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9214,
+    "type": "HR",
+    "name": "Vc H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9215,
+    "type": "HR",
+    "name": "Vc H14",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9216,
+    "type": "HR",
+    "name": "Vc H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9217,
+    "type": "HR",
+    "name": "Vc H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9218,
+    "type": "HR",
+    "name": "Vc H15",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9219,
+    "type": "HR",
+    "name": "Vc H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9220,
+    "type": "HR",
+    "name": "Vc H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9221,
+    "type": "HR",
+    "name": "Vc H16",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9222,
+    "type": "HR",
+    "name": "Vc H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9223,
+    "type": "HR",
+    "name": "Vc H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9224,
+    "type": "HR",
+    "name": "Vc H17",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9225,
+    "type": "HR",
+    "name": "Vc H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9226,
+    "type": "HR",
+    "name": "Vc H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9227,
+    "type": "HR",
+    "name": "Vc H18",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9228,
+    "type": "HR",
+    "name": "Vc H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9229,
+    "type": "HR",
+    "name": "Vc H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9230,
+    "type": "HR",
+    "name": "Vc H19",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9231,
+    "type": "HR",
+    "name": "Vc H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9232,
+    "type": "HR",
+    "name": "Vc H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9233,
+    "type": "HR",
+    "name": "Vc H20",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9234,
+    "type": "HR",
+    "name": "Vc H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9235,
+    "type": "HR",
+    "name": "Vc H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9236,
+    "type": "HR",
+    "name": "Vc H21",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9237,
+    "type": "HR",
+    "name": "Vc H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9238,
+    "type": "HR",
+    "name": "Vc H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9239,
+    "type": "HR",
+    "name": "Vc H22",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9240,
+    "type": "HR",
+    "name": "Vc H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9241,
+    "type": "HR",
+    "name": "Vc H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9242,
+    "type": "HR",
+    "name": "Vc H23",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9243,
+    "type": "HR",
+    "name": "Vc H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9244,
+    "type": "HR",
+    "name": "Vc H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9245,
+    "type": "HR",
+    "name": "Vc H24",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9246,
+    "type": "HR",
+    "name": "Vc H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9247,
+    "type": "HR",
+    "name": "Vc H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9248,
+    "type": "HR",
+    "name": "Vc H25",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9249,
+    "type": "HR",
+    "name": "V 3PH",
+    "desc": "",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9250,
+    "type": "HR",
+    "name": "V 3PH",
+    "desc": "",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9251,
+    "type": "HR",
+    "name": "V 3PH",
+    "desc": "",
+    "unit": "Volts",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9252,
+    "type": "HR",
+    "name": "KW 3PH",
+    "desc": "",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9253,
+    "type": "HR",
+    "name": "KW 3PH",
+    "desc": "",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9254,
+    "type": "HR",
+    "name": "KW 3PH",
+    "desc": "",
+    "unit": "kW",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9255,
+    "type": "HR",
+    "name": "KVAR 3PH",
+    "desc": "",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9256,
+    "type": "HR",
+    "name": "KVAR 3PH",
+    "desc": "",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9257,
+    "type": "HR",
+    "name": "KVAR 3PH",
+    "desc": "",
+    "unit": "kVAr",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9258,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9259,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9260,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9261,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9262,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9263,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9264,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9265,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9266,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "",
+    "unit": "A",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9267,
+    "type": "HR",
+    "name": "Ia H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9268,
+    "type": "HR",
+    "name": "Ia H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9269,
+    "type": "HR",
+    "name": "Ia H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9270,
+    "type": "HR",
+    "name": "Ib H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9271,
+    "type": "HR",
+    "name": "Ib H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9272,
+    "type": "HR",
+    "name": "Ib H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9273,
+    "type": "HR",
+    "name": "Ic H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9274,
+    "type": "HR",
+    "name": "Ic H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9275,
+    "type": "HR",
+    "name": "Ic H3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9276,
+    "type": "HR",
+    "name": "Ia H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9277,
+    "type": "HR",
+    "name": "Ia H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9278,
+    "type": "HR",
+    "name": "Ia H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9279,
+    "type": "HR",
+    "name": "Ib H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9280,
+    "type": "HR",
+    "name": "Ib H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9281,
+    "type": "HR",
+    "name": "Ib H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9282,
+    "type": "HR",
+    "name": "Ic H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9283,
+    "type": "HR",
+    "name": "Ic H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9284,
+    "type": "HR",
+    "name": "Ic H5",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9285,
+    "type": "HR",
+    "name": "Ia H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9286,
+    "type": "HR",
+    "name": "Ia H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9287,
+    "type": "HR",
+    "name": "Ia H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9288,
+    "type": "HR",
+    "name": "Ib H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9289,
+    "type": "HR",
+    "name": "Ib H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9290,
+    "type": "HR",
+    "name": "Ib H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9291,
+    "type": "HR",
+    "name": "Ic H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9292,
+    "type": "HR",
+    "name": "Ic H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9293,
+    "type": "HR",
+    "name": "Ic H7",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9294,
+    "type": "HR",
+    "name": "Ia H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9295,
+    "type": "HR",
+    "name": "Ia H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9296,
+    "type": "HR",
+    "name": "Ia H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9297,
+    "type": "HR",
+    "name": "Ib H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9298,
+    "type": "HR",
+    "name": "Ib H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9299,
+    "type": "HR",
+    "name": "Ib H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9300,
+    "type": "HR",
+    "name": "Ic H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9301,
+    "type": "HR",
+    "name": "Ic H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9302,
+    "type": "HR",
+    "name": "Ic H9",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9303,
+    "type": "HR",
+    "name": "Ia H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9304,
+    "type": "HR",
+    "name": "Ia H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9305,
+    "type": "HR",
+    "name": "Ia H11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9306,
+    "type": "HR",
+    "name": "Ib H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9307,
+    "type": "HR",
+    "name": "Ib H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9308,
+    "type": "HR",
+    "name": "Ib H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9309,
+    "type": "HR",
+    "name": "Ic H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9310,
+    "type": "HR",
+    "name": "Ic H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9311,
+    "type": "HR",
+    "name": "Ic H 11",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9312,
+    "type": "HR",
+    "name": "Ia H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9313,
+    "type": "HR",
+    "name": "Ia H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9314,
+    "type": "HR",
+    "name": "Ia H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9315,
+    "type": "HR",
+    "name": "Ib H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9316,
+    "type": "HR",
+    "name": "Ib H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9317,
+    "type": "HR",
+    "name": "Ib H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9318,
+    "type": "HR",
+    "name": "Ic H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9319,
+    "type": "HR",
+    "name": "Ic H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9320,
+    "type": "HR",
+    "name": "Ic H13",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9534,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9535,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9540,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9541,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9542,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9543,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9544,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9545,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9546,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "Email System Configuration & Status (9530-9549)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9547,
+    "type": "HR",
+    "name": "Email System",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 9551,
+    "type": "HR",
+    "name": "Count of Voltage Events",
+    "desc": "Register-Based Disturbance Event Log – Voltage Event Configu",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10025,
+    "type": "HR",
+    "name": "Total Counter",
+    "desc": "Alarms – System Status",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 10026,
+    "type": "HR",
+    "name": "P3 Counter",
+    "desc": "Alarms – System Status",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 10027,
+    "type": "HR",
+    "name": "P2 Counter",
+    "desc": "Alarms – System Status",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 10028,
+    "type": "HR",
+    "name": "P1 Counter",
+    "desc": "Alarms – System Status",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 10115,
+    "type": "HR",
+    "name": "Alarm Position #001 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10116,
+    "type": "HR",
+    "name": "Alarm Position #002 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10117,
+    "type": "HR",
+    "name": "Alarm Position #003 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10118,
+    "type": "HR",
+    "name": "Alarm Position #004 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10119,
+    "type": "HR",
+    "name": "Alarm Position #005 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10120,
+    "type": "HR",
+    "name": "Alarm Position #006 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10121,
+    "type": "HR",
+    "name": "Alarm Position #007 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10122,
+    "type": "HR",
+    "name": "Alarm Position #008 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10123,
+    "type": "HR",
+    "name": "Alarm Position #009 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10124,
+    "type": "HR",
+    "name": "Alarm Position #010 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10125,
+    "type": "HR",
+    "name": "Alarm Position #011 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10126,
+    "type": "HR",
+    "name": "Alarm Position #012 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10127,
+    "type": "HR",
+    "name": "Alarm Position #013Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10128,
+    "type": "HR",
+    "name": "Alarm Position #014 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10129,
+    "type": "HR",
+    "name": "Alarm Position #015 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10130,
+    "type": "HR",
+    "name": "Alarm Position #016 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10131,
+    "type": "HR",
+    "name": "Alarm Position #017 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10132,
+    "type": "HR",
+    "name": "Alarm Position #018 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10133,
+    "type": "HR",
+    "name": "Alarm Position #019 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10134,
+    "type": "HR",
+    "name": "Alarm Position #020 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10135,
+    "type": "HR",
+    "name": "Alarm Position #021 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10136,
+    "type": "HR",
+    "name": "Alarm Position #022 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10137,
+    "type": "HR",
+    "name": "Alarm Position #023 Counter",
+    "desc": "Alarms – Counters",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10138,
+    "type": "HR",
+    "name": "Alarm Position #024 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10139,
+    "type": "HR",
+    "name": "Alarm Position #025 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10140,
+    "type": "HR",
+    "name": "Alarm Position #026 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10141,
+    "type": "HR",
+    "name": "Alarm Position #027 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10142,
+    "type": "HR",
+    "name": "Alarm Position #028 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10143,
+    "type": "HR",
+    "name": "Alarm Position #029 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10144,
+    "type": "HR",
+    "name": "Alarm Position #030 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10145,
+    "type": "HR",
+    "name": "Alarm Position #031 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10146,
+    "type": "HR",
+    "name": "Alarm Position #032 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10147,
+    "type": "HR",
+    "name": "Alarm Position #033 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10148,
+    "type": "HR",
+    "name": "Alarm Position #034 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10149,
+    "type": "HR",
+    "name": "Alarm Position #035 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10150,
+    "type": "HR",
+    "name": "Alarm Position #036 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10151,
+    "type": "HR",
+    "name": "Alarm Position #037 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10152,
+    "type": "HR",
+    "name": "Alarm Position #038 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10153,
+    "type": "HR",
+    "name": "Alarm Position #039 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10154,
+    "type": "HR",
+    "name": "Alarm Position #040 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10155,
+    "type": "HR",
+    "name": "Alarm Position #041 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10156,
+    "type": "HR",
+    "name": "Alarm Position #042 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10157,
+    "type": "HR",
+    "name": "Alarm Position #043Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10158,
+    "type": "HR",
+    "name": "Alarm Position #044 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10159,
+    "type": "HR",
+    "name": "Alarm Position #045 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10160,
+    "type": "HR",
+    "name": "Alarm Position #046 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10161,
+    "type": "HR",
+    "name": "Alarm Position #047 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10162,
+    "type": "HR",
+    "name": "Alarm Position #048 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10163,
+    "type": "HR",
+    "name": "Alarm Position #049 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10164,
+    "type": "HR",
+    "name": "Alarm Position #050 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10165,
+    "type": "HR",
+    "name": "Alarm Position #051 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10166,
+    "type": "HR",
+    "name": "Alarm Position #052 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10167,
+    "type": "HR",
+    "name": "Alarm Position #053Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10168,
+    "type": "HR",
+    "name": "Alarm Position #054 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10169,
+    "type": "HR",
+    "name": "Alarm Position #055 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10170,
+    "type": "HR",
+    "name": "Alarm Position #056 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10171,
+    "type": "HR",
+    "name": "Alarm Position #057 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10172,
+    "type": "HR",
+    "name": "Alarm Position #058 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10173,
+    "type": "HR",
+    "name": "Alarm Position #059 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10174,
+    "type": "HR",
+    "name": "Alarm Position #060 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10175,
+    "type": "HR",
+    "name": "Alarm Position #061 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10176,
+    "type": "HR",
+    "name": "Alarm Position #062 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10177,
+    "type": "HR",
+    "name": "Alarm Position #063Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10178,
+    "type": "HR",
+    "name": "Alarm Position #064Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10179,
+    "type": "HR",
+    "name": "Alarm Position #065 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10180,
+    "type": "HR",
+    "name": "Alarm Position #066 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10181,
+    "type": "HR",
+    "name": "Alarm Position #067 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10182,
+    "type": "HR",
+    "name": "Alarm Position #068 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10183,
+    "type": "HR",
+    "name": "Alarm Position #069 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10184,
+    "type": "HR",
+    "name": "Alarm Position #070 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10185,
+    "type": "HR",
+    "name": "Alarm Position #071 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10186,
+    "type": "HR",
+    "name": "Alarm Position #072 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10187,
+    "type": "HR",
+    "name": "Alarm Position #073Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 10188,
+    "type": "HR",
+    "name": "Alarm Position #074 Counter",
+    "desc": "",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 11700,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11702,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11704,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11706,
+    "type": "HR",
+    "name": "Current, Neutral",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11708,
+    "type": "HR",
+    "name": "Current, Ground",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11710,
+    "type": "HR",
+    "name": "Current, 3-Phase Average",
+    "desc": "1s Metering – Current",
+    "unit": "Amps",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11712,
+    "type": "HR",
+    "name": "Voltage, A-B",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11714,
+    "type": "HR",
+    "name": "Voltage, B-C",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11716,
+    "type": "HR",
+    "name": "Voltage, C-A",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11718,
+    "type": "HR",
+    "name": "Voltage, L-L Average",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11720,
+    "type": "HR",
+    "name": "Voltage, A-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11722,
+    "type": "HR",
+    "name": "Voltage, B-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11724,
+    "type": "HR",
+    "name": "Voltage, C-N",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11726,
+    "type": "HR",
+    "name": "Voltage, N-G",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11728,
+    "type": "HR",
+    "name": "Voltage, L-N Average",
+    "desc": "1s Metering – Voltage",
+    "unit": "Volts",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11730,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "1s Metering – Power",
+    "unit": "W",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11732,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "1s Metering – Power",
+    "unit": "W",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11734,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "1s Metering – Power",
+    "unit": "W",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11736,
+    "type": "HR",
+    "name": "Real Power, Total",
+    "desc": "1s Metering – Power",
+    "unit": "W",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11738,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11740,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11742,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11744,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11746,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11748,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11750,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11752,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "1s Metering – Power",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11754,
+    "type": "HR",
+    "name": "True Power Factor, Phase A",
+    "desc": "1s Metering – Power Factor",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11756,
+    "type": "HR",
+    "name": "True Power Factor, Phase B",
+    "desc": "1s Metering – Power Factor",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11758,
+    "type": "HR",
+    "name": "True Power Factor, Phase C",
+    "desc": "1s Metering – Power Factor",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11760,
+    "type": "HR",
+    "name": "True Power Factor, Total",
+    "desc": "1s Metering – Power Factor",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11762,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "1s Metering – Frequency",
+    "unit": "Hz",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11800,
+    "type": "HR",
+    "name": "Energy, Real In",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11802,
+    "type": "HR",
+    "name": "Energy, Reactive In",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11804,
+    "type": "HR",
+    "name": "Energy, Real Out",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11806,
+    "type": "HR",
+    "name": "Energy, Reactive Out",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11808,
+    "type": "HR",
+    "name": "Energy, Real Total (signed/absolute)",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11810,
+    "type": "HR",
+    "name": "Energy, Reactive Total",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11812,
+    "type": "HR",
+    "name": "Energy, Apparent",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11814,
+    "type": "HR",
+    "name": "Energy, Conditional Real In",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11816,
+    "type": "HR",
+    "name": "Energy, Conditional Reactive In",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11818,
+    "type": "HR",
+    "name": "Energy, Conditional Real Out",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11820,
+    "type": "HR",
+    "name": "Energy, Conditional Reactive Out",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11822,
+    "type": "HR",
+    "name": "Energy, Conditional Apparent",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11824,
+    "type": "HR",
+    "name": "Energy, Incremental Real In, Last",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11826,
+    "type": "HR",
+    "name": "Energy. Incremental Reactive In, Last",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11828,
+    "type": "HR",
+    "name": "Energy, Incremental Real Out, Last",
+    "desc": "1s Metering - Energy",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11830,
+    "type": "HR",
+    "name": "Energy, Incremental Reactive Out,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11832,
+    "type": "HR",
+    "name": "Energy, Incremental Apparent, Last",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11836,
+    "type": "HR",
+    "name": "Energy, Incremental Real In, Present",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11838,
+    "type": "HR",
+    "name": "Energy. Incremental Reactive In,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11840,
+    "type": "HR",
+    "name": "Energy, Incremental Real Out,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11842,
+    "type": "HR",
+    "name": "Energy, Incremental Reactive Out,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11844,
+    "type": "HR",
+    "name": "Energy, Incremental Apparent,",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11846,
+    "type": "HR",
+    "name": "Energy, Reactive, Quadrant 1",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11848,
+    "type": "HR",
+    "name": "Energy, Reactive, Quadrant 2",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11850,
+    "type": "HR",
+    "name": "Energy, Reactive, Quadrant 3",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11852,
+    "type": "HR",
+    "name": "Energy, Reactive, Quadrant 4",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11854,
+    "type": "HR",
+    "name": "Cumulative Usage",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11856,
+    "type": "HR",
+    "name": "Cumulative Usage",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11858,
+    "type": "HR",
+    "name": "Cumulative Usage",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11860,
+    "type": "HR",
+    "name": "Cumulative Usage",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11862,
+    "type": "HR",
+    "name": "Cumulative Usage",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11864,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11866,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11868,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11870,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11872,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11874,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11876,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11878,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11880,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11882,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11884,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11886,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11888,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11890,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11892,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11894,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11896,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11898,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11900,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11902,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11904,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11906,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11908,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11910,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11912,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11914,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11916,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11918,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11920,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11922,
+    "type": "HR",
+    "name": "Energy, Real 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11924,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11926,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11928,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11930,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11932,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11934,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11936,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11938,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11940,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11942,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11944,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11946,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11948,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11950,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11952,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11954,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11956,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11958,
+    "type": "HR",
+    "name": "Energy, Apparent 3-Phase Total",
+    "desc": "",
+    "unit": "",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 11960,
+    "type": "HR",
+    "name": "THD/thd Current, Phase A",
+    "desc": "THD",
+    "unit": "A",
+    "dataType": "Float",
+    "access": "R"
+  },
+  {
+    "addr": 12000,
+    "type": "HR",
+    "name": "Utility Registers",
+    "desc": "Utility Registers",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "RW"
+  },
+  {
+    "addr": 13200,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13328,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13456,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13584,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13712,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13840,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 13968,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 14096,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 14224,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 14352,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 14480,
+    "type": "HR",
+    "name": "Harmonic Magnitudes and Angles,",
+    "desc": "Spectral Components – Harmonic Magnitudes and Angles",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 16181,
+    "type": "HR",
+    "name": "Shift Active",
+    "desc": "Energy Per Shift Configuration (16144-16237)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  },
+  {
+    "addr": 16384,
+    "type": "HR",
+    "name": "Trending & Forecasting",
+    "desc": "Trending & Forecasting Summary (16384 - 16883)",
+    "unit": "",
+    "dataType": "Integer",
+    "access": "R"
+  }
+]

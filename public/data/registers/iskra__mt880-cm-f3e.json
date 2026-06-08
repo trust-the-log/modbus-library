@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Current System Time",
+    "desc": "Current System Time",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Current System Date",
+    "desc": "Current System Date",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Active Energy Import (+A)",
+    "desc": "Active Energy Import (+A)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Active Energy Export (A)",
+    "desc": "Active Energy Export (A)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Reactive Energy Import (+R)",
+    "desc": "Reactive Energy Import (+R)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Reactive Energy Export ( R)",
+    "desc": "Reactive Energy Export ( R)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Reactive Energy Q1 (+Ri)",
+    "desc": "Reactive Energy Q1 (+Ri)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Reactive Energy Q2 (+Rc)",
+    "desc": "Reactive Energy Q2 (+Rc)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Reactive Energy Q3 ( Ri)",
+    "desc": "Reactive Energy Q3 ( Ri)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Reactive Energy Q4 ( Rc)",
+    "desc": "Reactive Energy Q4 ( Rc)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Apparent Energy Import (+Va) (Q1 + Q4)",
+    "desc": "Apparent Energy Import (+Va) (Q1 + Q4)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Apparent Energy Export ( Va) (Q2 + Q3)",
+    "desc": "Apparent Energy Export ( Va) (Q2 + Q3)",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Active Energy Import (+A) L1",
+    "desc": "Active Energy Import (+A) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Active Energy Import (+A) L2",
+    "desc": "Active Energy Import (+A) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Active Energy Import (+A) L3",
+    "desc": "Active Energy Import (+A) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Active Energy Export ( A) L1",
+    "desc": "Active Energy Export ( A) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Active Energy Export ( A) L2",
+    "desc": "Active Energy Export ( A) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Active Energy Export ( A) L3",
+    "desc": "Active Energy Export ( A) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Reactive Energy Import (+R) L1",
+    "desc": "Reactive Energy Import (+R) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Reactive Energy Import (+R) L2",
+    "desc": "Reactive Energy Import (+R) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Reactive Energy Import (+R) L3",
+    "desc": "Reactive Energy Import (+R) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Reactive Energy Export ( R) L1",
+    "desc": "Reactive Energy Export ( R) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Reactive Energy Export ( R) L2",
+    "desc": "Reactive Energy Export ( R) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Reactive Energy Export ( R) L3",
+    "desc": "Reactive Energy Export ( R) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Reactive Energy Q1 (+Ri) L1",
+    "desc": "Reactive Energy Q1 (+Ri) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Reactive Energy Q1 (+Ri) L2",
+    "desc": "Reactive Energy Q1 (+Ri) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Reactive Energy Q1 (+Ri) L3",
+    "desc": "Reactive Energy Q1 (+Ri) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Reactive Energy Q2 (+Rc) L1",
+    "desc": "Reactive Energy Q2 (+Rc) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Reactive Energy Q2 (+Rc) L2",
+    "desc": "Reactive Energy Q2 (+Rc) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Reactive Energy Q2 (+Rc) L3",
+    "desc": "Reactive Energy Q2 (+Rc) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Reactive Energy Q3 ( Ri) L1",
+    "desc": "Reactive Energy Q3 ( Ri) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Reactive Energy Q3 ( Ri) L2",
+    "desc": "Reactive Energy Q3 ( Ri) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Reactive Energy Q3 ( Ri) L3",
+    "desc": "Reactive Energy Q3 ( Ri) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Reactive Energy Q4 ( Rc) L1",
+    "desc": "Reactive Energy Q4 ( Rc) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Reactive Energy Q4 ( Rc) L2",
+    "desc": "Reactive Energy Q4 ( Rc) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Reactive Energy Q4 ( Rc) L3",
+    "desc": "Reactive Energy Q4 ( Rc) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Apparent Energy Import (+Va) (Q1 + Q4) L1",
+    "desc": "Apparent Energy Import (+Va) (Q1 + Q4) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Apparent Energy Import (+Va) (Q1 + Q4) L2",
+    "desc": "Apparent Energy Import (+Va) (Q1 + Q4) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Apparent Energy Import (+Va) (Q1 + Q4) L3",
+    "desc": "Apparent Energy Import (+Va) (Q1 + Q4) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Apparent Energy Export ( Va) (Q2 + Q3) L1",
+    "desc": "Apparent Energy Export ( Va) (Q2 + Q3) L1",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Apparent Energy Export ( Va) (Q2 + Q3) L2",
+    "desc": "Apparent Energy Export ( Va) (Q2 + Q3) L2",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Apparent Energy Export ( Va) (Q2 + Q3) L3",
+    "desc": "Apparent Energy Export ( Va) (Q2 + Q3) L3",
+    "unit": "",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "Instantaneous Active Power (|+A|+| A|)",
+    "desc": "Instantaneous Active Power (|+A|+| A|)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 170,
+    "type": "HR",
+    "name": "Instantaneous Active Import Power (+A)",
+    "desc": "Instantaneous Active Import Power (+A)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "Instantaneous Active Import Power (+A) L1",
+    "desc": "Instantaneous Active Import Power (+A) L1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "Instantaneous Active Import Power (+A) L2",
+    "desc": "Instantaneous Active Import Power (+A) L2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "Instantaneous Active Import Power (+A) L3",
+    "desc": "Instantaneous Active Import Power (+A) L3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 178,
+    "type": "HR",
+    "name": "Instantaneous Active Export Power ( A)",
+    "desc": "Instantaneous Active Export Power ( A)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 180,
+    "type": "HR",
+    "name": "Instantaneous Active Export Power ( A) L1",
+    "desc": "Instantaneous Active Export Power ( A) L1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 182,
+    "type": "HR",
+    "name": "Instantaneous Active Export Power ( A) L2",
+    "desc": "Instantaneous Active Export Power ( A) L2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

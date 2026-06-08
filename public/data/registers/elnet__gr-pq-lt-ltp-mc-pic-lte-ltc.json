@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Voltage Line 2",
+    "desc": "Voltage Line 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Voltage Line 3",
+    "desc": "Voltage Line 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Voltage Between Line 1 And Line 2",
+    "desc": "Voltage Between Line 1 And Line 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Voltage Between Line 2 And Line 3",
+    "desc": "Voltage Between Line 2 And Line 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Voltage Between Line 3 And Line 1",
+    "desc": "Voltage Between Line 3 And Line 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Current In Line 1",
+    "desc": "Current In Line 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Current In Line 2",
+    "desc": "Current In Line 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Current In Line 3",
+    "desc": "Current In Line 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Active Power Line 1",
+    "desc": "Active Power Line 1",
+    "unit": "Watt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Active Power Line 2",
+    "desc": "Active Power Line 2",
+    "unit": "Watt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Active Power Line 3",
+    "desc": "Active Power Line 3",
+    "unit": "watt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Combined Active Power Line 1+2 +3",
+    "desc": "Combined Active Power Line 1+2 +3",
+    "unit": "watt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Apparent Power Line 1",
+    "desc": "Apparent Power Line 1",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Apparent Power Line 2",
+    "desc": "Apparent Power Line 2",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Apparent Power Line 3",
+    "desc": "Apparent Power Line 3",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Combined Apparent Power Line 1+2+3",
+    "desc": "Combined Apparent Power Line 1+2+3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Reactive Power Line 1",
+    "desc": "Reactive Power Line 1",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Reactive Power Line 2",
+    "desc": "Reactive Power Line 2",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Reactive Power Line 3",
+    "desc": "Reactive Power Line 3",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Combined Reactive Power Line 1+2+3",
+    "desc": "Combined Reactive Power Line 1+2+3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Power Factor Line 1",
+    "desc": "Power Factor Line 1",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Power Factor Line 2",
+    "desc": "Power Factor Line 2",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Power Factor Line 3",
+    "desc": "Power Factor Line 3",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Combined Power Factor For Line 1+2+3",
+    "desc": "Combined Power Factor For Line 1+2+3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Frequency Line 1",
+    "desc": "Frequency Line 1",
+    "unit": "Hrz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Frequency Line 2",
+    "desc": "Frequency Line 2",
+    "unit": "Hrz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Frequency Line 3",
+    "desc": "Frequency Line 3",
+    "unit": "Hrz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Current Neutral Line",
+    "desc": "Current Neutral Line",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Power Factor Line 1",
+    "desc": "Power Factor Line 1",
+    "unit": "L and C",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Power Factor Line 2",
+    "desc": "Power Factor Line 2",
+    "unit": "L and C",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Power Factor Line 3",
+    "desc": "Power Factor Line 3",
+    "unit": "L and C",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Combined Power Factor For Line 1+2+3",
+    "desc": "Combined Power Factor For Line 1+2+3",
+    "unit": "L and C",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Total Current In Line 1+2+3",
+    "desc": "Total Current In Line 1+2+3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Tou (Taoz) Rate",
+    "desc": "Tou (Taoz) Rate",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Active Total Energy",
+    "desc": "Active Total Energy",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Reactive Total Energy",
+    "desc": "Reactive Total Energy",
+    "unit": "VARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Apparent Total Energy",
+    "desc": "Apparent Total Energy",
+    "unit": "Vah",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Date Time",
+    "desc": "Date Time",
+    "unit": "Win Format",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Time From 01 01 2000 In Seconds",
+    "desc": "Time From 01 01 2000 In Seconds",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Address",
+    "desc": "Address",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Baud Rate",
+    "desc": "Baud Rate",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Parity",
+    "desc": "Parity",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Current Transformer Ratio",
+    "desc": "Current Transformer Ratio",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Timed Average Voltage",
+    "desc": "Timed Average Voltage",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Timed Average Current",
+    "desc": "Timed Average Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Timed Average Power",
+    "desc": "Timed Average Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Timed Avaerge Frequqncy",
+    "desc": "Timed Avaerge Frequqncy",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Thd For Volts Line 1",
+    "desc": "Thd For Volts Line 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Thd For Volts Line 2",
+    "desc": "Thd For Volts Line 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Thd For Volts Line 3",
+    "desc": "Thd For Volts Line 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

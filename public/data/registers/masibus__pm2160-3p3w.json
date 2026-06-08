@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "1 2. Pf",
+    "desc": "1 2. Pf",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "3 2. Pf",
+    "desc": "3 2. Pf",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "A. Pf",
+    "desc": "A. Pf",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Vrms 12",
+    "desc": "Vrms 12",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Vrms 3*1",
+    "desc": "Vrms 3*1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Vrms 2*3",
+    "desc": "Vrms 2*3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "A Vrms",
+    "desc": "A Vrms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "1. Irms",
+    "desc": "1. Irms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "3. Irms",
+    "desc": "3. Irms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "A. Irms",
+    "desc": "A. Irms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "1 2. Watt",
+    "desc": "1 2. Watt",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "3 2. Watt",
+    "desc": "3 2. Watt",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "S. Watt",
+    "desc": "S. Watt",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "1 2. Var",
+    "desc": "1 2. Var",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "3 2. Var",
+    "desc": "3 2. Var",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "S. Var",
+    "desc": "S. Var",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "1 2. Va",
+    "desc": "1 2. Va",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "3 2. Va",
+    "desc": "3 2. Va",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "S. Va",
+    "desc": "S. Va",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "1 2. Wh Import",
+    "desc": "1 2. Wh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "3 2. Wh Import",
+    "desc": "3 2. Wh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "T. Wh Import",
+    "desc": "T. Wh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "1 2. Wh Export",
+    "desc": "1 2. Wh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "3 2. Wh Export",
+    "desc": "3 2. Wh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "T. Wh Export",
+    "desc": "T. Wh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "1 2. Varh Import",
+    "desc": "1 2. Varh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "3 2. Varh Import",
+    "desc": "3 2. Varh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "T. Varh Import",
+    "desc": "T. Varh Import",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "1 2. Varh Export",
+    "desc": "1 2. Varh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "3 2. Varh Export",
+    "desc": "3 2. Varh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "T. Varh Export",
+    "desc": "T. Varh Export",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "1 2. Vah",
+    "desc": "1 2. Vah",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "3 2. Vah",
+    "desc": "3 2. Vah",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "T. Vah",
+    "desc": "T. Vah",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Rising Demand",
+    "desc": "Rising Demand",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Real Date",
+    "desc": "Real Date",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Real Time",
+    "desc": "Real Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Maximum Demand",
+    "desc": "Maximum Demand",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Md Date",
+    "desc": "Md Date",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Md Time",
+    "desc": "Md Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "1 2. Phase Angle",
+    "desc": "1 2. Phase Angle",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "3 2. Phase Angle",
+    "desc": "3 2. Phase Angle",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "V. Unbalance",
+    "desc": "V. Unbalance",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "1. Unbalance",
+    "desc": "1. Unbalance",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "1. Vrms",
+    "desc": "1. Vrms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "2. Vrms",
+    "desc": "2. Vrms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "3. Vrms",
+    "desc": "3. Vrms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "A. Vrms",
+    "desc": "A. Vrms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2010,
+    "type": "HR",
+    "name": "1. Irms",
+    "desc": "1. Irms",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

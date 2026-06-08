@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "V1",
+    "desc": "V1",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "V2",
+    "desc": "V2",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "V3",
+    "desc": "V3",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "V12",
+    "desc": "V12",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "V23",
+    "desc": "V23",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "V31",
+    "desc": "V31",
+    "unit": "v",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "11",
+    "desc": "11",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "12",
+    "desc": "12",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "13",
+    "desc": "13",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "In",
+    "desc": "In",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "P1",
+    "desc": "P1",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "P2",
+    "desc": "P2",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "P3",
+    "desc": "P3",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "P",
+    "desc": "P",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Q 1",
+    "desc": "Q 1",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Q2",
+    "desc": "Q2",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Q3",
+    "desc": "Q3",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "S1",
+    "desc": "S1",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "S2",
+    "desc": "S2",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "S3",
+    "desc": "S3",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "S",
+    "desc": "S",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Pfi",
+    "desc": "Pfi",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Pf2",
+    "desc": "Pf2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Pf3",
+    "desc": "Pf3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "F",
+    "desc": "F",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Import Active Energy",
+    "desc": "Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Export Active Energy",
+    "desc": "Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Import Reactive Energy",
+    "desc": "Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Export Reactive Energy",
+    "desc": "Export Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Apparent Energy",
+    "desc": "Apparent Energy",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "1 Quadrant Reactive Energy Eql+",
+    "desc": "1 Quadrant Reactive Energy Eql+",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "2  Quadrant Reactive Energy Eqc",
+    "desc": "2  Quadrant Reactive Energy Eqc",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "3  Quadrant Reactive Energy Eql",
+    "desc": "3  Quadrant Reactive Energy Eql",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "4  Quadrant Reactive Energy Eqc",
+    "desc": "4  Quadrant Reactive Energy Eqc",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Fundamenta Import Active Energy",
+    "desc": "Fundamenta Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Fundamenta Export Active Energy",
+    "desc": "Fundamenta Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Fundamenta Import Reactive Energy",
+    "desc": "Fundamenta Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Fundamenta Export Reactive Energy",
+    "desc": "Fundamenta Export Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "L1 Import Active Energy",
+    "desc": "L1 Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "L2 Import Active Energy",
+    "desc": "L2 Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "L3 Import Active Energy",
+    "desc": "L3 Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Li Export Active Energy",
+    "desc": "Li Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "L2 Export Active Energy",
+    "desc": "L2 Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "L3 Export Active Energy",
+    "desc": "L3 Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Li Import Reactive Energy",
+    "desc": "Li Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "L2 Import Reactive Energy",
+    "desc": "L2 Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "L3 Import Reactive Energy",
+    "desc": "L3 Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "L1 Export Reactive Energy",
+    "desc": "L1 Export Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "L2 Export Reactive Energy",
+    "desc": "L2 Export Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  }
+]

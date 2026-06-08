@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Phase Voltage A",
+    "desc": "Phase Voltage A",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Phase Voltage B",
+    "desc": "Phase Voltage B",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Phase Voltage C",
+    "desc": "Phase Voltage C",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Phase Current A",
+    "desc": "Phase Current A",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Phase Current B",
+    "desc": "Phase Current B",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Phase Current C",
+    "desc": "Phase Current C",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Active Power Phase A",
+    "desc": "Active Power Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Reactive Power Phase A",
+    "desc": "Reactive Power Phase A",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Apparent Power Phase A",
+    "desc": "Apparent Power Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Power Factor Phase A",
+    "desc": "Power Factor Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Active Power Phase B",
+    "desc": "Active Power Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Reactive Power Phase B",
+    "desc": "Reactive Power Phase B",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Apparent Power Phase B",
+    "desc": "Apparent Power Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Power Factor Phase B",
+    "desc": "Power Factor Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Active Power Phase C",
+    "desc": "Active Power Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Reactive Power Phase C",
+    "desc": "Reactive Power Phase C",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Apparent Power Phase C",
+    "desc": "Apparent Power Phase C",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Power Factor Phase C",
+    "desc": "Power Factor Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Fundamental Active Power Phase A",
+    "desc": "Fundamental Active Power Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Fundamental Active Power Phase B",
+    "desc": "Fundamental Active Power Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Fundamental Active Power Phase C",
+    "desc": "Fundamental Active Power Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Fundamental Reactive Power Phase A",
+    "desc": "Fundamental Reactive Power Phase A",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Fundamental Reactive Power Phase B",
+    "desc": "Fundamental Reactive Power Phase B",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 73,
+    "type": "HR",
+    "name": "Fundamental Reactive Power Phase C",
+    "desc": "Fundamental Reactive Power Phase C",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Harmonic Active Power Phase A",
+    "desc": "Harmonic Active Power Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Harmonic Active Power Phase B",
+    "desc": "Harmonic Active Power Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Harmonic Active Power Phase C",
+    "desc": "Harmonic Active Power Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 81,
+    "type": "HR",
+    "name": "Harmonic Reactive Power Phase A",
+    "desc": "Harmonic Reactive Power Phase A",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 83,
+    "type": "HR",
+    "name": "Harmonic Reactive Power Phase B",
+    "desc": "Harmonic Reactive Power Phase B",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 85,
+    "type": "HR",
+    "name": "Harmonic Reactive Power Phase C",
+    "desc": "Harmonic Reactive Power Phase C",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 87,
+    "type": "HR",
+    "name": "Total Voltage Harmonic Phase A",
+    "desc": "Total Voltage Harmonic Phase A",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 89,
+    "type": "HR",
+    "name": "Total Voltage Harmonic Phase B",
+    "desc": "Total Voltage Harmonic Phase B",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 91,
+    "type": "HR",
+    "name": "Total Voltage Harmonic Phase C",
+    "desc": "Total Voltage Harmonic Phase C",
+    "unit": "Vrms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 93,
+    "type": "HR",
+    "name": "Total Current Harmonic Phase A",
+    "desc": "Total Current Harmonic Phase A",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 95,
+    "type": "HR",
+    "name": "Total Current Harmonic Phase B",
+    "desc": "Total Current Harmonic Phase B",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 97,
+    "type": "HR",
+    "name": "Total Current Harmonic Phase C",
+    "desc": "Total Current Harmonic Phase C",
+    "unit": "Irms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 99,
+    "type": "HR",
+    "name": "Voltage A Harmonics 0",
+    "desc": "Voltage A Harmonics 0",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Voltage A Harmonics 1",
+    "desc": "Voltage A Harmonics 1",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 101,
+    "type": "HR",
+    "name": "Voltage A Harmonics 2",
+    "desc": "Voltage A Harmonics 2",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Voltage A Harmonics 3",
+    "desc": "Voltage A Harmonics 3",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 103,
+    "type": "HR",
+    "name": "Voltage A Harmonics 4",
+    "desc": "Voltage A Harmonics 4",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Voltage A Harmonics 5",
+    "desc": "Voltage A Harmonics 5",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 105,
+    "type": "HR",
+    "name": "Voltage A Harmonics 6",
+    "desc": "Voltage A Harmonics 6",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Voltage A Harmonics 7",
+    "desc": "Voltage A Harmonics 7",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 107,
+    "type": "HR",
+    "name": "Voltage A Harmonics 8",
+    "desc": "Voltage A Harmonics 8",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

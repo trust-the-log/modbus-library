@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Broadcast, Load Phase 1 (M00)",
+    "desc": "Broadcast, Load Phase 1 (M00)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 99,
+    "type": "HR",
+    "name": "Broadcast, Total Load (M03)",
+    "desc": "Broadcast, Total Load (M03)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Broadcast, Battery Capacity (M04)",
+    "desc": "Broadcast, Battery Capacity (M04)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Broadcast, Auxiliary Mains Star Voltage V1 (M06)",
+    "desc": "Broadcast, Auxiliary Mains Star Voltage V1 (M06)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 105,
+    "type": "HR",
+    "name": "Broadcast, Output Star Voltage V1 (M09)",
+    "desc": "Broadcast, Output Star Voltage V1 (M09)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 111,
+    "type": "HR",
+    "name": "Broadcast, Output Current Phase L1 (M15)",
+    "desc": "Broadcast, Output Current Phase L1 (M15)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Broadcast, Auxiliary Frequency (M18)",
+    "desc": "Broadcast, Auxiliary Frequency (M18)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 115,
+    "type": "HR",
+    "name": "Broadcast, Output Frequency (M19)",
+    "desc": "Broadcast, Output Frequency (M19)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Broadcast, Positive Battery Voltage (M20)",
+    "desc": "Broadcast, Positive Battery Voltage (M20)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Broadcast, Internal Ups Temperature (M22)",
+    "desc": "Broadcast, Internal Ups Temperature (M22)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 119,
+    "type": "HR",
+    "name": "Broadcast, Remaining Back Up Time (M23)",
+    "desc": "Broadcast, Remaining Back Up Time (M23)",
+    "unit": "Minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 129,
+    "type": "HR",
+    "name": "Broadcast, Input Mains Star Voltage V1 (M33)",
+    "desc": "Broadcast, Input Mains Star Voltage V1 (M33)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4192,
+    "type": "HR",
+    "name": "Concentrator, Load Phase 1 (M00)",
+    "desc": "Concentrator, Load Phase 1 (M00)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4195,
+    "type": "HR",
+    "name": "Concentrator, Total Load (M03)",
+    "desc": "Concentrator, Total Load (M03)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4196,
+    "type": "HR",
+    "name": "Concentrator, Battery Capacity (M04)",
+    "desc": "Concentrator, Battery Capacity (M04)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4198,
+    "type": "HR",
+    "name": "Concentrator, Auxiliary Mains Star Voltage V1 (M06",
+    "desc": "Concentrator, Auxiliary Mains Star Voltage V1 (M06)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4201,
+    "type": "HR",
+    "name": "Concentrator, Output Star Voltage V1 (M09)",
+    "desc": "Concentrator, Output Star Voltage V1 (M09)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4207,
+    "type": "HR",
+    "name": "Concentrator, Output Current Phase L1 (M15)",
+    "desc": "Concentrator, Output Current Phase L1 (M15)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4210,
+    "type": "HR",
+    "name": "Concentrator, Auxiliary Frequency (M18)",
+    "desc": "Concentrator, Auxiliary Frequency (M18)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4211,
+    "type": "HR",
+    "name": "Concentrator, Output Frequency (M19)",
+    "desc": "Concentrator, Output Frequency (M19)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4212,
+    "type": "HR",
+    "name": "Concentrator, Positive Battery Voltage (M20)",
+    "desc": "Concentrator, Positive Battery Voltage (M20)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4214,
+    "type": "HR",
+    "name": "Concentrator, Internal Ups Temperature (M22)",
+    "desc": "Concentrator, Internal Ups Temperature (M22)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4215,
+    "type": "HR",
+    "name": "Concentrator, Remaining Back Up Time (M23)",
+    "desc": "Concentrator, Remaining Back Up Time (M23)",
+    "unit": "Minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4225,
+    "type": "HR",
+    "name": "Concentrator, Input Mains Star Voltage V1 (M33)",
+    "desc": "Concentrator, Input Mains Star Voltage V1 (M33)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8288,
+    "type": "HR",
+    "name": "Module 1, Load Phase 1 (M00)",
+    "desc": "Module 1, Load Phase 1 (M00)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8291,
+    "type": "HR",
+    "name": "Module 1, Total Load (M03)",
+    "desc": "Module 1, Total Load (M03)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8292,
+    "type": "HR",
+    "name": "Module 1, Battery Capacity (M04)",
+    "desc": "Module 1, Battery Capacity (M04)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8294,
+    "type": "HR",
+    "name": "Module 1, Auxiliary Mains Star Voltage V1 (M06)",
+    "desc": "Module 1, Auxiliary Mains Star Voltage V1 (M06)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8297,
+    "type": "HR",
+    "name": "Module 1, Output Star Voltage V1 (M09)",
+    "desc": "Module 1, Output Star Voltage V1 (M09)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8303,
+    "type": "HR",
+    "name": "Module 1, Output Current Phase L1 (M15)",
+    "desc": "Module 1, Output Current Phase L1 (M15)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8306,
+    "type": "HR",
+    "name": "Module 1, Auxiliary Frequency (M18)",
+    "desc": "Module 1, Auxiliary Frequency (M18)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8307,
+    "type": "HR",
+    "name": "Module 1, Output Frequency (M19)",
+    "desc": "Module 1, Output Frequency (M19)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8308,
+    "type": "HR",
+    "name": "Module 1, Positive Battery Voltage (M20)",
+    "desc": "Module 1, Positive Battery Voltage (M20)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8310,
+    "type": "HR",
+    "name": "Module 1, Internal Ups Temperature (M22)",
+    "desc": "Module 1, Internal Ups Temperature (M22)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8311,
+    "type": "HR",
+    "name": "Module 1, Remaining Back Up Time (M23)",
+    "desc": "Module 1, Remaining Back Up Time (M23)",
+    "unit": "Minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8321,
+    "type": "HR",
+    "name": "Module 1, Input Mains Star Voltage V1 (M33)",
+    "desc": "Module 1, Input Mains Star Voltage V1 (M33)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12384,
+    "type": "HR",
+    "name": "Module 2, Load Phase 1 (M00)",
+    "desc": "Module 2, Load Phase 1 (M00)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12387,
+    "type": "HR",
+    "name": "Module 2, Total Load (M03)",
+    "desc": "Module 2, Total Load (M03)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12388,
+    "type": "HR",
+    "name": "Module 2, Battery Capacity (M04)",
+    "desc": "Module 2, Battery Capacity (M04)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12390,
+    "type": "HR",
+    "name": "Module 2, Auxiliary Mains Star Voltage V1 (M06)",
+    "desc": "Module 2, Auxiliary Mains Star Voltage V1 (M06)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12393,
+    "type": "HR",
+    "name": "Module 2, Output Star Voltage V1 (M09)",
+    "desc": "Module 2, Output Star Voltage V1 (M09)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12399,
+    "type": "HR",
+    "name": "Module 2, Output Current Phase L1 (M15)",
+    "desc": "Module 2, Output Current Phase L1 (M15)",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12402,
+    "type": "HR",
+    "name": "Module 2, Auxiliary Frequency (M18)",
+    "desc": "Module 2, Auxiliary Frequency (M18)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12403,
+    "type": "HR",
+    "name": "Module 2, Output Frequency (M19)",
+    "desc": "Module 2, Output Frequency (M19)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12404,
+    "type": "HR",
+    "name": "Module 2, Positive Battery Voltage (M20)",
+    "desc": "Module 2, Positive Battery Voltage (M20)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12406,
+    "type": "HR",
+    "name": "Module 2, Internal Ups Temperature (M22)",
+    "desc": "Module 2, Internal Ups Temperature (M22)",
+    "unit": "DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12407,
+    "type": "HR",
+    "name": "Module 2, Remaining Back Up Time (M23)",
+    "desc": "Module 2, Remaining Back Up Time (M23)",
+    "unit": "Minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12417,
+    "type": "HR",
+    "name": "Module 2, Input Mains Star Voltage V1 (M33)",
+    "desc": "Module 2, Input Mains Star Voltage V1 (M33)",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16480,
+    "type": "HR",
+    "name": "Module 3, Load Phase 1 (M00)",
+    "desc": "Module 3, Load Phase 1 (M00)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16483,
+    "type": "HR",
+    "name": "Module 3, Total Load (M03)",
+    "desc": "Module 3, Total Load (M03)",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

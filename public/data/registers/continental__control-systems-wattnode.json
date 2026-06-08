@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1001,
+    "type": "HR",
+    "name": "Total Net (Bidirectional) Energy",
+    "desc": "Total Net (Bidirectional) Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1003,
+    "type": "HR",
+    "name": "Total Positive Energy",
+    "desc": "Total Positive Energy",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1005,
+    "type": "HR",
+    "name": "Total Net (Bidirectional) Energy Non Resettable",
+    "desc": "Total Net (Bidirectional) Energy Non Resettable",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1007,
+    "type": "HR",
+    "name": "Total Positive Energy Non Resettable",
+    "desc": "Total Positive Energy Non Resettable",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1009,
+    "type": "HR",
+    "name": "Real Power, Sum Of Active Phases",
+    "desc": "Real Power, Sum Of Active Phases",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1011,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "Real Power, Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1013,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "Real Power, Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1015,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "Real Power, Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1017,
+    "type": "HR",
+    "name": "Average Phase To Neutral Voltage",
+    "desc": "Average Phase To Neutral Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1019,
+    "type": "HR",
+    "name": "Rms Voltage, Phase A To Neutral",
+    "desc": "Rms Voltage, Phase A To Neutral",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1021,
+    "type": "HR",
+    "name": "Rms Voltage, Phase B To Neutral",
+    "desc": "Rms Voltage, Phase B To Neutral",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1023,
+    "type": "HR",
+    "name": "Rms Voltage, Phase C To Neutral",
+    "desc": "Rms Voltage, Phase C To Neutral",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Average Line To Line Voltage",
+    "desc": "Average Line To Line Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Rms Voltage, Line To Line, Phase A To B",
+    "desc": "Rms Voltage, Line To Line, Phase A To B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Rms Voltage, Line To Line, Phase B To C",
+    "desc": "Rms Voltage, Line To Line, Phase B To C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1031,
+    "type": "HR",
+    "name": "Rms Voltage, Line To Line, Phase A To C",
+    "desc": "Rms Voltage, Line To Line, Phase A To C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1033,
+    "type": "HR",
+    "name": "Power Line Frequency",
+    "desc": "Power Line Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1101,
+    "type": "HR",
+    "name": "Net (Bidirectional) Energy, Phase A",
+    "desc": "Net (Bidirectional) Energy, Phase A",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1103,
+    "type": "HR",
+    "name": "Net (Bidirectional) Energy, Phase B",
+    "desc": "Net (Bidirectional) Energy, Phase B",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1105,
+    "type": "HR",
+    "name": "Net (Bidirectional) Energy, Phase C",
+    "desc": "Net (Bidirectional) Energy, Phase C",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1107,
+    "type": "HR",
+    "name": "Positive Energy, Phase A",
+    "desc": "Positive Energy, Phase A",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1109,
+    "type": "HR",
+    "name": "Positive Energy, Phase B",
+    "desc": "Positive Energy, Phase B",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1111,
+    "type": "HR",
+    "name": "Positive Energy, Phase C",
+    "desc": "Positive Energy, Phase C",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1113,
+    "type": "HR",
+    "name": "Negative Energy, Sum Of Active Phases",
+    "desc": "Negative Energy, Sum Of Active Phases",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1115,
+    "type": "HR",
+    "name": "Negative Energy, Sum Of Active Phases Non Resettab",
+    "desc": "Negative Energy, Sum Of Active Phases Non Resettable",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1117,
+    "type": "HR",
+    "name": "Negative Energy, Phase A",
+    "desc": "Negative Energy, Phase A",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1119,
+    "type": "HR",
+    "name": "Negative Energy, Phase B",
+    "desc": "Negative Energy, Phase B",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1121,
+    "type": "HR",
+    "name": "Negative Energy, Phase C",
+    "desc": "Negative Energy, Phase C",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1123,
+    "type": "HR",
+    "name": "Reactive Energy, Sum Of Active Phases",
+    "desc": "Reactive Energy, Sum Of Active Phases",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1125,
+    "type": "HR",
+    "name": "Net Reactive Energy, Phase A",
+    "desc": "Net Reactive Energy, Phase A",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1127,
+    "type": "HR",
+    "name": "Net Reactive Energy, Phase B",
+    "desc": "Net Reactive Energy, Phase B",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1129,
+    "type": "HR",
+    "name": "Net Reactive Energy, Phase C",
+    "desc": "Net Reactive Energy, Phase C",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1131,
+    "type": "HR",
+    "name": "Apparent Energy, Sum Of Active Phases",
+    "desc": "Apparent Energy, Sum Of Active Phases",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1133,
+    "type": "HR",
+    "name": "Apparent Energy, Phase A",
+    "desc": "Apparent Energy, Phase A",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1135,
+    "type": "HR",
+    "name": "Apparent Energy, Phase B",
+    "desc": "Apparent Energy, Phase B",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1137,
+    "type": "HR",
+    "name": "Apparent Energy, Phase C",
+    "desc": "Apparent Energy, Phase C",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1139,
+    "type": "HR",
+    "name": "Power Factor, Average Of Active Phases",
+    "desc": "Power Factor, Average Of Active Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1141,
+    "type": "HR",
+    "name": "Power Factor, Phase A",
+    "desc": "Power Factor, Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1143,
+    "type": "HR",
+    "name": "Power Factor, Phase B",
+    "desc": "Power Factor, Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1145,
+    "type": "HR",
+    "name": "Power Factor, Phase C",
+    "desc": "Power Factor, Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1147,
+    "type": "HR",
+    "name": "Reactive Power, Sum Of Active Phases",
+    "desc": "Reactive Power, Sum Of Active Phases",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1149,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "Reactive Power, Phase A",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1151,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "Reactive Power, Phase B",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1153,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "Reactive Power, Phase C",
+    "unit": "VAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1155,
+    "type": "HR",
+    "name": "Apparent Power, Sum Of Active Phases",
+    "desc": "Apparent Power, Sum Of Active Phases",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1157,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "Apparent Power, Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1159,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "Apparent Power, Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1161,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "Apparent Power, Phase C",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1163,
+    "type": "HR",
+    "name": "Rms Current, Phase A",
+    "desc": "Rms Current, Phase A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1165,
+    "type": "HR",
+    "name": "Rms Current, Phase B",
+    "desc": "Rms Current, Phase B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  }
+]

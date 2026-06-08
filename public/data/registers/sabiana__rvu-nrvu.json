@@ -1,0 +1,1577 @@
+[
+  {
+    "addr": 0,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Machine ID for customer use",
+    "unit": "",
+    "dataType": "char",
+    "access": "RW"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Controller model",
+    "desc": "0x5200 ESP170V 0x5201 ESP270 0x5202 ESP360 0x5203 ESP460 0x5204 ESP170H 0x5205 E",
+    "unit": "",
+    "dataType": "uns16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Firmware Release",
+    "desc": "Low byte= minor release, High byte = major release",
+    "unit": "",
+    "dataType": "uns16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Protocol Release",
+    "desc": "These tables apply if the value is 0x0006",
+    "unit": "",
+    "dataType": "uns16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "T-EP Firmware Release",
+    "desc": "Low byte= minor release, High byte = major release",
+    "unit": "",
+    "dataType": "uns16",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Temperature probes",
+    "desc": "T1,T2,T3,T4 °Cx10",
+    "unit": "",
+    "dataType": "Sig16[4]",
+    "access": "R"
+  },
+  {
+    "addr": 257,
+    "type": "HR",
+    "name": "Not Used",
+    "desc": "Returns 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Temperature Probe",
+    "desc": "°Cx10",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "R"
+  },
+  {
+    "addr": 259,
+    "type": "HR",
+    "name": "Not Used",
+    "desc": "Returns 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Dips Configuration",
+    "desc": "Bit fields, 1=Dip ON, 0=Dip OFF b0: 1 Inverted configuration b1: 1: Pre-heating ",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 261,
+    "type": "HR",
+    "name": "Machine state and mode",
+    "desc": "Bit fields b0: 1: Remote OFF active b1: 1: Bypass active b2: 1: Electric Pre Hea",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Humidity setpoint",
+    "desc": "RH% x10 (40.0% = 400)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 263,
+    "type": "HR",
+    "name": "FIlter counter",
+    "desc": "Filter counter divided by 20 minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Parameters Flags",
+    "desc": "Bit field:0 Off, 1 On b0: Free b1: Stop Mode (0 FanOff, 1 FanOn) b2: Flush mode ",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Temp probe 1 offset",
+    "desc": "°C x10 (-40...+40)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Temp probe 2 offset",
+    "desc": "°C x10 (-40...+40)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Temp probe 3 offset",
+    "desc": "°C x10 (-40...+40)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Temp probe 4 offset",
+    "desc": "°C x10 (-40...+40)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Fan min voltage",
+    "desc": "V x100 (100...1000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Fan max voltage",
+    "desc": "V x100 (100...1000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 519,
+    "type": "HR",
+    "name": "Fan1 Nominal V drive",
+    "desc": "V x100 (100...1000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Fan2 Nominal V drive",
+    "desc": "V x100 (100...1000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 521,
+    "type": "HR",
+    "name": "Fan min speed",
+    "desc": "rpm (200...4000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 522,
+    "type": "HR",
+    "name": "Fan max Speed",
+    "desc": "rpm (1000...4000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 523,
+    "type": "HR",
+    "name": "Fan1 nominal speed",
+    "desc": "Rpm (normalized) (1000...4000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "Fan2 nominal speed",
+    "desc": "Rpm (normalized) (1000...4000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 525,
+    "type": "HR",
+    "name": "Fan1 installation speed",
+    "desc": "rpm (1000...4000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "K coefficient 1",
+    "desc": "x100 (1000...9000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 527,
+    "type": "HR",
+    "name": "K coefficient 2",
+    "desc": "x100 (1000...9000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "Air flow 1",
+    "desc": "Q: m3/h (30...500)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 529,
+    "type": "HR",
+    "name": "Air flow 2",
+    "desc": "Q: m3/h (30...500)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 530,
+    "type": "HR",
+    "name": "Manual Speed",
+    "desc": "0-3 (Speed 1- Speed 4) Note: Writing this register triggers the manual speed mod",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 531,
+    "type": "HR",
+    "name": "Speed 1 %",
+    "desc": "(0...35)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 532,
+    "type": "HR",
+    "name": "Speed 2 %",
+    "desc": "(35...70)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 533,
+    "type": "HR",
+    "name": "Speed 3 %",
+    "desc": "(45...100)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 534,
+    "type": "HR",
+    "name": "Speed 4 %",
+    "desc": "(100...110)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 535,
+    "type": "HR",
+    "name": "Boost Speed %",
+    "desc": "(110...130)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 536,
+    "type": "HR",
+    "name": "Summer T Setpoint",
+    "desc": "°C x10 (100..300)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 537,
+    "type": "HR",
+    "name": "Winter T setpoint",
+    "desc": "°C x10 (100..300)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 538,
+    "type": "HR",
+    "name": "Air coefficients recalc. interval",
+    "desc": "minutes (1...15)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 539,
+    "type": "HR",
+    "name": "Temp for free cooling",
+    "desc": "°C x10 (100...350)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 540,
+    "type": "HR",
+    "name": "Temp for free heating",
+    "desc": "°C x10 (100.300)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 541,
+    "type": "HR",
+    "name": "Fan2 unbalance %",
+    "desc": "(-20...+20)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 542,
+    "type": "HR",
+    "name": "Humidity samples for setpoint",
+    "desc": "(1...96) (1 sample every 15minutes)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 543,
+    "type": "HR",
+    "name": "Boost time",
+    "desc": "minutes (15...240)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 544,
+    "type": "HR",
+    "name": "P constant for humidity regulator",
+    "desc": "(5...50)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 545,
+    "type": "HR",
+    "name": "Filter life",
+    "desc": "Days (30...400)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 546,
+    "type": "HR",
+    "name": "CO2 ppm min",
+    "desc": "ppm (100...30000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 547,
+    "type": "HR",
+    "name": "CO2 ppm nom",
+    "desc": "ppm (100...30000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 548,
+    "type": "HR",
+    "name": "CO2 ppm max",
+    "desc": "ppm (100...30000)",
+    "unit": "",
+    "dataType": "Sig16",
+    "access": "RW"
+  },
+  {
+    "addr": 768,
+    "type": "HR",
+    "name": "ON-OFF Command",
+    "desc": "1=ON 0=OFF",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 769,
+    "type": "HR",
+    "name": "Mode Command Manual",
+    "desc": "1=Manual",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 770,
+    "type": "HR",
+    "name": "Mode Command Holiday",
+    "desc": "1=Holiday",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 771,
+    "type": "HR",
+    "name": "Mode Command Party",
+    "desc": "1=Party",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 772,
+    "type": "HR",
+    "name": "Mode Command Auto",
+    "desc": "1=Auto",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 773,
+    "type": "HR",
+    "name": "Mode Command Program",
+    "desc": "1=Program",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 774,
+    "type": "HR",
+    "name": "Timer prog selection",
+    "desc": "0-7=P1-P8",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 775,
+    "type": "HR",
+    "name": "Mode Selection (single register)",
+    "desc": "0:Holiday 1:Auto 2:Program 3:Manual 4:Party",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 776,
+    "type": "HR",
+    "name": "Parameter reset",
+    "desc": "Writing 0x005A results in a parameter reset to factory default Read as 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 777,
+    "type": "HR",
+    "name": "Manual speed",
+    "desc": "0-3 (Speed 1- Speed 4)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 778,
+    "type": "HR",
+    "name": "External RH Value",
+    "desc": "0%...100.0% (0...1000) When reading, a value of 0xFFFF means that the data is no",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 779,
+    "type": "HR",
+    "name": "External CO2 Value",
+    "desc": "0ppm...30000ppm When reading, a value of 0xFFFF means that the data is not yet v",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 780,
+    "type": "HR",
+    "name": "Unused",
+    "desc": "If read returns 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 781,
+    "type": "HR",
+    "name": "Unused",
+    "desc": "If read returns 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 782,
+    "type": "HR",
+    "name": "Unused",
+    "desc": "If read returns 0",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 783,
+    "type": "HR",
+    "name": "Set Holyday mode days",
+    "desc": "N = Holiday days (1-60) The machine will enter holiday mode for the next N days ",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 784,
+    "type": "HR",
+    "name": "Reset Filter Counter",
+    "desc": "Writing 1 resets the filter counter",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 785,
+    "type": "HR",
+    "name": "External RH1 Value",
+    "desc": "0%...100.0% (0...1000) When reading, a value of 0xFFFF means that the data is no",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 786,
+    "type": "HR",
+    "name": "Dummy",
+    "desc": "For future use",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 787,
+    "type": "HR",
+    "name": "Dummy",
+    "desc": "For future use",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 788,
+    "type": "HR",
+    "name": "Dummy",
+    "desc": "For future use",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 789,
+    "type": "HR",
+    "name": "Dummy",
+    "desc": "For future use",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 790,
+    "type": "HR",
+    "name": "Dummy",
+    "desc": "For future use",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Day 1, interval 1 start time",
+    "desc": "MSB = hour (0...23) LSB = minutes (0...59)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Day 1, interval 2 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Day 1, interval 3 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Day 1, interval 4 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Day 1, interval 5 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Day 1, interval 6 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Day 1, interval 7 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1031,
+    "type": "HR",
+    "name": "Day 1, interval 8 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Day 2, interval 1 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1033,
+    "type": "HR",
+    "name": "Day 2, interval 2 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Day 2, interval 3 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1035,
+    "type": "HR",
+    "name": "Day 2, interval 4 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Day 2, interval 5 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1037,
+    "type": "HR",
+    "name": "Day 2, interval 6 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Day 2, interval 7 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1039,
+    "type": "HR",
+    "name": "Day 2, interval 8 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Day 3, interval 1 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1041,
+    "type": "HR",
+    "name": "Day 3, interval 2 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Day 3, interval 3 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1043,
+    "type": "HR",
+    "name": "Day 3, interval 4 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Day 3, interval 5 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1045,
+    "type": "HR",
+    "name": "Day 3, interval 6 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Day 3, interval 7 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1047,
+    "type": "HR",
+    "name": "Day 3, interval 8 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Day 4, interval 1 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1049,
+    "type": "HR",
+    "name": "Day 4, interval 2 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Day 4, interval 3 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1051,
+    "type": "HR",
+    "name": "Day 4, interval 4 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Day 4, interval 5 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1053,
+    "type": "HR",
+    "name": "Day 4, interval 6 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Day 4, interval 7 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1055,
+    "type": "HR",
+    "name": "Day 4, interval 8 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Day 5, interval 1 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1057,
+    "type": "HR",
+    "name": "Day 5, interval 2 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Day 5, interval 3 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1059,
+    "type": "HR",
+    "name": "Day 5, interval 4 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Day 5, interval 5 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1061,
+    "type": "HR",
+    "name": "Day 5, interval 6 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Day 5, interval 7 start time",
+    "desc": "MSB = hour, LSB = minutes",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 2048,
+    "type": "HR",
+    "name": "Time",
+    "desc": "MSB = hour (0...23) LSB = minutes (0...59)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 2049,
+    "type": "HR",
+    "name": "Day",
+    "desc": "Day 1 = Mon ... Day 7 = Sun",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 2304,
+    "type": "HR",
+    "name": "T1 temperature (last snapshot)",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2305,
+    "type": "HR",
+    "name": "T2 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2306,
+    "type": "HR",
+    "name": "T3 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2307,
+    "type": "HR",
+    "name": "T4 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2308,
+    "type": "HR",
+    "name": "RH% or CO2 ppm",
+    "desc": "Depending on the connected sensor",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2309,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2310,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2311,
+    "type": "HR",
+    "name": "HE Duty Cycle",
+    "desc": "0-100%",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2312,
+    "type": "HR",
+    "name": "Dp Fan1",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2313,
+    "type": "HR",
+    "name": "Dp Fan2",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2314,
+    "type": "HR",
+    "name": "Bypass",
+    "desc": "0: Not Active, 1: Active",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2315,
+    "type": "HR",
+    "name": "T1 temperature (1h earlier)",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2316,
+    "type": "HR",
+    "name": "T2 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2317,
+    "type": "HR",
+    "name": "T3 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2318,
+    "type": "HR",
+    "name": "T4 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2319,
+    "type": "HR",
+    "name": "RH% or CO2 ppm",
+    "desc": "Depending on the connected sensor",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2320,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2321,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2322,
+    "type": "HR",
+    "name": "HE Duty Cycle",
+    "desc": "0-100%",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2323,
+    "type": "HR",
+    "name": "Dp Fan1",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2324,
+    "type": "HR",
+    "name": "Dp Fan2",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2325,
+    "type": "HR",
+    "name": "Bypass",
+    "desc": "0: Not Active, 1: Active",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2326,
+    "type": "HR",
+    "name": "T1 temperature (2h earlier)",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2327,
+    "type": "HR",
+    "name": "T2 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2328,
+    "type": "HR",
+    "name": "T3 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2329,
+    "type": "HR",
+    "name": "T4 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2330,
+    "type": "HR",
+    "name": "RH% or CO2 ppm",
+    "desc": "Depending on the connected sensor",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2331,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2332,
+    "type": "HR",
+    "name": "Fan1 Speed",
+    "desc": "RPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2333,
+    "type": "HR",
+    "name": "HE Duty Cycle",
+    "desc": "0-100%",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2334,
+    "type": "HR",
+    "name": "Dp Fan1",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2335,
+    "type": "HR",
+    "name": "Dp Fan2",
+    "desc": "Pascal",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2336,
+    "type": "HR",
+    "name": "Bypass",
+    "desc": "0: Not Active, 1: Active",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2337,
+    "type": "HR",
+    "name": "T1 temperature (3h earlier)",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2338,
+    "type": "HR",
+    "name": "T2 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2339,
+    "type": "HR",
+    "name": "T3 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2340,
+    "type": "HR",
+    "name": "T4 temperature",
+    "desc": "°C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 2341,
+    "type": "HR",
+    "name": "RH% or CO2 ppm",
+    "desc": "Depending on the connected sensor",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 3328,
+    "type": "HR",
+    "name": "Calibration Command",
+    "desc": "0 = No Command 1 = Calibrate Fan 1 2 = Calibrate Fan 2 3 = Calibration Set 4 = C",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3329,
+    "type": "HR",
+    "name": "Differential Pressure Goal",
+    "desc": "Pascal x10",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 3330,
+    "type": "HR",
+    "name": "Calibration state",
+    "desc": "Bit fields: b0: Calibration mode active b1: Calibration done b2: Auto calibratio",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "R"
+  },
+  {
+    "addr": 3331,
+    "type": "HR",
+    "name": "Fan 1 drive Voltage",
+    "desc": "Volt x100",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3332,
+    "type": "HR",
+    "name": "Fan 2 drive Voltage",
+    "desc": "Volt x100",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3584,
+    "type": "HR",
+    "name": "Vout Fan1",
+    "desc": "Volt x 100 (0.00 - 10.00 V)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3585,
+    "type": "HR",
+    "name": "Vout Fan2",
+    "desc": "Volt x 100 (0.00 - 10.00 V)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3586,
+    "type": "HR",
+    "name": "Q2 state",
+    "desc": "0: Off, 1: On",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3587,
+    "type": "HR",
+    "name": "Q3 state",
+    "desc": "0: Off, 1: On",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3588,
+    "type": "HR",
+    "name": "FCFC state",
+    "desc": "0: Off, 1: On",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3589,
+    "type": "HR",
+    "name": "PWM Heater",
+    "desc": "0 - 100 %",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3590,
+    "type": "HR",
+    "name": "Analog Output",
+    "desc": "Volt x 10 (0 - 10.0V)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3591,
+    "type": "HR",
+    "name": "Dampers",
+    "desc": "0: Close 1:Open",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3592,
+    "type": "HR",
+    "name": "Reset Outputs",
+    "desc": "Writing 1 stops forcing the outputs",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3840,
+    "type": "HR",
+    "name": "T1 temperature",
+    "desc": "°C x10",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3841,
+    "type": "HR",
+    "name": "T2 temperature",
+    "desc": "°C x10",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3842,
+    "type": "HR",
+    "name": "T3 temperature",
+    "desc": "°C x10",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3843,
+    "type": "HR",
+    "name": "T4 temperature",
+    "desc": "°C x10",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3844,
+    "type": "HR",
+    "name": "RH3",
+    "desc": "0.0 - 100.0% (0 - 1000)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3845,
+    "type": "HR",
+    "name": "RH1",
+    "desc": "0.0 - 100.0% (0 - 1000)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3846,
+    "type": "HR",
+    "name": "RH3 Average",
+    "desc": "0.0 - 100.0% (0 - 1000)",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3847,
+    "type": "HR",
+    "name": "CO2 Value",
+    "desc": "PPM",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  },
+  {
+    "addr": 3848,
+    "type": "HR",
+    "name": "Reset Inputs",
+    "desc": "Writing 1 stops forcing the inputs",
+    "unit": "",
+    "dataType": "Uns16",
+    "access": "RW"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "V A N",
+    "desc": "V A N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "V B N",
+    "desc": "V B N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "V C N",
+    "desc": "V C N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "V A B",
+    "desc": "V A B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "V B C",
+    "desc": "V B C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "V C A",
+    "desc": "V C A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "I A",
+    "desc": "I A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "I B",
+    "desc": "I B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "I C",
+    "desc": "I C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "W, Total",
+    "desc": "W, Total",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Var, Total",
+    "desc": "Var, Total",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Va, Total",
+    "desc": "Va, Total",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Pf, Total",
+    "desc": "Pf, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "I Neutral",
+    "desc": "I Neutral",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "W, Phase A",
+    "desc": "W, Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "W, Phase B",
+    "desc": "W, Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "W, Phase C",
+    "desc": "W, Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Var, Phase A",
+    "desc": "Var, Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Var, Phase B",
+    "desc": "Var, Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Var, Phase C",
+    "desc": "Var, Phase C",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Va, Phase A",
+    "desc": "Va, Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Va, Phase B",
+    "desc": "Va, Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Va, Phase C",
+    "desc": "Va, Phase C",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Pf, Phase A",
+    "desc": "Pf, Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Pf, Phase B",
+    "desc": "Pf, Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Pf, Phase C",
+    "desc": "Pf, Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Symmetrical Component Magnitude, 0 Sequence Compon",
+    "desc": "Symmetrical Component Magnitude, 0 Sequence Component",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Symmetrical Component Magnitude, Positive Sequence",
+    "desc": "Symmetrical Component Magnitude, Positive Sequence",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Symmetrical Component Magnitude, Negative Sequence",
+    "desc": "Symmetrical Component Magnitude, Negative Sequence Component",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Symmetrical Component Phase, Zero Sequence Compone",
+    "desc": "Symmetrical Component Phase, Zero Sequence Component",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1061,
+    "type": "HR",
+    "name": "Symmetrical Component Phase, Positive Sequence Com",
+    "desc": "Symmetrical Component Phase, Positive Sequence Component",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Symmetrical Component Phase, Negative Sequence Com",
+    "desc": "Symmetrical Component Phase, Negative Sequence Component",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1063,
+    "type": "HR",
+    "name": "Voltage Unbalance, Zero Sequence Component Compone",
+    "desc": "Voltage Unbalance, Zero Sequence Component Component",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Voltage Unbalance, Negative Sequence Component",
+    "desc": "Voltage Unbalance, Negative Sequence Component",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1065,
+    "type": "HR",
+    "name": "Current Unbalance",
+    "desc": "Current Unbalance",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Quadrant Indicator",
+    "desc": "Quadrant Indicator",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1067,
+    "type": "HR",
+    "name": "Q Total",
+    "desc": "Q Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1069,
+    "type": "HR",
+    "name": "Q Phase A",
+    "desc": "Q Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1071,
+    "type": "HR",
+    "name": "Q Phase B",
+    "desc": "Q Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1073,
+    "type": "HR",
+    "name": "Q Phase C",
+    "desc": "Q Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1500,
+    "type": "HR",
+    "name": "Wh, (Q1+Q4)",
+    "desc": "Wh, (Q1+Q4)",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1502,
+    "type": "HR",
+    "name": "Wh, (Q2+Q3)",
+    "desc": "Wh, (Q2+Q3)",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1504,
+    "type": "HR",
+    "name": "Wh, Net",
+    "desc": "Wh, Net",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1506,
+    "type": "HR",
+    "name": "Wh, Total",
+    "desc": "Wh, Total",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1508,
+    "type": "HR",
+    "name": "Varh, (Q1+Q2)",
+    "desc": "Varh, (Q1+Q2)",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1510,
+    "type": "HR",
+    "name": "Varh, (Q3+Q4)",
+    "desc": "Varh, (Q3+Q4)",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1512,
+    "type": "HR",
+    "name": "Varh, Net",
+    "desc": "Varh, Net",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1514,
+    "type": "HR",
+    "name": "Varh, Total",
+    "desc": "Varh, Total",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1516,
+    "type": "HR",
+    "name": "Vah, Total",
+    "desc": "Vah, Total",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "System Voltage",
+    "desc": "System Voltage",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "L N Voltage Phase 1",
+    "desc": "L N Voltage Phase 1",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "L N Voltage Phase 2",
+    "desc": "L N Voltage Phase 2",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "L N Voltage Phase 3",
+    "desc": "L N Voltage Phase 3",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "L L Voltage Line 12",
+    "desc": "L L Voltage Line 12",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "L L Voltage Line 23",
+    "desc": "L L Voltage Line 23",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "L L Voltage Line 31",
+    "desc": "L L Voltage Line 31",
+    "unit": "mV",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "System Current",
+    "desc": "System Current",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "System Power Factor",
+    "desc": "System Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Phase 1 Power Factor",
+    "desc": "Phase 1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Phase 2 Power Factor",
+    "desc": "Phase 2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Phase 3 Power Factor",
+    "desc": "Phase 3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Phase Order",
+    "desc": "Phase Order",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Phase 1 Cos",
+    "desc": "Phase 1 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Phase 2 Cos",
+    "desc": "Phase 2 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Phase 3 Cos",
+    "desc": "Phase 3 Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "System Apparent Power",
+    "desc": "System Apparent Power",
+    "unit": "mVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Phase 1 Apparent Power",
+    "desc": "Phase 1 Apparent Power",
+    "unit": "mVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Phase 2 Apparent Power",
+    "desc": "Phase 2 Apparent Power",
+    "unit": "mVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Phase 3 Apparent Power",
+    "desc": "Phase 3 Apparent Power",
+    "unit": "mVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "System Active Power",
+    "desc": "System Active Power",
+    "unit": "mW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Phase 1 Active Power",
+    "desc": "Phase 1 Active Power",
+    "unit": "mW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Phase 2 Active Power",
+    "desc": "Phase 2 Active Power",
+    "unit": "mW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Phase 3 Active Power",
+    "desc": "Phase 3 Active Power",
+    "unit": "mW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "System Reactive Power",
+    "desc": "System Reactive Power",
+    "unit": "mvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Phase 1 Reactive Power",
+    "desc": "Phase 1 Reactive Power",
+    "unit": "mvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Phase 2 Reactive Power",
+    "desc": "Phase 2 Reactive Power",
+    "unit": "mvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4156,
+    "type": "HR",
+    "name": "Phase 3 Reactive Power",
+    "desc": "Phase 3 Reactive Power",
+    "unit": "mvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4158,
+    "type": "HR",
+    "name": "Imported Active Energy",
+    "desc": "Imported Active Energy",
+    "unit": "mWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4160,
+    "type": "HR",
+    "name": "Imported Reactive Inductive Energy",
+    "desc": "Imported Reactive Inductive Energy",
+    "unit": "mvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4162,
+    "type": "HR",
+    "name": "Exported Active Energy",
+    "desc": "Exported Active Energy",
+    "unit": "mWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4164,
+    "type": "HR",
+    "name": "Exported Reactive Inductive Energy",
+    "desc": "Exported Reactive Inductive Energy",
+    "unit": "mvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4166,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "mHz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4168,
+    "type": "HR",
+    "name": "Phase 1 Voltage Thd",
+    "desc": "Phase 1 Voltage Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4170,
+    "type": "HR",
+    "name": "Phase 2 Voltage Thd",
+    "desc": "Phase 2 Voltage Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4172,
+    "type": "HR",
+    "name": "Phase 3 Voltage Thd",
+    "desc": "Phase 3 Voltage Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4174,
+    "type": "HR",
+    "name": "Phase 1 Current Thd",
+    "desc": "Phase 1 Current Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4176,
+    "type": "HR",
+    "name": "Phase 2 Current Thd",
+    "desc": "Phase 2 Current Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4178,
+    "type": "HR",
+    "name": "Phase 3 Current Thd",
+    "desc": "Phase 3 Current Thd",
+    "unit": "m%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4180,
+    "type": "HR",
+    "name": "Void",
+    "desc": "Void",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4182,
+    "type": "HR",
+    "name": "Void",
+    "desc": "Void",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4184,
+    "type": "HR",
+    "name": "Imported Reactive Capacitive Energy",
+    "desc": "Imported Reactive Capacitive Energy",
+    "unit": "mvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4186,
+    "type": "HR",
+    "name": "Exported Reactive Capacitive Energy",
+    "desc": "Exported Reactive Capacitive Energy",
+    "unit": "mvarh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4188,
+    "type": "HR",
+    "name": "Imported Apparent Energy",
+    "desc": "Imported Apparent Energy",
+    "unit": "mVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4190,
+    "type": "HR",
+    "name": "Exported Apparent Energy",
+    "desc": "Exported Apparent Energy",
+    "unit": "mVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4192,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4194,
+    "type": "HR",
+    "name": "System Current Demand",
+    "desc": "System Current Demand",
+    "unit": "mA",
+    "dataType": "float",
+    "access": "R"
+  }
+]

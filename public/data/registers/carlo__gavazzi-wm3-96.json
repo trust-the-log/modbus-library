@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "A L1",
+    "desc": "A L1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "W L1",
+    "desc": "W L1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "V L2 N",
+    "desc": "V L2 N",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "A L2",
+    "desc": "A L2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "W L2",
+    "desc": "W L2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "V L3 N",
+    "desc": "V L3 N",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "A L3",
+    "desc": "A L3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "W L3",
+    "desc": "W L3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "V L1",
+    "desc": "V L1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "V L2",
+    "desc": "V L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "V L3",
+    "desc": "V L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Va L1",
+    "desc": "Va L1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Var L1",
+    "desc": "Var L1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Pf L1",
+    "desc": "Pf L1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Va L2",
+    "desc": "Va L2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Var L2",
+    "desc": "Var L2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Pf L2",
+    "desc": "Pf L2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Va L3",
+    "desc": "Va L3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Var L3",
+    "desc": "Var L3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Pf L3",
+    "desc": "Pf L3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "V",
+    "desc": "V",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "A N",
+    "desc": "A N",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "W",
+    "desc": "W",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Va",
+    "desc": "Va",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Var",
+    "desc": "Var",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Thd V1",
+    "desc": "Thd V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Thde V1",
+    "desc": "Thde V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Thdo V1",
+    "desc": "Thdo V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Thd V2",
+    "desc": "Thd V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Thde V2",
+    "desc": "Thde V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Thdo V2",
+    "desc": "Thdo V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Thd V3",
+    "desc": "Thd V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Thde V3",
+    "desc": "Thde V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Thdo V3",
+    "desc": "Thdo V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Thd A1",
+    "desc": "Thd A1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Thde A1",
+    "desc": "Thde A1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Thdo A1",
+    "desc": "Thdo A1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Thd A2",
+    "desc": "Thd A2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Thde A2",
+    "desc": "Thde A2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Thdo A2",
+    "desc": "Thdo A2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "Thd A3",
+    "desc": "Thd A3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "Thde A3",
+    "desc": "Thde A3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "Thdo A3",
+    "desc": "Thdo A3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 180,
+    "type": "HR",
+    "name": "A Dmd",
+    "desc": "A Dmd",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 184,
+    "type": "HR",
+    "name": "Va Dmd",
+    "desc": "Va Dmd",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 188,
+    "type": "HR",
+    "name": "Tpf Avg",
+    "desc": "Tpf Avg",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 192,
+    "type": "HR",
+    "name": "W Dmd",
+    "desc": "W Dmd",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 196,
+    "type": "HR",
+    "name": "Hz",
+    "desc": "Hz",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Asy",
+    "desc": "Asy",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

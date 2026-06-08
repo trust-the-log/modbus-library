@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Voltage L2 N",
+    "desc": "Voltage L2 N",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Voltage L3 N",
+    "desc": "Voltage L3 N",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Voltage L4 N",
+    "desc": "Voltage L4 N",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Voltage L1 L2",
+    "desc": "Voltage L1 L2",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Voltage L2 L3",
+    "desc": "Voltage L2 L3",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Voltage L3 L1",
+    "desc": "Voltage L3 L1",
+    "unit": "V/10",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Current L1",
+    "desc": "Current L1",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Current L2",
+    "desc": "Current L2",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Current L3",
+    "desc": "Current L3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Current L4",
+    "desc": "Current L4",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Neutral Current = Il1+Il2+Il3",
+    "desc": "Neutral Current = Il1+Il2+Il3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Measured Frequency",
+    "desc": "Measured Frequency",
+    "unit": "Hz / 100",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Active Power L1 N",
+    "desc": "Active Power L1 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Active Power L2 N",
+    "desc": "Active Power L2 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Active Power L3 N",
+    "desc": "Active Power L3 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Active Power L4 N",
+    "desc": "Active Power L4 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Total Import Active Power",
+    "desc": "Total Import Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Total Export Active Power",
+    "desc": "Total Export Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Active Power +/ = P =P1+P2+P3",
+    "desc": "Active Power +/ = P =P1+P2+P3",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Reactive Power L4",
+    "desc": "Reactive Power L4",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Quadrant 1 Total Reactive Power",
+    "desc": "Quadrant 1 Total Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Quadrant 2 Total Reactive Power",
+    "desc": "Quadrant 2 Total Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Quadrant 3 Total Reactive Power",
+    "desc": "Quadrant 3 Total Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Quadrant 4 Total Reactive Power",
+    "desc": "Quadrant 4 Total Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Reactive Power +/ = Q=Q1+Q2+Q3",
+    "desc": "Reactive Power +/ = Q=Q1+Q2+Q3",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Apparent Power L1 N",
+    "desc": "Apparent Power L1 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Apparent Power L2 N",
+    "desc": "Apparent Power L2 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Apparent Power L3 N",
+    "desc": "Apparent Power L3 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Apparent Power L4 N",
+    "desc": "Apparent Power L4 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Total Import Apparent Power",
+    "desc": "Total Import Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Total Export Apparent Power",
+    "desc": "Total Export Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Apparent Power +/ = S=S1+S2+S3",
+    "desc": "Apparent Power +/ = S=S1+S2+S3",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Power Factor L2",
+    "desc": "Power Factor L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Power Factor L3",
+    "desc": "Power Factor L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Power Factor L4",
+    "desc": "Power Factor L4",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Power Factor +/ = Pf=Pfl1+Pfl2+Pfl3",
+    "desc": "Power Factor +/ = Pf=Pfl1+Pfl2+Pfl3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Cosphi L1",
+    "desc": "Cosphi L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Cosphi L2",
+    "desc": "Cosphi L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Cosphi L3",
+    "desc": "Cosphi L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Cosphi L4",
+    "desc": "Cosphi L4",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Cos Phi = Cos L1 + Cos L2 + Cos L3",
+    "desc": "Cos Phi = Cos L1 + Cos L2 + Cos L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Rotation Field; 1=Right, 0=None, 1=Left",
+    "desc": "Rotation Field; 1=Right, 0=None, 1=Left",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "Voltage Unbalance",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 96,
+    "type": "HR",
+    "name": "Current Unbalance",
+    "desc": "Current Unbalance",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "L1 Phase Voltage Angle",
+    "desc": "L1 Phase Voltage Angle",
+    "unit": "Angle",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "L2 Phase Voltage Angle",
+    "desc": "L2 Phase Voltage Angle",
+    "unit": "Angle",
+    "dataType": "int64",
+    "access": "R"
+  }
+]

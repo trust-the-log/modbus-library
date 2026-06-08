@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Energy Scaling (Escale), Cube 350 Only",
+    "desc": "Energy Scaling (Escale), Cube 350 Only",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Kwh, Cube 350 Only",
+    "desc": "Kwh, Cube 350 Only",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Kvah, Cube 350 Only",
+    "desc": "Kvah, Cube 350 Only",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Kvarh Inductive, Cube 350 Only",
+    "desc": "Kvarh Inductive, Cube 350 Only",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Kvarh Capacitive, Cube 350 Only",
+    "desc": "Kvarh Capacitive, Cube 350 Only",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 522,
+    "type": "HR",
+    "name": "Import Kvarh, Cube 350 Only",
+    "desc": "Import Kvarh, Cube 350 Only",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "Export Kwh, Cube 350 Only",
+    "desc": "Export Kwh, Cube 350 Only",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "Export Kvarh, Cube 350 Only",
+    "desc": "Export Kvarh, Cube 350 Only",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "Hours Run, Cube 350 Only",
+    "desc": "Hours Run, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2816,
+    "type": "HR",
+    "name": "System Kw, Cube 350 Only",
+    "desc": "System Kw, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2817,
+    "type": "HR",
+    "name": "System Kva, Cube 350 Only",
+    "desc": "System Kva, Cube 350 Only",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2818,
+    "type": "HR",
+    "name": "System Kvar, Cube 350 Only",
+    "desc": "System Kvar, Cube 350 Only",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2819,
+    "type": "HR",
+    "name": "System Pf, Cube 350 Only",
+    "desc": "System Pf, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2820,
+    "type": "HR",
+    "name": "Frequency, Cube 350 Only",
+    "desc": "Frequency, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2821,
+    "type": "HR",
+    "name": "Phase 1 Volts, Cube 350 Only",
+    "desc": "Phase 1 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2822,
+    "type": "HR",
+    "name": "Phase 1 Amps, Cube 350 Only",
+    "desc": "Phase 1 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2823,
+    "type": "HR",
+    "name": "Phase 1 Kw, Cube 350 Only",
+    "desc": "Phase 1 Kw, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2824,
+    "type": "HR",
+    "name": "Phase 2 Volts, Cube 350 Only",
+    "desc": "Phase 2 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2825,
+    "type": "HR",
+    "name": "Phase 2 Amps, Cube 350 Only",
+    "desc": "Phase 2 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2826,
+    "type": "HR",
+    "name": "Phase 2 Kw, Cube 350 Only",
+    "desc": "Phase 2 Kw, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2827,
+    "type": "HR",
+    "name": "Phase 3 Volts, Cube 350 Only",
+    "desc": "Phase 3 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2828,
+    "type": "HR",
+    "name": "Phase 3 Amps, Cube 350 Only",
+    "desc": "Phase 3 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2829,
+    "type": "HR",
+    "name": "Phase 3 Kw, Cube 350 Only",
+    "desc": "Phase 3 Kw, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2830,
+    "type": "HR",
+    "name": "Phase 1 Pf, Cube 350 Only",
+    "desc": "Phase 1 Pf, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2831,
+    "type": "HR",
+    "name": "Phase 2 Pf, Cube 350 Only",
+    "desc": "Phase 2 Pf, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2832,
+    "type": "HR",
+    "name": "Phase 3 Pf, Cube 350 Only",
+    "desc": "Phase 3 Pf, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2833,
+    "type": "HR",
+    "name": "Ph1 Ph2 Volts, Cube 350 Only",
+    "desc": "Ph1 Ph2 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2834,
+    "type": "HR",
+    "name": "Ph2 Ph3 Volts, Cube 350 Only",
+    "desc": "Ph2 Ph3 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2835,
+    "type": "HR",
+    "name": "Ph3 Ph1 Volts, Cube 350 Only",
+    "desc": "Ph3 Ph1 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2836,
+    "type": "HR",
+    "name": "Neutral Current, Cube 350 Only",
+    "desc": "Neutral Current, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2837,
+    "type": "HR",
+    "name": "Amps Scale Ki, Cube 350 Only",
+    "desc": "Amps Scale Ki, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2838,
+    "type": "HR",
+    "name": "Phase Volts Scale Kvp, Cube 350 Only",
+    "desc": "Phase Volts Scale Kvp, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2839,
+    "type": "HR",
+    "name": "Line Volts Scale Kvl, Cube 350 Only",
+    "desc": "Line Volts Scale Kvl, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2840,
+    "type": "HR",
+    "name": "Power Scale Kp, Cube 350 Only",
+    "desc": "Power Scale Kp, Cube 350 Only",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3072,
+    "type": "HR",
+    "name": "Phase 1 Kva, Cube 350 Only",
+    "desc": "Phase 1 Kva, Cube 350 Only",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3073,
+    "type": "HR",
+    "name": "Phase 2 Kva, Cube 350 Only",
+    "desc": "Phase 2 Kva, Cube 350 Only",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3074,
+    "type": "HR",
+    "name": "Phase 3 Kva, Cube 350 Only",
+    "desc": "Phase 3 Kva, Cube 350 Only",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3075,
+    "type": "HR",
+    "name": "Phase 1 Kvar, Cube 350 Only",
+    "desc": "Phase 1 Kvar, Cube 350 Only",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3076,
+    "type": "HR",
+    "name": "Phase 2 Kvar, Cube 350 Only",
+    "desc": "Phase 2 Kvar, Cube 350 Only",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3077,
+    "type": "HR",
+    "name": "Phase 3 Kvar, Cube 350 Only",
+    "desc": "Phase 3 Kvar, Cube 350 Only",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3328,
+    "type": "HR",
+    "name": "Peak Hold Ph1 Amps, Cube 350 Only",
+    "desc": "Peak Hold Ph1 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3329,
+    "type": "HR",
+    "name": "Peak Hold Ph2 Amps, Cube 350 Only",
+    "desc": "Peak Hold Ph2 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3330,
+    "type": "HR",
+    "name": "Peak Hold Ph3 Amps, Cube 350 Only",
+    "desc": "Peak Hold Ph3 Amps, Cube 350 Only",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3331,
+    "type": "HR",
+    "name": "Peak Hold Ph1 Volts, Cube 350 Only",
+    "desc": "Peak Hold Ph1 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3332,
+    "type": "HR",
+    "name": "Peak Hold Ph2 Volts, Cube 350 Only",
+    "desc": "Peak Hold Ph2 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3333,
+    "type": "HR",
+    "name": "Peak Hold Ph3 Volts, Cube 350 Only",
+    "desc": "Peak Hold Ph3 Volts, Cube 350 Only",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3334,
+    "type": "HR",
+    "name": "Peak Hold Kw Demand, Cube 350 Only",
+    "desc": "Peak Hold Kw Demand, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3335,
+    "type": "HR",
+    "name": "Kw Demand Period, Cube 350 Only",
+    "desc": "Kw Demand Period, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3336,
+    "type": "HR",
+    "name": "Kw Demand, Cube 350 Only",
+    "desc": "Kw Demand, Cube 350 Only",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3337,
+    "type": "HR",
+    "name": "Kva Demand, Cube 350 Only",
+    "desc": "Kva Demand, Cube 350 Only",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

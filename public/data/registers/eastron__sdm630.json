@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Phase 2 Line To Neutral Volts",
+    "desc": "Phase 2 Line To Neutral Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Phase 3 Line To Neutral Volts",
+    "desc": "Phase 3 Line To Neutral Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Phase 1 Power",
+    "desc": "Phase 1 Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Phase 2 Power",
+    "desc": "Phase 2 Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Phase 3 Power",
+    "desc": "Phase 3 Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Phase 1 Volt Amps",
+    "desc": "Phase 1 Volt Amps",
+    "unit": "VoltAm ps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Phase 2 Volt Amps",
+    "desc": "Phase 2 Volt Amps",
+    "unit": "VoltAm ps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Phase 3 Volt Amps",
+    "desc": "Phase 3 Volt Amps",
+    "unit": "VoltAm ps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Phase 1 Volt Amps Reactive",
+    "desc": "Phase 1 Volt Amps Reactive",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Phase 2 Volt Amps Reactive",
+    "desc": "Phase 2 Volt Amps Reactive",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Phase 3 Volt Amps Reactive",
+    "desc": "Phase 3 Volt Amps Reactive",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Phase 1 Power Factor",
+    "desc": "Phase 1 Power Factor",
+    "unit": "None",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Phase 2 Power Factor",
+    "desc": "Phase 2 Power Factor",
+    "unit": "None",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Phase 3 Power Factor",
+    "desc": "Phase 3 Power Factor",
+    "unit": "None",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Phase 1 Phase Angle",
+    "desc": "Phase 1 Phase Angle",
+    "unit": "Degre es",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Phase 2 Phase Angle",
+    "desc": "Phase 2 Phase Angle",
+    "unit": "Degre es",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Phase 3 Phase Angle",
+    "desc": "Phase 3 Phase Angle",
+    "unit": "Degre es",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Average Line To Neutral Volts",
+    "desc": "Average Line To Neutral Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Average Line Current",
+    "desc": "Average Line Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Sum Of Line Currents",
+    "desc": "Sum Of Line Currents",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Total System Power",
+    "desc": "Total System Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Total System Volt Amps",
+    "desc": "Total System Volt Amps",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Total System Var",
+    "desc": "Total System Var",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Total System Power Factor",
+    "desc": "Total System Power Factor",
+    "unit": "None",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Total System Phase Angle",
+    "desc": "Total System Phase Angle",
+    "unit": "Degre es",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Frequency Of Supply Voltages",
+    "desc": "Frequency Of Supply Voltages",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Import Wh Since Last Reset",
+    "desc": "Import Wh Since Last Reset",
+    "unit": "kWh/M Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Export Wh Since Last Reset",
+    "desc": "Export Wh Since Last Reset",
+    "unit": "kWH/ MWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Import Varh Since Last Reset",
+    "desc": "Import Varh Since Last Reset",
+    "unit": "kVArh/ MVArh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Export Varh Since Last Reset",
+    "desc": "Export Varh Since Last Reset",
+    "unit": "kVArh/ MVArh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Vah Since Last Reset",
+    "desc": "Vah Since Last Reset",
+    "unit": "kVAh/ MVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Ah Since Last Reset",
+    "desc": "Ah Since Last Reset",
+    "unit": "Ah/kAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Total System Power Demand",
+    "desc": "Total System Power Demand",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Maximum Total System Power",
+    "desc": "Maximum Total System Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Total System Va Demand",
+    "desc": "Total System Va Demand",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Maximum Total System Va Demand",
+    "desc": "Maximum Total System Va Demand",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Neutral Current Demand",
+    "desc": "Neutral Current Demand",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Maximum Neutral Current Demand",
+    "desc": "Maximum Neutral Current Demand",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Line 1 To Line 2 Volts",
+    "desc": "Line 1 To Line 2 Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Line 2 To Line 3 Volts",
+    "desc": "Line 2 To Line 3 Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Line 3 To Line 1 Volts",
+    "desc": "Line 3 To Line 1 Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Average Line To Line Volts",
+    "desc": "Average Line To Line Volts",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 224,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 234,
+    "type": "HR",
+    "name": "Phase 1 L/N Volts Thd",
+    "desc": "Phase 1 L/N Volts Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 236,
+    "type": "HR",
+    "name": "Phase 2 L/N Volts Thd",
+    "desc": "Phase 2 L/N Volts Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 238,
+    "type": "HR",
+    "name": "Phase 3 L/N Volts Thd",
+    "desc": "Phase 3 L/N Volts Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 240,
+    "type": "HR",
+    "name": "Phase 1 Current Thd",
+    "desc": "Phase 1 Current Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  }
+]

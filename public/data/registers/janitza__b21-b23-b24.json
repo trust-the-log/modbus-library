@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 19000,
+    "type": "HR",
+    "name": "Voltage L1 N",
+    "desc": "Voltage L1 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19002,
+    "type": "HR",
+    "name": "Voltage L2 N",
+    "desc": "Voltage L2 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19004,
+    "type": "HR",
+    "name": "Voltage L3 N",
+    "desc": "Voltage L3 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19006,
+    "type": "HR",
+    "name": "Voltage L1 L2",
+    "desc": "Voltage L1 L2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19008,
+    "type": "HR",
+    "name": "Voltage L2 L3",
+    "desc": "Voltage L2 L3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19010,
+    "type": "HR",
+    "name": "Voltage L3 L1",
+    "desc": "Voltage L3 L1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19012,
+    "type": "HR",
+    "name": "Apparent Current, L1 N",
+    "desc": "Apparent Current, L1 N",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19014,
+    "type": "HR",
+    "name": "Apparent Current, L2 N",
+    "desc": "Apparent Current, L2 N",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19016,
+    "type": "HR",
+    "name": "Apparent Current, L3 N",
+    "desc": "Apparent Current, L3 N",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19020,
+    "type": "HR",
+    "name": "Real Power L1 N",
+    "desc": "Real Power L1 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19022,
+    "type": "HR",
+    "name": "Real Power L2 N",
+    "desc": "Real Power L2 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19024,
+    "type": "HR",
+    "name": "Real Power L3 N",
+    "desc": "Real Power L3 N",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19026,
+    "type": "HR",
+    "name": "Real Power L1+L2+L3",
+    "desc": "Real Power L1+L2+L3",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19028,
+    "type": "HR",
+    "name": "Apparent Power L1 N",
+    "desc": "Apparent Power L1 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19030,
+    "type": "HR",
+    "name": "Apparent Power L2 N",
+    "desc": "Apparent Power L2 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19032,
+    "type": "HR",
+    "name": "Apparent Power L3 N",
+    "desc": "Apparent Power L3 N",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19034,
+    "type": "HR",
+    "name": "Apparent Power L1+L2+L3",
+    "desc": "Apparent Power L1+L2+L3",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19036,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19038,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19040,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19042,
+    "type": "HR",
+    "name": "Reactive Power L1+L2+L3",
+    "desc": "Reactive Power L1+L2+L3",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19044,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19046,
+    "type": "HR",
+    "name": "Power Factor L2",
+    "desc": "Power Factor L2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19048,
+    "type": "HR",
+    "name": "Power Factor L3",
+    "desc": "Power Factor L3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19050,
+    "type": "HR",
+    "name": "Measured Frequency",
+    "desc": "Measured Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19054,
+    "type": "HR",
+    "name": "Real Energy L1",
+    "desc": "Real Energy L1",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19056,
+    "type": "HR",
+    "name": "Real Energy L2",
+    "desc": "Real Energy L2",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19058,
+    "type": "HR",
+    "name": "Real Energy L3",
+    "desc": "Real Energy L3",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19060,
+    "type": "HR",
+    "name": "Real Energy L1+L2+L3",
+    "desc": "Real Energy L1+L2+L3",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19062,
+    "type": "HR",
+    "name": "Real Energy L1, Consumed",
+    "desc": "Real Energy L1, Consumed",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19064,
+    "type": "HR",
+    "name": "Real Energy L2, Consumed",
+    "desc": "Real Energy L2, Consumed",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19066,
+    "type": "HR",
+    "name": "Real Energy L3, Consumed",
+    "desc": "Real Energy L3, Consumed",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19068,
+    "type": "HR",
+    "name": "Real Energy L1+L2+L3, Consumed",
+    "desc": "Real Energy L1+L2+L3, Consumed",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19070,
+    "type": "HR",
+    "name": "Real Energy L1, Delivered",
+    "desc": "Real Energy L1, Delivered",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19072,
+    "type": "HR",
+    "name": "Real Energy L2, Delivered",
+    "desc": "Real Energy L2, Delivered",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19074,
+    "type": "HR",
+    "name": "Real Energy L3, Delivered",
+    "desc": "Real Energy L3, Delivered",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19076,
+    "type": "HR",
+    "name": "Real Energy L1+L2+L3, Delivered",
+    "desc": "Real Energy L1+L2+L3, Delivered",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19078,
+    "type": "HR",
+    "name": "Apparent Energy L1",
+    "desc": "Apparent Energy L1",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19080,
+    "type": "HR",
+    "name": "Apparent Energy L2",
+    "desc": "Apparent Energy L2",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19082,
+    "type": "HR",
+    "name": "Apparent Energy L3",
+    "desc": "Apparent Energy L3",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19084,
+    "type": "HR",
+    "name": "Apparent Energy L1+L2+L3",
+    "desc": "Apparent Energy L1+L2+L3",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19086,
+    "type": "HR",
+    "name": "Reactive Energy L1",
+    "desc": "Reactive Energy L1",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19088,
+    "type": "HR",
+    "name": "Reactive Energy L2",
+    "desc": "Reactive Energy L2",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19090,
+    "type": "HR",
+    "name": "Reactive Energy L3",
+    "desc": "Reactive Energy L3",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19092,
+    "type": "HR",
+    "name": "Reactive Energy L1+L2+L3",
+    "desc": "Reactive Energy L1+L2+L3",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19094,
+    "type": "HR",
+    "name": "Reactive Energy L1, Inductive",
+    "desc": "Reactive Energy L1, Inductive",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19096,
+    "type": "HR",
+    "name": "Reactive Energy L2, Inductive",
+    "desc": "Reactive Energy L2, Inductive",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19098,
+    "type": "HR",
+    "name": "Reactive Energy L3, Inductive",
+    "desc": "Reactive Energy L3, Inductive",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19100,
+    "type": "HR",
+    "name": "Reactive Energy L1+L2+L3, Inductive",
+    "desc": "Reactive Energy L1+L2+L3, Inductive",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19102,
+    "type": "HR",
+    "name": "Reactive Energy L1, Capacitive",
+    "desc": "Reactive Energy L1, Capacitive",
+    "unit": "varh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

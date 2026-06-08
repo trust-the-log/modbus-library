@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Modbus Unit Id",
+    "desc": "Modbus Unit Id",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Inverter Article Number",
+    "desc": "Inverter Article Number",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Inverter Serial Number",
+    "desc": "Inverter Serial Number",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Number Of Bidirectional Converter",
+    "desc": "Number Of Bidirectional Converter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Number Of Ac Phases",
+    "desc": "Number Of Ac Phases",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Number Of Pv Strings",
+    "desc": "Number Of Pv Strings",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Hardware Version",
+    "desc": "Hardware Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Software Version Maincontroller (Mc)",
+    "desc": "Software Version Maincontroller (Mc)",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Software Version Io Controller (Ioc)",
+    "desc": "Software Version Io Controller (Ioc)",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Power Id",
+    "desc": "Power Id",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Inverter State2",
+    "desc": "Inverter State2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Total Dc Power",
+    "desc": "Total Dc Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "State Of Energy Manager3",
+    "desc": "State Of Energy Manager3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Home Own Consumption From Battery",
+    "desc": "Home Own Consumption From Battery",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Home Own Consumption From Grid",
+    "desc": "Home Own Consumption From Grid",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Total Home Consumption Battery",
+    "desc": "Total Home Consumption Battery",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Total Home Consumption Grid",
+    "desc": "Total Home Consumption Grid",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Total Home Consumption Pv",
+    "desc": "Total Home Consumption Pv",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Home Own Consumption From Pv",
+    "desc": "Home Own Consumption From Pv",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Total Home Consumption",
+    "desc": "Total Home Consumption",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Isolation Resistance",
+    "desc": "Isolation Resistance",
+    "unit": "Ohm",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "Power Limit From Evu",
+    "desc": "Power Limit From Evu",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Total Home Consumption Rate",
+    "desc": "Total Home Consumption Rate",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Worktime",
+    "desc": "Worktime",
+    "unit": "s",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Actual Cos",
+    "desc": "Actual Cos",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "Current Phase 1",
+    "desc": "Current Phase 1",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Active Power Phase 1",
+    "desc": "Active Power Phase 1",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Voltage Phase 1",
+    "desc": "Voltage Phase 1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Current Phase 2",
+    "desc": "Current Phase 2",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "Active Power Phase 2",
+    "desc": "Active Power Phase 2",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Voltage Phase 2",
+    "desc": "Voltage Phase 2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 166,
+    "type": "HR",
+    "name": "Current Phase 3",
+    "desc": "Current Phase 3",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "Active Power Phase 3",
+    "desc": "Active Power Phase 3",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 170,
+    "type": "HR",
+    "name": "Voltage Phase 3",
+    "desc": "Voltage Phase 3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "Total Ac Active Power",
+    "desc": "Total Ac Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "Total Ac Reactive Power",
+    "desc": "Total Ac Reactive Power",
+    "unit": "Var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 178,
+    "type": "HR",
+    "name": "Total Ac Apparent Power",
+    "desc": "Total Ac Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 190,
+    "type": "HR",
+    "name": "Battery Charge Current",
+    "desc": "Battery Charge Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 194,
+    "type": "HR",
+    "name": "Number Of Battery Cycles",
+    "desc": "Number Of Battery Cycles",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Actual Battery Charge () / Discharge (+) Current",
+    "desc": "Actual Battery Charge () / Discharge (+) Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Pssb Fuse State5",
+    "desc": "Pssb Fuse State5",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Battery Ready Flag",
+    "desc": "Battery Ready Flag",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Act. State Of Charge",
+    "desc": "Act. State Of Charge",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Battery Temperature",
+    "desc": "Battery Temperature",
+    "unit": "DC",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "Battery Voltage",
+    "desc": "Battery Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 218,
+    "type": "HR",
+    "name": "Cos (Powermeter)",
+    "desc": "Cos (Powermeter)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "Frequency (Powermeter)",
+    "desc": "Frequency (Powermeter)",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 222,
+    "type": "HR",
+    "name": "Current Phase 1 (Powermeter)",
+    "desc": "Current Phase 1 (Powermeter)",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 224,
+    "type": "HR",
+    "name": "Active Power Phase 1 (Powermeter)",
+    "desc": "Active Power Phase 1 (Powermeter)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  }
+]

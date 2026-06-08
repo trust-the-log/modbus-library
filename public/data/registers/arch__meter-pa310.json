@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Ct Ratio",
+    "desc": "Ct Ratio",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Modbus Address",
+    "desc": "Modbus Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4097,
+    "type": "HR",
+    "name": "Baudrate Set",
+    "desc": "Baudrate Set",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Stopbit",
+    "desc": "Stopbit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Wiring",
+    "desc": "Wiring",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Clr Kwh",
+    "desc": "Clr Kwh",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Kt Value",
+    "desc": "Kt Value",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4129,
+    "type": "HR",
+    "name": "Voltage Transform Er Ratio",
+    "desc": "Voltage Transform Er Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Current Transform Er Ratio",
+    "desc": "Current Transform Er Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4131,
+    "type": "HR",
+    "name": "Year",
+    "desc": "Year",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Month",
+    "desc": "Month",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4133,
+    "type": "HR",
+    "name": "Date",
+    "desc": "Date",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Hour",
+    "desc": "Hour",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4135,
+    "type": "HR",
+    "name": "Minute",
+    "desc": "Minute",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Second",
+    "desc": "Second",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4137,
+    "type": "HR",
+    "name": "Day Of Week",
+    "desc": "Day Of Week",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Demand Flag",
+    "desc": "Demand Flag",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4145,
+    "type": "HR",
+    "name": "Sub Interval",
+    "desc": "Sub Interval",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Interval Multipli Er",
+    "desc": "Interval Multipli Er",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4147,
+    "type": "HR",
+    "name": "Lp Data Group1  Clr",
+    "desc": "Lp Data Group1  Clr",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Lp Group1 Datac Ounter",
+    "desc": "Lp Group1 Datac Ounter",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4149,
+    "type": "HR",
+    "name": "Lp Group1 Intlen Gth",
+    "desc": "Lp Group1 Intlen Gth",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "Lp G1 Ch1 Save Data",
+    "desc": "Lp G1 Ch1 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4151,
+    "type": "HR",
+    "name": "Lp G1 Ch2 Save Data",
+    "desc": "Lp G1 Ch2 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Lp G1 Ch3 Save Data",
+    "desc": "Lp G1 Ch3 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4153,
+    "type": "HR",
+    "name": "Lp G1 Ch4 Save Data",
+    "desc": "Lp G1 Ch4 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Lp G1 Ch5 Save Data",
+    "desc": "Lp G1 Ch5 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4155,
+    "type": "HR",
+    "name": "Lp G1 Ch6 Save Data",
+    "desc": "Lp G1 Ch6 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4156,
+    "type": "HR",
+    "name": "Lp G1 Ch7 Save Data",
+    "desc": "Lp G1 Ch7 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4157,
+    "type": "HR",
+    "name": "Lp G1 Ch8 Save Data",
+    "desc": "Lp G1 Ch8 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4158,
+    "type": "HR",
+    "name": "Lp G1 Ch9 Save Data",
+    "desc": "Lp G1 Ch9 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4159,
+    "type": "HR",
+    "name": "Lp G1 Ch10 Save Data",
+    "desc": "Lp G1 Ch10 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4160,
+    "type": "HR",
+    "name": "Lp G1 Ch11 Save Data",
+    "desc": "Lp G1 Ch11 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4161,
+    "type": "HR",
+    "name": "Lp G1 Ch12 Save Data",
+    "desc": "Lp G1 Ch12 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4162,
+    "type": "HR",
+    "name": "Lp Data Group2 Cfr",
+    "desc": "Lp Data Group2 Cfr",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4163,
+    "type": "HR",
+    "name": "Lp Group2 Datac Ounter",
+    "desc": "Lp Group2 Datac Ounter",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4164,
+    "type": "HR",
+    "name": "Lp Group2 Intlen Gth",
+    "desc": "Lp Group2 Intlen Gth",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4165,
+    "type": "HR",
+    "name": "Lp G2 Ch1 Save Data",
+    "desc": "Lp G2 Ch1 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4166,
+    "type": "HR",
+    "name": "Lp G2 Ch2 Save Data",
+    "desc": "Lp G2 Ch2 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4167,
+    "type": "HR",
+    "name": "Lp G2 Ch3 Save Data",
+    "desc": "Lp G2 Ch3 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4168,
+    "type": "HR",
+    "name": "Lp G2 Ch4 Save Data",
+    "desc": "Lp G2 Ch4 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4169,
+    "type": "HR",
+    "name": "Lp G2 Ch5 Save Data",
+    "desc": "Lp G2 Ch5 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4170,
+    "type": "HR",
+    "name": "Lp G2 Ch6 Save Data",
+    "desc": "Lp G2 Ch6 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4171,
+    "type": "HR",
+    "name": "Lp G2 Ch7 Save Data",
+    "desc": "Lp G2 Ch7 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4172,
+    "type": "HR",
+    "name": "Lp G2 Ch8 Save Data",
+    "desc": "Lp G2 Ch8 Save Data",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4173,
+    "type": "HR",
+    "name": "Lp Read Begin Int Erval Serial Numbe",
+    "desc": "Lp Read Begin Int Erval Serial Numbe",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4864,
+    "type": "HR",
+    "name": "Kwh Deiiver A",
+    "desc": "Kwh Deiiver A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4866,
+    "type": "HR",
+    "name": "Kwh Receiver A",
+    "desc": "Kwh Receiver A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4868,
+    "type": "HR",
+    "name": "Kvarh Iagging A",
+    "desc": "Kvarh Iagging A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4870,
+    "type": "HR",
+    "name": "Kvarh Ieading A",
+    "desc": "Kvarh Ieading A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

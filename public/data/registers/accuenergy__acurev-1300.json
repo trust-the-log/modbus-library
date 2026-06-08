@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Options",
+    "desc": "Options",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Version",
+    "desc": "Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 4164,
+    "type": "HR",
+    "name": "Device Address",
+    "desc": "Device Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4165,
+    "type": "HR",
+    "name": "Id",
+    "desc": "Id",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4166,
+    "type": "HR",
+    "name": "Lenth",
+    "desc": "Lenth",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4167,
+    "type": "HR",
+    "name": "Amps (Total): Sunspec; Total Current: Acurev 1300",
+    "desc": "Amps (Total): Sunspec; Total Current: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4168,
+    "type": "HR",
+    "name": "Amps Phase A: Sunspec; Phase A Current: Acurev 130",
+    "desc": "Amps Phase A: Sunspec; Phase A Current: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4169,
+    "type": "HR",
+    "name": "Amps Phase B: Sunspec; Phase B Current: Acurev 130",
+    "desc": "Amps Phase B: Sunspec; Phase B Current: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4170,
+    "type": "HR",
+    "name": "Amps Phase C: Sunspec; Phase C Current: Acurev 130",
+    "desc": "Amps Phase C: Sunspec; Phase C Current: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4172,
+    "type": "HR",
+    "name": "Voltage Ln (Average): Sunspec; Phase Average Volta",
+    "desc": "Voltage Ln (Average): Sunspec; Phase Average Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4173,
+    "type": "HR",
+    "name": "Phase Voltage An: Sunspec; Phase A Voltage: Acurev",
+    "desc": "Phase Voltage An: Sunspec; Phase A Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4174,
+    "type": "HR",
+    "name": "Phase Voltage Bn: Sunspec; Phase B Voltage: Acurev",
+    "desc": "Phase Voltage Bn: Sunspec; Phase B Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4175,
+    "type": "HR",
+    "name": "Phase Voltage Cn: Sunspec; Phase C Voltage: Acurev",
+    "desc": "Phase Voltage Cn: Sunspec; Phase C Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4176,
+    "type": "HR",
+    "name": "Voltage Ll (Average): Sunspec; Line Average Voltag",
+    "desc": "Voltage Ll (Average): Sunspec; Line Average Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4177,
+    "type": "HR",
+    "name": "Phase Voltage Ab: Sunspec; Line Ab Voltage: Acurev",
+    "desc": "Phase Voltage Ab: Sunspec; Line Ab Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4178,
+    "type": "HR",
+    "name": "Phase Voltage Bc: Sunspec; Line Bc Voltage: Acurev",
+    "desc": "Phase Voltage Bc: Sunspec; Line Bc Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4179,
+    "type": "HR",
+    "name": "Phase Voltage Ca: Sunspec; Line Ca Voltage: Acurev",
+    "desc": "Phase Voltage Ca: Sunspec; Line Ca Voltage: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4181,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4183,
+    "type": "HR",
+    "name": "Total Real Power: Sunspec; Total Active Power: Acu",
+    "desc": "Total Real Power: Sunspec; Total Active Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4184,
+    "type": "HR",
+    "name": "Watts Phase A: Sunspec; Phase A Active Power: Acur",
+    "desc": "Watts Phase A: Sunspec; Phase A Active Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4185,
+    "type": "HR",
+    "name": "Watts Phase B: Sunspec; Phase B Active Power: Acur",
+    "desc": "Watts Phase B: Sunspec; Phase B Active Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4186,
+    "type": "HR",
+    "name": "Watts Phase C: Sunspec; Phase C Active Power: Acur",
+    "desc": "Watts Phase C: Sunspec; Phase C Active Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4188,
+    "type": "HR",
+    "name": "Ac Apparent Power Va: Sunspec; Total Apparent Powe",
+    "desc": "Ac Apparent Power Va: Sunspec; Total Apparent Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4189,
+    "type": "HR",
+    "name": "Va Phase A: Sunspec; Phase A Apparent Power: Acure",
+    "desc": "Va Phase A: Sunspec; Phase A Apparent Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4190,
+    "type": "HR",
+    "name": "Va Phase B: Sunspec; Phase B Apparent Power: Acure",
+    "desc": "Va Phase B: Sunspec; Phase B Apparent Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4191,
+    "type": "HR",
+    "name": "Va Phaseca: Sunspec; Phase C Apparent Power: Acure",
+    "desc": "Va Phaseca: Sunspec; Phase C Apparent Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4193,
+    "type": "HR",
+    "name": "Reactive Power Var: Sunspec; Total Reactive Power:",
+    "desc": "Reactive Power Var: Sunspec; Total Reactive Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4194,
+    "type": "HR",
+    "name": "Var Phase A: Sunspec; Phase A Reactive Power: Acur",
+    "desc": "Var Phase A: Sunspec; Phase A Reactive Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4195,
+    "type": "HR",
+    "name": "4195 Var Phase B: Sunspec; Phase B Reactive Power:",
+    "desc": "4195 Var Phase B: Sunspec; Phase B Reactive Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4196,
+    "type": "HR",
+    "name": "Var Phase C: Sunspec; Phase C Reactive Power: Acur",
+    "desc": "Var Phase C: Sunspec; Phase C Reactive Power: Acurev 1300",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4198,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4199,
+    "type": "HR",
+    "name": "Pf Phase A",
+    "desc": "Pf Phase A",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4200,
+    "type": "HR",
+    "name": "Pf Phase B",
+    "desc": "Pf Phase B",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4201,
+    "type": "HR",
+    "name": "Pf Phase C",
+    "desc": "Pf Phase C",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4203,
+    "type": "HR",
+    "name": "Total Real Energy Exported: Sunspec Total Active E",
+    "desc": "Total Real Energy Exported: Sunspec Total Active Energy Exported: Acurev 1300",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4205,
+    "type": "HR",
+    "name": "Total Watt Hours Exported In Phase A: Sunspec; Tot",
+    "desc": "Total Watt Hours Exported In Phase A: Sunspec; Total Active Energy Exported In P",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4207,
+    "type": "HR",
+    "name": "Total Watt Hours Exported In Phase B: Sunspec; Tot",
+    "desc": "Total Watt Hours Exported In Phase B: Sunspec; Total Active Energy Exported In P",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4209,
+    "type": "HR",
+    "name": "Total Watt Hours Exported In Phase C: Sunspec; Tot",
+    "desc": "Total Watt Hours Exported In Phase C: Sunspec; Total Active Energy Exported In P",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4211,
+    "type": "HR",
+    "name": "Total Real Energy Imported: Sunspec; Total Active ",
+    "desc": "Total Real Energy Imported: Sunspec; Total Active Energy Imported: Acurev 1300",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4213,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase A: Sunspec; Total ",
+    "desc": "Total Watt Hours Imported Phase A: Sunspec; Total Active Energy Imported In Phas",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4215,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase B: Sunspec; Total ",
+    "desc": "Total Watt Hours Imported Phase B: Sunspec; Total Active Energy Imported In Phas",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4217,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase C: Sunspec; Total ",
+    "desc": "Total Watt Hours Imported Phase C: Sunspec; Total Active Energy Imported In Phas",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4220,
+    "type": "HR",
+    "name": "Total Va Hours Exported: Sunspec; Total Apparent P",
+    "desc": "Total Va Hours Exported: Sunspec; Total Apparent Power Exported: Acurev 1300",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4222,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase A: Sunspec; Total Ap",
+    "desc": "Total Va Hours Exported Phase A: Sunspec; Total Apparent Power Exported In Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4224,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase B: Sunspec; Total Ap",
+    "desc": "Total Va Hours Exported Phase B: Sunspec; Total Apparent Power Exported In Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4226,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase C: Sunspec; Total Ap",
+    "desc": "Total Va Hours Exported Phase C: Sunspec; Total Apparent Power Exported In Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4228,
+    "type": "HR",
+    "name": "Total Va Hours Imported: Sunspec; Total Apparent P",
+    "desc": "Total Va Hours Imported: Sunspec; Total Apparent Power Imported: Acurev 1300",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4230,
+    "type": "HR",
+    "name": "Total Va Hours Imported Phase A: Sunspec; Total Ap",
+    "desc": "Total Va Hours Imported Phase A: Sunspec; Total Apparent Power Imported In Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4232,
+    "type": "HR",
+    "name": "Total Va Hours Imported Phase B: Sunspec; Total Ap",
+    "desc": "Total Va Hours Imported Phase B: Sunspec; Total Apparent Power Imported In Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

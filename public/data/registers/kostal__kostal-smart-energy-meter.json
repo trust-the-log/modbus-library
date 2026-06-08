@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40069,
+    "type": "HR",
+    "name": "Total Ac Current",
+    "desc": "Total Ac Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40070,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40071,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40072,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40073,
+    "type": "HR",
+    "name": "Current Scale Factor",
+    "desc": "Current Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40074,
+    "type": "HR",
+    "name": "Line To Neutral Ac Voltage (Average Of Active Phas",
+    "desc": "Line To Neutral Ac Voltage (Average Of Active Phases)",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40075,
+    "type": "HR",
+    "name": "Phase Voltage An",
+    "desc": "Phase Voltage An",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40076,
+    "type": "HR",
+    "name": "Phase Voltage Bn",
+    "desc": "Phase Voltage Bn",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40077,
+    "type": "HR",
+    "name": "Phase Voltage Cn",
+    "desc": "Phase Voltage Cn",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40078,
+    "type": "HR",
+    "name": "Line To Line Ac Voltage (Average Of Active Phases)",
+    "desc": "Line To Line Ac Voltage (Average Of Active Phases)",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40079,
+    "type": "HR",
+    "name": "Phvphab",
+    "desc": "Phvphab",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40080,
+    "type": "HR",
+    "name": "Phvphbc",
+    "desc": "Phvphbc",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40081,
+    "type": "HR",
+    "name": "Phvphca",
+    "desc": "Phvphca",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40082,
+    "type": "HR",
+    "name": "Voltage Scale Factor",
+    "desc": "Voltage Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40083,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40084,
+    "type": "HR",
+    "name": "Frequency Scale Factor",
+    "desc": "Frequency Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40085,
+    "type": "HR",
+    "name": "Total Real Power",
+    "desc": "Total Real Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40086,
+    "type": "HR",
+    "name": "Wpha",
+    "desc": "Wpha",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40087,
+    "type": "HR",
+    "name": "Wphb",
+    "desc": "Wphb",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40088,
+    "type": "HR",
+    "name": "Wphc",
+    "desc": "Wphc",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40089,
+    "type": "HR",
+    "name": "Real Power Scale Factor",
+    "desc": "Real Power Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40090,
+    "type": "HR",
+    "name": "Ac Apparent Power",
+    "desc": "Ac Apparent Power",
+    "unit": "VA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40091,
+    "type": "HR",
+    "name": "Vapha",
+    "desc": "Vapha",
+    "unit": "VA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40092,
+    "type": "HR",
+    "name": "Vaphb",
+    "desc": "Vaphb",
+    "unit": "VA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40093,
+    "type": "HR",
+    "name": "Vaphc",
+    "desc": "Vaphc",
+    "unit": "VA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40094,
+    "type": "HR",
+    "name": "Apparent Power Scale Factor",
+    "desc": "Apparent Power Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40095,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40096,
+    "type": "HR",
+    "name": "Varpha",
+    "desc": "Varpha",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40097,
+    "type": "HR",
+    "name": "Varphb",
+    "desc": "Varphb",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40098,
+    "type": "HR",
+    "name": "Varphc",
+    "desc": "Varphc",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40099,
+    "type": "HR",
+    "name": "Reactive Power Scale Factor",
+    "desc": "Reactive Power Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40100,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "Pct",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40101,
+    "type": "HR",
+    "name": "Pfpha",
+    "desc": "Pfpha",
+    "unit": "Pct",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40102,
+    "type": "HR",
+    "name": "Pfphb",
+    "desc": "Pfphb",
+    "unit": "Pct",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40103,
+    "type": "HR",
+    "name": "Pfphc",
+    "desc": "Pfphc",
+    "unit": "Pct",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40104,
+    "type": "HR",
+    "name": "Power Factor Scale Factor",
+    "desc": "Power Factor Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40105,
+    "type": "HR",
+    "name": "Total Real Energy Exported",
+    "desc": "Total Real Energy Exported",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40107,
+    "type": "HR",
+    "name": "Totwhexppha",
+    "desc": "Totwhexppha",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40109,
+    "type": "HR",
+    "name": "Totwhexpphb",
+    "desc": "Totwhexpphb",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40111,
+    "type": "HR",
+    "name": "Totwhexpphc",
+    "desc": "Totwhexpphc",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40113,
+    "type": "HR",
+    "name": "Total Real Energy Imported",
+    "desc": "Total Real Energy Imported",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40115,
+    "type": "HR",
+    "name": "Totwhimppha",
+    "desc": "Totwhimppha",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40117,
+    "type": "HR",
+    "name": "Totwhimpphb",
+    "desc": "Totwhimpphb",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40119,
+    "type": "HR",
+    "name": "Totwhimpphc",
+    "desc": "Totwhimpphc",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40121,
+    "type": "HR",
+    "name": "Real Energy Scale Factor",
+    "desc": "Real Energy Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40122,
+    "type": "HR",
+    "name": "Total Apparent Energy Exported",
+    "desc": "Total Apparent Energy Exported",
+    "unit": "VAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40124,
+    "type": "HR",
+    "name": "Totvahexppha",
+    "desc": "Totvahexppha",
+    "unit": "VAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40126,
+    "type": "HR",
+    "name": "Totvahexpphb",
+    "desc": "Totvahexpphb",
+    "unit": "VAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40128,
+    "type": "HR",
+    "name": "Totvahexpphc",
+    "desc": "Totvahexpphc",
+    "unit": "VAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40130,
+    "type": "HR",
+    "name": "Total Apparent Energy Imported",
+    "desc": "Total Apparent Energy Imported",
+    "unit": "VAh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

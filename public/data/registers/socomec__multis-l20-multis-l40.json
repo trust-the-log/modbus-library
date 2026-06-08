@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Voltage, L2",
+    "desc": "Voltage, L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Voltage, L3",
+    "desc": "Voltage, L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Current, L1",
+    "desc": "Current, L1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Current, L2",
+    "desc": "Current, L2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Current, L3",
+    "desc": "Current, L3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Current, L N",
+    "desc": "Current, L N",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Voltage, L1 L2",
+    "desc": "Voltage, L1 L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Voltage, L2 L3",
+    "desc": "Voltage, L2 L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Voltage, L1 L3",
+    "desc": "Voltage, L1 L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Active Power, L1",
+    "desc": "Active Power, L1",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Active Power, L2",
+    "desc": "Active Power, L2",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Active Power, L3",
+    "desc": "Active Power, L3",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Reactive Power, L1",
+    "desc": "Reactive Power, L1",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Reactive Power, L2",
+    "desc": "Reactive Power, L2",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Reactive Power, L3",
+    "desc": "Reactive Power, L3",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Apparent Power, L1",
+    "desc": "Apparent Power, L1",
+    "unit": "Var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Apparent Power, L2",
+    "desc": "Apparent Power, L2",
+    "unit": "Var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Apparent Power, L3",
+    "desc": "Apparent Power, L3",
+    "unit": "Var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Total Import Active Power",
+    "desc": "Total Import Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Total Export Active Power",
+    "desc": "Total Export Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Total Inductive Reactive Power",
+    "desc": "Total Inductive Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Total Capacitive Reactive Power",
+    "desc": "Total Capacitive Reactive Power",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Average Inductive Cosf",
+    "desc": "Average Inductive Cosf",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Average Capacitive Cosf",
+    "desc": "Average Capacitive Cosf",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Voltage Angle, L1",
+    "desc": "Voltage Angle, L1",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Voltage Angle, L2",
+    "desc": "Voltage Angle, L2",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Voltage Angle, L3",
+    "desc": "Voltage Angle, L3",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Current Angle, L1",
+    "desc": "Current Angle, L1",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Current Angle, L2",
+    "desc": "Current Angle, L2",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Current Angle, L3",
+    "desc": "Current Angle, L3",
+    "unit": "Deg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Digital Inputs",
+    "desc": "Digital Inputs",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Import Active Energy 1",
+    "desc": "Import Active Energy 1",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Export Active Energy 1",
+    "desc": "Export Active Energy 1",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Inductive Reactive Energy 1",
+    "desc": "Inductive Reactive Energy 1",
+    "unit": "VArh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 98,
+    "type": "HR",
+    "name": "Capacitive Reactive Energy 1",
+    "desc": "Capacitive Reactive Energy 1",
+    "unit": "VArh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Import Active Energy 2",
+    "desc": "Import Active Energy 2",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Export Active Energy 2",
+    "desc": "Export Active Energy 2",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Inductive Reactive Energy 2",
+    "desc": "Inductive Reactive Energy 2",
+    "unit": "VArh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Capacitive Reactive Energy 2",
+    "desc": "Capacitive Reactive Energy 2",
+    "unit": "VArh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Voltage, Min, L1",
+    "desc": "Voltage, Min, L1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Voltage, Min, L2",
+    "desc": "Voltage, Min, L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "Voltage, Min, L3",
+    "desc": "Voltage, Min, L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Voltage, Min, L1 L2",
+    "desc": "Voltage, Min, L1 L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 126,
+    "type": "HR",
+    "name": "Voltage, Min, L2 L3",
+    "desc": "Voltage, Min, L2 L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Voltage, Min, L3 L1",
+    "desc": "Voltage, Min, L3 L1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

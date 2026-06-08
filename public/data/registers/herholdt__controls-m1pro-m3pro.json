@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Firmware Version",
+    "desc": "Firmware Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Range Overflow Alarm",
+    "desc": "Range Overflow Alarm",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Running Tariff",
+    "desc": "Running Tariff",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Read Only Not Used Register",
+    "desc": "Read Only Not Used Register",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Pid, Product Identification Bytes 1 And 2",
+    "desc": "Pid, Product Identification Bytes 1 And 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "Pid Bytes 3 And 4",
+    "desc": "Pid Bytes 3 And 4",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Pid Bytes 5 And 6",
+    "desc": "Pid Bytes 5 And 6",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "Pid Bytes 7 And 8",
+    "desc": "Pid Bytes 7 And 8",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Pid Bytes 9 And 10",
+    "desc": "Pid Bytes 9 And 10",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4109,
+    "type": "HR",
+    "name": "Pid Bytes 11 And 12",
+    "desc": "Pid Bytes 11 And 12",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Pid Bytes 13 And 14",
+    "desc": "Pid Bytes 13 And 14",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "Reset Energy Counters Command",
+    "desc": "Reset Energy Counters Command",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "Active Energy, L1, T1, Imported",
+    "desc": "Active Energy, L1, T1, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "Active Energy, L2, T1, Imported",
+    "desc": "Active Energy, L2, T1, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "Active Energy, L3, T1, Imported",
+    "desc": "Active Energy, L3, T1, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4131,
+    "type": "HR",
+    "name": "Active Energy, Sum, T1, Imported",
+    "desc": "Active Energy, Sum, T1, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4135,
+    "type": "HR",
+    "name": "Active Energy, L1, T2, Imported",
+    "desc": "Active Energy, L1, T2, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4139,
+    "type": "HR",
+    "name": "Active Energy, L2, T2, Imported",
+    "desc": "Active Energy, L2, T2, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4143,
+    "type": "HR",
+    "name": "Active Energy, L3, T2, Imported",
+    "desc": "Active Energy, L3, T2, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4147,
+    "type": "HR",
+    "name": "Active Energy, Sum, T2, Imported",
+    "desc": "Active Energy, Sum, T2, Imported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4151,
+    "type": "HR",
+    "name": "Active Power, L1",
+    "desc": "Active Power, L1",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4153,
+    "type": "HR",
+    "name": "Active Power, L2",
+    "desc": "Active Power, L2",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4155,
+    "type": "HR",
+    "name": "Active Power, L3",
+    "desc": "Active Power, L3",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4157,
+    "type": "HR",
+    "name": "Active Power, Sum",
+    "desc": "Active Power, Sum",
+    "unit": "kW",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4161,
+    "type": "HR",
+    "name": "Active Energy, L1, T1, Exported",
+    "desc": "Active Energy, L1, T1, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4165,
+    "type": "HR",
+    "name": "Active Energy, L2, T1, Exported",
+    "desc": "Active Energy, L2, T1, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4169,
+    "type": "HR",
+    "name": "Active Energy, L3, T1, Exported",
+    "desc": "Active Energy, L3, T1, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4173,
+    "type": "HR",
+    "name": "Active Energy, Sum, T1, Exported",
+    "desc": "Active Energy, Sum, T1, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4177,
+    "type": "HR",
+    "name": "Active Energy, L1, T2, Exported",
+    "desc": "Active Energy, L1, T2, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4181,
+    "type": "HR",
+    "name": "Active Energy, L2, T2, Exported",
+    "desc": "Active Energy, L2, T2, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4185,
+    "type": "HR",
+    "name": "Active Energy, L3, T2, Exported",
+    "desc": "Active Energy, L3, T2, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4189,
+    "type": "HR",
+    "name": "Active Energy, Sum, T2, Exported",
+    "desc": "Active Energy, Sum, T2, Exported",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4193,
+    "type": "HR",
+    "name": "Reactive Energy, L1, T1, Imported",
+    "desc": "Reactive Energy, L1, T1, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4197,
+    "type": "HR",
+    "name": "Reactive Energy, L2, T1, Imported",
+    "desc": "Reactive Energy, L2, T1, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4201,
+    "type": "HR",
+    "name": "Reactive Energy, L3, T1, Imported",
+    "desc": "Reactive Energy, L3, T1, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4205,
+    "type": "HR",
+    "name": "Reactive Energy, Sum, T1, Imported",
+    "desc": "Reactive Energy, Sum, T1, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4209,
+    "type": "HR",
+    "name": "Reactive Energy, L1, T2, Imported",
+    "desc": "Reactive Energy, L1, T2, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4213,
+    "type": "HR",
+    "name": "Reactive Energy, L2, T2, Imported",
+    "desc": "Reactive Energy, L2, T2, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4217,
+    "type": "HR",
+    "name": "Reactive Energy, L3, T2, Imported",
+    "desc": "Reactive Energy, L3, T2, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4221,
+    "type": "HR",
+    "name": "Reactive Energy, Sum, T2, Imported",
+    "desc": "Reactive Energy, Sum, T2, Imported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4225,
+    "type": "HR",
+    "name": "Reactive Energy, L1, T1, Exported",
+    "desc": "Reactive Energy, L1, T1, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4229,
+    "type": "HR",
+    "name": "Reactive Energy, L2, T1, Exported",
+    "desc": "Reactive Energy, L2, T1, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4233,
+    "type": "HR",
+    "name": "Reactive Energy, L3, T1, Exported",
+    "desc": "Reactive Energy, L3, T1, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4237,
+    "type": "HR",
+    "name": "Reactive Energy, Sum, T1, Exported",
+    "desc": "Reactive Energy, Sum, T1, Exported",
+    "unit": "kvarh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4241,
+    "type": "HR",
+    "name": "Reactive Energy, L1, T2, Exported",
+    "desc": "Reactive Energy, L1, T2, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4245,
+    "type": "HR",
+    "name": "Reactive Energy, L2, T2, Exported",
+    "desc": "Reactive Energy, L2, T2, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4249,
+    "type": "HR",
+    "name": "Reactive Energy, L3, T2, Exported",
+    "desc": "Reactive Energy, L3, T2, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4253,
+    "type": "HR",
+    "name": "Reactive Energy, Sum, T2, Exported",
+    "desc": "Reactive Energy, Sum, T2, Exported",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4257,
+    "type": "HR",
+    "name": "Reactive Power, L1",
+    "desc": "Reactive Power, L1",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4259,
+    "type": "HR",
+    "name": "Reactive Power, L2",
+    "desc": "Reactive Power, L2",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

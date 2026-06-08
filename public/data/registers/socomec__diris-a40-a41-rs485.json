@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 10511,
+    "type": "HR",
+    "name": "Hour Meter",
+    "desc": "Hour Meter",
+    "unit": "1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10513,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U12",
+    "desc": "Phase To Phase Voltage U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10515,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U23",
+    "desc": "Phase To Phase Voltage U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10517,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U31",
+    "desc": "Phase To Phase Voltage U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10519,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 1",
+    "desc": "Phase To Neutral Voltage Phase 1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10521,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 2",
+    "desc": "Phase To Neutral Voltage Phase 2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10523,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 3",
+    "desc": "Phase To Neutral Voltage Phase 3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10525,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10527,
+    "type": "HR",
+    "name": "Phase Current 1",
+    "desc": "Phase Current 1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10529,
+    "type": "HR",
+    "name": "Phase Current 2",
+    "desc": "Phase Current 2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10531,
+    "type": "HR",
+    "name": "Phase Current 3",
+    "desc": "Phase Current 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10533,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10535,
+    "type": "HR",
+    "name": "  Active Power +/ ",
+    "desc": "  Active Power +/ ",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10537,
+    "type": "HR",
+    "name": "  Reactive Power +/ ",
+    "desc": "  Reactive Power +/ ",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10539,
+    "type": "HR",
+    "name": "  Apparent Power",
+    "desc": "  Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10541,
+    "type": "HR",
+    "name": "  Power Factor  : Leading And + : Lagging",
+    "desc": "  Power Factor  : Leading And + : Lagging",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10543,
+    "type": "HR",
+    "name": "Active Power Phase 1 +/ ",
+    "desc": "Active Power Phase 1 +/ ",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10545,
+    "type": "HR",
+    "name": "Active Power Phase 2 +/ ",
+    "desc": "Active Power Phase 2 +/ ",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10547,
+    "type": "HR",
+    "name": "Active Power Phase 3 +/ ",
+    "desc": "Active Power Phase 3 +/ ",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10549,
+    "type": "HR",
+    "name": "Reactive Power Phase 1 +/ ",
+    "desc": "Reactive Power Phase 1 +/ ",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10551,
+    "type": "HR",
+    "name": "Reactive Power Phase 2 +/ ",
+    "desc": "Reactive Power Phase 2 +/ ",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10553,
+    "type": "HR",
+    "name": "Reactive Power Phase 3 +/ ",
+    "desc": "Reactive Power Phase 3 +/ ",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10555,
+    "type": "HR",
+    "name": "Apparent Power Phase 1",
+    "desc": "Apparent Power Phase 1",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10557,
+    "type": "HR",
+    "name": "Apparent Power Phase 2",
+    "desc": "Apparent Power Phase 2",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10559,
+    "type": "HR",
+    "name": "Apparent Power Phase 3",
+    "desc": "Apparent Power Phase 3",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10561,
+    "type": "HR",
+    "name": "Power Factor Phase 1  : Leading And + : Lagging",
+    "desc": "Power Factor Phase 1  : Leading And + : Lagging",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10563,
+    "type": "HR",
+    "name": "Power Factor Phase 2  : Leading And + : Lagging",
+    "desc": "Power Factor Phase 2  : Leading And + : Lagging",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10565,
+    "type": "HR",
+    "name": "Power Factor Phase 3  : Leading And + : Lagging",
+    "desc": "Power Factor Phase 3  : Leading And + : Lagging",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10767,
+    "type": "HR",
+    "name": "Hour Meter",
+    "desc": "Hour Meter",
+    "unit": "1",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10769,
+    "type": "HR",
+    "name": "Active Energy +",
+    "desc": "Active Energy +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10773,
+    "type": "HR",
+    "name": "Apparent Apparente",
+    "desc": "Apparent Apparente",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10775,
+    "type": "HR",
+    "name": "Active Energy  ",
+    "desc": "Active Energy  ",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10777,
+    "type": "HR",
+    "name": "Active Energy +",
+    "desc": "Active Energy +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10779,
+    "type": "HR",
+    "name": "No. Compteurs D'Impulsions",
+    "desc": "No. Compteurs D'Impulsions",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10783,
+    "type": "HR",
+    "name": "Pulse Meter 2",
+    "desc": "Pulse Meter 2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10785,
+    "type": "HR",
+    "name": "Pulse Meter 3",
+    "desc": "Pulse Meter 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10787,
+    "type": "HR",
+    "name": "Pulse Meter 4",
+    "desc": "Pulse Meter 4",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10789,
+    "type": "HR",
+    "name": "Pulse Meter 5",
+    "desc": "Pulse Meter 5",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10803,
+    "type": "HR",
+    "name": "S Predicted Reactive Power",
+    "desc": "S Predicted Reactive Power",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10805,
+    "type": "HR",
+    "name": "S Predicted Apparent Power",
+    "desc": "S Predicted Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10807,
+    "type": "HR",
+    "name": "Ea+ Between 2 Tops",
+    "desc": "Ea+ Between 2 Tops",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10809,
+    "type": "HR",
+    "name": "Ea  Between 2 Tops",
+    "desc": "Ea  Between 2 Tops",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10813,
+    "type": "HR",
+    "name": "Er  Between 2 Tops",
+    "desc": "Er  Between 2 Tops",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11029,
+    "type": "HR",
+    "name": "Avg V1",
+    "desc": "Avg V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11033,
+    "type": "HR",
+    "name": "Avg V3",
+    "desc": "Avg V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11035,
+    "type": "HR",
+    "name": "Avg F",
+    "desc": "Avg F",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11037,
+    "type": "HR",
+    "name": "Avg I1",
+    "desc": "Avg I1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11039,
+    "type": "HR",
+    "name": "Avg I2",
+    "desc": "Avg I2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11043,
+    "type": "HR",
+    "name": "Avg In",
+    "desc": "Avg In",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 11045,
+    "type": "HR",
+    "name": "Avg   Active Power +",
+    "desc": "Avg   Active Power +",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

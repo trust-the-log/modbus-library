@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 768,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 770,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 772,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 774,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 776,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U12",
+    "desc": "Phase To Phase Voltage U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 778,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U23",
+    "desc": "Phase To Phase Voltage U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 780,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U31",
+    "desc": "Phase To Phase Voltage U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 782,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 1",
+    "desc": "Phase To Neutral Voltage Phase 1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 784,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 2",
+    "desc": "Phase To Neutral Voltage Phase 2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 786,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 3",
+    "desc": "Phase To Neutral Voltage Phase 3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 788,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 790,
+    "type": "HR",
+    "name": "E Active Power",
+    "desc": "E Active Power",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 792,
+    "type": "HR",
+    "name": "E Reactive Power",
+    "desc": "E Reactive Power",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 794,
+    "type": "HR",
+    "name": "E Apparent Power",
+    "desc": "E Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 796,
+    "type": "HR",
+    "name": "E Power Factor",
+    "desc": "E Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 838,
+    "type": "HR",
+    "name": "Average Value I1 Max",
+    "desc": "Average Value I1 Max",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 840,
+    "type": "HR",
+    "name": "Average Value I2 Max",
+    "desc": "Average Value I2 Max",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 842,
+    "type": "HR",
+    "name": "Average Value I3 Max",
+    "desc": "Average Value I3 Max",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 844,
+    "type": "HR",
+    "name": "E Active Power  + Max",
+    "desc": "E Active Power  + Max",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 856,
+    "type": "HR",
+    "name": "Active Energy +",
+    "desc": "Active Energy +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 858,
+    "type": "HR",
+    "name": "Reactive Energy +",
+    "desc": "Reactive Energy +",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 916,
+    "type": "HR",
+    "name": "Average Value In Max",
+    "desc": "Average Value In Max",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1792,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1793,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1794,
+    "type": "HR",
+    "name": "Phase 3 Current",
+    "desc": "Phase 3 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1795,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1796,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U12",
+    "desc": "Phase To Phase Voltage U12",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1797,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U23",
+    "desc": "Phase To Phase Voltage U23",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1798,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U31",
+    "desc": "Phase To Phase Voltage U31",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1799,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 1",
+    "desc": "Phase To Neutral Voltage Phase 1",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1800,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 2",
+    "desc": "Phase To Neutral Voltage Phase 2",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1801,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage Phase 3",
+    "desc": "Phase To Neutral Voltage Phase 3",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1802,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1803,
+    "type": "HR",
+    "name": "E Active Power",
+    "desc": "E Active Power",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1804,
+    "type": "HR",
+    "name": "E Reactive Power",
+    "desc": "E Reactive Power",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1805,
+    "type": "HR",
+    "name": "E Apparent Power",
+    "desc": "E Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1806,
+    "type": "HR",
+    "name": "E Power Factor",
+    "desc": "E Power Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1827,
+    "type": "HR",
+    "name": "Average Value I1 Max",
+    "desc": "Average Value I1 Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1828,
+    "type": "HR",
+    "name": "Average Value I2 Max",
+    "desc": "Average Value I2 Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1829,
+    "type": "HR",
+    "name": "Average Value I3 Max",
+    "desc": "Average Value I3 Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1830,
+    "type": "HR",
+    "name": "E Active Power  + Average Value Max",
+    "desc": "E Active Power  + Average Value Max",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1835,
+    "type": "HR",
+    "name": "Active Power + &Lt; 10 000",
+    "desc": "Active Power + &Lt; 10 000",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1836,
+    "type": "HR",
+    "name": "Active Power +",
+    "desc": "Active Power +",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1837,
+    "type": "HR",
+    "name": "Reactive Power + &Lt; 10 000",
+    "desc": "Reactive Power + &Lt; 10 000",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1838,
+    "type": "HR",
+    "name": "Reactive Power +",
+    "desc": "Reactive Power +",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1891,
+    "type": "HR",
+    "name": "Average Value In Max",
+    "desc": "Average Value In Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2816,
+    "type": "HR",
+    "name": "Phase 1 Current",
+    "desc": "Phase 1 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2817,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2818,
+    "type": "HR",
+    "name": "Phase 2 Current",
+    "desc": "Phase 2 Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2819,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

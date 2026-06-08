@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 10101,
+    "type": "HR",
+    "name": "Total Kwh (Msw)",
+    "desc": "Total Kwh (Msw)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10109,
+    "type": "HR",
+    "name": "Total Kw",
+    "desc": "Total Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10113,
+    "type": "HR",
+    "name": "Total Kva",
+    "desc": "Total Kva",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10115,
+    "type": "HR",
+    "name": "Total Pf",
+    "desc": "Total Pf",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10119,
+    "type": "HR",
+    "name": "Average Current",
+    "desc": "Average Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10121,
+    "type": "HR",
+    "name": "Present Kw Demand",
+    "desc": "Present Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10127,
+    "type": "HR",
+    "name": "Present Current Demand",
+    "desc": "Present Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10129,
+    "type": "HR",
+    "name": "Max Kw Demand",
+    "desc": "Max Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10135,
+    "type": "HR",
+    "name": "Max Current Demand",
+    "desc": "Max Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10137,
+    "type": "HR",
+    "name": "Max Kw",
+    "desc": "Max Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10143,
+    "type": "HR",
+    "name": "Max Current",
+    "desc": "Max Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10145,
+    "type": "HR",
+    "name": "Voltage, L L, Average Of 3 Phases",
+    "desc": "Voltage, L L, Average Of 3 Phases",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10147,
+    "type": "HR",
+    "name": "Voltage, L N, Average Of 3 Phases",
+    "desc": "Voltage, L N, Average Of 3 Phases",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10149,
+    "type": "HR",
+    "name": "Frequency (Derived From Phase A)",
+    "desc": "Frequency (Derived From Phase A)",
+    "unit": "Hertz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10151,
+    "type": "HR",
+    "name": "Thd Current, Weighted Average Of 3 Phases",
+    "desc": "Thd Current, Weighted Average Of 3 Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10153,
+    "type": "HR",
+    "name": "Thd Voltage L L, Weighted Average Of 3 Phases",
+    "desc": "Thd Voltage L L, Weighted Average Of 3 Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10155,
+    "type": "HR",
+    "name": "Thd Voltage L N, Weighted Average Of 3 Phases",
+    "desc": "Thd Voltage L N, Weighted Average Of 3 Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10157,
+    "type": "HR",
+    "name": "Snapshot Kwh (Msw)",
+    "desc": "Snapshot Kwh (Msw)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10301,
+    "type": "HR",
+    "name": "Kwh (Msw)",
+    "desc": "Kwh (Msw)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10309,
+    "type": "HR",
+    "name": "Kw",
+    "desc": "Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10313,
+    "type": "HR",
+    "name": "Kva",
+    "desc": "Kva",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10315,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10317,
+    "type": "HR",
+    "name": "Current Angle",
+    "desc": "Current Angle",
+    "unit": "degrees-angular",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10319,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10321,
+    "type": "HR",
+    "name": "Present Kw Demand",
+    "desc": "Present Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10327,
+    "type": "HR",
+    "name": "Present Current Demand",
+    "desc": "Present Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10329,
+    "type": "HR",
+    "name": "Max Kw Demand",
+    "desc": "Max Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10335,
+    "type": "HR",
+    "name": "Max Current Demand",
+    "desc": "Max Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10337,
+    "type": "HR",
+    "name": "Max Kw",
+    "desc": "Max Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10343,
+    "type": "HR",
+    "name": "Max Current",
+    "desc": "Max Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10345,
+    "type": "HR",
+    "name": "Voltage, L L",
+    "desc": "Voltage, L L",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10347,
+    "type": "HR",
+    "name": "Voltage, L N",
+    "desc": "Voltage, L N",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10349,
+    "type": "HR",
+    "name": "Frequency (Derived From Phase A)",
+    "desc": "Frequency (Derived From Phase A)",
+    "unit": "Hertz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10351,
+    "type": "HR",
+    "name": "Thd Current",
+    "desc": "Thd Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10353,
+    "type": "HR",
+    "name": "Thd Voltage L L",
+    "desc": "Thd Voltage L L",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10355,
+    "type": "HR",
+    "name": "Thd Voltage L N",
+    "desc": "Thd Voltage L N",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10357,
+    "type": "HR",
+    "name": "Kwh Snapshot (Msw)",
+    "desc": "Kwh Snapshot (Msw)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10501,
+    "type": "HR",
+    "name": "Kwh (Msw)",
+    "desc": "Kwh (Msw)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10509,
+    "type": "HR",
+    "name": "Kw",
+    "desc": "Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10513,
+    "type": "HR",
+    "name": "Kva",
+    "desc": "Kva",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10515,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "PF",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10517,
+    "type": "HR",
+    "name": "Current Angle",
+    "desc": "Current Angle",
+    "unit": "degrees-angular",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10519,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10521,
+    "type": "HR",
+    "name": "Present Kw Demand",
+    "desc": "Present Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10527,
+    "type": "HR",
+    "name": "Present Current Demand",
+    "desc": "Present Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10529,
+    "type": "HR",
+    "name": "Max Kw Demand",
+    "desc": "Max Kw Demand",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10535,
+    "type": "HR",
+    "name": "Max Current Demand",
+    "desc": "Max Current Demand",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10537,
+    "type": "HR",
+    "name": "Max Kw",
+    "desc": "Max Kw",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10543,
+    "type": "HR",
+    "name": "Max Current",
+    "desc": "Max Current",
+    "unit": "Amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10545,
+    "type": "HR",
+    "name": "Voltage, L L",
+    "desc": "Voltage, L L",
+    "unit": "Volts",
+    "dataType": "float",
+    "access": "R"
+  }
+]

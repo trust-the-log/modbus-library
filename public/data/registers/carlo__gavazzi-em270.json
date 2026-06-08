@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "V L2 N",
+    "desc": "V L2 N",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "V L3 N",
+    "desc": "V L3 N",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "V L1 L2",
+    "desc": "V L1 L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "V L2 L3",
+    "desc": "V L2 L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "V L3 L1",
+    "desc": "V L3 L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "A L1",
+    "desc": "A L1",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "A L2",
+    "desc": "A L2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "A L3",
+    "desc": "A L3",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "W",
+    "desc": "W",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Va",
+    "desc": "Va",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Var",
+    "desc": "Var",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Kwh(+)Tot",
+    "desc": "Kwh(+)Tot",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Kvarh(+)Tot",
+    "desc": "Kvarh(+)Tot",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "W Dmd",
+    "desc": "W Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Va Dmd",
+    "desc": "Va Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "W Maxdmd",
+    "desc": "W Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Va Maxdmd",
+    "desc": "Va Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "A L1 Tcda",
+    "desc": "A L1 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "A L2 Tcda",
+    "desc": "A L2 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "A L3 Tcda",
+    "desc": "A L3 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "W L1 Tcda",
+    "desc": "W L1 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "W L2 Tcda",
+    "desc": "W L2 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "W L3 Tcda",
+    "desc": "W L3 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "W Tot Tcda",
+    "desc": "W Tot Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Va Tot Tcda",
+    "desc": "Va Tot Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Var Tot Tcda",
+    "desc": "Var Tot Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Kwh(+)Tcda Tot",
+    "desc": "Kwh(+)Tcda Tot",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Kvarh (+)Tcda Tot",
+    "desc": "Kvarh (+)Tcda Tot",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "W Tot Tcda Dmd",
+    "desc": "W Tot Tcda Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 292,
+    "type": "HR",
+    "name": "Va Tot Tcda Dmd",
+    "desc": "Va Tot Tcda Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "W Tot Tcda Maxdmd",
+    "desc": "W Tot Tcda Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Va Tot Tcda Maxdmd",
+    "desc": "Va Tot Tcda Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 298,
+    "type": "HR",
+    "name": "Kwh(+) L1 Tcda",
+    "desc": "Kwh(+) L1 Tcda",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Kwh(+) L2 Tcda",
+    "desc": "Kwh(+) L2 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 302,
+    "type": "HR",
+    "name": "Kwh(+) L3 Tcda",
+    "desc": "Kwh(+) L3 Tcda",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "W L1 Tcda Dmd",
+    "desc": "W L1 Tcda Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "W L2 Tcda Dmd",
+    "desc": "W L2 Tcda Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "W L3 Tcda Dmd",
+    "desc": "W L3 Tcda Dmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "W L1 Tcda Maxdmd",
+    "desc": "W L1 Tcda Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "W L2 Tcda Maxdmd",
+    "desc": "W L2 Tcda Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 314,
+    "type": "HR",
+    "name": "W L3 Tcda Maxdmd",
+    "desc": "W L3 Tcda Maxdmd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "A L1 Tcdb",
+    "desc": "A L1 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "A L2 Tcdb",
+    "desc": "A L2 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "A L3 Tcdb",
+    "desc": "A L3 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 530,
+    "type": "HR",
+    "name": "W L1 Tcdb",
+    "desc": "W L1 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 532,
+    "type": "HR",
+    "name": "W L2 Tcdb",
+    "desc": "W L2 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 534,
+    "type": "HR",
+    "name": "W L3 Tcdb",
+    "desc": "W L3 Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 536,
+    "type": "HR",
+    "name": "W Tot Tcdb",
+    "desc": "W Tot Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 538,
+    "type": "HR",
+    "name": "Va Tot Tcdb",
+    "desc": "Va Tot Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 540,
+    "type": "HR",
+    "name": "Var Tot Tcdb",
+    "desc": "Var Tot Tcdb",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

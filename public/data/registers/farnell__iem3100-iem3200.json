@@ -1,0 +1,443 @@
+[
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1637,
+    "type": "HR",
+    "name": "Present Firmware Version (Dlf Format): X.Y.Ztt",
+    "desc": "Present Firmware Version (Dlf Format): X.Y.Ztt",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Meter Operation Timer",
+    "desc": "Meter Operation Timer",
+    "unit": "Secon",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2014,
+    "type": "HR",
+    "name": "Number Of Phases",
+    "desc": "Number Of Phases",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2015,
+    "type": "HR",
+    "name": "Number Of Wires",
+    "desc": "Number Of Wires",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Power System",
+    "desc": "Power System",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Nominal Frequency",
+    "desc": "Nominal Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2025,
+    "type": "HR",
+    "name": "Number Vts",
+    "desc": "Number Vts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2026,
+    "type": "HR",
+    "name": "Vt Primary",
+    "desc": "Vt Primary",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2028,
+    "type": "HR",
+    "name": "Vt Secondary",
+    "desc": "Vt Secondary",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2029,
+    "type": "HR",
+    "name": "Number Cts",
+    "desc": "Number Cts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2030,
+    "type": "HR",
+    "name": "Ct Primary",
+    "desc": "Ct Primary",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2031,
+    "type": "HR",
+    "name": "Ct Secondary",
+    "desc": "Ct Secondary",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2036,
+    "type": "HR",
+    "name": "Vt Connection Type",
+    "desc": "Vt Connection Type",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2129,
+    "type": "HR",
+    "name": "Energy Pulse Duration",
+    "desc": "Energy Pulse Duration",
+    "unit": "Millisecond",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2131,
+    "type": "HR",
+    "name": "Digital Output Association",
+    "desc": "Digital Output Association",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2132,
+    "type": "HR",
+    "name": "Pulse Weight",
+    "desc": "Pulse Weight",
+    "unit": "pulse/kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5250,
+    "type": "HR",
+    "name": "Requested Command",
+    "desc": "Requested Command",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5252,
+    "type": "HR",
+    "name": "Command Parameter 001",
+    "desc": "Command Parameter 001",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5374,
+    "type": "HR",
+    "name": "Command Parameter 123",
+    "desc": "Command Parameter 123",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5375,
+    "type": "HR",
+    "name": "Command Status",
+    "desc": "Command Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5376,
+    "type": "HR",
+    "name": "Command  Result Codes:",
+    "desc": "Command  Result Codes:",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5377,
+    "type": "HR",
+    "name": "Command Data 001",
+    "desc": "Command Data 001",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5499,
+    "type": "HR",
+    "name": "Command Data 123",
+    "desc": "Command Data 123",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6500,
+    "type": "HR",
+    "name": "Protocol",
+    "desc": "Protocol",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6501,
+    "type": "HR",
+    "name": "Address",
+    "desc": "Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6502,
+    "type": "HR",
+    "name": "Baud Rate:",
+    "desc": "Baud Rate:",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6503,
+    "type": "HR",
+    "name": "Parity:",
+    "desc": "Parity:",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7052,
+    "type": "HR",
+    "name": "Pulse Constant",
+    "desc": "Pulse Constant",
+    "unit": "pulse/unit",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7055,
+    "type": "HR",
+    "name": "Digital Input Association",
+    "desc": "Digital Input Association",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7274,
+    "type": "HR",
+    "name": "Digital Input Control Mode:",
+    "desc": "Digital Input Control Mode:",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9673,
+    "type": "HR",
+    "name": "Digital Output Control Mode Status:",
+    "desc": "Digital Output Control Mode Status:",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "I1: Phase 1 Current",
+    "desc": "I1: Phase 1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3002,
+    "type": "HR",
+    "name": "I2: Phase 2 Current",
+    "desc": "I2: Phase 2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3004,
+    "type": "HR",
+    "name": "I3: Phase 3 Current",
+    "desc": "I3: Phase 3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3010,
+    "type": "HR",
+    "name": "Current Avg Voltage",
+    "desc": "Current Avg Voltage",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3020,
+    "type": "HR",
+    "name": "Voltage L1 L2",
+    "desc": "Voltage L1 L2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3022,
+    "type": "HR",
+    "name": "Voltage L2 L3",
+    "desc": "Voltage L2 L3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3024,
+    "type": "HR",
+    "name": "Voltage L3 L1",
+    "desc": "Voltage L3 L1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3026,
+    "type": "HR",
+    "name": "Voltage L L Avg",
+    "desc": "Voltage L L Avg",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3028,
+    "type": "HR",
+    "name": "Voltage L1 N",
+    "desc": "Voltage L1 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3030,
+    "type": "HR",
+    "name": "Voltage L2 N",
+    "desc": "Voltage L2 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3032,
+    "type": "HR",
+    "name": "Voltage L3 N",
+    "desc": "Voltage L3 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3036,
+    "type": "HR",
+    "name": "Voltage L N Avg Power",
+    "desc": "Voltage L N Avg Power",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3054,
+    "type": "HR",
+    "name": "Active Power Phase 1",
+    "desc": "Active Power Phase 1",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3056,
+    "type": "HR",
+    "name": "Active Power Phase 2",
+    "desc": "Active Power Phase 2",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3058,
+    "type": "HR",
+    "name": "Active Power Phase 3",
+    "desc": "Active Power Phase 3",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3060,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3068,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  }
+]

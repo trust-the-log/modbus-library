@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 27798,
+    "type": "HR",
+    "name": "Output 2 Min. Quantity",
+    "desc": "Output 2 Min. Quantity",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 27800,
+    "type": "HR",
+    "name": "Output 2 Max. Quantity",
+    "desc": "Output 2 Max. Quantity",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 27802,
+    "type": "HR",
+    "name": "Output 2 Min. Current",
+    "desc": "Output 2 Min. Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 27803,
+    "type": "HR",
+    "name": "Output 2 Max. Current",
+    "desc": "Output 2 Max. Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1280,
+    "type": "HR",
+    "name": "V1",
+    "desc": "V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1282,
+    "type": "HR",
+    "name": "V2",
+    "desc": "V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1284,
+    "type": "HR",
+    "name": "V3",
+    "desc": "V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1286,
+    "type": "HR",
+    "name": "Vearth",
+    "desc": "Vearth",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1288,
+    "type": "HR",
+    "name": "U12",
+    "desc": "U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1290,
+    "type": "HR",
+    "name": "U23",
+    "desc": "U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1292,
+    "type": "HR",
+    "name": "U31",
+    "desc": "U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1294,
+    "type": "HR",
+    "name": "I1",
+    "desc": "I1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1296,
+    "type": "HR",
+    "name": "I2",
+    "desc": "I2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1298,
+    "type": "HR",
+    "name": "I3",
+    "desc": "I3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1300,
+    "type": "HR",
+    "name": "In",
+    "desc": "In",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1302,
+    "type": "HR",
+    "name": "P1",
+    "desc": "P1",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1304,
+    "type": "HR",
+    "name": "P2",
+    "desc": "P2",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1306,
+    "type": "HR",
+    "name": "P3",
+    "desc": "P3",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1308,
+    "type": "HR",
+    "name": "Pt",
+    "desc": "Pt",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1310,
+    "type": "HR",
+    "name": "Q1",
+    "desc": "Q1",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1312,
+    "type": "HR",
+    "name": "Q2",
+    "desc": "Q2",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1314,
+    "type": "HR",
+    "name": "Q3",
+    "desc": "Q3",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1316,
+    "type": "HR",
+    "name": "Qt",
+    "desc": "Qt",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1318,
+    "type": "HR",
+    "name": "S1",
+    "desc": "S1",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1320,
+    "type": "HR",
+    "name": "S2",
+    "desc": "S2",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1322,
+    "type": "HR",
+    "name": "S3",
+    "desc": "S3",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1324,
+    "type": "HR",
+    "name": "St",
+    "desc": "St",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 1326,
+    "type": "HR",
+    "name": "Fp1",
+    "desc": "Fp1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1327,
+    "type": "HR",
+    "name": "Fp1 Quadrant",
+    "desc": "Fp1 Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1328,
+    "type": "HR",
+    "name": "Fp2",
+    "desc": "Fp2",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1329,
+    "type": "HR",
+    "name": "Fp2 Quadrant",
+    "desc": "Fp2 Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1330,
+    "type": "HR",
+    "name": "Fp3",
+    "desc": "Fp3",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1331,
+    "type": "HR",
+    "name": "Fp3 Quadrant",
+    "desc": "Fp3 Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1332,
+    "type": "HR",
+    "name": "Fpt",
+    "desc": "Fpt",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1333,
+    "type": "HR",
+    "name": "Fpt Quadrant",
+    "desc": "Fpt Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1334,
+    "type": "HR",
+    "name": "Cos Phi Phase 1",
+    "desc": "Cos Phi Phase 1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1335,
+    "type": "HR",
+    "name": "Quadrant",
+    "desc": "Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1336,
+    "type": "HR",
+    "name": "Cos Phi Phase 2",
+    "desc": "Cos Phi Phase 2",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1337,
+    "type": "HR",
+    "name": "Quadrant",
+    "desc": "Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1338,
+    "type": "HR",
+    "name": "Cos Phi Phase 3",
+    "desc": "Cos Phi Phase 3",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1339,
+    "type": "HR",
+    "name": "Quadrant",
+    "desc": "Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1340,
+    "type": "HR",
+    "name": "Three Phase Cos Phi",
+    "desc": "Three Phase Cos Phi",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1341,
+    "type": "HR",
+    "name": "Quadrant",
+    "desc": "Quadrant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1342,
+    "type": "HR",
+    "name": "V1 Peak Factor",
+    "desc": "V1 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1343,
+    "type": "HR",
+    "name": "V2 Peak Factor",
+    "desc": "V2 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1344,
+    "type": "HR",
+    "name": "V3 Peak Factor",
+    "desc": "V3 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1345,
+    "type": "HR",
+    "name": "I1 Peak Factor",
+    "desc": "I1 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1346,
+    "type": "HR",
+    "name": "I2 Peak Factor",
+    "desc": "I2 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1347,
+    "type": "HR",
+    "name": "I3 Peak Factor",
+    "desc": "I3 Peak Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1348,
+    "type": "HR",
+    "name": "Voltage Unbalance",
+    "desc": "Voltage Unbalance",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

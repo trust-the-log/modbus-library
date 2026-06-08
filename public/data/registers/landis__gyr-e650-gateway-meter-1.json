@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40015,
+    "type": "HR",
+    "name": "Hours: Format Hhmmss",
+    "desc": "Hours: Format Hhmmss",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40017,
+    "type": "HR",
+    "name": "Data Format Aammgg",
+    "desc": "Data Format Aammgg",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40019,
+    "type": "HR",
+    "name": "Meter Serial Number (Read By Dlms)",
+    "desc": "Meter Serial Number (Read By Dlms)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40021,
+    "type": "HR",
+    "name": "Reset Meter Count",
+    "desc": "Reset Meter Count",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40023,
+    "type": "HR",
+    "name": "Total Active Energy A+",
+    "desc": "Total Active Energy A+",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40025,
+    "type": "HR",
+    "name": "Total Active Energy Previous Month A +",
+    "desc": "Total Active Energy Previous Month A +",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40027,
+    "type": "HR",
+    "name": "Total Active Energy Slot 1 A+",
+    "desc": "Total Active Energy Slot 1 A+",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40029,
+    "type": "HR",
+    "name": "Total Active Energy Slot 1 Previous Month A +",
+    "desc": "Total Active Energy Slot 1 Previous Month A +",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40031,
+    "type": "HR",
+    "name": "Total Active Energy Slot 2 A+",
+    "desc": "Total Active Energy Slot 2 A+",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40033,
+    "type": "HR",
+    "name": "Total Active Energy Slot 2 Previous Month A +",
+    "desc": "Total Active Energy Slot 2 Previous Month A +",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40035,
+    "type": "HR",
+    "name": "Total Active Energy Slot 3 A+",
+    "desc": "Total Active Energy Slot 3 A+",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40037,
+    "type": "HR",
+    "name": "Total Active Energy Slot 3 Previous Month A +",
+    "desc": "Total Active Energy Slot 3 Previous Month A +",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40039,
+    "type": "HR",
+    "name": "Total Active Energy Slot 4 A+",
+    "desc": "Total Active Energy Slot 4 A+",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40041,
+    "type": "HR",
+    "name": "Total Active Energy Slot 4 Previous Month A +",
+    "desc": "Total Active Energy Slot 4 Previous Month A +",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40043,
+    "type": "HR",
+    "name": "Total Active Energy A",
+    "desc": "Total Active Energy A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40045,
+    "type": "HR",
+    "name": "Total Active Energy Previous Month A",
+    "desc": "Total Active Energy Previous Month A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40047,
+    "type": "HR",
+    "name": "Total Active Energy Slot 1 A",
+    "desc": "Total Active Energy Slot 1 A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40049,
+    "type": "HR",
+    "name": "Total Active Energy Slot 1 Previous Month A",
+    "desc": "Total Active Energy Slot 1 Previous Month A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40051,
+    "type": "HR",
+    "name": "Total Active Energy Slot 2 A",
+    "desc": "Total Active Energy Slot 2 A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40053,
+    "type": "HR",
+    "name": "Total Active Energy Slot 2 Previous Month A",
+    "desc": "Total Active Energy Slot 2 Previous Month A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40055,
+    "type": "HR",
+    "name": "Total Active Energy Slot 3 A",
+    "desc": "Total Active Energy Slot 3 A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40057,
+    "type": "HR",
+    "name": "Total Active Energy Slot 3 Previous Month A",
+    "desc": "Total Active Energy Slot 3 Previous Month A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40059,
+    "type": "HR",
+    "name": "Total Active Energy Slot 4 A",
+    "desc": "Total Active Energy Slot 4 A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40061,
+    "type": "HR",
+    "name": "Total Active Energy Slot 4 Previous Month A",
+    "desc": "Total Active Energy Slot 4 Previous Month A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40063,
+    "type": "HR",
+    "name": "Reactive Total Energy Q1",
+    "desc": "Reactive Total Energy Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40065,
+    "type": "HR",
+    "name": "Reactive Total Energy Previous Month Q1",
+    "desc": "Reactive Total Energy Previous Month Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40067,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Q1",
+    "desc": "Reactive Total Energy Slot 1 Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40069,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Previous Month Q1",
+    "desc": "Reactive Total Energy Slot 1 Previous Month Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40071,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Q1",
+    "desc": "Reactive Total Energy Slot 2 Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40073,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Previous Month Q1",
+    "desc": "Reactive Total Energy Slot 2 Previous Month Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40075,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 3 Q1",
+    "desc": "Reactive Total Energy Slot 3 Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40077,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 3 Previous Month Q1",
+    "desc": "Reactive Total Energy Slot 3 Previous Month Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40079,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 4 Q1",
+    "desc": "Reactive Total Energy Slot 4 Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40081,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 4 Previous Month Q1",
+    "desc": "Reactive Total Energy Slot 4 Previous Month Q1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40083,
+    "type": "HR",
+    "name": "Reactive Total Energy Q2",
+    "desc": "Reactive Total Energy Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40085,
+    "type": "HR",
+    "name": "Reactive Total Energy Previous Month Q2",
+    "desc": "Reactive Total Energy Previous Month Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40087,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Q2",
+    "desc": "Reactive Total Energy Slot 1 Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40089,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Previous Month Q2",
+    "desc": "Reactive Total Energy Slot 1 Previous Month Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40091,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Q2",
+    "desc": "Reactive Total Energy Slot 2 Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40093,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Previous Month Q2",
+    "desc": "Reactive Total Energy Slot 2 Previous Month Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40095,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 3 Q2",
+    "desc": "Reactive Total Energy Slot 3 Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40097,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 3 Previous Month Q2",
+    "desc": "Reactive Total Energy Slot 3 Previous Month Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40099,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 4 Q2",
+    "desc": "Reactive Total Energy Slot 4 Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40101,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 4 Previous Month Q2",
+    "desc": "Reactive Total Energy Slot 4 Previous Month Q2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40103,
+    "type": "HR",
+    "name": "Reactive Total Energy Q3",
+    "desc": "Reactive Total Energy Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40105,
+    "type": "HR",
+    "name": "Reactive Total Energy Previous Month Q3",
+    "desc": "Reactive Total Energy Previous Month Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40107,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Q3",
+    "desc": "Reactive Total Energy Slot 1 Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40109,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 1 Previous Month Q3",
+    "desc": "Reactive Total Energy Slot 1 Previous Month Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40111,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Q3",
+    "desc": "Reactive Total Energy Slot 2 Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40113,
+    "type": "HR",
+    "name": "Reactive Total Energy Slot 2 Previous Month Q3",
+    "desc": "Reactive Total Energy Slot 2 Previous Month Q3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

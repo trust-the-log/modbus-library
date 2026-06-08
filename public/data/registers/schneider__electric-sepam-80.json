@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Phase Current I1",
+    "desc": "Phase Current I1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Phase Current I2",
+    "desc": "Phase Current I2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Phase Current I3",
+    "desc": "Phase Current I3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Residual Current I0",
+    "desc": "Residual Current I0",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Residual Current I0",
+    "desc": "Residual Current I0",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 522,
+    "type": "HR",
+    "name": "Demand Current Im1",
+    "desc": "Demand Current Im1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "Demand Current Im2",
+    "desc": "Demand Current Im2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "Demand Current Im3",
+    "desc": "Demand Current Im3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "Peak Demand Current Im1",
+    "desc": "Peak Demand Current Im1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 530,
+    "type": "HR",
+    "name": "Peak Demand Current Im2",
+    "desc": "Peak Demand Current Im2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 532,
+    "type": "HR",
+    "name": "Peak Demand Current Im3",
+    "desc": "Peak Demand Current Im3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 534,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U21",
+    "desc": "Phase To Phase Voltage U21",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 536,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U32",
+    "desc": "Phase To Phase Voltage U32",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 538,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U13",
+    "desc": "Phase To Phase Voltage U13",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 540,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V1",
+    "desc": "Phase To Neutral Voltage V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 542,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V2",
+    "desc": "Phase To Neutral Voltage V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 544,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V3",
+    "desc": "Phase To Neutral Voltage V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 546,
+    "type": "HR",
+    "name": "Residual Voltage V0",
+    "desc": "Residual Voltage V0",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 548,
+    "type": "HR",
+    "name": "Positive Sequence Voltage Vd",
+    "desc": "Positive Sequence Voltage Vd",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 550,
+    "type": "HR",
+    "name": "Negative Sequence Voltage Vi",
+    "desc": "Negative Sequence Voltage Vi",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 552,
+    "type": "HR",
+    "name": "Frequency F",
+    "desc": "Frequency F",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 554,
+    "type": "HR",
+    "name": "Active Power P",
+    "desc": "Active Power P",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 556,
+    "type": "HR",
+    "name": "Reactive Power Q",
+    "desc": "Reactive Power Q",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 558,
+    "type": "HR",
+    "name": "Apparent Power S",
+    "desc": "Apparent Power S",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 560,
+    "type": "HR",
+    "name": "Power Factor Cos",
+    "desc": "Power Factor Cos",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 562,
+    "type": "HR",
+    "name": "Peak Demand Active Power Pm",
+    "desc": "Peak Demand Active Power Pm",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 564,
+    "type": "HR",
+    "name": "Peak Demand Reactive Power Qm",
+    "desc": "Peak Demand Reactive Power Qm",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 566,
+    "type": "HR",
+    "name": "Active Power P Phase 1",
+    "desc": "Active Power P Phase 1",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 568,
+    "type": "HR",
+    "name": "Active Power P Phase 2",
+    "desc": "Active Power P Phase 2",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 570,
+    "type": "HR",
+    "name": "Active Power P Phase 3",
+    "desc": "Active Power P Phase 3",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 572,
+    "type": "HR",
+    "name": "Reactive Power Q Phase 1",
+    "desc": "Reactive Power Q Phase 1",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 574,
+    "type": "HR",
+    "name": "Reactive Power Q Phase 2",
+    "desc": "Reactive Power Q Phase 2",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 576,
+    "type": "HR",
+    "name": "Reactive Power Q Phase 3",
+    "desc": "Reactive Power Q Phase 3",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 578,
+    "type": "HR",
+    "name": "Apparent Power S Phase 1",
+    "desc": "Apparent Power S Phase 1",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 580,
+    "type": "HR",
+    "name": "Apparent Power S Phase 2",
+    "desc": "Apparent Power S Phase 2",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 582,
+    "type": "HR",
+    "name": "Apparent Power S Phase 3",
+    "desc": "Apparent Power S Phase 3",
+    "unit": "kVA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 584,
+    "type": "HR",
+    "name": "Positive Active Energy Ea+",
+    "desc": "Positive Active Energy Ea+",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 586,
+    "type": "HR",
+    "name": "Negative Active Energy Ea",
+    "desc": "Negative Active Energy Ea",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 588,
+    "type": "HR",
+    "name": "Positive Reactive Energy Er+",
+    "desc": "Positive Reactive Energy Er+",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 590,
+    "type": "HR",
+    "name": "Negative Reactive Energy Er",
+    "desc": "Negative Reactive Energy Er",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 592,
+    "type": "HR",
+    "name": "Ext. Positive Active Energy Ea+",
+    "desc": "Ext. Positive Active Energy Ea+",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 594,
+    "type": "HR",
+    "name": "Ext. Negative Active Energy Ea",
+    "desc": "Ext. Negative Active Energy Ea",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 596,
+    "type": "HR",
+    "name": "Ext. Positive Reactive Energy Ea+",
+    "desc": "Ext. Positive Reactive Energy Ea+",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 598,
+    "type": "HR",
+    "name": "Ext. Negative Reactive Energy Ea",
+    "desc": "Ext. Negative Reactive Energy Ea",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 600,
+    "type": "HR",
+    "name": "Neutral Point Voltage Vnt",
+    "desc": "Neutral Point Voltage Vnt",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 602,
+    "type": "HR",
+    "name": "H3 Neutral Point Voltage V3Nt",
+    "desc": "H3 Neutral Point Voltage V3Nt",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 604,
+    "type": "HR",
+    "name": "H3 Residual Voltage V3R",
+    "desc": "H3 Residual Voltage V3R",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 606,
+    "type": "HR",
+    "name": "Phase Current I 1",
+    "desc": "Phase Current I 1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 608,
+    "type": "HR",
+    "name": "Phase Current I 2",
+    "desc": "Phase Current I 2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 610,
+    "type": "HR",
+    "name": "Phase Current I 3",
+    "desc": "Phase Current I 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

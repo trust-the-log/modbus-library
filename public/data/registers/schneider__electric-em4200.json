@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Total Instantaneous Real Power (3 Phase Total)",
+    "desc": "Total Instantaneous Real Power (3 Phase Total)",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Total Instantaneous Reactive Power (3 Phase Total)",
+    "desc": "Total Instantaneous Reactive Power (3 Phase Total)",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Total Instantaneous Apparent Power (3 Phase Total)",
+    "desc": "Total Instantaneous Apparent Power (3 Phase Total)",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Total Power Factor (Total Kw / Total Kva)",
+    "desc": "Total Power Factor (Total Kw / Total Kva)",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Voltage, Line To Line, Average Of Phases",
+    "desc": "Voltage, Line To Line, Average Of Phases",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Voltage, Line To Neutral, Average Of Phases",
+    "desc": "Voltage, Line To Neutral, Average Of Phases",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Current, Average Of Phases",
+    "desc": "Current, Average Of Phases",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Real Power, L1",
+    "desc": "Real Power, L1",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Real Power, L2",
+    "desc": "Real Power, L2",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Real Power, L3",
+    "desc": "Real Power, L3",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Power Factor, L2",
+    "desc": "Power Factor, L2",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Power Factor, L3",
+    "desc": "Power Factor, L3",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Voltage, L1 L2",
+    "desc": "Voltage, L1 L2",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Voltage, L2 L3",
+    "desc": "Voltage, L2 L3",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Voltage, L3 L1",
+    "desc": "Voltage, L3 L1",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Voltage, L1 N",
+    "desc": "Voltage, L1 N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Voltage, L2 N",
+    "desc": "Voltage, L2 N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Voltage, L3 N",
+    "desc": "Voltage, L3 N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Current, Instantaneous, L1",
+    "desc": "Current, Instantaneous, L1",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Current, Instantaneous, L2",
+    "desc": "Current, Instantaneous, L2",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Current, Instantaneous, L3",
+    "desc": "Current, Instantaneous, L3",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Present Demand Sub Interval",
+    "desc": "Present Demand Sub Interval",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Minimum Demand",
+    "desc": "Minimum Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Maximum Demand",
+    "desc": "Maximum Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Present Demand",
+    "desc": "Present Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Peak Demand",
+    "desc": "Peak Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Ct Size (100, 300, Etc.)",
+    "desc": "Ct Size (100, 300, Etc.)",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Count Of Kwh Resets",
+    "desc": "Count Of Kwh Resets",
+    "unit": "Count",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Count Of Peak Demand Resets",
+    "desc": "Count Of Peak Demand Resets",
+    "unit": "Count",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Count Of Sub Intervals",
+    "desc": "Count Of Sub Intervals",
+    "unit": "Count",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Count Of Number Readings In Present Sub Interval",
+    "desc": "Count Of Number Readings In Present Sub Interval",
+    "unit": "Count",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "System Type: See Manual",
+    "desc": "System Type: See Manual",
+    "unit": "integer",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Sub Interval Length: Sets The Length Of A Sub Inte",
+    "desc": "Sub Interval Length: Sets The Length Of A Sub Interval. Value Is The Number Of S",
+    "unit": "integer",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Number Of Sub Intervals Per Demand Interval. Sets ",
+    "desc": "Number Of Sub Intervals Per Demand Interval. Sets The Number Of Sub Intervals Th",
+    "unit": "integer",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Command",
+    "desc": "Command",
+    "unit": "bit map",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Real Energy Consumption",
+    "desc": "Real Energy Consumption",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Real Energy Consumption (Redundant)",
+    "desc": "Real Energy Consumption (Redundant)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Total Instantaneous Real Power",
+    "desc": "Total Instantaneous Real Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Total Instantaneous Reactive Power",
+    "desc": "Total Instantaneous Reactive Power",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Total Instantaneous Apparent Power",
+    "desc": "Total Instantaneous Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Total Power Factor (Total Kw / Total Kva)",
+    "desc": "Total Power Factor (Total Kw / Total Kva)",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Voltage, Line To Line, Average Of 3 Phases",
+    "desc": "Voltage, Line To Line, Average Of 3 Phases",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "Voltage, Line To Neutral, Average Of 3 Phases",
+    "desc": "Voltage, Line To Neutral, Average Of 3 Phases",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Current, Average Of 3 Phases",
+    "desc": "Current, Average Of 3 Phases",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Real Power, L1",
+    "desc": "Real Power, L1",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Real Power, L2",
+    "desc": "Real Power, L2",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Real Power, L3",
+    "desc": "Real Power, L3",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Power Factor, L1",
+    "desc": "Power Factor, L1",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Power Factor, L2",
+    "desc": "Power Factor, L2",
+    "unit": "Ratio",
+    "dataType": "float",
+    "access": "R"
+  }
+]

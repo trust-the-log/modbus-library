@@ -1,0 +1,722 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Initialize Meter",
+    "desc": "Initialize Meter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Clear Energy (Var Hour)",
+    "desc": "Clear Energy (Var Hour)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Clear Meter Errors",
+    "desc": "Clear Meter Errors",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Firmware Revision",
+    "desc": "Firmware Revision",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Coc Software Revision",
+    "desc": "Coc Software Revision",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "Hour",
+    "desc": "Hour",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3001,
+    "type": "HR",
+    "name": "Minute",
+    "desc": "Minute",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3002,
+    "type": "HR",
+    "name": "Seconds",
+    "desc": "Seconds",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3003,
+    "type": "HR",
+    "name": "Password",
+    "desc": "Password",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3005,
+    "type": "HR",
+    "name": "Pulse Value Interval Time For Pulse Kyz Output 1",
+    "desc": "Pulse Value Interval Time For Pulse Kyz Output 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3007,
+    "type": "HR",
+    "name": "Pulse Value Interval Time For Pulse Kyz Output 2",
+    "desc": "Pulse Value Interval Time For Pulse Kyz Output 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3009,
+    "type": "HR",
+    "name": "Pulse Units For Kyz Output 1",
+    "desc": "Pulse Units For Kyz Output 1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3010,
+    "type": "HR",
+    "name": "Pulse Units For Kyz Output 2",
+    "desc": "Pulse Units For Kyz Output 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3011,
+    "type": "HR",
+    "name": "Programming Flags",
+    "desc": "Programming Flags",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3013,
+    "type": "HR",
+    "name": "Demand Interval Length (In Minutes)",
+    "desc": "Demand Interval Length (In Minutes)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3014,
+    "type": "HR",
+    "name": "Number Of Sub Intervals",
+    "desc": "Number Of Sub Intervals",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3015,
+    "type": "HR",
+    "name": "Display Scroll Time",
+    "desc": "Display Scroll Time",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3016,
+    "type": "HR",
+    "name": "Meter Configuration",
+    "desc": "Meter Configuration",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3017,
+    "type": "HR",
+    "name": "Potential Transformer Ratio",
+    "desc": "Potential Transformer Ratio",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3019,
+    "type": "HR",
+    "name": "Current Transformer Ratio",
+    "desc": "Current Transformer Ratio",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3021,
+    "type": "HR",
+    "name": "Energy Display Format",
+    "desc": "Energy Display Format",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3022,
+    "type": "HR",
+    "name": "Demand Display Format",
+    "desc": "Demand Display Format",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3023,
+    "type": "HR",
+    "name": "Voltage Display Format",
+    "desc": "Voltage Display Format",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3024,
+    "type": "HR",
+    "name": "Amps Display Format",
+    "desc": "Amps Display Format",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3025,
+    "type": "HR",
+    "name": "Energy Display Scale (Kwh, Mwh)",
+    "desc": "Energy Display Scale (Kwh, Mwh)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3026,
+    "type": "HR",
+    "name": "Demand Display Scale (W, Kw, Mw)",
+    "desc": "Demand Display Scale (W, Kw, Mw)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3027,
+    "type": "HR",
+    "name": "Voltage Display Scale (V, Kv)",
+    "desc": "Voltage Display Scale (V, Kv)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3028,
+    "type": "HR",
+    "name": "Amps Display Scale (A, Ka)",
+    "desc": "Amps Display Scale (A, Ka)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3029,
+    "type": "HR",
+    "name": "Local Faceplate Password",
+    "desc": "Local Faceplate Password",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Number Of Pending Event Messages",
+    "desc": "Number Of Pending Event Messages",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Kva Max, Total Of All Phases",
+    "desc": "Kva Max, Total Of All Phases",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Kw Max, Total Of All Phases",
+    "desc": "Kw Max, Total Of All Phases",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Kvar Lag Max, Total Of All Phases",
+    "desc": "Kvar Lag Max, Total Of All Phases",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Kvar Lead Max, Total Of All Phases",
+    "desc": "Kvar Lead Max, Total Of All Phases",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Current Max Phase A",
+    "desc": "Current Max Phase A",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Current Max Phase B",
+    "desc": "Current Max Phase B",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Current Max Phase C",
+    "desc": "Current Max Phase C",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Kvarh Lag, Total Of All Phases",
+    "desc": "Kvarh Lag, Total Of All Phases",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Kvarh Lead, Total Of All Phases",
+    "desc": "Kvarh Lead, Total Of All Phases",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Kwh, Total Of All Phases",
+    "desc": "Kwh, Total Of All Phases",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Kqh, Total Of All Phases",
+    "desc": "Kqh, Total Of All Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Kvah, Total Of All Phases",
+    "desc": "Kvah, Total Of All Phases",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Average Power Factor Since Last Reset, All Phases",
+    "desc": "Average Power Factor Since Last Reset, All Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Power Factor, Total Of All Phases, At Maximum Kva",
+    "desc": "Power Factor, Total Of All Phases, At Maximum Kva",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Apparent Power Demand (Kva), Total Of All Phases",
+    "desc": "Apparent Power Demand (Kva), Total Of All Phases",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Real Power Demand (Kw) Total Of All Phases",
+    "desc": "Real Power Demand (Kw) Total Of All Phases",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Reactive Power Demand (Kvar Lag), Total Of All Pha",
+    "desc": "Reactive Power Demand (Kvar Lag), Total Of All Phases",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Reactive Power Demand (Kvar Lead), Total Of All Ph",
+    "desc": "Reactive Power Demand (Kvar Lead), Total Of All Phases",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Current Demand, Phase A",
+    "desc": "Current Demand, Phase A",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Current Demand, Phase B",
+    "desc": "Current Demand, Phase B",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Current Demand, Phase C",
+    "desc": "Current Demand, Phase C",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Power Factor, All Phases (Over Last Demand Interva",
+    "desc": "Power Factor, All Phases (Over Last Demand Interval)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Real Power (Kw), Phase A",
+    "desc": "Real Power (Kw), Phase A",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Real Power (Kw), Phase B",
+    "desc": "Real Power (Kw), Phase B",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Real Power (Kw), Phase C",
+    "desc": "Real Power (Kw), Phase C",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Reactive Power (Kvar), Phase A",
+    "desc": "Reactive Power (Kvar), Phase A",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Reactive Power (Kvar), Phase B",
+    "desc": "Reactive Power (Kvar), Phase B",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Reactive Power (Kvar), Phase C",
+    "desc": "Reactive Power (Kvar), Phase C",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Apparent Power (Kva), Phase A",
+    "desc": "Apparent Power (Kva), Phase A",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Apparent Power (Kva), Phase B",
+    "desc": "Apparent Power (Kva), Phase B",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Apparent Power (Kva), Phase C",
+    "desc": "Apparent Power (Kva), Phase C",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Power Factor, Phase A",
+    "desc": "Power Factor, Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Power Factor, Phase B",
+    "desc": "Power Factor, Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1068,
+    "type": "HR",
+    "name": "Power Factor, Phase C",
+    "desc": "Power Factor, Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1070,
+    "type": "HR",
+    "name": "Apparent Power (Kva), Total Of All Phases",
+    "desc": "Apparent Power (Kva), Total Of All Phases",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1072,
+    "type": "HR",
+    "name": "Real Power (Kw), Total Of All Phases",
+    "desc": "Real Power (Kw), Total Of All Phases",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1074,
+    "type": "HR",
+    "name": "Reactive Power (Kvar), Total Of All Phases",
+    "desc": "Reactive Power (Kvar), Total Of All Phases",
+    "unit": "kVAR",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1076,
+    "type": "HR",
+    "name": "L N Voltage, Phase A N",
+    "desc": "L N Voltage, Phase A N",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1078,
+    "type": "HR",
+    "name": "L N Voltage, Phase B N",
+    "desc": "L N Voltage, Phase B N",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1080,
+    "type": "HR",
+    "name": "L N Voltage, Phase C N",
+    "desc": "L N Voltage, Phase C N",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1082,
+    "type": "HR",
+    "name": "L L Voltage, Phase A B",
+    "desc": "L L Voltage, Phase A B",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1084,
+    "type": "HR",
+    "name": "L L Voltage, Phase B C",
+    "desc": "L L Voltage, Phase B C",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1086,
+    "type": "HR",
+    "name": "L L Voltage, Phase C A",
+    "desc": "L L Voltage, Phase C A",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1088,
+    "type": "HR",
+    "name": "Total Power Factor Of All Phases",
+    "desc": "Total Power Factor Of All Phases",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1090,
+    "type": "HR",
+    "name": "Real Power (Kw), Total Of All Phases At Maximum Kv",
+    "desc": "Real Power (Kw), Total Of All Phases At Maximum Kva",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1092,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "Current, Phase A",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1094,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "Current, Phase B",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1096,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "Current, Phase C",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1098,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  }
+]

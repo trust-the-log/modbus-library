@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4096,
+    "type": "HR",
+    "name": "Ph 1 N Voltage",
+    "desc": "Ph 1 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Ph 2 N Voltage",
+    "desc": "Ph 2 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Ph 3 N Voltage",
+    "desc": "Ph 3 N Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "L 1 2 Voltage",
+    "desc": "L 1 2 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "L 2 3 Voltage",
+    "desc": "L 2 3 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "L 3 1 Voltage",
+    "desc": "L 3 1 Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "System Voltage",
+    "desc": "System Voltage",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Ph1 Current",
+    "desc": "Ph1 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Ph2 Current",
+    "desc": "Ph2 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4114,
+    "type": "HR",
+    "name": "Ph3 Current",
+    "desc": "Ph3 Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4116,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4118,
+    "type": "HR",
+    "name": "System Current",
+    "desc": "System Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4120,
+    "type": "HR",
+    "name": "Ph1 Power Factor",
+    "desc": "Ph1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4122,
+    "type": "HR",
+    "name": "Ph2 Power Factor",
+    "desc": "Ph2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4124,
+    "type": "HR",
+    "name": "Ph3 Power Factor",
+    "desc": "Ph3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4126,
+    "type": "HR",
+    "name": "Sys Power Factor",
+    "desc": "Sys Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4128,
+    "type": "HR",
+    "name": "Ph1 Active Power",
+    "desc": "Ph1 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4130,
+    "type": "HR",
+    "name": "Ph2 Active Power",
+    "desc": "Ph2 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4132,
+    "type": "HR",
+    "name": "Ph3 Active Power",
+    "desc": "Ph3 Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4134,
+    "type": "HR",
+    "name": "Sys Active Power",
+    "desc": "Sys Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4136,
+    "type": "HR",
+    "name": "Ph1 Appare Nt Power",
+    "desc": "Ph1 Appare Nt Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4138,
+    "type": "HR",
+    "name": "Ph2 Apparent Power",
+    "desc": "Ph2 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4140,
+    "type": "HR",
+    "name": "Ph3 Apparent Power",
+    "desc": "Ph3 Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4142,
+    "type": "HR",
+    "name": "Sys Apparent Power",
+    "desc": "Sys Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4144,
+    "type": "HR",
+    "name": "Ph1 Reactive Power",
+    "desc": "Ph1 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4146,
+    "type": "HR",
+    "name": "Ph2 Reactive Power",
+    "desc": "Ph2 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4148,
+    "type": "HR",
+    "name": "Ph3 Reactive Power",
+    "desc": "Ph3 Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4150,
+    "type": "HR",
+    "name": "Sys Reactive Power",
+    "desc": "Sys Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4152,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4154,
+    "type": "HR",
+    "name": "Phase Seque Nce",
+    "desc": "Phase Seque Nce",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4352,
+    "type": "HR",
+    "name": "Ph1 Imp. Active En",
+    "desc": "Ph1 Imp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4354,
+    "type": "HR",
+    "name": "Ph2 Imp. Active En",
+    "desc": "Ph2 Imp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4356,
+    "type": "HR",
+    "name": "Ph3 Imp. Active En",
+    "desc": "Ph3 Imp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4358,
+    "type": "HR",
+    "name": "Sys Imp. Active En",
+    "desc": "Sys Imp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4360,
+    "type": "HR",
+    "name": "Ph1 Exp. Active En",
+    "desc": "Ph1 Exp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4362,
+    "type": "HR",
+    "name": "Ph2 Exp. Active En",
+    "desc": "Ph2 Exp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4364,
+    "type": "HR",
+    "name": "Ph3 Exp. Active En",
+    "desc": "Ph3 Exp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4366,
+    "type": "HR",
+    "name": "Sys Exp. Active En",
+    "desc": "Sys Exp. Active En",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4368,
+    "type": "HR",
+    "name": "Ph1 Imp. Lag. Apparent En",
+    "desc": "Ph1 Imp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4370,
+    "type": "HR",
+    "name": "Ph2 Imp. Lag. Apparent En",
+    "desc": "Ph2 Imp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4372,
+    "type": "HR",
+    "name": "Ph3 Imp. Lag. Apparent En",
+    "desc": "Ph3 Imp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4374,
+    "type": "HR",
+    "name": "Sys Imp. Lag. Apparent En",
+    "desc": "Sys Imp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4376,
+    "type": "HR",
+    "name": "Ph1 Exp. Lag. Apparent En",
+    "desc": "Ph1 Exp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4378,
+    "type": "HR",
+    "name": "Ph2 Exp. Lag. Apparent En",
+    "desc": "Ph2 Exp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4380,
+    "type": "HR",
+    "name": "Ph3 Exp. Lag. Apparent En",
+    "desc": "Ph3 Exp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4382,
+    "type": "HR",
+    "name": "Sys Exp. Lag. Apparent En",
+    "desc": "Sys Exp. Lag. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4384,
+    "type": "HR",
+    "name": "Ph1 Imp. Lead. Apparent En",
+    "desc": "Ph1 Imp. Lead. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4386,
+    "type": "HR",
+    "name": "Ph2 Imp. Lead. Apparent En",
+    "desc": "Ph2 Imp. Lead. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4388,
+    "type": "HR",
+    "name": "Ph3 Imp. Lead. Apparent En",
+    "desc": "Ph3 Imp. Lead. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4390,
+    "type": "HR",
+    "name": "Sys Imp. Lead. Apparent En",
+    "desc": "Sys Imp. Lead. Apparent En",
+    "unit": "VAh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

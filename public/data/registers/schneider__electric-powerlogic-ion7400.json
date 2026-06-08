@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Meter Name",
+    "desc": "Meter Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Meter Model",
+    "desc": "Meter Model",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1717,
+    "type": "HR",
+    "name": "Current Version",
+    "desc": "Current Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1837,
+    "type": "HR",
+    "name": "Year",
+    "desc": "Year",
+    "unit": "year",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1838,
+    "type": "HR",
+    "name": "Month",
+    "desc": "Month",
+    "unit": "month",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1839,
+    "type": "HR",
+    "name": "Day",
+    "desc": "Day",
+    "unit": "days",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1840,
+    "type": "HR",
+    "name": "Hour",
+    "desc": "Hour",
+    "unit": "hours",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1841,
+    "type": "HR",
+    "name": "Minute",
+    "desc": "Minute",
+    "unit": "minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1842,
+    "type": "HR",
+    "name": "Second",
+    "desc": "Second",
+    "unit": "seconds",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1844,
+    "type": "HR",
+    "name": "Day Of Week",
+    "desc": "Day Of Week",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2400,
+    "type": "HR",
+    "name": "Digital Input Status Validity Base Unit",
+    "desc": "Digital Input Status Validity Base Unit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2402,
+    "type": "HR",
+    "name": "Digital Output Status Validity Base Unit",
+    "desc": "Digital Output Status Validity Base Unit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2420,
+    "type": "HR",
+    "name": "Setpoint Status Validity",
+    "desc": "Setpoint Status Validity",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2550,
+    "type": "HR",
+    "name": "Digital Input Status Validity Option Slot A",
+    "desc": "Digital Input Status Validity Option Slot A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2552,
+    "type": "HR",
+    "name": "Digital Input Status Validity Option Slot B",
+    "desc": "Digital Input Status Validity Option Slot B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2554,
+    "type": "HR",
+    "name": "Digital Input Status Validity Option Slot C",
+    "desc": "Digital Input Status Validity Option Slot C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2556,
+    "type": "HR",
+    "name": "Digital Input Status Validity Option Slot D",
+    "desc": "Digital Input Status Validity Option Slot D",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2566,
+    "type": "HR",
+    "name": "Digital Output Status Validity Option Slot A",
+    "desc": "Digital Output Status Validity Option Slot A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2568,
+    "type": "HR",
+    "name": "Digital Output Status Validity Option Slot B",
+    "desc": "Digital Output Status Validity Option Slot B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2570,
+    "type": "HR",
+    "name": "Digital Output Status Validity Option Slot C",
+    "desc": "Digital Output Status Validity Option Slot C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2572,
+    "type": "HR",
+    "name": "Digital Output Status Validity Option Slot D",
+    "desc": "Digital Output Status Validity Option Slot D",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2700,
+    "type": "HR",
+    "name": "Active Energy Delivered (Into Load)",
+    "desc": "Active Energy Delivered (Into Load)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2702,
+    "type": "HR",
+    "name": "Active Energy Received (Out Of Load)",
+    "desc": "Active Energy Received (Out Of Load)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2704,
+    "type": "HR",
+    "name": "Active Energy Delivered + Received",
+    "desc": "Active Energy Delivered + Received",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2706,
+    "type": "HR",
+    "name": "Active Energy Delivered Received",
+    "desc": "Active Energy Delivered Received",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2708,
+    "type": "HR",
+    "name": "Reactive Energy Delivered",
+    "desc": "Reactive Energy Delivered",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2710,
+    "type": "HR",
+    "name": "Reactive Energy Received",
+    "desc": "Reactive Energy Received",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2712,
+    "type": "HR",
+    "name": "Reactive Energy Delivered + Received",
+    "desc": "Reactive Energy Delivered + Received",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2714,
+    "type": "HR",
+    "name": "Reactive Energy Delivered Received",
+    "desc": "Reactive Energy Delivered Received",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2716,
+    "type": "HR",
+    "name": "Apparent Energy Delivered",
+    "desc": "Apparent Energy Delivered",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2718,
+    "type": "HR",
+    "name": "Apparent Energy Received",
+    "desc": "Apparent Energy Received",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2720,
+    "type": "HR",
+    "name": "Apparent Energy Delivered + Received",
+    "desc": "Apparent Energy Delivered + Received",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2722,
+    "type": "HR",
+    "name": "Apparent Energy Delivered Received",
+    "desc": "Apparent Energy Delivered Received",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2724,
+    "type": "HR",
+    "name": "Active Energy In Quadrant I",
+    "desc": "Active Energy In Quadrant I",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2726,
+    "type": "HR",
+    "name": "Active Energy In Quadrant Ii",
+    "desc": "Active Energy In Quadrant Ii",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2728,
+    "type": "HR",
+    "name": "Active Energy In Quadrant Iii",
+    "desc": "Active Energy In Quadrant Iii",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2730,
+    "type": "HR",
+    "name": "Active Energy In Quadrant Iv",
+    "desc": "Active Energy In Quadrant Iv",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2732,
+    "type": "HR",
+    "name": "Reactive Energy In Quadrant I",
+    "desc": "Reactive Energy In Quadrant I",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2734,
+    "type": "HR",
+    "name": "Reactive Energy In Quadrant Ii",
+    "desc": "Reactive Energy In Quadrant Ii",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2736,
+    "type": "HR",
+    "name": "Reactive Energy In Quadrant Iii",
+    "desc": "Reactive Energy In Quadrant Iii",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2738,
+    "type": "HR",
+    "name": "Reactive Energy In Quadrant Iv",
+    "desc": "Reactive Energy In Quadrant Iv",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2740,
+    "type": "HR",
+    "name": "Apparent Energy In Quadrant I",
+    "desc": "Apparent Energy In Quadrant I",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2742,
+    "type": "HR",
+    "name": "Apparent Energy In Quadrant Ii",
+    "desc": "Apparent Energy In Quadrant Ii",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2744,
+    "type": "HR",
+    "name": "Apparent Energy In Quadrant Iii",
+    "desc": "Apparent Energy In Quadrant Iii",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2746,
+    "type": "HR",
+    "name": "Apparent Energy In Quadrant Iv",
+    "desc": "Apparent Energy In Quadrant Iv",
+    "unit": "kVAh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2748,
+    "type": "HR",
+    "name": "Conditional Active Energy Delivered (Into Load)",
+    "desc": "Conditional Active Energy Delivered (Into Load)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2750,
+    "type": "HR",
+    "name": "Conditional Active Energy Received (Out Of Load)",
+    "desc": "Conditional Active Energy Received (Out Of Load)",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2754,
+    "type": "HR",
+    "name": "Active Energy Delivered Received, Conditional",
+    "desc": "Active Energy Delivered Received, Conditional",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2756,
+    "type": "HR",
+    "name": "Conditional Reactive Energy In (Delivered)",
+    "desc": "Conditional Reactive Energy In (Delivered)",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2758,
+    "type": "HR",
+    "name": "Conditional Reactive Energy Out (Received)",
+    "desc": "Conditional Reactive Energy Out (Received)",
+    "unit": "kVARh",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Number Of Strings",
+    "desc": "Number Of Strings",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 73,
+    "type": "HR",
+    "name": "Rated Power",
+    "desc": "Rated Power",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Maximum Active Power",
+    "desc": "Maximum Active Power",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 77,
+    "type": "HR",
+    "name": "Maximum Apparent Power",
+    "desc": "Maximum Apparent Power",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 79,
+    "type": "HR",
+    "name": "Maximum Reactive Power To Grid",
+    "desc": "Maximum Reactive Power To Grid",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 81,
+    "type": "HR",
+    "name": "Maximum Reactive Power From Grid",
+    "desc": "Maximum Reactive Power From Grid",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2088,
+    "type": "HR",
+    "name": "Insulation Resistance",
+    "desc": "Insulation Resistance",
+    "unit": "MOhm",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2091,
+    "type": "HR",
+    "name": "Startup Time",
+    "desc": "Startup Time",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2093,
+    "type": "HR",
+    "name": "Shutdown Time",
+    "desc": "Shutdown Time",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10000,
+    "type": "HR",
+    "name": "Current Time",
+    "desc": "Current Time",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2110,
+    "type": "HR",
+    "name": "Some Time 1",
+    "desc": "Some Time 1",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2156,
+    "type": "HR",
+    "name": "Some Time 2",
+    "desc": "Some Time 2",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2160,
+    "type": "HR",
+    "name": "Some Time 3",
+    "desc": "Some Time 3",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 5113,
+    "type": "HR",
+    "name": "Some Time 4",
+    "desc": "Some Time 4",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10500,
+    "type": "HR",
+    "name": "Some Time 5",
+    "desc": "Some Time 5",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Status 1",
+    "desc": "Status 1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Status 2",
+    "desc": "Status 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2003,
+    "type": "HR",
+    "name": "Status 3",
+    "desc": "Status 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "Alarm 1",
+    "desc": "Alarm 1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2009,
+    "type": "HR",
+    "name": "Alarm 2",
+    "desc": "Alarm 2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2010,
+    "type": "HR",
+    "name": "Alarm 3",
+    "desc": "Alarm 3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2089,
+    "type": "HR",
+    "name": "Device Status",
+    "desc": "Device Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2090,
+    "type": "HR",
+    "name": "Fault Code",
+    "desc": "Fault Code",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Pvn Voltage",
+    "desc": "Pvn Voltage",
+    "unit": "V",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Pvn Current",
+    "desc": "Pvn Current",
+    "unit": "A",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2064,
+    "type": "HR",
+    "name": "Input Power",
+    "desc": "Input Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2066,
+    "type": "HR",
+    "name": "Line Voltage A B",
+    "desc": "Line Voltage A B",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2067,
+    "type": "HR",
+    "name": "Line Voltage B C",
+    "desc": "Line Voltage B C",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2068,
+    "type": "HR",
+    "name": "Line Voltage C A",
+    "desc": "Line Voltage C A",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2069,
+    "type": "HR",
+    "name": "Phase Voltage A",
+    "desc": "Phase Voltage A",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2070,
+    "type": "HR",
+    "name": "Phase Voltage B",
+    "desc": "Phase Voltage B",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2071,
+    "type": "HR",
+    "name": "Phase Voltage C",
+    "desc": "Phase Voltage C",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2072,
+    "type": "HR",
+    "name": "Phase Current A",
+    "desc": "Phase Current A",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2074,
+    "type": "HR",
+    "name": "Phase Current B",
+    "desc": "Phase Current B",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2076,
+    "type": "HR",
+    "name": "Phase Current C",
+    "desc": "Phase Current C",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2078,
+    "type": "HR",
+    "name": "Peak Power",
+    "desc": "Peak Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2080,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2082,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "kVar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2084,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2085,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2086,
+    "type": "HR",
+    "name": "Efficiency",
+    "desc": "Efficiency",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2087,
+    "type": "HR",
+    "name": "Internal Temperature",
+    "desc": "Internal Temperature",
+    "unit": "DC",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 2106,
+    "type": "HR",
+    "name": "Accumulated Energy Yield",
+    "desc": "Accumulated Energy Yield",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2114,
+    "type": "HR",
+    "name": "Daily Energy Yield",
+    "desc": "Daily Energy Yield",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 7100,
+    "type": "HR",
+    "name": "Meter Status",
+    "desc": "Meter Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7138,
+    "type": "HR",
+    "name": "Meter Detection Result",
+    "desc": "Meter Detection Result",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7125,
+    "type": "HR",
+    "name": "Meter Type",
+    "desc": "Meter Type",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7113,
+    "type": "HR",
+    "name": "Active Grid Power",
+    "desc": "Active Grid Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 7115,
+    "type": "HR",
+    "name": "Active Grid Reactive Power",
+    "desc": "Active Grid Reactive Power",
+    "unit": "VAR",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

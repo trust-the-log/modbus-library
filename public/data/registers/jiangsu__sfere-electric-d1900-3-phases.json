@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Active Energy Of This Month [Total/Tip/Peak/Level/",
+    "desc": "Active Energy Of This Month [Total/Tip/Peak/Level/Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Active Energy Of Last Month [Total/Tip/Peak/Level/",
+    "desc": "Active Energy Of Last Month [Total/Tip/Peak/Level/Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Active Energy Of The Month Before Last [Total/Tip/",
+    "desc": "Active Energy Of The Month Before Last [Total/Tip/Peak/Level/Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Phase A Voltage",
+    "desc": "Phase A Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Phase B Voltage",
+    "desc": "Phase B Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Phase C Voltage",
+    "desc": "Phase C Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Ab Line Voltage",
+    "desc": "Ab Line Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Bc Line Voltage",
+    "desc": "Bc Line Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Ca Line Voltage",
+    "desc": "Ca Line Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 519,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 521,
+    "type": "HR",
+    "name": "Phase A Active Power",
+    "desc": "Phase A Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 522,
+    "type": "HR",
+    "name": "Phase B Active Power",
+    "desc": "Phase B Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 523,
+    "type": "HR",
+    "name": "Phase C Active Power",
+    "desc": "Phase C Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 525,
+    "type": "HR",
+    "name": "Phase A Reactive Power",
+    "desc": "Phase A Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "Phase B Reactive Power",
+    "desc": "Phase B Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 527,
+    "type": "HR",
+    "name": "Phase C Reactive Power",
+    "desc": "Phase C Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 529,
+    "type": "HR",
+    "name": "Phase A Apparent Power",
+    "desc": "Phase A Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 530,
+    "type": "HR",
+    "name": "Phase B Apparent Power",
+    "desc": "Phase B Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 531,
+    "type": "HR",
+    "name": "Phase C Apparent Power",
+    "desc": "Phase C Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 532,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 533,
+    "type": "HR",
+    "name": "Phase A Power Factor",
+    "desc": "Phase A Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 534,
+    "type": "HR",
+    "name": "Phase B Power Factor",
+    "desc": "Phase B Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 535,
+    "type": "HR",
+    "name": "Phase C Power Factor",
+    "desc": "Phase C Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 536,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 537,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 538,
+    "type": "HR",
+    "name": "Phase A (Ab Line) Voltage Thd",
+    "desc": "Phase A (Ab Line) Voltage Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 539,
+    "type": "HR",
+    "name": "Phase B Voltage Thd",
+    "desc": "Phase B Voltage Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 540,
+    "type": "HR",
+    "name": "Phase C (Cb Line) Voltage Thd",
+    "desc": "Phase C (Cb Line) Voltage Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 541,
+    "type": "HR",
+    "name": "Phase A Current Thd",
+    "desc": "Phase A Current Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 542,
+    "type": "HR",
+    "name": "Phase B Current Thd",
+    "desc": "Phase B Current Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 543,
+    "type": "HR",
+    "name": "Phase C Current Thd",
+    "desc": "Phase C Current Thd",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 544,
+    "type": "HR",
+    "name": "Phase A (Ab Line) Voltage Harmonic Content",
+    "desc": "Phase A (Ab Line) Voltage Harmonic Content",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 545,
+    "type": "HR",
+    "name": "Phase B Voltage Harmonic Content",
+    "desc": "Phase B Voltage Harmonic Content",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 546,
+    "type": "HR",
+    "name": "Phase C (Cb Line) Voltage Harmonic Content",
+    "desc": "Phase C (Cb Line) Voltage Harmonic Content",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 547,
+    "type": "HR",
+    "name": "Phase A Current Harmonic Content",
+    "desc": "Phase A Current Harmonic Content",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 548,
+    "type": "HR",
+    "name": "Phase B Current Harmonic Content",
+    "desc": "Phase B Current Harmonic Content",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 549,
+    "type": "HR",
+    "name": "Phase C Current Harmonic Content",
+    "desc": "Phase C Current Harmonic Content",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1536,
+    "type": "HR",
+    "name": "Max. Phase Voltage Value",
+    "desc": "Max. Phase Voltage Value",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1537,
+    "type": "HR",
+    "name": "Max. Line Voltage Value",
+    "desc": "Max. Line Voltage Value",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1538,
+    "type": "HR",
+    "name": "Max. Current Value",
+    "desc": "Max. Current Value",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1539,
+    "type": "HR",
+    "name": "Max. Active Power Value",
+    "desc": "Max. Active Power Value",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1540,
+    "type": "HR",
+    "name": "Max. Reactive Power Value",
+    "desc": "Max. Reactive Power Value",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1541,
+    "type": "HR",
+    "name": "Max. Apparent Power Value",
+    "desc": "Max. Apparent Power Value",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1542,
+    "type": "HR",
+    "name": "Max. Active Power Demand Value",
+    "desc": "Max. Active Power Demand Value",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1543,
+    "type": "HR",
+    "name": "Max. Reactive Power Demand Value",
+    "desc": "Max. Reactive Power Demand Value",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1544,
+    "type": "HR",
+    "name": "Max. Apparent Power Demand Value",
+    "desc": "Max. Apparent Power Demand Value",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

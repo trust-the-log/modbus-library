@@ -1,0 +1,443 @@
+[
+  {
+    "addr": 4112,
+    "type": "HR",
+    "name": "Speed",
+    "desc": "Speed",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4115,
+    "type": "HR",
+    "name": "Modbus Address",
+    "desc": "Modbus Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Device Type",
+    "desc": "Device Type",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Firmware Version",
+    "desc": "Firmware Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Range Overflow Alarm",
+    "desc": "Range Overflow Alarm",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Running Tariff",
+    "desc": "Running Tariff",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Pid",
+    "desc": "Pid",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4105,
+    "type": "HR",
+    "name": "Pid Bytes 3 And 4",
+    "desc": "Pid Bytes 3 And 4",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Pid Bytes 5 And 6",
+    "desc": "Pid Bytes 5 And 6",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4107,
+    "type": "HR",
+    "name": "Pid Bytes 7 And 8",
+    "desc": "Pid Bytes 7 And 8",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4108,
+    "type": "HR",
+    "name": "Pid Bytes 9 And 10",
+    "desc": "Pid Bytes 9 And 10",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4109,
+    "type": "HR",
+    "name": "Pid Bytes 11 And 12",
+    "desc": "Pid Bytes 11 And 12",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4110,
+    "type": "HR",
+    "name": "Pid Bytes 13 And 14",
+    "desc": "Pid Bytes 13 And 14",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4119,
+    "type": "HR",
+    "name": "Active Energy 1St Phase T1, Imp",
+    "desc": "Active Energy 1St Phase T1, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4123,
+    "type": "HR",
+    "name": "Active Energy 2Nd Phase T1, Imp",
+    "desc": "Active Energy 2Nd Phase T1, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4127,
+    "type": "HR",
+    "name": "Active Energy 3Rd Phase T1, Imp",
+    "desc": "Active Energy 3Rd Phase T1, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4131,
+    "type": "HR",
+    "name": "Active Energy Sum T1, Imp",
+    "desc": "Active Energy Sum T1, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4135,
+    "type": "HR",
+    "name": "Active Energy 1St Phase T2, Imp",
+    "desc": "Active Energy 1St Phase T2, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4139,
+    "type": "HR",
+    "name": "Active Energy 2Nd Phase T2, Imp",
+    "desc": "Active Energy 2Nd Phase T2, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4143,
+    "type": "HR",
+    "name": "Active Energy 3Rd Phase T2, Imp",
+    "desc": "Active Energy 3Rd Phase T2, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4147,
+    "type": "HR",
+    "name": "Active Energy Sum T2, Imp",
+    "desc": "Active Energy Sum T2, Imp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4151,
+    "type": "HR",
+    "name": "Active Power 1St Phase",
+    "desc": "Active Power 1St Phase",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4153,
+    "type": "HR",
+    "name": "Active Power 2Nd Phase",
+    "desc": "Active Power 2Nd Phase",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4155,
+    "type": "HR",
+    "name": "Active Power 3Rd Phase",
+    "desc": "Active Power 3Rd Phase",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4157,
+    "type": "HR",
+    "name": "Active Power Sum",
+    "desc": "Active Power Sum",
+    "unit": "kW",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4161,
+    "type": "HR",
+    "name": "Active Energy 1St Phase T1, Exp",
+    "desc": "Active Energy 1St Phase T1, Exp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4165,
+    "type": "HR",
+    "name": "Active Energy 2Nd Phase T1, Exp",
+    "desc": "Active Energy 2Nd Phase T1, Exp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4185,
+    "type": "HR",
+    "name": "Active Energy 3Rd Phase T2, Exp",
+    "desc": "Active Energy 3Rd Phase T2, Exp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4189,
+    "type": "HR",
+    "name": "Active Energy Sum T2, Exp",
+    "desc": "Active Energy Sum T2, Exp",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4193,
+    "type": "HR",
+    "name": "Reactive Energy 1St Phase T1, Imp",
+    "desc": "Reactive Energy 1St Phase T1, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4197,
+    "type": "HR",
+    "name": "Reactive Energy 2Nd Phase T1, Imp",
+    "desc": "Reactive Energy 2Nd Phase T1, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4201,
+    "type": "HR",
+    "name": "Reactive Energy 3Rd Phase T1, Imp",
+    "desc": "Reactive Energy 3Rd Phase T1, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4205,
+    "type": "HR",
+    "name": "Reactive Energy Sum T1, Imp",
+    "desc": "Reactive Energy Sum T1, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4209,
+    "type": "HR",
+    "name": "Reactive Energy 1St Phase T2, Imp",
+    "desc": "Reactive Energy 1St Phase T2, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4213,
+    "type": "HR",
+    "name": "Reactive Energy 2Nd Phase T2, Imp",
+    "desc": "Reactive Energy 2Nd Phase T2, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4217,
+    "type": "HR",
+    "name": "Reactive Energy 3Rd Phase T2, Imp",
+    "desc": "Reactive Energy 3Rd Phase T2, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4221,
+    "type": "HR",
+    "name": "Reactive Energy Sum T2, Imp",
+    "desc": "Reactive Energy Sum T2, Imp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4225,
+    "type": "HR",
+    "name": "Reactive Energy 1St Phase T1, Exp",
+    "desc": "Reactive Energy 1St Phase T1, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4229,
+    "type": "HR",
+    "name": "Reactive Energy 2Nd Phase T1, Exp",
+    "desc": "Reactive Energy 2Nd Phase T1, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4233,
+    "type": "HR",
+    "name": "Reactive Energy 3Rd Phase T1, Exp",
+    "desc": "Reactive Energy 3Rd Phase T1, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4237,
+    "type": "HR",
+    "name": "Reactive Energy Sum T1, Exp",
+    "desc": "Reactive Energy Sum T1, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4241,
+    "type": "HR",
+    "name": "Reactive Energy 1St Phase T2, Exp",
+    "desc": "Reactive Energy 1St Phase T2, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4245,
+    "type": "HR",
+    "name": "Reactive Energy 2Nd Phase T2, Exp",
+    "desc": "Reactive Energy 2Nd Phase T2, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4249,
+    "type": "HR",
+    "name": "Reactive Energy 3Rd Phase T2, Exp",
+    "desc": "Reactive Energy 3Rd Phase T2, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4253,
+    "type": "HR",
+    "name": "Reactive Energy Sum T2, Exp",
+    "desc": "Reactive Energy Sum T2, Exp",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4257,
+    "type": "HR",
+    "name": "Reactive Power 1St Phase",
+    "desc": "Reactive Power 1St Phase",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4259,
+    "type": "HR",
+    "name": "Reactive Power 2Nd Phase",
+    "desc": "Reactive Power 2Nd Phase",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4261,
+    "type": "HR",
+    "name": "Reactive Power 3Rd Phase",
+    "desc": "Reactive Power 3Rd Phase",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4263,
+    "type": "HR",
+    "name": "Reactive Power Sum",
+    "desc": "Reactive Power Sum",
+    "unit": "kvar",
+    "dataType": "int64",
+    "access": "R"
+  }
+]

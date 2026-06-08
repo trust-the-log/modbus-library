@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Voltage Vl1 N",
+    "desc": "Voltage Vl1 N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Voltage Vlz",
+    "desc": "Voltage Vlz",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Voltage Vl N",
+    "desc": "Voltage Vl N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Voltage Vl1 L2",
+    "desc": "Voltage Vl1 L2",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Voltage Vlz L3",
+    "desc": "Voltage Vlz L3",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Voltage Vl L1",
+    "desc": "Voltage Vl L1",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Current L1",
+    "desc": "Current L1",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Current L2",
+    "desc": "Current L2",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Current L3",
+    "desc": "Current L3",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Apparent Power L1",
+    "desc": "Apparent Power L1",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Apparent Power L2",
+    "desc": "Apparent Power L2",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Apparent Power L3",
+    "desc": "Apparent Power L3",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Active Power L1",
+    "desc": "Active Power L1",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Active Power L2",
+    "desc": "Active Power L2",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Active Power L3",
+    "desc": "Active Power L3",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Power Factor L2",
+    "desc": "Power Factor L2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Power Factor L3",
+    "desc": "Power Factor L3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Average Voltage V L N",
+    "desc": "Average Voltage V L N",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Average Voltage V L L",
+    "desc": "Average Voltage V L L",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Average Current",
+    "desc": "Average Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 205,
+    "type": "HR",
+    "name": "Device Diagnostics And Device Status",
+    "desc": "Device Diagnostics And Device Status",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 207,
+    "type": "HR",
+    "name": "Status Of The Digital Outputs",
+    "desc": "Status Of The Digital Outputs",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 209,
+    "type": "HR",
+    "name": "Status Of The Digital Inputs",
+    "desc": "Status Of The Digital Inputs",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 211,
+    "type": "HR",
+    "name": "Active Tariff",
+    "desc": "Active Tariff",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 215,
+    "type": "HR",
+    "name": "Universal Counter",
+    "desc": "Universal Counter",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 217,
+    "type": "HR",
+    "name": "Relevant Parameter Changes Counter",
+    "desc": "Relevant Parameter Changes Counter",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 219,
+    "type": "HR",
+    "name": "Counter All Parameter Changes",
+    "desc": "Counter All Parameter Changes",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 501,
+    "type": "HR",
+    "name": "Cumulated Active Power Import",
+    "desc": "Cumulated Active Power Import",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 503,
+    "type": "HR",
+    "name": "Cumulated Reactive Power Import",
+    "desc": "Cumulated Reactive Power Import",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 505,
+    "type": "HR",
+    "name": "Cumulated Active Power Export",
+    "desc": "Cumulated Active Power Export",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 507,
+    "type": "HR",
+    "name": "Cumulated Reactive Power Export",
+    "desc": "Cumulated Reactive Power Export",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 509,
+    "type": "HR",
+    "name": "Maximum Active Power Reading During The Period",
+    "desc": "Maximum Active Power Reading During The Period",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 511,
+    "type": "HR",
+    "name": "Minimum Active Power Reading During The Period",
+    "desc": "Minimum Active Power Reading During The Period",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Maximum Reactive Power Reading Dur Ing The Period",
+    "desc": "Maximum Reactive Power Reading Dur Ing The Period",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Minimum Reactive Power Reading Dur Ing The Period",
+    "desc": "Minimum Reactive Power Reading Dur Ing The Period",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Length Of The Current Measuring Period",
+    "desc": "Length Of The Current Measuring Period",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 519,
+    "type": "HR",
+    "name": "Time Since Start Of The Active Demand Period",
+    "desc": "Time Since Start Of The Active Demand Period",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 801,
+    "type": "HR",
+    "name": "Active Energy Import Tariff 1",
+    "desc": "Active Energy Import Tariff 1",
+    "unit": "Wh",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 805,
+    "type": "HR",
+    "name": "Active Energy Import Tariff 2",
+    "desc": "Active Energy Import Tariff 2",
+    "unit": "Wh",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 809,
+    "type": "HR",
+    "name": "Active Energy Export Tariff 1",
+    "desc": "Active Energy Export Tariff 1",
+    "unit": "Wh",
+    "dataType": "double",
+    "access": "R"
+  },
+  {
+    "addr": 813,
+    "type": "HR",
+    "name": "Active Energy Export Tariff 2",
+    "desc": "Active Energy Export Tariff 2",
+    "unit": "Wh",
+    "dataType": "double",
+    "access": "R"
+  }
+]

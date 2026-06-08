@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Total Instantaneous Real Power (3 Phase Total)",
+    "desc": "Total Instantaneous Real Power (3 Phase Total)",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Total Instantaneous Reactive Power (3 Phase Total)",
+    "desc": "Total Instantaneous Reactive Power (3 Phase Total)",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Total Instantaneous Apparent Power (3 Phase Total)",
+    "desc": "Total Instantaneous Apparent Power (3 Phase Total)",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Total Power Factor (Total Kw / Total Kva)",
+    "desc": "Total Power Factor (Total Kw / Total Kva)",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Voltage, L L, Average Of 3 Phases",
+    "desc": "Voltage, L L, Average Of 3 Phases",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Voltage, L N, Average Of 3 Phases",
+    "desc": "Voltage, L N, Average Of 3 Phases",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Current, Average Of 3 Phases",
+    "desc": "Current, Average Of 3 Phases",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "Real Power, Phase A",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "Real Power, Phase B",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "Real Power, Phase C",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Power Factor, Phase A",
+    "desc": "Power Factor, Phase A",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Power Factor, Phase B",
+    "desc": "Power Factor, Phase B",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Power Factor, Phase C",
+    "desc": "Power Factor, Phase C",
+    "unit": "Ratio",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Voltage, Phase A B",
+    "desc": "Voltage, Phase A B",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Voltage, Phase B C",
+    "desc": "Voltage, Phase B C",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Voltage, Phase A C",
+    "desc": "Voltage, Phase A C",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Voltage, Phase A N",
+    "desc": "Voltage, Phase A N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Voltage, Phase B N",
+    "desc": "Voltage, Phase B N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Voltage, Phase C N",
+    "desc": "Voltage, Phase C N",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Current, Instantaneous, Phase A",
+    "desc": "Current, Instantaneous, Phase A",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Current, Instantaneous, Phase B",
+    "desc": "Current, Instantaneous, Phase B",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Current, Instantaneous, Phase C",
+    "desc": "Current, Instantaneous, Phase C",
+    "unit": "Amp",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Frequency (Derived From Phase A)",
+    "desc": "Frequency (Derived From Phase A)",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Apparent Energy Consumption (Msr)",
+    "desc": "Apparent Energy Consumption (Msr)",
+    "unit": "KVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Reactive Energy Consumption (Msr)",
+    "desc": "Reactive Energy Consumption (Msr)",
+    "unit": "KVARh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "Apparent Power, Phase A",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "Apparent Power, Phase B",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "Apparent Power, Phase C",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "Reactive Power, Phase A",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "Reactive Power, Phase B",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "Reactive Power, Phase C",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Total Real Power Present Demand",
+    "desc": "Total Real Power Present Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Total Reactive Power Present Demand",
+    "desc": "Total Reactive Power Present Demand",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Total Apparent Power Present Demand",
+    "desc": "Total Apparent Power Present Demand",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Total Real Power Max. Demand",
+    "desc": "Total Real Power Max. Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Total Reactive Power Max. Demand",
+    "desc": "Total Reactive Power Max. Demand",
+    "unit": "kVAR",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Total Apparent Power Max. Demand",
+    "desc": "Total Apparent Power Max. Demand",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Pulse Counter 1 (Real Energy)",
+    "desc": "Pulse Counter 1 (Real Energy)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Pulse Counter 2 (Reactive Energy)",
+    "desc": "Pulse Counter 2 (Reactive Energy)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Real Energy Consumption Phase A",
+    "desc": "Real Energy Consumption Phase A",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Real Energy Consumption Phase B",
+    "desc": "Real Energy Consumption Phase B",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Real Energy Consumption Phase C",
+    "desc": "Real Energy Consumption Phase C",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 129,
+    "type": "HR",
+    "name": "Single Phase: A + N",
+    "desc": "Single Phase: A + N",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Ct Ratio Primary",
+    "desc": "Ct Ratio Primary",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 131,
+    "type": "HR",
+    "name": "Ct Ratio Secondary Interface (1 Or 1/3 V, May Not ",
+    "desc": "Ct Ratio Secondary Interface (1 Or 1/3 V, May Not Be User Configurable)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Pt Ratio: The Meter Scales This Value By 100 (I.E.",
+    "desc": "Pt Ratio: The Meter Scales This Value By 100 (I.E. Entering 200 Yields A Potenti",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 133,
+    "type": "HR",
+    "name": "System Voltage: This Voltage Is Line To Line, Exce",
+    "desc": "System Voltage: This Voltage Is Line To Line, Except For System Type 10 Which Is",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "Theoretical Maximum System Power: This Read Only V",
+    "desc": "Theoretical Maximum System Power: This Read Only Value Is The Theoretical Maximu",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Display Units: 0 = Iec (U, V, P, Q, S), 1 = Ieee (",
+    "desc": "Display Units: 0 = Iec (U, V, P, Q, S), 1 = Ieee (Default: Vll, Vln, W, Var, Va)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 137,
+    "type": "HR",
+    "name": "Scale Factors Note: These Registers Contain A Sign",
+    "desc": "Scale Factors Note: These Registers Contain A Signed Integer That Scales The Cor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

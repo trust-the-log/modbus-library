@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 18433,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Date Of Last Instance",
+    "desc": "Inst. Measurement. Load #1. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18435,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Integration Time",
+    "desc": "Inst. Measurement. Load #1. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18442,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Frequency",
+    "desc": "Inst. Measurement. Load #1. Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18444,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph N Voltage : V1",
+    "desc": "Inst. Measurement. Load #1. Ph N Voltage : V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18446,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph N Voltage : V2",
+    "desc": "Inst. Measurement. Load #1. Ph N Voltage : V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18448,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph N Voltage : V3",
+    "desc": "Inst. Measurement. Load #1. Ph N Voltage : V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18452,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph Ph Voltage : U12",
+    "desc": "Inst. Measurement. Load #1. Ph Ph Voltage : U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18454,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph Ph Voltage : U23",
+    "desc": "Inst. Measurement. Load #1. Ph Ph Voltage : U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18456,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Ph Ph Voltage : U31",
+    "desc": "Inst. Measurement. Load #1. Ph Ph Voltage : U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18458,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Current : I1",
+    "desc": "Inst. Measurement. Load #1. Current : I1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18460,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Current : I2",
+    "desc": "Inst. Measurement. Load #1. Current : I2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18462,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Current : I3",
+    "desc": "Inst. Measurement. Load #1. Current : I3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18464,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Current : In",
+    "desc": "Inst. Measurement. Load #1. Current : In",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18474,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Snom",
+    "desc": "Inst. Measurement. Load #1. Snom",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18476,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Active Power",
+    "desc": "Inst. Measurement. Load #1. Total Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18478,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Reactive Power",
+    "desc": "Inst. Measurement. Load #1. Total Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18480,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Lagging Reactive",
+    "desc": "Inst. Measurement. Load #1. Total Lagging Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18482,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Leading Reactive",
+    "desc": "Inst. Measurement. Load #1. Total Leading Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 18484,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Apparent Power",
+    "desc": "Inst. Measurement. Load #1. Total Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18486,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Power Factor",
+    "desc": "Inst. Measurement. Load #1. Total Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 18487,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #1. Total Power Factor Typ",
+    "desc": "Inst. Measurement. Load #1. Total Power Factor Type",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20481,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Date Of Last Instance",
+    "desc": "Inst. Measurement. Load #2. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20483,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Integration Time",
+    "desc": "Inst. Measurement. Load #2. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20490,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Frequency",
+    "desc": "Inst. Measurement. Load #2. Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20492,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph N Voltage : V1",
+    "desc": "Inst. Measurement. Load #2. Ph N Voltage : V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20494,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph N Voltage : V2",
+    "desc": "Inst. Measurement. Load #2. Ph N Voltage : V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20496,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph N Voltage : V3",
+    "desc": "Inst. Measurement. Load #2. Ph N Voltage : V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20500,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph Ph Voltage : U12",
+    "desc": "Inst. Measurement. Load #2. Ph Ph Voltage : U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20502,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph Ph Voltage : U23",
+    "desc": "Inst. Measurement. Load #2. Ph Ph Voltage : U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20504,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Ph Ph Voltage : U31",
+    "desc": "Inst. Measurement. Load #2. Ph Ph Voltage : U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20506,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Current : I1",
+    "desc": "Inst. Measurement. Load #2. Current : I1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20508,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Current : I2",
+    "desc": "Inst. Measurement. Load #2. Current : I2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20510,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Current : I3",
+    "desc": "Inst. Measurement. Load #2. Current : I3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20512,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Current : In",
+    "desc": "Inst. Measurement. Load #2. Current : In",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20522,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Snom",
+    "desc": "Inst. Measurement. Load #2. Snom",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20524,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Active Power",
+    "desc": "Inst. Measurement. Load #2. Total Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20526,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Reactive Power",
+    "desc": "Inst. Measurement. Load #2. Total Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20528,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Lagging Reactive",
+    "desc": "Inst. Measurement. Load #2. Total Lagging Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20530,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Leading Reactive",
+    "desc": "Inst. Measurement. Load #2. Total Leading Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 20532,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Apparent Power",
+    "desc": "Inst. Measurement. Load #2. Total Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20534,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Power Factor",
+    "desc": "Inst. Measurement. Load #2. Total Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20535,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #2. Total Power Factor Typ",
+    "desc": "Inst. Measurement. Load #2. Total Power Factor Type",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 22529,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Date Of Last Instance",
+    "desc": "Inst. Measurement. Load #3. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22531,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Integration Time",
+    "desc": "Inst. Measurement. Load #3. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22538,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Frequency",
+    "desc": "Inst. Measurement. Load #3. Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22540,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Ph N Voltage : V1",
+    "desc": "Inst. Measurement. Load #3. Ph N Voltage : V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22542,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Ph N Voltage : V2",
+    "desc": "Inst. Measurement. Load #3. Ph N Voltage : V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22544,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Ph N Voltage : V3",
+    "desc": "Inst. Measurement. Load #3. Ph N Voltage : V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22548,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Ph Ph Voltage : U12",
+    "desc": "Inst. Measurement. Load #3. Ph Ph Voltage : U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22550,
+    "type": "HR",
+    "name": "Inst. Measurement. Load #3. Ph Ph Voltage : U23",
+    "desc": "Inst. Measurement. Load #3. Ph Ph Voltage : U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

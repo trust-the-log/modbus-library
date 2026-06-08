@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 36864,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Date Of Last Instance",
+    "desc": "Inst. Measurement. Network. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36866,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Integration Time",
+    "desc": "Inst. Measurement. Network. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36867,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. System Ph N Voltage",
+    "desc": "Inst. Measurement. Network. System Ph N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36869,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. System Ph Ph Voltage",
+    "desc": "Inst. Measurement. Network. System Ph Ph Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36871,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Frequency",
+    "desc": "Inst. Measurement. Network. Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36873,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph N Voltage : V1",
+    "desc": "Inst. Measurement. Network. Ph N Voltage : V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36875,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph N Voltage : V2",
+    "desc": "Inst. Measurement. Network. Ph N Voltage : V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36877,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph N Voltage : V3",
+    "desc": "Inst. Measurement. Network. Ph N Voltage : V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36879,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph N Voltage : Vn",
+    "desc": "Inst. Measurement. Network. Ph N Voltage : Vn",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36881,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph Ph Voltage : U12",
+    "desc": "Inst. Measurement. Network. Ph Ph Voltage : U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36883,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph Ph Voltage : U23",
+    "desc": "Inst. Measurement. Network. Ph Ph Voltage : U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36885,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Ph Ph Voltage : U31",
+    "desc": "Inst. Measurement. Network. Ph Ph Voltage : U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36887,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Vdir",
+    "desc": "Inst. Measurement. Network. Vdir",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36889,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Vinv",
+    "desc": "Inst. Measurement. Network. Vinv",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36891,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Vhom",
+    "desc": "Inst. Measurement. Network. Vhom",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36893,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Vnb",
+    "desc": "Inst. Measurement. Network. Vnb",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36894,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Udir",
+    "desc": "Inst. Measurement. Network. Udir",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36896,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Uinv",
+    "desc": "Inst. Measurement. Network. Uinv",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36898,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Unb",
+    "desc": "Inst. Measurement. Network. Unb",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36899,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Vnba",
+    "desc": "Inst. Measurement. Network. Vnba",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36900,
+    "type": "HR",
+    "name": "Inst. Measurement. Network. Unba",
+    "desc": "Inst. Measurement. Network. Unba",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36992,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Date Of Last Instance",
+    "desc": "Avg. Measurement. Network. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36994,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Integration Time",
+    "desc": "Avg. Measurement. Network. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36995,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. System Ph N Voltage",
+    "desc": "Avg. Measurement. Network. System Ph N Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36997,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. System Ph Ph Voltage",
+    "desc": "Avg. Measurement. Network. System Ph Ph Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36999,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Frequency",
+    "desc": "Avg. Measurement. Network. Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37001,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph N Voltage : V1",
+    "desc": "Avg. Measurement. Network. Ph N Voltage : V1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37003,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph N Voltage : V2",
+    "desc": "Avg. Measurement. Network. Ph N Voltage : V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37005,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph N Voltage : V3",
+    "desc": "Avg. Measurement. Network. Ph N Voltage : V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37007,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph N Voltage : Vn",
+    "desc": "Avg. Measurement. Network. Ph N Voltage : Vn",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37009,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph Ph Voltage : U12",
+    "desc": "Avg. Measurement. Network. Ph Ph Voltage : U12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37011,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph Ph Voltage : U23",
+    "desc": "Avg. Measurement. Network. Ph Ph Voltage : U23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37013,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Ph Ph Voltage : U31",
+    "desc": "Avg. Measurement. Network. Ph Ph Voltage : U31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37015,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Vdir",
+    "desc": "Avg. Measurement. Network. Vdir",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37017,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Vinv",
+    "desc": "Avg. Measurement. Network. Vinv",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37019,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Vhom",
+    "desc": "Avg. Measurement. Network. Vhom",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37021,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Vnb",
+    "desc": "Avg. Measurement. Network. Vnb",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37022,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Udir",
+    "desc": "Avg. Measurement. Network. Udir",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37024,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Uinv",
+    "desc": "Avg. Measurement. Network. Uinv",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37026,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Unb",
+    "desc": "Avg. Measurement. Network. Unb",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37027,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Vnba",
+    "desc": "Avg. Measurement. Network. Vnba",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37028,
+    "type": "HR",
+    "name": "Avg. Measurement. Network. Unba",
+    "desc": "Avg. Measurement. Network. Unba",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37120,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Date Of La",
+    "desc": "Inst. Fundamental Measurement. Network. Date Of Last Instance",
+    "unit": "s",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37122,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Integratio",
+    "desc": "Inst. Fundamental Measurement. Network. Integration Time",
+    "unit": "s",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37123,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage: V1H1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37125,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage: V2H1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37127,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage: V3H1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37129,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage: Vnh1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 37131,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage Phase: Phv1H1",
+    "unit": "?",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 37132,
+    "type": "HR",
+    "name": "Inst. Fundamental Measurement. Network. Ph N Volta",
+    "desc": "Inst. Fundamental Measurement. Network. Ph N Voltage Phase: Phv2H1",
+    "unit": "?",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

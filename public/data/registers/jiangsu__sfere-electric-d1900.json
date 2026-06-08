@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Import Active Energy",
+    "desc": "Import Active Energy",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Export Active Enregy",
+    "desc": "Export Active Enregy",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Import Reactive Energy",
+    "desc": "Import Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Export Reactive Energy",
+    "desc": "Export Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "Apparent Energy",
+    "desc": "Apparent Energy",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "First Quadrant Reactive Energy",
+    "desc": "First Quadrant Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Second Quadrant Reactive Energy",
+    "desc": "Second Quadrant Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Third Quadrant Reactive Energy",
+    "desc": "Third Quadrant Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Fourth Quadrant Reactive Energy",
+    "desc": "Fourth Quadrant Reactive Energy",
+    "unit": "varh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Active Energy [Total",
+    "desc": "Active Energy [Total",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Active Energy [Tip",
+    "desc": "Active Energy [Tip",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Active Energy [Peak",
+    "desc": "Active Energy [Peak",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Active Energy [Level",
+    "desc": "Active Energy [Level",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Active Energy [Valley",
+    "desc": "Active Energy [Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Active Energy Of This Month [Total/Tip/Peak/Level/",
+    "desc": "Active Energy Of This Month [Total/Tip/Peak/Level/Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Active Energy Of Last Month [Total/Tip/Peak/Level/",
+    "desc": "Active Energy Of Last Month [Total/Tip/Peak/Level/Valley",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Active Energy Of The Month Before",
+    "desc": "Active Energy Of The Month Before",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Apparent Power",
+    "desc": "Apparent Power",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Import Active Energy",
+    "desc": "Import Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Export Active Energy",
+    "desc": "Export Active Energy",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Import Reactive Energy",
+    "desc": "Import Reactive Energy",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1550,
+    "type": "HR",
+    "name": "Max. Reactive Power Demand Value Of This Month",
+    "desc": "Max. Reactive Power Demand Value Of This Month",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1551,
+    "type": "HR",
+    "name": "Max. Apparent Power Demand Value Of This Month",
+    "desc": "Max. Apparent Power Demand Value Of This Month",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1552,
+    "type": "HR",
+    "name": "Active Power Demand Value At Present",
+    "desc": "Active Power Demand Value At Present",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1553,
+    "type": "HR",
+    "name": "Reactive Power Demand Value At Present",
+    "desc": "Reactive Power Demand Value At Present",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1554,
+    "type": "HR",
+    "name": "Apparent Power Demand Value At Present",
+    "desc": "Apparent Power Demand Value At Present",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1556,
+    "type": "HR",
+    "name": "Power On Record Times And Year",
+    "desc": "Power On Record Times And Year",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1557,
+    "type": "HR",
+    "name": "Power On Record Month And Data",
+    "desc": "Power On Record Month And Data",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1558,
+    "type": "HR",
+    "name": "Power On Record Hour And Minute",
+    "desc": "Power On Record Hour And Minute",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1559,
+    "type": "HR",
+    "name": "Programming Record Times And Year",
+    "desc": "Programming Record Times And Year",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1560,
+    "type": "HR",
+    "name": "Programming Record Month And Day",
+    "desc": "Programming Record Month And Day",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1561,
+    "type": "HR",
+    "name": "Programming Record Hour And Minute",
+    "desc": "Programming Record Hour And Minute",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1562,
+    "type": "HR",
+    "name": "Energy Clearing Times And Year",
+    "desc": "Energy Clearing Times And Year",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1563,
+    "type": "HR",
+    "name": "Energy Clearing Month And Day",
+    "desc": "Energy Clearing Month And Day",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1564,
+    "type": "HR",
+    "name": "Energy Clearing Hour And Minute",
+    "desc": "Energy Clearing Hour And Minute",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Voltage",
+    "desc": "Voltage",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Apparent Power",
+    "desc": "Apparent Power",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1536,
+    "type": "HR",
+    "name": "Max. Voltage Value",
+    "desc": "Max. Voltage Value",
+    "unit": "V",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1537,
+    "type": "HR",
+    "name": "Max. Current Value",
+    "desc": "Max. Current Value",
+    "unit": "A",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1538,
+    "type": "HR",
+    "name": "Max. Active Power Value",
+    "desc": "Max. Active Power Value",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

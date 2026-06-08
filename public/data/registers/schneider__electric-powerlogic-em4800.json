@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Meter 2 Wh Delivered",
+    "desc": "Meter 2 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Meter 3 Wh Delivered",
+    "desc": "Meter 3 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Meter 4 Wh Delivered",
+    "desc": "Meter 4 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Meter 5 Wh Delivered",
+    "desc": "Meter 5 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Meter 6 Wh Delivered",
+    "desc": "Meter 6 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Meter 7 Wh Delivered",
+    "desc": "Meter 7 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Meter 8 Wh Delivered",
+    "desc": "Meter 8 Wh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Meter 1 Wh Received",
+    "desc": "Meter 1 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Meter 2 Wh Received",
+    "desc": "Meter 2 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Meter 3 Wh Received",
+    "desc": "Meter 3 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Meter 4 Wh Received",
+    "desc": "Meter 4 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Meter 5 Wh Received",
+    "desc": "Meter 5 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Meter 6 Wh Received",
+    "desc": "Meter 6 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Meter 7 Wh Received",
+    "desc": "Meter 7 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Meter 8 Wh Received",
+    "desc": "Meter 8 Wh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Meter 1 Varh Delivered",
+    "desc": "Meter 1 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Meter 2 Varh Delivered",
+    "desc": "Meter 2 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Meter 3 Varh Delivered",
+    "desc": "Meter 3 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Meter 4 Varh Delivered",
+    "desc": "Meter 4 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Meter 5 Varh Delivered",
+    "desc": "Meter 5 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Meter 6 Varh Delivered",
+    "desc": "Meter 6 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "Meter 7 Varh Delivered",
+    "desc": "Meter 7 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Meter 8 Varh Delivered",
+    "desc": "Meter 8 Varh Delivered",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Meter 1 Varh Received",
+    "desc": "Meter 1 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 302,
+    "type": "HR",
+    "name": "Meter 2 Varh Received",
+    "desc": "Meter 2 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "Meter 3 Varh Received",
+    "desc": "Meter 3 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "Meter 4 Varh Received",
+    "desc": "Meter 4 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "Meter 5 Varh Received",
+    "desc": "Meter 5 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Meter 6 Varh Received",
+    "desc": "Meter 6 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "Meter 7 Varh Received",
+    "desc": "Meter 7 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 314,
+    "type": "HR",
+    "name": "Meter 8 Varh Received",
+    "desc": "Meter 8 Varh Received",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 400,
+    "type": "HR",
+    "name": "Meter 1 Vah",
+    "desc": "Meter 1 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 402,
+    "type": "HR",
+    "name": "Meter 2 Vah",
+    "desc": "Meter 2 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 404,
+    "type": "HR",
+    "name": "Meter 3 Vah",
+    "desc": "Meter 3 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 406,
+    "type": "HR",
+    "name": "Meter 4 Vah",
+    "desc": "Meter 4 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 408,
+    "type": "HR",
+    "name": "Meter 5 Vah",
+    "desc": "Meter 5 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 410,
+    "type": "HR",
+    "name": "Meter 6 Vah",
+    "desc": "Meter 6 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 412,
+    "type": "HR",
+    "name": "Meter 7 Vah",
+    "desc": "Meter 7 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 414,
+    "type": "HR",
+    "name": "Meter 8 Vah",
+    "desc": "Meter 8 Vah",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 600,
+    "type": "HR",
+    "name": "Meter 1 Watts",
+    "desc": "Meter 1 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 602,
+    "type": "HR",
+    "name": "Meter 2 Watts",
+    "desc": "Meter 2 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 604,
+    "type": "HR",
+    "name": "Meter 3 Watts",
+    "desc": "Meter 3 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 606,
+    "type": "HR",
+    "name": "Meter 4 Watts",
+    "desc": "Meter 4 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 608,
+    "type": "HR",
+    "name": "Meter 5 Watts",
+    "desc": "Meter 5 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 610,
+    "type": "HR",
+    "name": "Meter 6 Watts",
+    "desc": "Meter 6 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 612,
+    "type": "HR",
+    "name": "Meter 7 Watts",
+    "desc": "Meter 7 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 614,
+    "type": "HR",
+    "name": "Meter 8 Watts",
+    "desc": "Meter 8 Watts",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 700,
+    "type": "HR",
+    "name": "Meter 1 Var",
+    "desc": "Meter 1 Var",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 702,
+    "type": "HR",
+    "name": "Meter 2 Var",
+    "desc": "Meter 2 Var",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 704,
+    "type": "HR",
+    "name": "Meter 3 Var",
+    "desc": "Meter 3 Var",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

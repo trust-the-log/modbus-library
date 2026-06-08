@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Sourcea Line Neutral L1 L0",
+    "desc": "Sourcea Line Neutral L1 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Sourcea Line Neutral L2 L0",
+    "desc": "Sourcea Line Neutral L2 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Sourcea Line Neutral L3 L0",
+    "desc": "Sourcea Line Neutral L3 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Sourceb Line Neutral L1 L0",
+    "desc": "Sourceb Line Neutral L1 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Sourceb Line Neutral L2 L0",
+    "desc": "Sourceb Line Neutral L2 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Sourceb Line Neutral L3 L0",
+    "desc": "Sourceb Line Neutral L3 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Sourcea Line Voltage L1 L2",
+    "desc": "Sourcea Line Voltage L1 L2",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Sourcea Line Voltage L2 L3",
+    "desc": "Sourcea Line Voltage L2 L3",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Sourcea Line Voltage L3 L1",
+    "desc": "Sourcea Line Voltage L3 L1",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Sourceb Line Voltage L1 L2",
+    "desc": "Sourceb Line Voltage L1 L2",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Sourceb Line Voltage L2 L3",
+    "desc": "Sourceb Line Voltage L2 L3",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Sourceb Line Voltage L3 L1",
+    "desc": "Sourceb Line Voltage L3 L1",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Sourcea Frequency",
+    "desc": "Sourcea Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Sourceb Frequency",
+    "desc": "Sourceb Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Sourcea Nominal Voltage",
+    "desc": "Sourcea Nominal Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Sourceb Nominal Voltage",
+    "desc": "Sourceb Nominal Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Sourcea Nominal Frequency",
+    "desc": "Sourcea Nominal Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Sourceb Nominal Frequency",
+    "desc": "Sourceb Nominal Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Sourcea Number Of Phases",
+    "desc": "Sourcea Number Of Phases",
+    "unit": "1 or 3",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Sourceb Number Of Phases",
+    "desc": "Sourceb Number Of Phases",
+    "unit": "1 or 3",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Rated Amperage",
+    "desc": "Rated Amperage",
+    "unit": "0-4000",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Sourcea Engine Start Time Delay (Id 0X0001)",
+    "desc": "Sourcea Engine Start Time Delay (Id 0X0001)",
+    "unit": "0-6 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Sourceb Engine Start Time Delay (Id 0X0002)",
+    "desc": "Sourceb Engine Start Time Delay (Id 0X0002)",
+    "unit": "0-6 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Sourcea Ext Engine Start Time Delay (Id 0X0003)",
+    "desc": "Sourcea Ext Engine Start Time Delay (Id 0X0003)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Sourceb Ext Engine Start Time Delay (Id 0X0004)",
+    "desc": "Sourceb Ext Engine Start Time Delay (Id 0X0004)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Sourcea Engine Cooldown Time Delay (Id 0X0005)",
+    "desc": "Sourcea Engine Cooldown Time Delay (Id 0X0005)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Sourceb Engine Cooldown Time Delay (Id 0X0006)",
+    "desc": "Sourceb Engine Cooldown Time Delay (Id 0X0006)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Preferred To Standby Time Delay (Id 0X0007)",
+    "desc": "Preferred To Standby Time Delay (Id 0X0007)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Standby To Preferred Time Delay (Id 0X0008)",
+    "desc": "Standby To Preferred Time Delay (Id 0X0008)",
+    "unit": "0-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Off To Preferred Time Delay (Id 0X0009)",
+    "desc": "Off To Preferred Time Delay (Id 0X0009)",
+    "unit": "0-5999.9 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Off To Standby Time Delay (Id 0X000A)",
+    "desc": "Off To Standby Time Delay (Id 0X000A)",
+    "unit": "0-5999.9 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Acquire Standby Source (Id 0X000B)",
+    "desc": "Acquire Standby Source (Id 0X000B)",
+    "unit": "1-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Inphase Monitor Synch (Id 0X000C)",
+    "desc": "Inphase Monitor Synch (Id 0X000C)",
+    "unit": "1-5999 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Sourcea Over Volt Dropout Trip Point",
+    "desc": "Sourcea Over Volt Dropout Trip Point",
+    "unit": "105 - 135) % of rated source voltage",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Sourcea Over Volt Pickup Trip Point",
+    "desc": "Sourcea Over Volt Pickup Trip Point",
+    "unit": "95 - 100)% of over voltage dropout point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Sourcea Under Volt Pickup Trip Point",
+    "desc": "Sourcea Under Volt Pickup Trip Point",
+    "unit": "85 - 100) % of rated source voltage",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Sourcea Under Volt Dropout Trip Point",
+    "desc": "Sourcea Under Volt Dropout Trip Point",
+    "unit": "75 - 98) % of overvoltage pickup point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Sourcea Voltage Debounce Time",
+    "desc": "Sourcea Voltage Debounce Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Sourceb Over Volt Dropout Trip Point",
+    "desc": "Sourceb Over Volt Dropout Trip Point",
+    "unit": "105 - 135) % of rated source voltage",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Sourceb Over Volt Pickup Trip Point",
+    "desc": "Sourceb Over Volt Pickup Trip Point",
+    "unit": "95 - 100)% of over voltage dropout point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Sourceb Under Volt Pickup Trip Point",
+    "desc": "Sourceb Under Volt Pickup Trip Point",
+    "unit": "85 - 100) % of rated source voltage",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Sourceb Under Volt Dropout Trip Point",
+    "desc": "Sourceb Under Volt Dropout Trip Point",
+    "unit": "75 - 98) % of overvoltage pickup point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Sourceb Voltage Debounce Time",
+    "desc": "Sourceb Voltage Debounce Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Sourcea Over Freq Dropout Trip Point",
+    "desc": "Sourcea Over Freq Dropout Trip Point",
+    "unit": "101 -105) % of overfreq pickup point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Sourcea Over Freq Pickup Trip Point",
+    "desc": "Sourcea Over Freq Pickup Trip Point",
+    "unit": "105 - 120) % of rated source freq",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Sourcea Under Freq Dropout Trip Point",
+    "desc": "Sourcea Under Freq Dropout Trip Point",
+    "unit": "95 - 99) % of underfreq pickup point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Sourcea Under Freq Pickup Trip Point",
+    "desc": "Sourcea Under Freq Pickup Trip Point",
+    "unit": "80 - 95)% of rated system frequency",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Sourcea Freq Dropout Time",
+    "desc": "Sourcea Freq Dropout Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Sourceb Over Freq Dropout Trip Point",
+    "desc": "Sourceb Over Freq Dropout Trip Point",
+    "unit": "101 -105) % of overfreq pickup point",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Sourceb Over Freq Pickup Trip Point",
+    "desc": "Sourceb Over Freq Pickup Trip Point",
+    "unit": "105 - 120) % of rated source freq",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 3650,
+    "type": "HR",
+    "name": "Modbus Interface Type",
+    "desc": "Modbus Interface Type",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3651,
+    "type": "HR",
+    "name": "Firmware Major Release",
+    "desc": "Firmware Major Release",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3652,
+    "type": "HR",
+    "name": "Firmware Minor Release",
+    "desc": "Firmware Minor Release",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3653,
+    "type": "HR",
+    "name": "Firmware Build Release",
+    "desc": "Firmware Build Release",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 3700,
+    "type": "HR",
+    "name": "Collection Daily Energy Of All Modules",
+    "desc": "Collection Daily Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3702,
+    "type": "HR",
+    "name": "Collection Total Energy Of All Modules",
+    "desc": "Collection Total Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3704,
+    "type": "HR",
+    "name": "Collection Partial Energy Of All Modules",
+    "desc": "Collection Partial Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3706,
+    "type": "HR",
+    "name": "Collection Week Energy Of All Modules",
+    "desc": "Collection Week Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3708,
+    "type": "HR",
+    "name": "Collection Monthly Energy Of All Modules",
+    "desc": "Collection Monthly Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3710,
+    "type": "HR",
+    "name": "Collection Yearly Energy Of All Modules",
+    "desc": "Collection Yearly Energy Of All Modules",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 129,
+    "type": "HR",
+    "name": "Pn5 Module 01",
+    "desc": "Pn5 Module 01",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Type Of Module (Master Or Slave)",
+    "desc": "Type Of Module (Master Or Slave)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 131,
+    "type": "HR",
+    "name": "Status0 Module 01 (Global State)",
+    "desc": "Status0 Module 01 (Global State)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Status1 Module 01 (Inverter State)",
+    "desc": "Status1 Module 01 (Inverter State)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 133,
+    "type": "HR",
+    "name": "Status2 Module 01 (Alarm State)",
+    "desc": "Status2 Module 01 (Alarm State)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Daily Energy Module 01",
+    "desc": "Daily Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 138,
+    "type": "HR",
+    "name": "Total Energy Module 01",
+    "desc": "Total Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Partial Energy Module 01",
+    "desc": "Partial Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 142,
+    "type": "HR",
+    "name": "Week Energy Module 01",
+    "desc": "Week Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Monthly Energy Module 01",
+    "desc": "Monthly Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "Yearly Energy Module 01",
+    "desc": "Yearly Energy Module 01",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "3 Phases Grid Voltage Module 01 (Slave)",
+    "desc": "3 Phases Grid Voltage Module 01 (Slave)",
+    "unit": "Volt Rms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "3 Phases Grid Current Module 01 (Slave)",
+    "desc": "3 Phases Grid Current Module 01 (Slave)",
+    "unit": "Ampere Rms",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "3 Phases Grid Power Module 01 (Slave)",
+    "desc": "3 Phases Grid Power Module 01 (Slave)",
+    "unit": "KWatt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "3 Phases Frequence Module 01 (Slave)",
+    "desc": "3 Phases Frequence Module 01 (Slave)",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Input Power Module 01 (Slave)",
+    "desc": "Input Power Module 01 (Slave)",
+    "unit": "KWatt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Input Voltage Module 01 (Slave)",
+    "desc": "Input Voltage Module 01 (Slave)",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Input Current Module 01 (Slave)",
+    "desc": "Input Current Module 01 (Slave)",
+    "unit": "Ampere",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "Supervisor Temperature Module 01",
+    "desc": "Supervisor Temperature Module 01",
+    "unit": "Celsius Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Power Supply Temperature Module 01",
+    "desc": "Power Supply Temperature Module 01",
+    "unit": "Celsius Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 166,
+    "type": "HR",
+    "name": "Headsink Module 01",
+    "desc": "Headsink Module 01",
+    "unit": "Celsius Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "T2 Module 01",
+    "desc": "T2 Module 01",
+    "unit": "Celsius Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 170,
+    "type": "HR",
+    "name": "T3 Module 01",
+    "desc": "T3 Module 01",
+    "unit": "Celsius Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "Daily Energy Module 01 (Rack Energy)",
+    "desc": "Daily Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "Total Energy Module 01 (Rack Energy)",
+    "desc": "Total Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "Partial Energy Module 01 (Rack Energy)",
+    "desc": "Partial Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 178,
+    "type": "HR",
+    "name": "Week Energy Module 01 (Rack Energy)",
+    "desc": "Week Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 180,
+    "type": "HR",
+    "name": "Monthly Energy Module 01 (Rack Energy)",
+    "desc": "Monthly Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 182,
+    "type": "HR",
+    "name": "Yearly Energy Module 01 (Rack Energy)",
+    "desc": "Yearly Energy Module 01 (Rack Energy)",
+    "unit": "KWattHour",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 184,
+    "type": "HR",
+    "name": "Grid Voltage Module 01 (Master Mean Of 3 Phases Gl",
+    "desc": "Grid Voltage Module 01 (Master Mean Of 3 Phases Global Measurements)",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 186,
+    "type": "HR",
+    "name": "Grid Current Module 01 (Master Mean Of 3 Phases Gl",
+    "desc": "Grid Current Module 01 (Master Mean Of 3 Phases Global Measurements)",
+    "unit": "Ampere",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 188,
+    "type": "HR",
+    "name": "Grid Power Module 01 (Master Mean Of 3 Phases Glob",
+    "desc": "Grid Power Module 01 (Master Mean Of 3 Phases Global Measurements)",
+    "unit": "KWatt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 190,
+    "type": "HR",
+    "name": "Input Power Module 01 (Master Global Measurements)",
+    "desc": "Input Power Module 01 (Master Global Measurements)",
+    "unit": "KWatt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 192,
+    "type": "HR",
+    "name": "Input Voltage Module 01 (Master Global Measurement",
+    "desc": "Input Voltage Module 01 (Master Global Measurements)",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 194,
+    "type": "HR",
+    "name": "Input Current Module 01 (Master Global Measurement",
+    "desc": "Input Current Module 01 (Master Global Measurements)",
+    "unit": "Ampere",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Numbers Junction Box Presents In The System (Total",
+    "desc": "Numbers Junction Box Presents In The System (Total)",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Racknumber Of The Module That Manages The Junction",
+    "desc": "Racknumber Of The Module That Manages The Junction Box",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Address Of The Module That Manages The Junction Bo",
+    "desc": "Address Of The Module That Manages The Junction Box",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Junction Box Present In The Rack",
+    "desc": "Junction Box Present In The Rack",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Address Junction Box 01",
+    "desc": "Address Junction Box 01",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

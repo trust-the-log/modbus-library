@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Escale",
+    "desc": "Escale",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Kwh",
+    "desc": "Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Kvah",
+    "desc": "Kvah",
+    "unit": "kVAh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Kvarh Inductive",
+    "desc": "Kvarh Inductive",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Kvarh Capacitive",
+    "desc": "Kvarh Capacitive",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 522,
+    "type": "HR",
+    "name": "Import Kvarh",
+    "desc": "Import Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 524,
+    "type": "HR",
+    "name": "Export Kwh",
+    "desc": "Export Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "Export Kvarh",
+    "desc": "Export Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2816,
+    "type": "HR",
+    "name": "System Kw",
+    "desc": "System Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2817,
+    "type": "HR",
+    "name": "System Kva",
+    "desc": "System Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2818,
+    "type": "HR",
+    "name": "System Kvar",
+    "desc": "System Kvar",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2819,
+    "type": "HR",
+    "name": "System Pf",
+    "desc": "System Pf",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2820,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2821,
+    "type": "HR",
+    "name": "Phase 1 Volts",
+    "desc": "Phase 1 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2822,
+    "type": "HR",
+    "name": "Phase 1 Amps",
+    "desc": "Phase 1 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2823,
+    "type": "HR",
+    "name": "Phase 1 Kw",
+    "desc": "Phase 1 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2824,
+    "type": "HR",
+    "name": "Phase 2 Volts",
+    "desc": "Phase 2 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2825,
+    "type": "HR",
+    "name": "Phase 2 Amps",
+    "desc": "Phase 2 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2826,
+    "type": "HR",
+    "name": "Phase 2 Kw",
+    "desc": "Phase 2 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2827,
+    "type": "HR",
+    "name": "Phase 3 Volts",
+    "desc": "Phase 3 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2828,
+    "type": "HR",
+    "name": "Phase 3 Amps",
+    "desc": "Phase 3 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2829,
+    "type": "HR",
+    "name": "Phase 3 Kw",
+    "desc": "Phase 3 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2830,
+    "type": "HR",
+    "name": "Phase 1 Pf",
+    "desc": "Phase 1 Pf",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2831,
+    "type": "HR",
+    "name": "Phase 2 Pf",
+    "desc": "Phase 2 Pf",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2832,
+    "type": "HR",
+    "name": "Phase 3 Pf",
+    "desc": "Phase 3 Pf",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2833,
+    "type": "HR",
+    "name": "Ph1 Ph2 Volts",
+    "desc": "Ph1 Ph2 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2834,
+    "type": "HR",
+    "name": "Ph2 Ph3 Volts",
+    "desc": "Ph2 Ph3 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2835,
+    "type": "HR",
+    "name": "Ph3 Ph1 Volts",
+    "desc": "Ph3 Ph1 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2836,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2837,
+    "type": "HR",
+    "name": "Amps Scale Ki",
+    "desc": "Amps Scale Ki",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2838,
+    "type": "HR",
+    "name": "Phase Volts Scale Kvp",
+    "desc": "Phase Volts Scale Kvp",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2839,
+    "type": "HR",
+    "name": "Line Volts Scale Kvl",
+    "desc": "Line Volts Scale Kvl",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2840,
+    "type": "HR",
+    "name": "Power Scale Kp",
+    "desc": "Power Scale Kp",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3072,
+    "type": "HR",
+    "name": "Phase 1 Kva",
+    "desc": "Phase 1 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3073,
+    "type": "HR",
+    "name": "Phase 2 Kva",
+    "desc": "Phase 2 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3074,
+    "type": "HR",
+    "name": "Phase 3 Kva",
+    "desc": "Phase 3 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3075,
+    "type": "HR",
+    "name": "Phase 1 Kvar",
+    "desc": "Phase 1 Kvar",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3076,
+    "type": "HR",
+    "name": "Phase 2 Kvar",
+    "desc": "Phase 2 Kvar",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3077,
+    "type": "HR",
+    "name": "Phase 3 Kvar",
+    "desc": "Phase 3 Kvar",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3328,
+    "type": "HR",
+    "name": "Peak Hold Ph1 Amps",
+    "desc": "Peak Hold Ph1 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3329,
+    "type": "HR",
+    "name": "Peak Hold Ph2 Amps",
+    "desc": "Peak Hold Ph2 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3330,
+    "type": "HR",
+    "name": "Peak Hold Ph3 Amps",
+    "desc": "Peak Hold Ph3 Amps",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3331,
+    "type": "HR",
+    "name": "Peak Hold Ph1 Volts",
+    "desc": "Peak Hold Ph1 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3332,
+    "type": "HR",
+    "name": "Peak Hold Ph2 Volts",
+    "desc": "Peak Hold Ph2 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3333,
+    "type": "HR",
+    "name": "Peak Hold Ph3 Volts",
+    "desc": "Peak Hold Ph3 Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3334,
+    "type": "HR",
+    "name": "Peak Hold Kw Demand",
+    "desc": "Peak Hold Kw Demand",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3335,
+    "type": "HR",
+    "name": "Kw Demand Period",
+    "desc": "Kw Demand Period",
+    "unit": "KW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3336,
+    "type": "HR",
+    "name": "Kw Demand",
+    "desc": "Kw Demand",
+    "unit": "KW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3584,
+    "type": "HR",
+    "name": "Ct Primary",
+    "desc": "Ct Primary",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3585,
+    "type": "HR",
+    "name": "Nominal Volts",
+    "desc": "Nominal Volts",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 12288,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12290,
+    "type": "HR",
+    "name": "Phase Voltage V1",
+    "desc": "Phase Voltage V1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12292,
+    "type": "HR",
+    "name": "Phase Voltage V2",
+    "desc": "Phase Voltage V2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12294,
+    "type": "HR",
+    "name": "Phase Voltage V3",
+    "desc": "Phase Voltage V3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12296,
+    "type": "HR",
+    "name": "Average Voltage Vavg",
+    "desc": "Average Voltage Vavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12298,
+    "type": "HR",
+    "name": "Line Voltage V12",
+    "desc": "Line Voltage V12",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12300,
+    "type": "HR",
+    "name": "Line Voltage V23",
+    "desc": "Line Voltage V23",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12302,
+    "type": "HR",
+    "name": "Line Voltage V31",
+    "desc": "Line Voltage V31",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12304,
+    "type": "HR",
+    "name": "Average Line Voltage Vlavg",
+    "desc": "Average Line Voltage Vlavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12306,
+    "type": "HR",
+    "name": "Current I1",
+    "desc": "Current I1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12308,
+    "type": "HR",
+    "name": "Current I2",
+    "desc": "Current I2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12310,
+    "type": "HR",
+    "name": "Current I3",
+    "desc": "Current I3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12312,
+    "type": "HR",
+    "name": "Average Current Iavg",
+    "desc": "Average Current Iavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12314,
+    "type": "HR",
+    "name": "Neutral Current In",
+    "desc": "Neutral Current In",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12316,
+    "type": "HR",
+    "name": "Phase A Power Pa",
+    "desc": "Phase A Power Pa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12318,
+    "type": "HR",
+    "name": "Phase B Power Pb",
+    "desc": "Phase B Power Pb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12320,
+    "type": "HR",
+    "name": "Phase C Power Pc",
+    "desc": "Phase C Power Pc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12322,
+    "type": "HR",
+    "name": "System Power Psum",
+    "desc": "System Power Psum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12324,
+    "type": "HR",
+    "name": "Phase A Reactive Power Qa",
+    "desc": "Phase A Reactive Power Qa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12326,
+    "type": "HR",
+    "name": "Phase B Reactive Power Qb",
+    "desc": "Phase B Reactive Power Qb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12328,
+    "type": "HR",
+    "name": "Phase C Reactive Power Qc",
+    "desc": "Phase C Reactive Power Qc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12330,
+    "type": "HR",
+    "name": "System Reactive Power Qsum",
+    "desc": "System Reactive Power Qsum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12332,
+    "type": "HR",
+    "name": "Phase A Apparent Power Sa",
+    "desc": "Phase A Apparent Power Sa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 208942,
+    "type": "HR",
+    "name": "Phase B Apparent Power Sb",
+    "desc": "Phase B Apparent Power Sb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12336,
+    "type": "HR",
+    "name": "Phase C Apparent Power Sc",
+    "desc": "Phase C Apparent Power Sc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12338,
+    "type": "HR",
+    "name": "System Apparent Power Ssum",
+    "desc": "System Apparent Power Ssum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12340,
+    "type": "HR",
+    "name": "Phase A Power Factor Pfa",
+    "desc": "Phase A Power Factor Pfa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12342,
+    "type": "HR",
+    "name": "Phase B Power Factor Pfb",
+    "desc": "Phase B Power Factor Pfb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12344,
+    "type": "HR",
+    "name": "Phase C Power Factor Pfc",
+    "desc": "Phase C Power Factor Pfc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12346,
+    "type": "HR",
+    "name": "System Power Factor Pfsum",
+    "desc": "System Power Factor Pfsum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16384,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16386,
+    "type": "HR",
+    "name": "Phase Voltage V1",
+    "desc": "Phase Voltage V1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16388,
+    "type": "HR",
+    "name": "Phase Voltage V2",
+    "desc": "Phase Voltage V2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16390,
+    "type": "HR",
+    "name": "Phase Voltage V3",
+    "desc": "Phase Voltage V3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16392,
+    "type": "HR",
+    "name": "Average Voltage Vavg",
+    "desc": "Average Voltage Vavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16394,
+    "type": "HR",
+    "name": "Line Voltage V12",
+    "desc": "Line Voltage V12",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16396,
+    "type": "HR",
+    "name": "Line Voltage V23",
+    "desc": "Line Voltage V23",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16398,
+    "type": "HR",
+    "name": "Line Voltage V31",
+    "desc": "Line Voltage V31",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16400,
+    "type": "HR",
+    "name": "Average Line Voltage Vlavg",
+    "desc": "Average Line Voltage Vlavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16402,
+    "type": "HR",
+    "name": "Current I1",
+    "desc": "Current I1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16404,
+    "type": "HR",
+    "name": "Current I2",
+    "desc": "Current I2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16406,
+    "type": "HR",
+    "name": "Current I3",
+    "desc": "Current I3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16408,
+    "type": "HR",
+    "name": "Average Current Iavg",
+    "desc": "Average Current Iavg",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16410,
+    "type": "HR",
+    "name": "Neutral Current In",
+    "desc": "Neutral Current In",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16412,
+    "type": "HR",
+    "name": "Phase A Power Pa",
+    "desc": "Phase A Power Pa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16414,
+    "type": "HR",
+    "name": "Phase B Power Pb",
+    "desc": "Phase B Power Pb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16416,
+    "type": "HR",
+    "name": "Phase C Power Pc",
+    "desc": "Phase C Power Pc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16418,
+    "type": "HR",
+    "name": "System Power Psum",
+    "desc": "System Power Psum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16420,
+    "type": "HR",
+    "name": "Phase A Reactive Power Qa",
+    "desc": "Phase A Reactive Power Qa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16422,
+    "type": "HR",
+    "name": "Phase B Reactive Power Qb",
+    "desc": "Phase B Reactive Power Qb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

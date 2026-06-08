@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Watts Total",
+    "desc": "Watts Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 102,
+    "type": "HR",
+    "name": "Watts R Phase",
+    "desc": "Watts R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 104,
+    "type": "HR",
+    "name": "Watts Y Phase",
+    "desc": "Watts Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Watts B Phase",
+    "desc": "Watts B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Var Total",
+    "desc": "Var Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Var R Phase",
+    "desc": "Var R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Var Y Phase",
+    "desc": "Var Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Var B Phase",
+    "desc": "Var B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Pf Avg(Inst)",
+    "desc": "Pf Avg(Inst)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Pf R Phase",
+    "desc": "Pf R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Pf Y Phase",
+    "desc": "Pf Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "Pf B Phase",
+    "desc": "Pf B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Va Total",
+    "desc": "Va Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 126,
+    "type": "HR",
+    "name": "Va R Phase",
+    "desc": "Va R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Va Y Phase",
+    "desc": "Va Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Va B Phase",
+    "desc": "Va B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Vll Average",
+    "desc": "Vll Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "Vry Phase",
+    "desc": "Vry Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Vyb Phase",
+    "desc": "Vyb Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 138,
+    "type": "HR",
+    "name": "Vbr Phase",
+    "desc": "Vbr Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Vln Average",
+    "desc": "Vln Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 142,
+    "type": "HR",
+    "name": "V R Phase",
+    "desc": "V R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "V Y Phase",
+    "desc": "V Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "V B Phase",
+    "desc": "V B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Current Average",
+    "desc": "Current Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Current R Phase",
+    "desc": "Current R Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Current Y Phase",
+    "desc": "Current Y Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "Current B Phase",
+    "desc": "Current B Phase",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Wh Received",
+    "desc": "Wh Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Vah Received",
+    "desc": "Vah Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "Varh Ind. Received",
+    "desc": "Varh Ind. Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Varh Cap. Received",
+    "desc": "Varh Cap. Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "Pf Average Received",
+    "desc": "Pf Average Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "Amps Hours Received",
+    "desc": "Amps Hours Received",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 182,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 184,
+    "type": "HR",
+    "name": "Voltage R Harmonics",
+    "desc": "Voltage R Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 186,
+    "type": "HR",
+    "name": "Voltage Y Harmonics",
+    "desc": "Voltage Y Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 188,
+    "type": "HR",
+    "name": "Voltage B Harmonics",
+    "desc": "Voltage B Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 190,
+    "type": "HR",
+    "name": "Current R Harmonics",
+    "desc": "Current R Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 192,
+    "type": "HR",
+    "name": "Current Y Harmonics",
+    "desc": "Current Y Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 194,
+    "type": "HR",
+    "name": "Current B Harmonics",
+    "desc": "Current B Harmonics",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Rpm",
+    "desc": "Rpm",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "Load Hours Received",
+    "desc": "Load Hours Received",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "No Of Interruptions",
+    "desc": "No Of Interruptions",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 230,
+    "type": "HR",
+    "name": "On Hours ( In Seconds)",
+    "desc": "On Hours ( In Seconds)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 232,
+    "type": "HR",
+    "name": "Voltage R Phase Angle",
+    "desc": "Voltage R Phase Angle",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 234,
+    "type": "HR",
+    "name": "Voltage Y Phase Angle",
+    "desc": "Voltage Y Phase Angle",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 236,
+    "type": "HR",
+    "name": "Voltage B Phase Angle",
+    "desc": "Voltage B Phase Angle",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 238,
+    "type": "HR",
+    "name": "Current R Phase Angle",
+    "desc": "Current R Phase Angle",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

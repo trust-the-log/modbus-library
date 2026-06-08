@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 45056,
+    "type": "HR",
+    "name": "V, L1 N",
+    "desc": "V, L1 N",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45057,
+    "type": "HR",
+    "name": "V, L2 N",
+    "desc": "V, L2 N",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45058,
+    "type": "HR",
+    "name": "V, L3 N",
+    "desc": "V, L3 N",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45059,
+    "type": "HR",
+    "name": "V, L1 L2",
+    "desc": "V, L1 L2",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45060,
+    "type": "HR",
+    "name": "V, L2 L3",
+    "desc": "V, L2 L3",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45061,
+    "type": "HR",
+    "name": "V, L3 L1",
+    "desc": "V, L3 L1",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45062,
+    "type": "HR",
+    "name": "F",
+    "desc": "F",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45063,
+    "type": "HR",
+    "name": "Not Used",
+    "desc": "Not Used",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45064,
+    "type": "HR",
+    "name": "Not Used",
+    "desc": "Not Used",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45065,
+    "type": "HR",
+    "name": "I, L1",
+    "desc": "I, L1",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45067,
+    "type": "HR",
+    "name": "I, L2",
+    "desc": "I, L2",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45069,
+    "type": "HR",
+    "name": "I, L3",
+    "desc": "I, L3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45071,
+    "type": "HR",
+    "name": "I, Neutral",
+    "desc": "I, Neutral",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45073,
+    "type": "HR",
+    "name": "P, Sum L",
+    "desc": "P, Sum L",
+    "unit": "KW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45075,
+    "type": "HR",
+    "name": "Q, Sum L",
+    "desc": "Q, Sum L",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45077,
+    "type": "HR",
+    "name": "S, Sum L",
+    "desc": "S, Sum L",
+    "unit": "KvA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45079,
+    "type": "HR",
+    "name": "Pf, Sum L Iec",
+    "desc": "Pf, Sum L Iec",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45080,
+    "type": "HR",
+    "name": "Pf, Sum L Ieee",
+    "desc": "Pf, Sum L Ieee",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45081,
+    "type": "HR",
+    "name": "P, L1",
+    "desc": "P, L1",
+    "unit": "KW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45083,
+    "type": "HR",
+    "name": "P, L2",
+    "desc": "P, L2",
+    "unit": "KW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45085,
+    "type": "HR",
+    "name": "P, L3",
+    "desc": "P, L3",
+    "unit": "KW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45087,
+    "type": "HR",
+    "name": "Q, L1",
+    "desc": "Q, L1",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45089,
+    "type": "HR",
+    "name": "Q, L2",
+    "desc": "Q, L2",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45091,
+    "type": "HR",
+    "name": "Q, L3",
+    "desc": "Q, L3",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 45093,
+    "type": "HR",
+    "name": "S, L1",
+    "desc": "S, L1",
+    "unit": "KvA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45095,
+    "type": "HR",
+    "name": "S, L2",
+    "desc": "S, L2",
+    "unit": "KvA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45097,
+    "type": "HR",
+    "name": "S, L3",
+    "desc": "S, L3",
+    "unit": "KvA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45099,
+    "type": "HR",
+    "name": "Pf, L1 Iec",
+    "desc": "Pf, L1 Iec",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45100,
+    "type": "HR",
+    "name": "Pf, L2 Iec",
+    "desc": "Pf, L2 Iec",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45101,
+    "type": "HR",
+    "name": "Pf, L3 Iec",
+    "desc": "Pf, L3 Iec",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45102,
+    "type": "HR",
+    "name": "Pf, L1 Ieee",
+    "desc": "Pf, L1 Ieee",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45103,
+    "type": "HR",
+    "name": "Pf, L2 Ieee",
+    "desc": "Pf, L2 Ieee",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45104,
+    "type": "HR",
+    "name": "Pf, L3 Ieee",
+    "desc": "Pf, L3 Ieee",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 45152,
+    "type": "HR",
+    "name": "Ea+, Sum T",
+    "desc": "Ea+, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45154,
+    "type": "HR",
+    "name": "Er+, Sum T",
+    "desc": "Er+, Sum T",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45156,
+    "type": "HR",
+    "name": "Ea , Sum T",
+    "desc": "Ea , Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45158,
+    "type": "HR",
+    "name": "Er , Sum T",
+    "desc": "Er , Sum T",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45160,
+    "type": "HR",
+    "name": "P Ea+, Sum T",
+    "desc": "P Ea+, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45162,
+    "type": "HR",
+    "name": "P Ea , Sum T",
+    "desc": "P Ea , Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45184,
+    "type": "HR",
+    "name": "Ea+, M1, Sum T",
+    "desc": "Ea+, M1, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45186,
+    "type": "HR",
+    "name": "Ea+, M2, Sum T",
+    "desc": "Ea+, M2, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45188,
+    "type": "HR",
+    "name": "Ea+, M3, Sum T",
+    "desc": "Ea+, M3, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45190,
+    "type": "HR",
+    "name": "Ea , M1, Sum T",
+    "desc": "Ea , M1, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45192,
+    "type": "HR",
+    "name": "Ea , M2, Sum T",
+    "desc": "Ea , M2, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45194,
+    "type": "HR",
+    "name": "Ea , M3, Sum T",
+    "desc": "Ea , M3, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45196,
+    "type": "HR",
+    "name": "P Ea+, M1, Sum T",
+    "desc": "P Ea+, M1, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45198,
+    "type": "HR",
+    "name": "P Ea+, M2, Sum T",
+    "desc": "P Ea+, M2, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45200,
+    "type": "HR",
+    "name": "P Ea+, M3, Sum T",
+    "desc": "P Ea+, M3, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45202,
+    "type": "HR",
+    "name": "P Ea , M1, Sum T",
+    "desc": "P Ea , M1, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45204,
+    "type": "HR",
+    "name": "P Ea , M2, Sum T",
+    "desc": "P Ea , M2, Sum T",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

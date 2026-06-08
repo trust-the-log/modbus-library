@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40000,
+    "type": "HR",
+    "name": "Dateandtime",
+    "desc": "Dateandtime",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40002,
+    "type": "HR",
+    "name": "City",
+    "desc": "City",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40004,
+    "type": "HR",
+    "name": "Daylight Saving Time (Dst)",
+    "desc": "Daylight Saving Time (Dst)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40005,
+    "type": "HR",
+    "name": "Time Zone",
+    "desc": "Time Zone",
+    "unit": "s",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40007,
+    "type": "HR",
+    "name": "Dst State",
+    "desc": "Dst State",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40008,
+    "type": "HR",
+    "name": "Dst Offset",
+    "desc": "Dst Offset",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40009,
+    "type": "HR",
+    "name": "The Local Time",
+    "desc": "The Local Time",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40200,
+    "type": "HR",
+    "name": "Power On",
+    "desc": "Power On",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40201,
+    "type": "HR",
+    "name": "Power Off",
+    "desc": "Power Off",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40202,
+    "type": "HR",
+    "name": "Power On/Off",
+    "desc": "Power On/Off",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40203,
+    "type": "HR",
+    "name": "Power On/Off",
+    "desc": "Power On/Off",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40204,
+    "type": "HR",
+    "name": "Transfer Trip",
+    "desc": "Transfer Trip",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40205,
+    "type": "HR",
+    "name": "Array Reset",
+    "desc": "Array Reset",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40500,
+    "type": "HR",
+    "name": "Dc Current",
+    "desc": "Dc Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40521,
+    "type": "HR",
+    "name": "Input Power",
+    "desc": "Input Power",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40523,
+    "type": "HR",
+    "name": "Co2 Reduction",
+    "desc": "Co2 Reduction",
+    "unit": "kg",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40525,
+    "type": "HR",
+    "name": "Active Power",
+    "desc": "Active Power",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40532,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40543,
+    "type": "HR",
+    "name": "Plant Status",
+    "desc": "Plant Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40544,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40550,
+    "type": "HR",
+    "name": "Co2 Reduction",
+    "desc": "Co2 Reduction",
+    "unit": "kg",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 40554,
+    "type": "HR",
+    "name": "Dc Current 2",
+    "desc": "Dc Current 2",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40560,
+    "type": "HR",
+    "name": "E Total",
+    "desc": "E Total",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40562,
+    "type": "HR",
+    "name": "E Daily",
+    "desc": "E Daily",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40564,
+    "type": "HR",
+    "name": "Duration Of Daily Power Generation",
+    "desc": "Duration Of Daily Power Generation",
+    "unit": "h",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40566,
+    "type": "HR",
+    "name": "Plant Status",
+    "desc": "Plant Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40567,
+    "type": "HR",
+    "name": "Plant Status",
+    "desc": "Plant Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40568,
+    "type": "HR",
+    "name": "Active Alarm Sequence Number",
+    "desc": "Active Alarm Sequence Number",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40570,
+    "type": "HR",
+    "name": "Historical Alarm Sequence Number",
+    "desc": "Historical Alarm Sequence Number",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40572,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40573,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40574,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40575,
+    "type": "HR",
+    "name": "Uab",
+    "desc": "Uab",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40576,
+    "type": "HR",
+    "name": "Ubc",
+    "desc": "Ubc",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40577,
+    "type": "HR",
+    "name": "Uca",
+    "desc": "Uca",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40685,
+    "type": "HR",
+    "name": "Inverter Efficiency",
+    "desc": "Inverter Efficiency",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40697,
+    "type": "HR",
+    "name": "Max. Activeadjustm Ent",
+    "desc": "Max. Activeadjustm Ent",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40699,
+    "type": "HR",
+    "name": "Locked",
+    "desc": "Locked",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40700,
+    "type": "HR",
+    "name": "Di Status",
+    "desc": "Di Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40723,
+    "type": "HR",
+    "name": "System Reset",
+    "desc": "System Reset",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40724,
+    "type": "HR",
+    "name": "Fast Device Access",
+    "desc": "Fast Device Access",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40736,
+    "type": "HR",
+    "name": "Device Access Status",
+    "desc": "Device Access Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40737,
+    "type": "HR",
+    "name": "Active Power Control Mode",
+    "desc": "Active Power Control Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40738,
+    "type": "HR",
+    "name": "Active Power Scheduling Target Value",
+    "desc": "Active Power Scheduling Target Value",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40740,
+    "type": "HR",
+    "name": "Reactive Power Control Mode",
+    "desc": "Reactive Power Control Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40741,
+    "type": "HR",
+    "name": "Reactive Power Scheduling Curve Mode",
+    "desc": "Reactive Power Scheduling Curve Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40802,
+    "type": "HR",
+    "name": "Active Scheduling Percentage",
+    "desc": "Active Scheduling Percentage",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 41124,
+    "type": "HR",
+    "name": "Co2 Emission Reduction Coefficient",
+    "desc": "Co2 Emission Reduction Coefficient",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41934,
+    "type": "HR",
+    "name": "Pv Module Capacity",
+    "desc": "Pv Module Capacity",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 41936,
+    "type": "HR",
+    "name": "Rated Plant Capacity",
+    "desc": "Rated Plant Capacity",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

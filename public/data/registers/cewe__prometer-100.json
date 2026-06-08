@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Meter Primary Voltage",
+    "desc": "Meter Primary Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Meter Secondary Voltage",
+    "desc": "Meter Secondary Voltage",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Meter Primary Current",
+    "desc": "Meter Primary Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Meter Secondary Current",
+    "desc": "Meter Secondary Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Meter Maximum Current",
+    "desc": "Meter Maximum Current",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Meter Type: 0   Ht3, 1   Ht4, 2   Lt 3Ct 4W",
+    "desc": "Meter Type: 0   Ht3, 1   Ht4, 2   Lt 3Ct 4W",
+    "unit": "NA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1100,
+    "type": "HR",
+    "name": "Phase Voltage L1",
+    "desc": "Phase Voltage L1",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1102,
+    "type": "HR",
+    "name": "Phase Voltage L2",
+    "desc": "Phase Voltage L2",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1104,
+    "type": "HR",
+    "name": "Phase Voltage L3",
+    "desc": "Phase Voltage L3",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1106,
+    "type": "HR",
+    "name": "Phase To Phase Voltage L1   L2",
+    "desc": "Phase To Phase Voltage L1   L2",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1108,
+    "type": "HR",
+    "name": "Phase To Phase Voltage L2   L3",
+    "desc": "Phase To Phase Voltage L2   L3",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1110,
+    "type": "HR",
+    "name": "Phase To Phase Voltage L3   L1",
+    "desc": "Phase To Phase Voltage L3   L1",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1112,
+    "type": "HR",
+    "name": "Line Current L1",
+    "desc": "Line Current L1",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1114,
+    "type": "HR",
+    "name": "Line Current L2",
+    "desc": "Line Current L2",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1116,
+    "type": "HR",
+    "name": "Line Current L3",
+    "desc": "Line Current L3",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1118,
+    "type": "HR",
+    "name": "Three Phase Average Voltages % Of Vnominal",
+    "desc": "Three Phase Average Voltages % Of Vnominal",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1120,
+    "type": "HR",
+    "name": "All Phase Power Factor",
+    "desc": "All Phase Power Factor",
+    "unit": "NA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1122,
+    "type": "HR",
+    "name": "Frequency Hz",
+    "desc": "Frequency Hz",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1124,
+    "type": "HR",
+    "name": "All Phase Active Power (Total)",
+    "desc": "All Phase Active Power (Total)",
+    "unit": "KW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1126,
+    "type": "HR",
+    "name": "All Phase Reactive Power",
+    "desc": "All Phase Reactive Power",
+    "unit": "KVAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1128,
+    "type": "HR",
+    "name": "All Phase Apparent Power",
+    "desc": "All Phase Apparent Power",
+    "unit": "KVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1130,
+    "type": "HR",
+    "name": "All Phase Active Power (Fundamental)",
+    "desc": "All Phase Active Power (Fundamental)",
+    "unit": "KW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1200,
+    "type": "HR",
+    "name": "Phase Symmetry Voltage L1",
+    "desc": "Phase Symmetry Voltage L1",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1202,
+    "type": "HR",
+    "name": "Phase Symmetry Voltage L2",
+    "desc": "Phase Symmetry Voltage L2",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1204,
+    "type": "HR",
+    "name": "Phase Symmetry Voltage L3",
+    "desc": "Phase Symmetry Voltage L3",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1206,
+    "type": "HR",
+    "name": "Phase Symmetry Current L1",
+    "desc": "Phase Symmetry Current L1",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1208,
+    "type": "HR",
+    "name": "Phase Symmetry Current L2",
+    "desc": "Phase Symmetry Current L2",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1210,
+    "type": "HR",
+    "name": "Phase Symmetry Current L3",
+    "desc": "Phase Symmetry Current L3",
+    "unit": "Degree",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1212,
+    "type": "HR",
+    "name": "Thd Voltage L1",
+    "desc": "Thd Voltage L1",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1214,
+    "type": "HR",
+    "name": "Thd Voltage L2",
+    "desc": "Thd Voltage L2",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1216,
+    "type": "HR",
+    "name": "Thd Voltage L3",
+    "desc": "Thd Voltage L3",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1218,
+    "type": "HR",
+    "name": "Thd Current L1",
+    "desc": "Thd Current L1",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1220,
+    "type": "HR",
+    "name": "Thd Current L2",
+    "desc": "Thd Current L2",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1222,
+    "type": "HR",
+    "name": "Thd Current L3",
+    "desc": "Thd Current L3",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1224,
+    "type": "HR",
+    "name": "Thd Power L1",
+    "desc": "Thd Power L1",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1226,
+    "type": "HR",
+    "name": "Thd Power L2",
+    "desc": "Thd Power L2",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1228,
+    "type": "HR",
+    "name": "Thd Power L3",
+    "desc": "Thd Power L3",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1300,
+    "type": "HR",
+    "name": "Active Power L1(T)",
+    "desc": "Active Power L1(T)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1302,
+    "type": "HR",
+    "name": "Active Power L2(T)",
+    "desc": "Active Power L2(T)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1304,
+    "type": "HR",
+    "name": "Active Power L3(T)",
+    "desc": "Active Power L3(T)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1306,
+    "type": "HR",
+    "name": "Active Power L1(F)",
+    "desc": "Active Power L1(F)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1308,
+    "type": "HR",
+    "name": "Active Power L2(F)",
+    "desc": "Active Power L2(F)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1310,
+    "type": "HR",
+    "name": "Active Power L3(F)",
+    "desc": "Active Power L3(F)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1312,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "kVAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1314,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "kVAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1316,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "kVAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1318,
+    "type": "HR",
+    "name": "Apparent Power L1",
+    "desc": "Apparent Power L1",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1320,
+    "type": "HR",
+    "name": "Apparent Power L2",
+    "desc": "Apparent Power L2",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1322,
+    "type": "HR",
+    "name": "Apparent Power L3",
+    "desc": "Apparent Power L3",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1324,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "NA",
+    "dataType": "float",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Voltage L1",
+    "desc": "Voltage L1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Voltage L2",
+    "desc": "Voltage L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Voltage L3",
+    "desc": "Voltage L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Current L1",
+    "desc": "Current L1",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Current L2",
+    "desc": "Current L2",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Current L3",
+    "desc": "Current L3",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Current Neutral",
+    "desc": "Current Neutral",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Power L1",
+    "desc": "Power L1",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "Power L2",
+    "desc": "Power L2",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Power L3",
+    "desc": "Power L3",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Power Total",
+    "desc": "Power Total",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Apparent Power L1",
+    "desc": "Apparent Power L1",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Apparent Power L2",
+    "desc": "Apparent Power L2",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "Apparent Power L3",
+    "desc": "Apparent Power L3",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Apparent Power Total",
+    "desc": "Apparent Power Total",
+    "unit": "kVA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Reactive Power L1",
+    "desc": "Reactive Power L1",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Reactive Power L2",
+    "desc": "Reactive Power L2",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Reactive Power L3",
+    "desc": "Reactive Power L3",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Reactive Power Total",
+    "desc": "Reactive Power Total",
+    "unit": "kvar",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 336,
+    "type": "HR",
+    "name": "Power Factor L1",
+    "desc": "Power Factor L1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 338,
+    "type": "HR",
+    "name": "Power Factor L2",
+    "desc": "Power Factor L2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 340,
+    "type": "HR",
+    "name": "Power Factor L3",
+    "desc": "Power Factor L3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 342,
+    "type": "HR",
+    "name": "Power Factor Total",
+    "desc": "Power Factor Total",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 352,
+    "type": "HR",
+    "name": "Import Energy",
+    "desc": "Import Energy",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 358,
+    "type": "HR",
+    "name": "Export Energy",
+    "desc": "Export Energy",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Import Energy Rate 1",
+    "desc": "Import Energy Rate 1",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Import Energy Rate 2",
+    "desc": "Import Energy Rate 2",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Import Energy Rate 3",
+    "desc": "Import Energy Rate 3",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "Import Energy Rate 4",
+    "desc": "Import Energy Rate 4",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2256,
+    "type": "HR",
+    "name": "Export Energy Rate 1",
+    "desc": "Export Energy Rate 1",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2258,
+    "type": "HR",
+    "name": "Export Energy Rate 2",
+    "desc": "Export Energy Rate 2",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2260,
+    "type": "HR",
+    "name": "Export Energy Rate 3",
+    "desc": "Export Energy Rate 3",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2262,
+    "type": "HR",
+    "name": "Export Energy Rate 4",
+    "desc": "Export Energy Rate 4",
+    "unit": "KW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61440,
+    "type": "HR",
+    "name": "Time",
+    "desc": "Time",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 61713,
+    "type": "HR",
+    "name": "Last 1 Month Positive Energy, Total",
+    "desc": "Last 1 Month Positive Energy, Total",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61715,
+    "type": "HR",
+    "name": "Last 1 Month Positive Energy, Rate 1",
+    "desc": "Last 1 Month Positive Energy, Rate 1",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61717,
+    "type": "HR",
+    "name": "Last 1 Month Positive Energy, Rate 2",
+    "desc": "Last 1 Month Positive Energy, Rate 2",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61719,
+    "type": "HR",
+    "name": "Last 1 Month Positive Energy, Rate 3",
+    "desc": "Last 1 Month Positive Energy, Rate 3",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61721,
+    "type": "HR",
+    "name": "Last 1 Month Positive Energy, Rate 4",
+    "desc": "Last 1 Month Positive Energy, Rate 4",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61729,
+    "type": "HR",
+    "name": "Last 2 Month Positive Energy, Total",
+    "desc": "Last 2 Month Positive Energy, Total",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61731,
+    "type": "HR",
+    "name": "Last 2 Month Positive Energy, Rate 1",
+    "desc": "Last 2 Month Positive Energy, Rate 1",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61733,
+    "type": "HR",
+    "name": "Last 2 Month Positive Energy, Rate 2",
+    "desc": "Last 2 Month Positive Energy, Rate 2",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61735,
+    "type": "HR",
+    "name": "Last 2 Month Positive Energy, Rate 3",
+    "desc": "Last 2 Month Positive Energy, Rate 3",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61737,
+    "type": "HR",
+    "name": "Last 2 Month Positive Energy, Rate 4",
+    "desc": "Last 2 Month Positive Energy, Rate 4",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61745,
+    "type": "HR",
+    "name": "Last 3 Month Positive Energy, Total",
+    "desc": "Last 3 Month Positive Energy, Total",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61747,
+    "type": "HR",
+    "name": "Last 3 Month Positive Energy, Rate 1",
+    "desc": "Last 3 Month Positive Energy, Rate 1",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61749,
+    "type": "HR",
+    "name": "Last 3 Month Positive Energy, Rate 2",
+    "desc": "Last 3 Month Positive Energy, Rate 2",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61751,
+    "type": "HR",
+    "name": "Last 3 Month Positive Energy, Rate 3",
+    "desc": "Last 3 Month Positive Energy, Rate 3",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 61753,
+    "type": "HR",
+    "name": "Last 3 Month Positive Energy, Rate 4",
+    "desc": "Last 3 Month Positive Energy, Rate 4",
+    "unit": "kW",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

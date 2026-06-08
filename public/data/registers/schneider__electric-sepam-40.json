@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 275,
+    "type": "HR",
+    "name": "Phase Current I1",
+    "desc": "Phase Current I1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Phase Current I2",
+    "desc": "Phase Current I2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 277,
+    "type": "HR",
+    "name": "Phase Current I3",
+    "desc": "Phase Current I3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Residual Current I0 Sum",
+    "desc": "Residual Current I0 Sum",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 279,
+    "type": "HR",
+    "name": "Residual Current Measured",
+    "desc": "Residual Current Measured",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Average Phase Current Im1",
+    "desc": "Average Phase Current Im1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 281,
+    "type": "HR",
+    "name": "Average Phase Current Im2",
+    "desc": "Average Phase Current Im2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Average Phase Current Im3",
+    "desc": "Average Phase Current Im3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 283,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im1",
+    "desc": "Peak Demand Phase Current Im1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im2",
+    "desc": "Peak Demand Phase Current Im2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 285,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im3",
+    "desc": "Peak Demand Phase Current Im3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U21",
+    "desc": "Phase To Phase Voltage U21",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 287,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U32",
+    "desc": "Phase To Phase Voltage U32",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U13",
+    "desc": "Phase To Phase Voltage U13",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 289,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V1",
+    "desc": "Phase To Neutral Voltage V1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V2",
+    "desc": "Phase To Neutral Voltage V2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 291,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V3",
+    "desc": "Phase To Neutral Voltage V3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 292,
+    "type": "HR",
+    "name": "Residual Voltage V0",
+    "desc": "Residual Voltage V0",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 293,
+    "type": "HR",
+    "name": "Positive Sequence Voltage Vd",
+    "desc": "Positive Sequence Voltage Vd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "Negative Sequence Voltage Vi",
+    "desc": "Negative Sequence Voltage Vi",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 295,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Active Power P",
+    "desc": "Active Power P",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 297,
+    "type": "HR",
+    "name": "Reactive Power Q",
+    "desc": "Reactive Power Q",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 298,
+    "type": "HR",
+    "name": "Apparent Power S",
+    "desc": "Apparent Power S",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 299,
+    "type": "HR",
+    "name": "Peak Demand Active Power Pm",
+    "desc": "Peak Demand Active Power Pm",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Peak Demand Reactive Power Qm",
+    "desc": "Peak Demand Reactive Power Qm",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 301,
+    "type": "HR",
+    "name": "Power Factor Cos",
+    "desc": "Power Factor Cos",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 302,
+    "type": "HR",
+    "name": "Positive Active Energy Ea+",
+    "desc": "Positive Active Energy Ea+",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "Negative Active Energy Ea ",
+    "desc": "Negative Active Energy Ea ",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 306,
+    "type": "HR",
+    "name": "Positive Reactive Energy Er+",
+    "desc": "Positive Reactive Energy Er+",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 308,
+    "type": "HR",
+    "name": "Negative Reactive Energy Er ",
+    "desc": "Negative Reactive Energy Er ",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 310,
+    "type": "HR",
+    "name": "Phase Current I1",
+    "desc": "Phase Current I1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 311,
+    "type": "HR",
+    "name": "Phase Current I2",
+    "desc": "Phase Current I2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 312,
+    "type": "HR",
+    "name": "Phase Current I3",
+    "desc": "Phase Current I3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 313,
+    "type": "HR",
+    "name": "Residual Current I0 Sum",
+    "desc": "Residual Current I0 Sum",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 314,
+    "type": "HR",
+    "name": "Residual Current Measured",
+    "desc": "Residual Current Measured",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 315,
+    "type": "HR",
+    "name": "Average Phase Current Im1",
+    "desc": "Average Phase Current Im1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 316,
+    "type": "HR",
+    "name": "Average Phase Current Im2",
+    "desc": "Average Phase Current Im2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 317,
+    "type": "HR",
+    "name": "Average Phase Current Im3",
+    "desc": "Average Phase Current Im3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 318,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im1",
+    "desc": "Peak Demand Phase Current Im1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 319,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im2",
+    "desc": "Peak Demand Phase Current Im2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 320,
+    "type": "HR",
+    "name": "Peak Demand Phase Current Im3",
+    "desc": "Peak Demand Phase Current Im3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 321,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U21",
+    "desc": "Phase To Phase Voltage U21",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 322,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U32",
+    "desc": "Phase To Phase Voltage U32",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 323,
+    "type": "HR",
+    "name": "Phase To Phase Voltage U13",
+    "desc": "Phase To Phase Voltage U13",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 324,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V1",
+    "desc": "Phase To Neutral Voltage V1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 325,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V2",
+    "desc": "Phase To Neutral Voltage V2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 326,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage V3",
+    "desc": "Phase To Neutral Voltage V3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 327,
+    "type": "HR",
+    "name": "Residual Voltage V0",
+    "desc": "Residual Voltage V0",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 328,
+    "type": "HR",
+    "name": "Positive Sequence Voltage Vd",
+    "desc": "Positive Sequence Voltage Vd",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

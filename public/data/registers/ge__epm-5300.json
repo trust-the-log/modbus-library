@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Volt An, Instant",
+    "desc": "Volt An, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 317,
+    "type": "HR",
+    "name": "Volt An, Average",
+    "desc": "Volt An, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 356,
+    "type": "HR",
+    "name": "Volt An, Max",
+    "desc": "Volt An, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 395,
+    "type": "HR",
+    "name": "Volt An, Min",
+    "desc": "Volt An, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 279,
+    "type": "HR",
+    "name": "Volt Bn, Instant",
+    "desc": "Volt Bn, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 318,
+    "type": "HR",
+    "name": "Volt Bn, Average",
+    "desc": "Volt Bn, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 357,
+    "type": "HR",
+    "name": "Volt Bn, Max",
+    "desc": "Volt Bn, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 396,
+    "type": "HR",
+    "name": "Volt Bn, Min",
+    "desc": "Volt Bn, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Volt Cn, Instant",
+    "desc": "Volt Cn, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 319,
+    "type": "HR",
+    "name": "Volt Cn, Average",
+    "desc": "Volt Cn, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 358,
+    "type": "HR",
+    "name": "Volt Cn, Max",
+    "desc": "Volt Cn, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 397,
+    "type": "HR",
+    "name": "Volt Cn, Min",
+    "desc": "Volt Cn, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 281,
+    "type": "HR",
+    "name": "Volt Ab, Instant",
+    "desc": "Volt Ab, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 320,
+    "type": "HR",
+    "name": "Volt Ab, Average",
+    "desc": "Volt Ab, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 359,
+    "type": "HR",
+    "name": "Volt Ab, Max",
+    "desc": "Volt Ab, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 398,
+    "type": "HR",
+    "name": "Volt Ab, Min",
+    "desc": "Volt Ab, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Volt Bc, Instant",
+    "desc": "Volt Bc, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 321,
+    "type": "HR",
+    "name": "Volt Bc, Average",
+    "desc": "Volt Bc, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 360,
+    "type": "HR",
+    "name": "Volt Bc, Max",
+    "desc": "Volt Bc, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 399,
+    "type": "HR",
+    "name": "Volt Bc, Min",
+    "desc": "Volt Bc, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 283,
+    "type": "HR",
+    "name": "Volt Ca, Instant",
+    "desc": "Volt Ca, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 322,
+    "type": "HR",
+    "name": "Volt Ca, Average",
+    "desc": "Volt Ca, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 361,
+    "type": "HR",
+    "name": "Volt Ca, Max",
+    "desc": "Volt Ca, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 400,
+    "type": "HR",
+    "name": "Volt Ca, Min",
+    "desc": "Volt Ca, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Amp A, Instant",
+    "desc": "Amp A, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 323,
+    "type": "HR",
+    "name": "Amp A, Average",
+    "desc": "Amp A, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 362,
+    "type": "HR",
+    "name": "Amp A, Max",
+    "desc": "Amp A, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 401,
+    "type": "HR",
+    "name": "Amp A, Min",
+    "desc": "Amp A, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 285,
+    "type": "HR",
+    "name": "Amp B, Instant",
+    "desc": "Amp B, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 324,
+    "type": "HR",
+    "name": "Amp B, Average",
+    "desc": "Amp B, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 363,
+    "type": "HR",
+    "name": "Amp B, Max",
+    "desc": "Amp B, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 402,
+    "type": "HR",
+    "name": "Amp B, Min",
+    "desc": "Amp B, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Amp C, Instant",
+    "desc": "Amp C, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 325,
+    "type": "HR",
+    "name": "Amp C, Average",
+    "desc": "Amp C, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 364,
+    "type": "HR",
+    "name": "Amp C, Max",
+    "desc": "Amp C, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 403,
+    "type": "HR",
+    "name": "Amp C, Min",
+    "desc": "Amp C, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 287,
+    "type": "HR",
+    "name": "Amp N, Instant",
+    "desc": "Amp N, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 326,
+    "type": "HR",
+    "name": "Amp N, Average",
+    "desc": "Amp N, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 365,
+    "type": "HR",
+    "name": "Amp N, Max",
+    "desc": "Amp N, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 404,
+    "type": "HR",
+    "name": "Amp N, Min",
+    "desc": "Amp N, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 288,
+    "type": "HR",
+    "name": "Watt, Instant",
+    "desc": "Watt, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 327,
+    "type": "HR",
+    "name": "Watt, Average",
+    "desc": "Watt, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 366,
+    "type": "HR",
+    "name": "Watt, Max",
+    "desc": "Watt, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 405,
+    "type": "HR",
+    "name": "Watt, Min",
+    "desc": "Watt, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 289,
+    "type": "HR",
+    "name": "Var, Instant",
+    "desc": "Var, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 328,
+    "type": "HR",
+    "name": "Var, Average",
+    "desc": "Var, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 367,
+    "type": "HR",
+    "name": "Var, Max",
+    "desc": "Var, Max",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 406,
+    "type": "HR",
+    "name": "Var, Min",
+    "desc": "Var, Min",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Va, Instant",
+    "desc": "Va, Instant",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 329,
+    "type": "HR",
+    "name": "Va, Average",
+    "desc": "Va, Average",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40005,
+    "type": "HR",
+    "name": "Manufacturer",
+    "desc": "Manufacturer",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40021,
+    "type": "HR",
+    "name": "Device Model",
+    "desc": "Device Model",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40037,
+    "type": "HR",
+    "name": "Options",
+    "desc": "Options",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40045,
+    "type": "HR",
+    "name": "Sw Version Of Inverter",
+    "desc": "Sw Version Of Inverter",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40053,
+    "type": "HR",
+    "name": "Serialnumber Of The Inverter",
+    "desc": "Serialnumber Of The Inverter",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40069,
+    "type": "HR",
+    "name": "Modbus Device Address",
+    "desc": "Modbus Device Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40072,
+    "type": "HR",
+    "name": "Ac Total Current Value",
+    "desc": "Ac Total Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40074,
+    "type": "HR",
+    "name": "Ac Phase A Current Value",
+    "desc": "Ac Phase A Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40076,
+    "type": "HR",
+    "name": "Ac Phase B Current Value",
+    "desc": "Ac Phase B Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40078,
+    "type": "HR",
+    "name": "Ac Phase C Current Value",
+    "desc": "Ac Phase C Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40080,
+    "type": "HR",
+    "name": "Ac Voltage Phase Ab Value",
+    "desc": "Ac Voltage Phase Ab Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40082,
+    "type": "HR",
+    "name": "Ac Voltage Phase Bc Value",
+    "desc": "Ac Voltage Phase Bc Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40084,
+    "type": "HR",
+    "name": "Ac Voltage Phase Ca Value",
+    "desc": "Ac Voltage Phase Ca Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40086,
+    "type": "HR",
+    "name": "Ac Voltage Phase A To Neutral Value",
+    "desc": "Ac Voltage Phase A To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40088,
+    "type": "HR",
+    "name": "Ac Voltage Phase B To Neutral Value",
+    "desc": "Ac Voltage Phase B To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40090,
+    "type": "HR",
+    "name": "Ac Voltage Phase C To Neutral Value",
+    "desc": "Ac Voltage Phase C To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40092,
+    "type": "HR",
+    "name": "Ac Power Value",
+    "desc": "Ac Power Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40094,
+    "type": "HR",
+    "name": "Ac Frequency Value",
+    "desc": "Ac Frequency Value",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40096,
+    "type": "HR",
+    "name": "Apparent Power",
+    "desc": "Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40098,
+    "type": "HR",
+    "name": "Reactive Power",
+    "desc": "Reactive Power",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40100,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40102,
+    "type": "HR",
+    "name": "Ac Lifetime Energy Production",
+    "desc": "Ac Lifetime Energy Production",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40108,
+    "type": "HR",
+    "name": "Dc Power Value",
+    "desc": "Dc Power Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40120,
+    "type": "HR",
+    "name": "Event Flags (Bits 0 31)",
+    "desc": "Event Flags (Bits 0 31)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40122,
+    "type": "HR",
+    "name": "Event Flags (Bits 32 63)",
+    "desc": "Event Flags (Bits 32 63)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40124,
+    "type": "HR",
+    "name": "Vendor Defined Event Flags (Bits 0 31)",
+    "desc": "Vendor Defined Event Flags (Bits 0 31)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40126,
+    "type": "HR",
+    "name": "Vendor Defined Event Flags (Bits 32 63)",
+    "desc": "Vendor Defined Event Flags (Bits 32 63)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40128,
+    "type": "HR",
+    "name": "Vendor Defined Event Flags (Bits 64 95)",
+    "desc": "Vendor Defined Event Flags (Bits 64 95)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40130,
+    "type": "HR",
+    "name": "Vendor Defined Event Flags (Bits 96 127)",
+    "desc": "Vendor Defined Event Flags (Bits 96 127)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40133,
+    "type": "HR",
+    "name": "Length Of Nameplate Model",
+    "desc": "Length Of Nameplate Model",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40135,
+    "type": "HR",
+    "name": "Continuous Power Output Capability Of The Inverter",
+    "desc": "Continuous Power Output Capability Of The Inverter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40137,
+    "type": "HR",
+    "name": "Continuous Volt Ampere Capability Of The Inverter",
+    "desc": "Continuous Volt Ampere Capability Of The Inverter",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40139,
+    "type": "HR",
+    "name": "Continuous Var Capability Of The Inverter In Quadr",
+    "desc": "Continuous Var Capability Of The Inverter In Quadrant 1",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40142,
+    "type": "HR",
+    "name": "Continuous Var Capability Of The Inverter In Quadr",
+    "desc": "Continuous Var Capability Of The Inverter In Quadrant 4",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40144,
+    "type": "HR",
+    "name": "Maximum Rms Ac Current Level Capability Of The Inv",
+    "desc": "Maximum Rms Ac Current Level Capability Of The Inverter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40146,
+    "type": "HR",
+    "name": "Minimum Power Factor Capability Of The Inverter In",
+    "desc": "Minimum Power Factor Capability Of The Inverter In Quadrant 1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40149,
+    "type": "HR",
+    "name": "Minimum Power Factor Capability Of The Inverter In",
+    "desc": "Minimum Power Factor Capability Of The Inverter In Quadrant 4",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40151,
+    "type": "HR",
+    "name": "Nominal Energy Rating Of Storage Device",
+    "desc": "Nominal Energy Rating Of Storage Device",
+    "unit": "Wh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40155,
+    "type": "HR",
+    "name": "Maximum Rate Of Energy Transfer Into The Storage D",
+    "desc": "Maximum Rate Of Energy Transfer Into The Storage Device",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40157,
+    "type": "HR",
+    "name": "Maximum Rate Of Energy Transfer Out Of The Storage",
+    "desc": "Maximum Rate Of Energy Transfer Out Of The Storage Device",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40161,
+    "type": "HR",
+    "name": "Length Of Basic Settings Model",
+    "desc": "Length Of Basic Settings Model",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40162,
+    "type": "HR",
+    "name": "Setting For Maximum Power Output. Default To I Wrt",
+    "desc": "Setting For Maximum Power Output. Default To I Wrtg",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40163,
+    "type": "HR",
+    "name": "Voltage At The Pcc",
+    "desc": "Voltage At The Pcc",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40164,
+    "type": "HR",
+    "name": "Offset From Pcc To Inverter",
+    "desc": "Offset From Pcc To Inverter",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40167,
+    "type": "HR",
+    "name": "Setpoint For Maximum Apparent Power. Default To I ",
+    "desc": "Setpoint For Maximum Apparent Power. Default To I Vartg",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40168,
+    "type": "HR",
+    "name": "Setting For Maximum Reactive Power In Quadrant 1. ",
+    "desc": "Setting For Maximum Reactive Power In Quadrant 1. Default To Varrtgq1",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40171,
+    "type": "HR",
+    "name": "Setting For Maximum Reactive Power In Quadrant 4 D",
+    "desc": "Setting For Maximum Reactive Power In Quadrant 4 Default To Varrtgq4",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40173,
+    "type": "HR",
+    "name": "Setpoint For Minimum Power Factor Value In Quadran",
+    "desc": "Setpoint For Minimum Power Factor Value In Quadrant 1. Default To Pfrtgq1",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40176,
+    "type": "HR",
+    "name": "Setpoint For Minimum Power Factor Value In Quadran",
+    "desc": "Setpoint For Minimum Power Factor Value In Quadrant 4. Default To Pfrtgq4",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40193,
+    "type": "HR",
+    "name": "Length Of Measurements Status Model",
+    "desc": "Length Of Measurements Status Model",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

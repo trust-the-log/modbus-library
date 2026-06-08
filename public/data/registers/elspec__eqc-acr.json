@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 8448,
+    "type": "HR",
+    "name": "Fault",
+    "desc": "Fault",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Voltage L2",
+    "desc": "Voltage L2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Voltage L3",
+    "desc": "Voltage L3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Voltage",
+    "desc": "Voltage",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Voltage L12",
+    "desc": "Voltage L12",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Voltage L23",
+    "desc": "Voltage L23",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Voltage L31",
+    "desc": "Voltage L31",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Voltage",
+    "desc": "Voltage",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Current L1 (Mains)",
+    "desc": "Current L1 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Current L2 (Mains)",
+    "desc": "Current L2 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Current L3 (Mains)",
+    "desc": "Current L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Current (Mains)",
+    "desc": "Current (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Current L1 (Caps)",
+    "desc": "Current L1 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Current L2 (Caps)",
+    "desc": "Current L2 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Current L3 (Caps)",
+    "desc": "Current L3 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Current (Caps)",
+    "desc": "Current (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Current L1 (Load)",
+    "desc": "Current L1 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Current L2 (Load)",
+    "desc": "Current L2 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Current L3 (Load)",
+    "desc": "Current L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Current (Load)",
+    "desc": "Current (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Active Power L1 (Mains)",
+    "desc": "Active Power L1 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Active Power L2 (Mains)",
+    "desc": "Active Power L2 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Active Power L3 (Mains)",
+    "desc": "Active Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Active Power L3 (Mains)",
+    "desc": "Active Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Reactive Power L1 (Mains)",
+    "desc": "Reactive Power L1 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Reactive Power L2 (Mains)",
+    "desc": "Reactive Power L2 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Reactive Power L3 (Mains)",
+    "desc": "Reactive Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Reactive Power L3 (Mains)",
+    "desc": "Reactive Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Apparent Power L1 (Mains)",
+    "desc": "Apparent Power L1 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Apparent Power L2 (Mains)",
+    "desc": "Apparent Power L2 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Apparent Power L3 (Mains)",
+    "desc": "Apparent Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Apparent Power L3 (Mains)",
+    "desc": "Apparent Power L3 (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Reactive Power L1 (Caps)",
+    "desc": "Reactive Power L1 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Reactive Power L2 (Caps)",
+    "desc": "Reactive Power L2 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Reactive Power L3 (Caps)",
+    "desc": "Reactive Power L3 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Reactive Power L3 (Caps)",
+    "desc": "Reactive Power L3 (Caps)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Active Power L1 (Load)",
+    "desc": "Active Power L1 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 112,
+    "type": "HR",
+    "name": "Active Power L2 (Load)",
+    "desc": "Active Power L2 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 114,
+    "type": "HR",
+    "name": "Active Power L3 (Load)",
+    "desc": "Active Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 116,
+    "type": "HR",
+    "name": "Active Power L3 (Load)",
+    "desc": "Active Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 118,
+    "type": "HR",
+    "name": "Reactive Power L1 (Load)",
+    "desc": "Reactive Power L1 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 120,
+    "type": "HR",
+    "name": "Reactive Power L2 (Load)",
+    "desc": "Reactive Power L2 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 122,
+    "type": "HR",
+    "name": "Reactive Power L3 (Load)",
+    "desc": "Reactive Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 124,
+    "type": "HR",
+    "name": "Reactive Power L3 (Load)",
+    "desc": "Reactive Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 126,
+    "type": "HR",
+    "name": "Apparent Power L1 (Load)",
+    "desc": "Apparent Power L1 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 128,
+    "type": "HR",
+    "name": "Apparent Power L2 (Load)",
+    "desc": "Apparent Power L2 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 130,
+    "type": "HR",
+    "name": "Apparent Power L3 (Load)",
+    "desc": "Apparent Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 132,
+    "type": "HR",
+    "name": "Apparent Power L3 (Load)",
+    "desc": "Apparent Power L3 (Load)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Power Factor (Mains)",
+    "desc": "Power Factor (Mains)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

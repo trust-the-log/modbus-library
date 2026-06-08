@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Update Interval",
+    "desc": "Update Interval",
+    "unit": "second",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1001,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hertz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Temperature Inside Cm Enclosure",
+    "desc": "Temperature Inside Cm Enclosure",
+    "unit": "Degrees C",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1003,
+    "type": "HR",
+    "name": "Current, Phase A",
+    "desc": "Current, Phase A",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Current, Phase B",
+    "desc": "Current, Phase B",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1005,
+    "type": "HR",
+    "name": "Current, Phase C",
+    "desc": "Current, Phase C",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Current, Neutral",
+    "desc": "Current, Neutral",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1007,
+    "type": "HR",
+    "name": "Current, Ground",
+    "desc": "Current, Ground",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Current, 3 Phase Average",
+    "desc": "Current, 3 Phase Average",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1009,
+    "type": "HR",
+    "name": "Current, Apparent Rms",
+    "desc": "Current, Apparent Rms",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Current Unbalance, Phase A",
+    "desc": "Current Unbalance, Phase A",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1011,
+    "type": "HR",
+    "name": "Current Unbalance, Phase B",
+    "desc": "Current Unbalance, Phase B",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Current Unbalance, Phase C",
+    "desc": "Current Unbalance, Phase C",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1013,
+    "type": "HR",
+    "name": "Current Unbalance, Worst",
+    "desc": "Current Unbalance, Worst",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Voltage, Phase A To B",
+    "desc": "Voltage, Phase A To B",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1015,
+    "type": "HR",
+    "name": "Voltage, Phase B To C",
+    "desc": "Voltage, Phase B To C",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Voltage, Phase C To A",
+    "desc": "Voltage, Phase C To A",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1017,
+    "type": "HR",
+    "name": "Voltage L L, 3 Phase Average",
+    "desc": "Voltage L L, 3 Phase Average",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Voltage, Phase A To Neutral",
+    "desc": "Voltage, Phase A To Neutral",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1019,
+    "type": "HR",
+    "name": "Voltage, Phase B To Neutral",
+    "desc": "Voltage, Phase B To Neutral",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Voltage, Phase C To Neutral",
+    "desc": "Voltage, Phase C To Neutral",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1021,
+    "type": "HR",
+    "name": "Voltage L N, 3 Phase Average",
+    "desc": "Voltage L N, 3 Phase Average",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase A B",
+    "desc": "Voltage Unbalance, Phase A B",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1023,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase B C",
+    "desc": "Voltage Unbalance, Phase B C",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase C A",
+    "desc": "Voltage Unbalance, Phase C A",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Voltage Unbalance, L L Worst",
+    "desc": "Voltage Unbalance, L L Worst",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase A",
+    "desc": "Voltage Unbalance, Phase A",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase B",
+    "desc": "Voltage Unbalance, Phase B",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Voltage Unbalance, Phase C",
+    "desc": "Voltage Unbalance, Phase C",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Voltage Unbalance, L N Worst",
+    "desc": "Voltage Unbalance, L N Worst",
+    "unit": "Percent",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1031,
+    "type": "HR",
+    "name": "True Power Factor, Phase A",
+    "desc": "True Power Factor, Phase A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "True Power Factor, Phase B",
+    "desc": "True Power Factor, Phase B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1033,
+    "type": "HR",
+    "name": "True Power Factor, Phase C",
+    "desc": "True Power Factor, Phase C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "True Power Factor, 3 Phase Total",
+    "desc": "True Power Factor, 3 Phase Total",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1035,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase A",
+    "desc": "Displacement Power Factor, Phase A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase B",
+    "desc": "Displacement Power Factor, Phase B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1037,
+    "type": "HR",
+    "name": "Displacement Power Factor, Phase C",
+    "desc": "Displacement Power Factor, Phase C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Displacement Power Factor, 3 Phase Total",
+    "desc": "Displacement Power Factor, 3 Phase Total",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1039,
+    "type": "HR",
+    "name": "Real Power, Phase A",
+    "desc": "Real Power, Phase A",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Real Power, Phase B",
+    "desc": "Real Power, Phase B",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1041,
+    "type": "HR",
+    "name": "Real Power, Phase C",
+    "desc": "Real Power, Phase C",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Real Power, 3 Phase Total",
+    "desc": "Real Power, 3 Phase Total",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1043,
+    "type": "HR",
+    "name": "Reactive Power, Phase A",
+    "desc": "Reactive Power, Phase A",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Reactive Power, Phase B",
+    "desc": "Reactive Power, Phase B",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1045,
+    "type": "HR",
+    "name": "Reactive Power, Phase C",
+    "desc": "Reactive Power, Phase C",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Reactive Power, 3 Phase Total",
+    "desc": "Reactive Power, 3 Phase Total",
+    "unit": "kVAr",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1047,
+    "type": "HR",
+    "name": "Apparent Power, Phase A",
+    "desc": "Apparent Power, Phase A",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Apparent Power, Phase B",
+    "desc": "Apparent Power, Phase B",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1049,
+    "type": "HR",
+    "name": "Apparent Power, Phase C",
+    "desc": "Apparent Power, Phase C",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Apparent Power, 3 Phase Total",
+    "desc": "Apparent Power, 3 Phase Total",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Voltage Lower Limit (Vl) (9.6&Lt;Vl&Lt;Vu)",
+    "desc": "Voltage Lower Limit (Vl) (9.6&Lt;Vl&Lt;Vu)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 257,
+    "type": "HR",
+    "name": "Voltage Upper Limit (Vu) (Vl&Lt;Vu&Lt;264)",
+    "desc": "Voltage Upper Limit (Vu) (Vl&Lt;Vu&Lt;264)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Current Lower Limit (Cl) (0.1&Lt;Cl&Lt;Cu)",
+    "desc": "Current Lower Limit (Cl) (0.1&Lt;Cl&Lt;Cu)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 259,
+    "type": "HR",
+    "name": "Current Upper Limit (Cu) (Cl&Lt;Cu&Lt;5.867)",
+    "desc": "Current Upper Limit (Cu) (Cl&Lt;Cu&Lt;5.867)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Frequency Lower Limit (Fl) (40&Lt;Fl&Lt;Fu)",
+    "desc": "Frequency Lower Limit (Fl) (40&Lt;Fl&Lt;Fu)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 261,
+    "type": "HR",
+    "name": "Frequency Upper Limit (Fu) (Fl&Lt;Fu&Lt;70)",
+    "desc": "Frequency Upper Limit (Fu) (Fl&Lt;Fu&Lt;70)",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Y Phase Voltage",
+    "desc": "Y Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "B Phase Voltage",
+    "desc": "B Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "R Phase Current",
+    "desc": "R Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Y Phase Current",
+    "desc": "Y Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "B Phase Current",
+    "desc": "B Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Active Power R Phase",
+    "desc": "Active Power R Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Active Power R Phase",
+    "desc": "Active Power R Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Active Power Y Phase",
+    "desc": "Active Power Y Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Active Power Y Phase",
+    "desc": "Active Power Y Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Active Power B Phase",
+    "desc": "Active Power B Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Active Power B Phase",
+    "desc": "Active Power B Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Reactive Power R Phase",
+    "desc": "Reactive Power R Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Reactive Power R Phase",
+    "desc": "Reactive Power R Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Reactive Power Y Phase",
+    "desc": "Reactive Power Y Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Reactive Power Y Phase",
+    "desc": "Reactive Power Y Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Reactive Power B Phase",
+    "desc": "Reactive Power B Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Reactive Power B Phase",
+    "desc": "Reactive Power B Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Apparent Power R Phase",
+    "desc": "Apparent Power R Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Apparent Power R Phase",
+    "desc": "Apparent Power R Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Apparent Power Y Phase",
+    "desc": "Apparent Power Y Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Apparent Power Y Phase",
+    "desc": "Apparent Power Y Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Apparent Power B Phase",
+    "desc": "Apparent Power B Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Apparent Power B Phase",
+    "desc": "Apparent Power B Phase",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Power Factor R Phase",
+    "desc": "Power Factor R Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Power Factor Y Phase",
+    "desc": "Power Factor Y Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Power Factor B Phase",
+    "desc": "Power Factor B Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Total Active Power",
+    "desc": "Total Active Power",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Ry Line Voltage",
+    "desc": "Ry Line Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Yb Line Voltage",
+    "desc": "Yb Line Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Br Line Voltage",
+    "desc": "Br Line Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Average Phase Voltage",
+    "desc": "Average Phase Voltage",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Average Phase Current",
+    "desc": "Average Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "R Phase Voltage Harmonic",
+    "desc": "R Phase Voltage Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Y Phase Voltage Harmonic",
+    "desc": "Y Phase Voltage Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "B Phase Voltage Harmonic",
+    "desc": "B Phase Voltage Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "R Phase Current Harmonic",
+    "desc": "R Phase Current Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Y Phase Current Harmonic",
+    "desc": "Y Phase Current Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "B Phase Current Harmonic",
+    "desc": "B Phase Current Harmonic",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Phase Difference R Voltage And Current",
+    "desc": "Phase Difference R Voltage And Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Phase Difference Y Voltage And Current",
+    "desc": "Phase Difference Y Voltage And Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Phase Difference B Voltage And Current",
+    "desc": "Phase Difference B Voltage And Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Voltage Unbalance R Phase",
+    "desc": "Voltage Unbalance R Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Voltage Unbalance Y Phase",
+    "desc": "Voltage Unbalance Y Phase",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

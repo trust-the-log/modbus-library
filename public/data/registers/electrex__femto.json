@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Thd",
+    "desc": "Phase To Neutral Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Thd",
+    "desc": "Phase To Neutral Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Thd",
+    "desc": "Phase To Neutral Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Thd",
+    "desc": "Phase To Phase Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Thd",
+    "desc": "Phase To Phase Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Thd",
+    "desc": "Phase To Phase Voltage, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "Phase Current, Thd",
+    "desc": "Phase Current, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 214,
+    "type": "HR",
+    "name": "Phase Current, Thd",
+    "desc": "Phase Current, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 216,
+    "type": "HR",
+    "name": "Phase Current, Thd",
+    "desc": "Phase Current, Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 218,
+    "type": "HR",
+    "name": "Frequency Of U1N",
+    "desc": "Frequency Of U1N",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Rms Amplitude",
+    "desc": "Phase To Neutral Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 222,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Rms Amplitude",
+    "desc": "Phase To Neutral Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 224,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Rms Amplitude",
+    "desc": "Phase To Neutral Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 226,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Rms Amplitude",
+    "desc": "Phase To Phase Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 228,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Rms Amplitude",
+    "desc": "Phase To Phase Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 230,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Rms Amplitude",
+    "desc": "Phase To Phase Voltage, Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 232,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude",
+    "desc": "Phase Current, Rms Amplitude",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 234,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude",
+    "desc": "Phase Current, Rms Amplitude",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 236,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude",
+    "desc": "Phase Current, Rms Amplitude",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 238,
+    "type": "HR",
+    "name": "Neutral Current, Rms Amplitude",
+    "desc": "Neutral Current, Rms Amplitude",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 240,
+    "type": "HR",
+    "name": "Phase Active Power ( Imp/ Exp)",
+    "desc": "Phase Active Power ( Imp/ Exp)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 242,
+    "type": "HR",
+    "name": "Phase Active Power ( Imp/ Exp)",
+    "desc": "Phase Active Power ( Imp/ Exp)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 244,
+    "type": "HR",
+    "name": "Phase Active Power ( Imp/ Exp)",
+    "desc": "Phase Active Power ( Imp/ Exp)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 246,
+    "type": "HR",
+    "name": "Phase Reactive Power ( Imp/ Exp)",
+    "desc": "Phase Reactive Power ( Imp/ Exp)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 248,
+    "type": "HR",
+    "name": "Phase Reactive Power ( Imp/ Exp)",
+    "desc": "Phase Reactive Power ( Imp/ Exp)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 250,
+    "type": "HR",
+    "name": "Phase Reactive Power ( Imp/ Exp)",
+    "desc": "Phase Reactive Power ( Imp/ Exp)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 252,
+    "type": "HR",
+    "name": "Phase Apparent Power",
+    "desc": "Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 254,
+    "type": "HR",
+    "name": "Phase Apparent Power",
+    "desc": "Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 256,
+    "type": "HR",
+    "name": "Phase Apparent Power",
+    "desc": "Phase Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 258,
+    "type": "HR",
+    "name": "Phase Power Factor ( Imp/ Exp)",
+    "desc": "Phase Power Factor ( Imp/ Exp)",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 260,
+    "type": "HR",
+    "name": "Phase Power Factor ( Imp/ Exp)",
+    "desc": "Phase Power Factor ( Imp/ Exp)",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 262,
+    "type": "HR",
+    "name": "Phase Power Factor ( Imp/ Exp)",
+    "desc": "Phase Power Factor ( Imp/ Exp)",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 264,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Mean Thd",
+    "desc": "Phase To Neutral Voltage, Mean Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 266,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Mean Thd",
+    "desc": "Phase To Phase Voltage, Mean Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 268,
+    "type": "HR",
+    "name": "Phase Current, Mean Thd",
+    "desc": "Phase Current, Mean Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 270,
+    "type": "HR",
+    "name": "Phase To Neutral Voltage, Mean Rms Amplitude",
+    "desc": "Phase To Neutral Voltage, Mean Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 272,
+    "type": "HR",
+    "name": "Phase To Phase Voltage, Mean Rms Amplitude",
+    "desc": "Phase To Phase Voltage, Mean Rms Amplitude",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 274,
+    "type": "HR",
+    "name": "Three Phase Current, Rms Amplitude",
+    "desc": "Three Phase Current, Rms Amplitude",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 276,
+    "type": "HR",
+    "name": "Total Active Power ( Imp/ Exp)",
+    "desc": "Total Active Power ( Imp/ Exp)",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Total Reactive Power ( Imp/ Exp)",
+    "desc": "Total Reactive Power ( Imp/ Exp)",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Total Power Factor ( Imp/ Exp)",
+    "desc": "Total Power Factor ( Imp/ Exp)",
+    "unit": "-",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 332,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude, Avg",
+    "desc": "Phase Current, Rms Amplitude, Avg",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 334,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude, Avg",
+    "desc": "Phase Current, Rms Amplitude, Avg",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 336,
+    "type": "HR",
+    "name": "Phase Current, Rms Amplitude, Avg",
+    "desc": "Phase Current, Rms Amplitude, Avg",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 344,
+    "type": "HR",
+    "name": "Total Imported Active Power, Avg",
+    "desc": "Total Imported Active Power, Avg",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 346,
+    "type": "HR",
+    "name": "Total Imported Inductive Power, Avg",
+    "desc": "Total Imported Inductive Power, Avg",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 348,
+    "type": "HR",
+    "name": "Total Imported Capacitive Power, Avg",
+    "desc": "Total Imported Capacitive Power, Avg",
+    "unit": "var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 350,
+    "type": "HR",
+    "name": "Total Imported Apparent Power, Avg",
+    "desc": "Total Imported Apparent Power, Avg",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 352,
+    "type": "HR",
+    "name": "Total Exported Active Power, Avg",
+    "desc": "Total Exported Active Power, Avg",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  }
+]

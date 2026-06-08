@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "Kwh System Lsw",
+    "desc": "Kwh System Lsw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4001,
+    "type": "HR",
+    "name": "Kwh System Msw",
+    "desc": "Kwh System Msw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "Kw System",
+    "desc": "Kw System",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4003,
+    "type": "HR",
+    "name": "Kw Demand System Max",
+    "desc": "Kw Demand System Max",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Kw Demand System Now",
+    "desc": "Kw Demand System Now",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4005,
+    "type": "HR",
+    "name": "Kw System Max",
+    "desc": "Kw System Max",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "Kw System Min",
+    "desc": "Kw System Min",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4007,
+    "type": "HR",
+    "name": "Kvarh System Lsw",
+    "desc": "Kvarh System Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4008,
+    "type": "HR",
+    "name": "Kvarh System Msw",
+    "desc": "Kvarh System Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4009,
+    "type": "HR",
+    "name": "Kvar System",
+    "desc": "Kvar System",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "Kvah System Lsw",
+    "desc": "Kvah System Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4011,
+    "type": "HR",
+    "name": "Kvah System Msw",
+    "desc": "Kvah System Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Kva System",
+    "desc": "Kva System",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4013,
+    "type": "HR",
+    "name": "Displacement Pf System",
+    "desc": "Displacement Pf System",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Apparent Pf System",
+    "desc": "Apparent Pf System",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4015,
+    "type": "HR",
+    "name": "Amps System Avg",
+    "desc": "Amps System Avg",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4016,
+    "type": "HR",
+    "name": "Volts Line To Line Avg",
+    "desc": "Volts Line To Line Avg",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4017,
+    "type": "HR",
+    "name": "Volts Line To Neutral Avg",
+    "desc": "Volts Line To Neutral Avg",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4018,
+    "type": "HR",
+    "name": "Volts L1 To L2",
+    "desc": "Volts L1 To L2",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4019,
+    "type": "HR",
+    "name": "Volts L2 To L3",
+    "desc": "Volts L2 To L3",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4020,
+    "type": "HR",
+    "name": "Volts L1 To L3",
+    "desc": "Volts L1 To L3",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4021,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4022,
+    "type": "HR",
+    "name": "Kwh L1 Lsw",
+    "desc": "Kwh L1 Lsw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4023,
+    "type": "HR",
+    "name": "Kwh L1 Msw",
+    "desc": "Kwh L1 Msw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Kwh L2 Lsw",
+    "desc": "Kwh L2 Lsw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4025,
+    "type": "HR",
+    "name": "Kwh L2 Msw",
+    "desc": "Kwh L2 Msw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4026,
+    "type": "HR",
+    "name": "Kwh L3 Lsw",
+    "desc": "Kwh L3 Lsw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4027,
+    "type": "HR",
+    "name": "Kwh L3 Msw",
+    "desc": "Kwh L3 Msw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4028,
+    "type": "HR",
+    "name": "Kw L1",
+    "desc": "Kw L1",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4029,
+    "type": "HR",
+    "name": "Kw L2",
+    "desc": "Kw L2",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4030,
+    "type": "HR",
+    "name": "Kw L3",
+    "desc": "Kw L3",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4031,
+    "type": "HR",
+    "name": "Kvarh L1 Lsw",
+    "desc": "Kvarh L1 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4032,
+    "type": "HR",
+    "name": "Kvarh L1 Msw",
+    "desc": "Kvarh L1 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4033,
+    "type": "HR",
+    "name": "Kvarh L2 Lsw",
+    "desc": "Kvarh L2 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4034,
+    "type": "HR",
+    "name": "Kvarh L2 Msw",
+    "desc": "Kvarh L2 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4035,
+    "type": "HR",
+    "name": "Kvarh L3 Lsw",
+    "desc": "Kvarh L3 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4036,
+    "type": "HR",
+    "name": "Kvarh L3 Msw",
+    "desc": "Kvarh L3 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4037,
+    "type": "HR",
+    "name": "Kvar L1",
+    "desc": "Kvar L1",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4038,
+    "type": "HR",
+    "name": "Kvar L2",
+    "desc": "Kvar L2",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4039,
+    "type": "HR",
+    "name": "Kvar L3",
+    "desc": "Kvar L3",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4040,
+    "type": "HR",
+    "name": "Kvah L1 Lsw",
+    "desc": "Kvah L1 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4041,
+    "type": "HR",
+    "name": "Kvah L1 Msw",
+    "desc": "Kvah L1 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4042,
+    "type": "HR",
+    "name": "Kvah L2 Lsw",
+    "desc": "Kvah L2 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4043,
+    "type": "HR",
+    "name": "Kvah L2 Msw",
+    "desc": "Kvah L2 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4044,
+    "type": "HR",
+    "name": "Kvah L3 Lsw",
+    "desc": "Kvah L3 Lsw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4045,
+    "type": "HR",
+    "name": "Kvah L3 Msw",
+    "desc": "Kvah L3 Msw",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4046,
+    "type": "HR",
+    "name": "Kva L1",
+    "desc": "Kva L1",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4047,
+    "type": "HR",
+    "name": "Kva L2",
+    "desc": "Kva L2",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4048,
+    "type": "HR",
+    "name": "Kva L3",
+    "desc": "Kva L3",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4049,
+    "type": "HR",
+    "name": "Displacement Pf L1",
+    "desc": "Displacement Pf L1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

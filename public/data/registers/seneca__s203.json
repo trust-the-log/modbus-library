@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 134,
+    "type": "HR",
+    "name": "Voltage A",
+    "desc": "Voltage A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 136,
+    "type": "HR",
+    "name": "Voltage B",
+    "desc": "Voltage B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 138,
+    "type": "HR",
+    "name": "Voltage C",
+    "desc": "Voltage C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 140,
+    "type": "HR",
+    "name": "Voltage 3Ph",
+    "desc": "Voltage 3Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 192,
+    "type": "HR",
+    "name": "Voltage A",
+    "desc": "Voltage A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 193,
+    "type": "HR",
+    "name": "Voltage B",
+    "desc": "Voltage B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 194,
+    "type": "HR",
+    "name": "Voltage C",
+    "desc": "Voltage C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 195,
+    "type": "HR",
+    "name": "Voltage 3Ph",
+    "desc": "Voltage 3Ph",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 142,
+    "type": "HR",
+    "name": "Current A",
+    "desc": "Current A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 144,
+    "type": "HR",
+    "name": "Current B",
+    "desc": "Current B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 146,
+    "type": "HR",
+    "name": "Current C",
+    "desc": "Current C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 148,
+    "type": "HR",
+    "name": "Current 3Ph",
+    "desc": "Current 3Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 196,
+    "type": "HR",
+    "name": "Current A",
+    "desc": "Current A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 197,
+    "type": "HR",
+    "name": "Current B",
+    "desc": "Current B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 198,
+    "type": "HR",
+    "name": "Current C",
+    "desc": "Current C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 199,
+    "type": "HR",
+    "name": "Current 3Ph",
+    "desc": "Current 3Ph",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 150,
+    "type": "HR",
+    "name": "Active Pow A",
+    "desc": "Active Pow A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 152,
+    "type": "HR",
+    "name": "Active Pow B",
+    "desc": "Active Pow B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 154,
+    "type": "HR",
+    "name": "Active Pow C",
+    "desc": "Active Pow C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 156,
+    "type": "HR",
+    "name": "Active Pow 3Ph",
+    "desc": "Active Pow 3Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 200,
+    "type": "HR",
+    "name": "Active Pow A",
+    "desc": "Active Pow A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 201,
+    "type": "HR",
+    "name": "Active Pow B",
+    "desc": "Active Pow B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 202,
+    "type": "HR",
+    "name": "Active Pow C",
+    "desc": "Active Pow C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 203,
+    "type": "HR",
+    "name": "Active Pow 3Ph",
+    "desc": "Active Pow 3Ph",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 158,
+    "type": "HR",
+    "name": "Reactive Pow A",
+    "desc": "Reactive Pow A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 160,
+    "type": "HR",
+    "name": "Reactive Pow B",
+    "desc": "Reactive Pow B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 162,
+    "type": "HR",
+    "name": "Reactive Pow C",
+    "desc": "Reactive Pow C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 164,
+    "type": "HR",
+    "name": "Reactive Pow 3 Ph",
+    "desc": "Reactive Pow 3 Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 204,
+    "type": "HR",
+    "name": "Reactive Pow A",
+    "desc": "Reactive Pow A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 205,
+    "type": "HR",
+    "name": "Reactive Pow B",
+    "desc": "Reactive Pow B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 206,
+    "type": "HR",
+    "name": "Reactive Pow C",
+    "desc": "Reactive Pow C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 207,
+    "type": "HR",
+    "name": "Reactive Pow 3 Ph",
+    "desc": "Reactive Pow 3 Ph",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 166,
+    "type": "HR",
+    "name": "Apparent Pow A",
+    "desc": "Apparent Pow A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 168,
+    "type": "HR",
+    "name": "Apparent Pow B",
+    "desc": "Apparent Pow B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 170,
+    "type": "HR",
+    "name": "Apparent Pow C",
+    "desc": "Apparent Pow C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 172,
+    "type": "HR",
+    "name": "Apparent Pow 3 Ph",
+    "desc": "Apparent Pow 3 Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 208,
+    "type": "HR",
+    "name": "Apparent Pow A",
+    "desc": "Apparent Pow A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 209,
+    "type": "HR",
+    "name": "Apparent Pow B",
+    "desc": "Apparent Pow B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 210,
+    "type": "HR",
+    "name": "Apparent Pow C",
+    "desc": "Apparent Pow C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 211,
+    "type": "HR",
+    "name": "Apparent Pow 3 Ph",
+    "desc": "Apparent Pow 3 Ph",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 184,
+    "type": "HR",
+    "name": "Energy A",
+    "desc": "Energy A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 186,
+    "type": "HR",
+    "name": "Energy B",
+    "desc": "Energy B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 188,
+    "type": "HR",
+    "name": "Energy C",
+    "desc": "Energy C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 190,
+    "type": "HR",
+    "name": "Energy 3Ph",
+    "desc": "Energy 3Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 174,
+    "type": "HR",
+    "name": "Cos A",
+    "desc": "Cos A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 176,
+    "type": "HR",
+    "name": "Cos B",
+    "desc": "Cos B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 178,
+    "type": "HR",
+    "name": "Cos C",
+    "desc": "Cos C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 180,
+    "type": "HR",
+    "name": "Cos 3Ph",
+    "desc": "Cos 3Ph",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 212,
+    "type": "HR",
+    "name": "Cos A",
+    "desc": "Cos A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 213,
+    "type": "HR",
+    "name": "Cos B",
+    "desc": "Cos B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

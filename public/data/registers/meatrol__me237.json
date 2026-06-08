@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1000,
+    "type": "HR",
+    "name": "Voltage Value Of Phase A",
+    "desc": "Voltage Value Of Phase A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Voltage Value Of Phase B",
+    "desc": "Voltage Value Of Phase B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1004,
+    "type": "HR",
+    "name": "Voltage Value Of Phase C",
+    "desc": "Voltage Value Of Phase C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1006,
+    "type": "HR",
+    "name": "Average Phase Voltage Value",
+    "desc": "Average Phase Voltage Value",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1008,
+    "type": "HR",
+    "name": "Voltage Value Of Line A B",
+    "desc": "Voltage Value Of Line A B",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1010,
+    "type": "HR",
+    "name": "Voltage Value Of Line B C",
+    "desc": "Voltage Value Of Line B C",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1012,
+    "type": "HR",
+    "name": "Voltage Value Of Line C A",
+    "desc": "Voltage Value Of Line C A",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1014,
+    "type": "HR",
+    "name": "Average Line Voltage Value",
+    "desc": "Average Line Voltage Value",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1016,
+    "type": "HR",
+    "name": "Current Value Of Phase A",
+    "desc": "Current Value Of Phase A",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1018,
+    "type": "HR",
+    "name": "Current Value Of Phase B",
+    "desc": "Current Value Of Phase B",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1020,
+    "type": "HR",
+    "name": "Current Value Of Phase C",
+    "desc": "Current Value Of Phase C",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1022,
+    "type": "HR",
+    "name": "Average Value Of Three Phase Current",
+    "desc": "Average Value Of Three Phase Current",
+    "unit": "A",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Active Power Of Phase A",
+    "desc": "Active Power Of Phase A",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Active Power Of Phase B",
+    "desc": "Active Power Of Phase B",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1030,
+    "type": "HR",
+    "name": "Active Power Of Phase C",
+    "desc": "Active Power Of Phase C",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Sum Of Three Phase Active Power",
+    "desc": "Sum Of Three Phase Active Power",
+    "unit": "W",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1034,
+    "type": "HR",
+    "name": "Reactive Power Of Phase A",
+    "desc": "Reactive Power Of Phase A",
+    "unit": "Var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1036,
+    "type": "HR",
+    "name": "Reactive Power Of Phase B",
+    "desc": "Reactive Power Of Phase B",
+    "unit": "Var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1038,
+    "type": "HR",
+    "name": "Reactive Power Of Phase C",
+    "desc": "Reactive Power Of Phase C",
+    "unit": "Var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1040,
+    "type": "HR",
+    "name": "Sum Of Three Phase Reactive Power",
+    "desc": "Sum Of Three Phase Reactive Power",
+    "unit": "Var",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1042,
+    "type": "HR",
+    "name": "Apparent Power Of Phase A",
+    "desc": "Apparent Power Of Phase A",
+    "unit": "Va",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1044,
+    "type": "HR",
+    "name": "Apparent Power Of Phase B",
+    "desc": "Apparent Power Of Phase B",
+    "unit": "Va",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1046,
+    "type": "HR",
+    "name": "Apparent Power Of Phase A",
+    "desc": "Apparent Power Of Phase A",
+    "unit": "Va",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1048,
+    "type": "HR",
+    "name": "Sum Of Three Phase Apparent Power",
+    "desc": "Sum Of Three Phase Apparent Power",
+    "unit": "Va",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1050,
+    "type": "HR",
+    "name": "Power Factor Of Phase A",
+    "desc": "Power Factor Of Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1052,
+    "type": "HR",
+    "name": "Power Factor Of Phase B",
+    "desc": "Power Factor Of Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1054,
+    "type": "HR",
+    "name": "Power Factor Of Phase C",
+    "desc": "Power Factor Of Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1056,
+    "type": "HR",
+    "name": "Average Power Factor",
+    "desc": "Average Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1058,
+    "type": "HR",
+    "name": "Fundamental Power Factor Of Phase A",
+    "desc": "Fundamental Power Factor Of Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1060,
+    "type": "HR",
+    "name": "Fundamental Power Factor Of Phase B",
+    "desc": "Fundamental Power Factor Of Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1062,
+    "type": "HR",
+    "name": "Fundamental Power Factor Of Phase C",
+    "desc": "Fundamental Power Factor Of Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Average Fundamental Power Factor",
+    "desc": "Average Fundamental Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1066,
+    "type": "HR",
+    "name": "Grid Frequency",
+    "desc": "Grid Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Of Voltage Of Phase A",
+    "desc": "Percentage Of Total Harmonic Of Voltage Of Phase A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Of Voltage Of Phase B",
+    "desc": "Percentage Of Total Harmonic Of Voltage Of Phase B",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Of Voltage Of Phase A",
+    "desc": "Percentage Of Total Harmonic Of Voltage Of Phase A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "Three Phase Voltage Total Harmonic Percentage Aver",
+    "desc": "Three Phase Voltage Total Harmonic Percentage Average",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Current Of Phase A",
+    "desc": "Percentage Of Total Harmonic Current Of Phase A",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2010,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Current Of Phase B",
+    "desc": "Percentage Of Total Harmonic Current Of Phase B",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2012,
+    "type": "HR",
+    "name": "Percentage Of Total Harmonic Current Of Phase C",
+    "desc": "Percentage Of Total Harmonic Current Of Phase C",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2014,
+    "type": "HR",
+    "name": "Percentage Average Value Of Total Harmonic Of Thre",
+    "desc": "Percentage Average Value Of Total Harmonic Of Three Phase Current",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "Positive Active Energy Of Phase A",
+    "desc": "Positive Active Energy Of Phase A",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "Positive Active Energy Of Phase B",
+    "desc": "Positive Active Energy Of Phase B",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Positive Active Energy Of Phase C",
+    "desc": "Positive Active Energy Of Phase C",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "Sum Of Three Phase Positive Active Energy",
+    "desc": "Sum Of Three Phase Positive Active Energy",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4008,
+    "type": "HR",
+    "name": "Reverse Active Electric Energy Of Phase A",
+    "desc": "Reverse Active Electric Energy Of Phase A",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "Reverse Active Electric Energy Of Phase B",
+    "desc": "Reverse Active Electric Energy Of Phase B",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Reverse Active Electric Energy Of Phase C",
+    "desc": "Reverse Active Electric Energy Of Phase C",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Sum Of Three Phase Reverse Active Energy",
+    "desc": "Sum Of Three Phase Reverse Active Energy",
+    "unit": "0.1kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Positive Reactive Energy Of Phase A",
+    "desc": "Positive Reactive Energy Of Phase A",
+    "unit": "0.1kVarh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

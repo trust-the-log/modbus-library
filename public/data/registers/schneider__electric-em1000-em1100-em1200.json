@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 3056,
+    "type": "HR",
+    "name": "Current Average",
+    "desc": "Current Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3008,
+    "type": "HR",
+    "name": "Current, Phase 1",
+    "desc": "Current, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3024,
+    "type": "HR",
+    "name": "Current, Phase 2",
+    "desc": "Current, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3040,
+    "type": "HR",
+    "name": "Current, Phase 3",
+    "desc": "Current, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3058,
+    "type": "HR",
+    "name": "Voltage (Ll) Average",
+    "desc": "Voltage (Ll) Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3010,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 1 2",
+    "desc": "Voltage(Ll), Phase 1 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3026,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 2 3",
+    "desc": "Voltage(Ll), Phase 2 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3042,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 3 1",
+    "desc": "Voltage(Ll), Phase 3 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3060,
+    "type": "HR",
+    "name": "Voltage(Ln) Average",
+    "desc": "Voltage(Ln) Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3012,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 1",
+    "desc": "Voltage(Ln), Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3028,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 2",
+    "desc": "Voltage(Ln), Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3044,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 3",
+    "desc": "Voltage(Ln), Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3062,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3050,
+    "type": "HR",
+    "name": "Active Power, Total",
+    "desc": "Active Power, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3002,
+    "type": "HR",
+    "name": "Active Power, Phase 1",
+    "desc": "Active Power, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3018,
+    "type": "HR",
+    "name": "Active Power, Phase 2",
+    "desc": "Active Power, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3034,
+    "type": "HR",
+    "name": "Active Power, Phase 3",
+    "desc": "Active Power, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3052,
+    "type": "HR",
+    "name": "Reactive Power, Total",
+    "desc": "Reactive Power, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3004,
+    "type": "HR",
+    "name": "Reactive Power, Phase 1",
+    "desc": "Reactive Power, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3020,
+    "type": "HR",
+    "name": "Reactive Power, Phase 2",
+    "desc": "Reactive Power, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3036,
+    "type": "HR",
+    "name": "Reactive Power, Phase 3",
+    "desc": "Reactive Power, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3048,
+    "type": "HR",
+    "name": "Apparent Power, Total",
+    "desc": "Apparent Power, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "Apparent Power, Phase 1",
+    "desc": "Apparent Power, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3016,
+    "type": "HR",
+    "name": "Apparent Power, Phase 2",
+    "desc": "Apparent Power, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3032,
+    "type": "HR",
+    "name": "Apparent Power, Phase 3",
+    "desc": "Apparent Power, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3054,
+    "type": "HR",
+    "name": "Power Factor Total",
+    "desc": "Power Factor Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3006,
+    "type": "HR",
+    "name": "Power Factor, Phase 1",
+    "desc": "Power Factor, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3022,
+    "type": "HR",
+    "name": "Power Factor, Phase 2",
+    "desc": "Power Factor, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3038,
+    "type": "HR",
+    "name": "Power Factor, Phase 3",
+    "desc": "Power Factor, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3200,
+    "type": "HR",
+    "name": "Forward Apparent Energy",
+    "desc": "Forward Apparent Energy",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3202,
+    "type": "HR",
+    "name": "Forward Active Energy",
+    "desc": "Forward Active Energy",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3204,
+    "type": "HR",
+    "name": "Forward Reactive Energy",
+    "desc": "Forward Reactive Energy",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3264,
+    "type": "HR",
+    "name": "Forward Run Seconds",
+    "desc": "Forward Run Seconds",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3266,
+    "type": "HR",
+    "name": "On Seconds",
+    "desc": "On Seconds",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 3268,
+    "type": "HR",
+    "name": "Number Of Input Voltage Interruptions",
+    "desc": "Number Of Input Voltage Interruptions",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2506,
+    "type": "HR",
+    "name": "Current Average",
+    "desc": "Current Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2500,
+    "type": "HR",
+    "name": "Current, Phase 1",
+    "desc": "Current, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2502,
+    "type": "HR",
+    "name": "Current, Phase 2",
+    "desc": "Current, Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2504,
+    "type": "HR",
+    "name": "Current, Phase 3",
+    "desc": "Current, Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2514,
+    "type": "HR",
+    "name": "Voltage (Ll) Average",
+    "desc": "Voltage (Ll) Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2508,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 1 2",
+    "desc": "Voltage(Ll), Phase 1 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2510,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 2 3",
+    "desc": "Voltage(Ll), Phase 2 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2512,
+    "type": "HR",
+    "name": "Voltage(Ll), Phase 3 1",
+    "desc": "Voltage(Ll), Phase 3 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2522,
+    "type": "HR",
+    "name": "Voltage(Ln) Average",
+    "desc": "Voltage(Ln) Average",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2516,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 1",
+    "desc": "Voltage(Ln), Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2518,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 2",
+    "desc": "Voltage(Ln), Phase 2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2520,
+    "type": "HR",
+    "name": "Voltage(Ln), Phase 3",
+    "desc": "Voltage(Ln), Phase 3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2530,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2546,
+    "type": "HR",
+    "name": "Active Power, Total",
+    "desc": "Active Power, Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2540,
+    "type": "HR",
+    "name": "Active Power, Phase 1",
+    "desc": "Active Power, Phase 1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

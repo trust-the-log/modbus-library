@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1032,
+    "type": "HR",
+    "name": "Vendor Name",
+    "desc": "Vendor Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1064,
+    "type": "HR",
+    "name": "Model Name",
+    "desc": "Model Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1096,
+    "type": "HR",
+    "name": "Display Name",
+    "desc": "Display Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1276,
+    "type": "HR",
+    "name": "Serial Number",
+    "desc": "Serial Number",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 2108,
+    "type": "HR",
+    "name": "Software Version",
+    "desc": "Software Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 1355,
+    "type": "HR",
+    "name": "Nominal Voltage",
+    "desc": "Nominal Voltage",
+    "unit": "volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1361,
+    "type": "HR",
+    "name": "Phases To Display On Meter Front",
+    "desc": "Phases To Display On Meter Front",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1605,
+    "type": "HR",
+    "name": "Field Replaceable Unit",
+    "desc": "Field Replaceable Unit",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1668,
+    "type": "HR",
+    "name": "Nominal Frequency",
+    "desc": "Nominal Frequency",
+    "unit": "hertz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1810,
+    "type": "HR",
+    "name": "Output Current Rating",
+    "desc": "Output Current Rating",
+    "unit": "amperes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3000,
+    "type": "HR",
+    "name": "Status",
+    "desc": "Status",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4002,
+    "type": "HR",
+    "name": "Vab",
+    "desc": "Vab",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Vbc",
+    "desc": "Vbc",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4006,
+    "type": "HR",
+    "name": "Vca",
+    "desc": "Vca",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4008,
+    "type": "HR",
+    "name": "V (L L) Average",
+    "desc": "V (L L) Average",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4010,
+    "type": "HR",
+    "name": "Van",
+    "desc": "Van",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Vbn",
+    "desc": "Vbn",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Vcn",
+    "desc": "Vcn",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4016,
+    "type": "HR",
+    "name": "V (L N) Average",
+    "desc": "V (L N) Average",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4497,
+    "type": "HR",
+    "name": "Phase Angle Vab",
+    "desc": "Phase Angle Vab",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4499,
+    "type": "HR",
+    "name": "Phase Angle Vbc",
+    "desc": "Phase Angle Vbc",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4501,
+    "type": "HR",
+    "name": "Phase Angle Vca",
+    "desc": "Phase Angle Vca",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4525,
+    "type": "HR",
+    "name": "V (L L) Average   Long Term Average",
+    "desc": "V (L L) Average   Long Term Average",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4527,
+    "type": "HR",
+    "name": "V (L N) Average   Long Term Average",
+    "desc": "V (L N) Average   Long Term Average",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5002,
+    "type": "HR",
+    "name": "Ia",
+    "desc": "Ia",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5004,
+    "type": "HR",
+    "name": "Ib",
+    "desc": "Ib",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5006,
+    "type": "HR",
+    "name": "Ic",
+    "desc": "Ic",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5010,
+    "type": "HR",
+    "name": "In",
+    "desc": "In",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5012,
+    "type": "HR",
+    "name": "Iavg",
+    "desc": "Iavg",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5014,
+    "type": "HR",
+    "name": "Demand Ia Peak",
+    "desc": "Demand Ia Peak",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5016,
+    "type": "HR",
+    "name": "Demand Ib Peak",
+    "desc": "Demand Ib Peak",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5018,
+    "type": "HR",
+    "name": "Demand Ic Peak",
+    "desc": "Demand Ic Peak",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5250,
+    "type": "HR",
+    "name": "Demand Ia",
+    "desc": "Demand Ia",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5252,
+    "type": "HR",
+    "name": "Demand Ib",
+    "desc": "Demand Ib",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5254,
+    "type": "HR",
+    "name": "Demand Ic",
+    "desc": "Demand Ic",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5258,
+    "type": "HR",
+    "name": "Demand In",
+    "desc": "Demand In",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5262,
+    "type": "HR",
+    "name": "Demand In Peak",
+    "desc": "Demand In Peak",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5338,
+    "type": "HR",
+    "name": "Phase Angle Ia",
+    "desc": "Phase Angle Ia",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5340,
+    "type": "HR",
+    "name": "Phase Angle Ib",
+    "desc": "Phase Angle Ib",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5342,
+    "type": "HR",
+    "name": "Phase Angle Ic",
+    "desc": "Phase Angle Ic",
+    "unit": "degrees-phase",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5448,
+    "type": "HR",
+    "name": "Ia   Long Term Average",
+    "desc": "Ia   Long Term Average",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5450,
+    "type": "HR",
+    "name": "Ib   Long Term Average",
+    "desc": "Ib   Long Term Average",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5452,
+    "type": "HR",
+    "name": "Ic   Long Term Average",
+    "desc": "Ic   Long Term Average",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 5454,
+    "type": "HR",
+    "name": "In   Long Term Average",
+    "desc": "In   Long Term Average",
+    "unit": "amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6000,
+    "type": "HR",
+    "name": "Real Power Phase A",
+    "desc": "Real Power Phase A",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6002,
+    "type": "HR",
+    "name": "Real Power Phase B",
+    "desc": "Real Power Phase B",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6004,
+    "type": "HR",
+    "name": "Real Power Phase C",
+    "desc": "Real Power Phase C",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6006,
+    "type": "HR",
+    "name": "Real Power",
+    "desc": "Real Power",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6064,
+    "type": "HR",
+    "name": "Apparent Power Phase A",
+    "desc": "Apparent Power Phase A",
+    "unit": "volt-amperes",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 6066,
+    "type": "HR",
+    "name": "Apparent Power Phase B",
+    "desc": "Apparent Power Phase B",
+    "unit": "volt-amperes",
+    "dataType": "float",
+    "access": "R"
+  }
+]

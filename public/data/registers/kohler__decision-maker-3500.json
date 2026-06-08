@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Rms Generator Voltage L2 L3",
+    "desc": "Rms Generator Voltage L2 L3",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Rms Generator Voltage L3 L1",
+    "desc": "Rms Generator Voltage L3 L1",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Rms Generator Voltage Line To Line Average",
+    "desc": "Rms Generator Voltage Line To Line Average",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Rms Generator Voltage L1 N",
+    "desc": "Rms Generator Voltage L1 N",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Rms Generator Voltage L2 N",
+    "desc": "Rms Generator Voltage L2 N",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Rms Generator Voltage L3 N",
+    "desc": "Rms Generator Voltage L3 N",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Rms Generator Voltage Line To Neutral Average",
+    "desc": "Rms Generator Voltage Line To Neutral Average",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Rms Generator Current L1",
+    "desc": "Rms Generator Current L1",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Rms Generator Current L2",
+    "desc": "Rms Generator Current L2",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Rms Generator Current L3",
+    "desc": "Rms Generator Current L3",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Rms Generator Current Average",
+    "desc": "Rms Generator Current Average",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Generator Frequency",
+    "desc": "Generator Frequency",
+    "unit": " 100",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Generator Real Power L1",
+    "desc": "Generator Real Power L1",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Generator Real Power L2",
+    "desc": "Generator Real Power L2",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Generator Real Power L3",
+    "desc": "Generator Real Power L3",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Generator Total Real Power",
+    "desc": "Generator Total Real Power",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Generator Reactive Power L1",
+    "desc": "Generator Reactive Power L1",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Generator Reactive Power L2",
+    "desc": "Generator Reactive Power L2",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Generator Reactive Power L3",
+    "desc": "Generator Reactive Power L3",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Generator Reactive Power",
+    "desc": "Generator Reactive Power",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Generator Apparent Power L1",
+    "desc": "Generator Apparent Power L1",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Generator Apparent Power L2",
+    "desc": "Generator Apparent Power L2",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Generator Apparent Power L3",
+    "desc": "Generator Apparent Power L3",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Generator Apparent Power",
+    "desc": "Generator Apparent Power",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Generator Power Factor L1",
+    "desc": "Generator Power Factor L1",
+    "unit": "pF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Generator Power Factor L2",
+    "desc": "Generator Power Factor L2",
+    "unit": "pF",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Generator Power Factor L3",
+    "desc": "Generator Power Factor L3",
+    "unit": "pF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Generator Power Factor",
+    "desc": "Generator Power Factor",
+    "unit": "pF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 29,
+    "type": "HR",
+    "name": "Generator Phase Angle Voltage L1 Voltage L2",
+    "desc": "Generator Phase Angle Voltage L1 Voltage L2",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Generator Phase Angle Voltage L1 Voltage L3",
+    "desc": "Generator Phase Angle Voltage L1 Voltage L3",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 31,
+    "type": "HR",
+    "name": "Generator Phase Angle Voltage L1 Current L1",
+    "desc": "Generator Phase Angle Voltage L1 Current L1",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Generator Phase Angle Voltage L2 Current L2",
+    "desc": "Generator Phase Angle Voltage L2 Current L2",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Generator Phase Angle Voltage L3 Current L3",
+    "desc": "Generator Phase Angle Voltage L3 Current L3",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Rms Bus Voltage L1 L2",
+    "desc": "Rms Bus Voltage L1 L2",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Rms Bus Voltage L2 L3",
+    "desc": "Rms Bus Voltage L2 L3",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Rms Bus Voltage L3 L1",
+    "desc": "Rms Bus Voltage L3 L1",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Rms Bus Voltage Average Line To Line",
+    "desc": "Rms Bus Voltage Average Line To Line",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Total Bus Real Power",
+    "desc": "Total Bus Real Power",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Total Bus Reactive Power",
+    "desc": "Total Bus Reactive Power",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Bus Frequency",
+    "desc": "Bus Frequency",
+    "unit": " 100",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Phase Angle Generator Voltage L1 Bus Voltage L1",
+    "desc": "Phase Angle Generator Voltage L1 Bus Voltage L1",
+    "unit": "D ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Speed Bias",
+    "desc": "Speed Bias",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Voltage Bias",
+    "desc": "Voltage Bias",
+    "unit": "% ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 110,
+    "type": "HR",
+    "name": "Engine Run Speed",
+    "desc": "Engine Run Speed",
+    "unit": "RPM",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Total Number Of Starts",
+    "desc": "Total Number Of Starts",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Total Runtime Hours Since Maintenance Lw",
+    "desc": "Total Runtime Hours Since Maintenance Lw",
+    "unit": "hr ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Total Loaded Hours Since Maintenance Lw",
+    "desc": "Total Loaded Hours Since Maintenance Lw",
+    "unit": "hr ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Total Kw Hours Since Maintenance Lw",
+    "desc": "Total Kw Hours Since Maintenance Lw",
+    "unit": "kWh",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 519,
+    "type": "HR",
+    "name": "Last Maintenance Day, Month",
+    "desc": "Last Maintenance Day, Month",
+    "unit": "Day of Month, Month of Year",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Last Maintenance Year",
+    "desc": "Last Maintenance Year",
+    "unit": "16 bit year ",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

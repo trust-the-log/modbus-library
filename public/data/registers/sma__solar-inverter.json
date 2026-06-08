@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40185,
+    "type": "HR",
+    "name": "Ac Current",
+    "desc": "Ac Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40186,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40187,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40188,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40189,
+    "type": "HR",
+    "name": "Scale Factor [A Sf]",
+    "desc": "Scale Factor [A Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40190,
+    "type": "HR",
+    "name": "Phase Voltage Ab",
+    "desc": "Phase Voltage Ab",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40191,
+    "type": "HR",
+    "name": "Phase Voltage Bc",
+    "desc": "Phase Voltage Bc",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40192,
+    "type": "HR",
+    "name": "Phase Voltage Ca",
+    "desc": "Phase Voltage Ca",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40193,
+    "type": "HR",
+    "name": "Phase Voltage An",
+    "desc": "Phase Voltage An",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40194,
+    "type": "HR",
+    "name": "Phase Voltage Bn",
+    "desc": "Phase Voltage Bn",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40195,
+    "type": "HR",
+    "name": "Phase Voltage Cn",
+    "desc": "Phase Voltage Cn",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40196,
+    "type": "HR",
+    "name": "Scale Factor [V Sf]",
+    "desc": "Scale Factor [V Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40197,
+    "type": "HR",
+    "name": "Ac Power",
+    "desc": "Ac Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40198,
+    "type": "HR",
+    "name": "Scale Factor [W Sf]",
+    "desc": "Scale Factor [W Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40199,
+    "type": "HR",
+    "name": "Line Frequency",
+    "desc": "Line Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40200,
+    "type": "HR",
+    "name": "Scale Factor [Hz Sf]",
+    "desc": "Scale Factor [Hz Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40201,
+    "type": "HR",
+    "name": "Ac Apparent Power",
+    "desc": "Ac Apparent Power",
+    "unit": "VA",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40202,
+    "type": "HR",
+    "name": "Scale Factor [Va Sf]",
+    "desc": "Scale Factor [Va Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40203,
+    "type": "HR",
+    "name": "Ac Reactive Power",
+    "desc": "Ac Reactive Power",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40204,
+    "type": "HR",
+    "name": "Scale Factor [Var Sf]",
+    "desc": "Scale Factor [Var Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40205,
+    "type": "HR",
+    "name": "Ac Power Factor",
+    "desc": "Ac Power Factor",
+    "unit": "Pct",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40206,
+    "type": "HR",
+    "name": "Scale Factor [Pf Sf]",
+    "desc": "Scale Factor [Pf Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40207,
+    "type": "HR",
+    "name": "Ac Energy",
+    "desc": "Ac Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40209,
+    "type": "HR",
+    "name": "Scale Factor [Wh Sf]",
+    "desc": "Scale Factor [Wh Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40210,
+    "type": "HR",
+    "name": "Dc Current",
+    "desc": "Dc Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40211,
+    "type": "HR",
+    "name": "Scale Factor [Dca Sf]",
+    "desc": "Scale Factor [Dca Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40212,
+    "type": "HR",
+    "name": "Dc Voltage",
+    "desc": "Dc Voltage",
+    "unit": "V",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40213,
+    "type": "HR",
+    "name": "Scale Factor [Dcv Sf]",
+    "desc": "Scale Factor [Dcv Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40214,
+    "type": "HR",
+    "name": "Dc Power",
+    "desc": "Dc Power",
+    "unit": "W",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40215,
+    "type": "HR",
+    "name": "Scale Factor [Dcw Sf]",
+    "desc": "Scale Factor [Dcw Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40216,
+    "type": "HR",
+    "name": "Cabinet Temperature",
+    "desc": "Cabinet Temperature",
+    "unit": "C",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40217,
+    "type": "HR",
+    "name": "Heat Sink Temperature",
+    "desc": "Heat Sink Temperature",
+    "unit": "C",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40218,
+    "type": "HR",
+    "name": "Transformer Temperature",
+    "desc": "Transformer Temperature",
+    "unit": "C",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40219,
+    "type": "HR",
+    "name": "Other Temperature",
+    "desc": "Other Temperature",
+    "unit": "C",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40220,
+    "type": "HR",
+    "name": "Scale Factor [Tmp Sf]",
+    "desc": "Scale Factor [Tmp Sf]",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40221,
+    "type": "HR",
+    "name": "Enumerated Value.  Operating State",
+    "desc": "Enumerated Value.  Operating State",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40222,
+    "type": "HR",
+    "name": "Vendor Specific Operating State Code",
+    "desc": "Vendor Specific Operating State Code",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40223,
+    "type": "HR",
+    "name": "Bitmask Value. Event Fields",
+    "desc": "Bitmask Value. Event Fields",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40225,
+    "type": "HR",
+    "name": "Reserved For Future Use",
+    "desc": "Reserved For Future Use",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40227,
+    "type": "HR",
+    "name": "Vendor Defined Events",
+    "desc": "Vendor Defined Events",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40229,
+    "type": "HR",
+    "name": "Vendor Defined Events",
+    "desc": "Vendor Defined Events",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40231,
+    "type": "HR",
+    "name": "Vendor Defined Events",
+    "desc": "Vendor Defined Events",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40233,
+    "type": "HR",
+    "name": "Vendor Defined Events",
+    "desc": "Vendor Defined Events",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40237,
+    "type": "HR",
+    "name": "Type Of Der Device. Default Value Is 4 To Indicate",
+    "desc": "Type Of Der Device. Default Value Is 4 To Indicate Pv Device.",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40238,
+    "type": "HR",
+    "name": "Continuous Power Output Capability Of The Inverter",
+    "desc": "Continuous Power Output Capability Of The Inverter.",
+    "unit": "W",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40239,
+    "type": "HR",
+    "name": "Scale Factor",
+    "desc": "Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40240,
+    "type": "HR",
+    "name": "Continuous Volt Ampere Capability Of The Inverter.",
+    "desc": "Continuous Volt Ampere Capability Of The Inverter.",
+    "unit": "VA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40241,
+    "type": "HR",
+    "name": "Scale Factor",
+    "desc": "Scale Factor",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40242,
+    "type": "HR",
+    "name": "Continuous Var Capability Of The Inverter In Quadr",
+    "desc": "Continuous Var Capability Of The Inverter In Quadrant 1.",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 40243,
+    "type": "HR",
+    "name": "Continuous Var Capability Of The Inverter In Quadr",
+    "desc": "Continuous Var Capability Of The Inverter In Quadrant 2.",
+    "unit": "var",
+    "dataType": "int16",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 37072,
+    "type": "HR",
+    "name": "Label Of Custom Unit",
+    "desc": "Label Of Custom Unit",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 45058,
+    "type": "HR",
+    "name": "Save Context Count",
+    "desc": "Save Context Count",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40192,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40197,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: Logical State 2: Analogical V",
+    "desc": "Mode: 0: Disabled 1: Logical State 2: Analogical Value 3: Combination",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40198,
+    "type": "HR",
+    "name": "Operand1",
+    "desc": "Operand1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40199,
+    "type": "HR",
+    "name": "Operand2",
+    "desc": "Operand2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40200,
+    "type": "HR",
+    "name": "Severity: 0: None 1: Information 2: Warning 3: Def",
+    "desc": "Severity: 0: None 1: Information 2: Warning 3: Default",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40201,
+    "type": "HR",
+    "name": "Logical Mode: 0: Low State 1: High State 2: Fallin",
+    "desc": "Logical Mode: 0: Low State 1: High State 2: Falling Edge 3: Rising Edge 4: Both ",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40202,
+    "type": "HR",
+    "name": "Combination Mode: 0: Or 1: And",
+    "desc": "Combination Mode: 0: Or 1: And",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40203,
+    "type": "HR",
+    "name": "Analogical Value Comparison Type: 0: Low And High ",
+    "desc": "Analogical Value Comparison Type: 0: Low And High Comparison 1: Only High 2: Onl",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40204,
+    "type": "HR",
+    "name": "Anavalhyst",
+    "desc": "Anavalhyst",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40205,
+    "type": "HR",
+    "name": "Anavallow",
+    "desc": "Anavallow",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40207,
+    "type": "HR",
+    "name": "Anavalhigh",
+    "desc": "Anavalhigh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40209,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40214,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: Logical State 2: Analogical V",
+    "desc": "Mode: 0: Disabled 1: Logical State 2: Analogical Value 3: Combination",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40215,
+    "type": "HR",
+    "name": "Operand1",
+    "desc": "Operand1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40216,
+    "type": "HR",
+    "name": "Operand2",
+    "desc": "Operand2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40217,
+    "type": "HR",
+    "name": "Severity: 0: None 1: Information 2: Warning 3: Def",
+    "desc": "Severity: 0: None 1: Information 2: Warning 3: Default",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40218,
+    "type": "HR",
+    "name": "Logical Mode: 0: Low State 1: High State 2: Fallin",
+    "desc": "Logical Mode: 0: Low State 1: High State 2: Falling Edge 3: Rising Edge 4: Both ",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40219,
+    "type": "HR",
+    "name": "Combination Mode: 0: Or 1: And",
+    "desc": "Combination Mode: 0: Or 1: And",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40220,
+    "type": "HR",
+    "name": "Analogical Value Comparison Type: 0: Low And High ",
+    "desc": "Analogical Value Comparison Type: 0: Low And High Comparison 1: Only High 2: Onl",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40221,
+    "type": "HR",
+    "name": "Anavalhyst",
+    "desc": "Anavalhyst",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40222,
+    "type": "HR",
+    "name": "Anavallow",
+    "desc": "Anavallow",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40224,
+    "type": "HR",
+    "name": "Anavalhigh",
+    "desc": "Anavalhigh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40226,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40231,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: Logical State 2: Analogical V",
+    "desc": "Mode: 0: Disabled 1: Logical State 2: Analogical Value 3: Combination",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40232,
+    "type": "HR",
+    "name": "Operand1",
+    "desc": "Operand1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40233,
+    "type": "HR",
+    "name": "Operand2",
+    "desc": "Operand2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40234,
+    "type": "HR",
+    "name": "Severity: 0: None 1: Information 2: Warning 3: Def",
+    "desc": "Severity: 0: None 1: Information 2: Warning 3: Default",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40235,
+    "type": "HR",
+    "name": "Logical Mode: 0: Low State 1: High State 2: Fallin",
+    "desc": "Logical Mode: 0: Low State 1: High State 2: Falling Edge 3: Rising Edge 4: Both ",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40236,
+    "type": "HR",
+    "name": "Combination Mode: 0: Or 1: And",
+    "desc": "Combination Mode: 0: Or 1: And",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40237,
+    "type": "HR",
+    "name": "Analogical Value Comparison Type: 0: Low And High ",
+    "desc": "Analogical Value Comparison Type: 0: Low And High Comparison 1: Only High 2: Onl",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40238,
+    "type": "HR",
+    "name": "Anavalhyst",
+    "desc": "Anavalhyst",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40239,
+    "type": "HR",
+    "name": "Anavallow",
+    "desc": "Anavallow",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40241,
+    "type": "HR",
+    "name": "Anavalhigh",
+    "desc": "Anavalhigh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40243,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40248,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: Logical State 2: Analogical V",
+    "desc": "Mode: 0: Disabled 1: Logical State 2: Analogical Value 3: Combination",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40249,
+    "type": "HR",
+    "name": "Operand1",
+    "desc": "Operand1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40250,
+    "type": "HR",
+    "name": "Operand2",
+    "desc": "Operand2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40251,
+    "type": "HR",
+    "name": "Severity: 0: None 1: Information 2: Warning 3: Def",
+    "desc": "Severity: 0: None 1: Information 2: Warning 3: Default",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40252,
+    "type": "HR",
+    "name": "Logical Mode: 0: Low State 1: High State 2: Fallin",
+    "desc": "Logical Mode: 0: Low State 1: High State 2: Falling Edge 3: Rising Edge 4: Both ",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40253,
+    "type": "HR",
+    "name": "Combination Mode: 0: Or 1: And",
+    "desc": "Combination Mode: 0: Or 1: And",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40254,
+    "type": "HR",
+    "name": "Analogical Value Comparison Type: 0: Low And High ",
+    "desc": "Analogical Value Comparison Type: 0: Low And High Comparison 1: Only High 2: Onl",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40255,
+    "type": "HR",
+    "name": "Anavalhyst",
+    "desc": "Anavalhyst",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40256,
+    "type": "HR",
+    "name": "Anavallow",
+    "desc": "Anavallow",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40258,
+    "type": "HR",
+    "name": "Anavalhigh",
+    "desc": "Anavalhigh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40260,
+    "type": "HR",
+    "name": "Name",
+    "desc": "Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40265,
+    "type": "HR",
+    "name": "Mode: 0: Disabled 1: Logical State 2: Analogical V",
+    "desc": "Mode: 0: Disabled 1: Logical State 2: Analogical Value 3: Combination",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40266,
+    "type": "HR",
+    "name": "Operand1",
+    "desc": "Operand1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40267,
+    "type": "HR",
+    "name": "Operand2",
+    "desc": "Operand2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

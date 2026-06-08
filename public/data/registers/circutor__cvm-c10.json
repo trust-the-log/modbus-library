@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2100,
+    "type": "HR",
+    "name": "0A",
+    "desc": "0A",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "L1 Active Power",
+    "desc": "L1 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "L1 Inductive Power",
+    "desc": "L1 Inductive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "L1 Capacitive Power",
+    "desc": "L1 Capacitive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "L1 Apparent Power",
+    "desc": "L1 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "L1 Power Factor",
+    "desc": "L1 Power Factor",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Cos L1",
+    "desc": "Cos L1",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L2 Phase Voltage",
+    "desc": "L2 Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "L2 Active Power",
+    "desc": "L2 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "L2 Inductive Power",
+    "desc": "L2 Inductive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "L2 Capacitive Power",
+    "desc": "L2 Capacitive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "L2 Apparent Power",
+    "desc": "L2 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "L2 Power Factor",
+    "desc": "L2 Power Factor",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Cos L2",
+    "desc": "Cos L2",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "L3 Phase Voltage",
+    "desc": "L3 Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "L3 Active Power",
+    "desc": "L3 Active Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "L3 Inductive Power",
+    "desc": "L3 Inductive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "L3 Capacitive Power",
+    "desc": "L3 Capacitive Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "L3 Apparent Power",
+    "desc": "L3 Apparent Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "L3 Power Factor",
+    "desc": "L3 Power Factor",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Cos L3",
+    "desc": "Cos L3",
+    "unit": "x",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Active Three Phase Power",
+    "desc": "Active Three Phase Power",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Inductive Three Phase Power",
+    "desc": "Inductive Three Phase Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Capacitive Three Phase Power",
+    "desc": "Capacitive Three Phase Power",
+    "unit": "var",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Apparent Three Phase Power",
+    "desc": "Apparent Three Phase Power",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Three Phase Power Factor",
+    "desc": "Three Phase Power Factor",
+    "unit": "x100",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Three Phase Cos",
+    "desc": "Three Phase Cos",
+    "unit": "x100",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "L1 Frequency",
+    "desc": "L1 Frequency",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "L1 L2 Voltage",
+    "desc": "L1 L2 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "L2 L3 Voltage",
+    "desc": "L2 L3 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "L3 L1 Voltage",
+    "desc": "L3 L1 Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Neutral Current N",
+    "desc": "Neutral Current N",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "L1 Voltage % Thd",
+    "desc": "L1 Voltage % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "L2 Voltage % Thd",
+    "desc": "L2 Voltage % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "L3 Voltage % Thd",
+    "desc": "L3 Voltage % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "L1 Current % Thd",
+    "desc": "L1 Current % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "L2 Current % Thd",
+    "desc": "L2 Current % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "L3 Current % Thd",
+    "desc": "L3 Current % Thd",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Maximum Demand Kw Iii",
+    "desc": "Maximum Demand Kw Iii",
+    "unit": "W",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Maximum Demand Kva Iii",
+    "desc": "Maximum Demand Kva Iii",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Maximum Demand I Avg",
+    "desc": "Maximum Demand I Avg",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Maximum Demand I L1",
+    "desc": "Maximum Demand I L1",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Maximum Demand I L2",
+    "desc": "Maximum Demand I L2",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Maximum Demand I L3",
+    "desc": "Maximum Demand I L3",
+    "unit": "mA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Maximum Demand Kvarl Iii",
+    "desc": "Maximum Demand Kvarl Iii",
+    "unit": "kvarL",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Maximum Demand Kvarc Iii",
+    "desc": "Maximum Demand Kvarc Iii",
+    "unit": "kvarC",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 220,
+    "type": "HR",
+    "name": "Consumed Active Energy",
+    "desc": "Consumed Active Energy",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

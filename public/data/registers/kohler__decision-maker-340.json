@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "System Time",
+    "desc": "System Time",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Day Of Week",
+    "desc": "Day Of Week",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Month",
+    "desc": "Month",
+    "unit": "112",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Day",
+    "desc": "Day",
+    "unit": "131",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Year",
+    "desc": "Year",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Week Of Month",
+    "desc": "Week Of Month",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Voltage L1L2",
+    "desc": "Voltage L1L2",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Voltage L2L3",
+    "desc": "Voltage L2L3",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Voltage L3L1",
+    "desc": "Voltage L3L1",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Voltage L1L0",
+    "desc": "Voltage L1L0",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Voltage L2L0",
+    "desc": "Voltage L2L0",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Voltage L3L0",
+    "desc": "Voltage L3L0",
+    "unit": "Volts",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Alert Code",
+    "desc": "Alert Code",
+    "unit": "AeRGode",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Engine Speed",
+    "desc": "Engine Speed",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Coolant Temp",
+    "desc": "Coolant Temp",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Oil Pressure",
+    "desc": "Oil Pressure",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Battery Voltage",
+    "desc": "Battery Voltage",
+    "unit": "VDC ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": " 100",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Total Real Power",
+    "desc": "Total Real Power",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Percent Of Max. Power",
+    "desc": "Percent Of Max. Power",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Status",
+    "desc": "Status",
+    "unit": "01: Sw. Position (00=open; 01=auto; 10=run; 11=off)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Engine Start Time",
+    "desc": "Engine Start Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Crank Time",
+    "desc": "Crank Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Crank Pause Time",
+    "desc": "Crank Pause Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Num Of Crank Cycles",
+    "desc": "Num Of Crank Cycles",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Engine Cooldown Time",
+    "desc": "Engine Cooldown Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Over Voltage Time Delay",
+    "desc": "Over Voltage Time Delay",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 53,
+    "type": "HR",
+    "name": "Under Voltage Time Delay",
+    "desc": "Under Voltage Time Delay",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "Starting Aid Time",
+    "desc": "Starting Aid Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 55,
+    "type": "HR",
+    "name": "Aux 1 Inhibit Time",
+    "desc": "Aux 1 Inhibit Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "Aux 1 Delay Time",
+    "desc": "Aux 1 Delay Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Aux 2 Inhibit Time",
+    "desc": "Aux 2 Inhibit Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Aux 2 Delay Time",
+    "desc": "Aux 2 Delay Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Aux 3 Inhibit Time",
+    "desc": "Aux 3 Inhibit Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Aux 3 Delay Time",
+    "desc": "Aux 3 Delay Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Aux 4 Inhibit Time",
+    "desc": "Aux 4 Inhibit Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Aux 4 Delay Time",
+    "desc": "Aux 4 Delay Time",
+    "unit": "Sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Over Voltage Trip Point",
+    "desc": "Over Voltage Trip Point",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Under Voltage Trip Point",
+    "desc": "Under Voltage Trip Point",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Over Freq Trip Point",
+    "desc": "Over Freq Trip Point",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Under Freq Trip Point",
+    "desc": "Under Freq Trip Point",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Over Speed Trip Point",
+    "desc": "Over Speed Trip Point",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Low Battery Voltage Trip Point",
+    "desc": "Low Battery Voltage Trip Point",
+    "unit": "VDC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "High Battery Voltage Trip Point",
+    "desc": "High Battery Voltage Trip Point",
+    "unit": "VDC ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "System Voltage",
+    "desc": "System Voltage",
+    "unit": "Volts, 105-14600",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "System Frequency",
+    "desc": "System Frequency",
+    "unit": "Hz, 48-62",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

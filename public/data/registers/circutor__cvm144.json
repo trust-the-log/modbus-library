@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Current   A1",
+    "desc": "Current   A1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Active Power   Kw1",
+    "desc": "Active Power   Kw1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Reactive Power   Kvar1",
+    "desc": "Reactive Power   Kvar1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Power Factor   Pf1",
+    "desc": "Power Factor   Pf1",
+    "unit": "PF",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Phase Voltage   V2",
+    "desc": "Phase Voltage   V2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Current   A2",
+    "desc": "Current   A2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Active Power   Kw2",
+    "desc": "Active Power   Kw2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Reactive Power   Kvar2",
+    "desc": "Reactive Power   Kvar2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Power Factor   Pf2",
+    "desc": "Power Factor   Pf2",
+    "unit": "PF",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Phase Voltage   V3",
+    "desc": "Phase Voltage   V3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Current   A3",
+    "desc": "Current   A3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Active Power   Kw3",
+    "desc": "Active Power   Kw3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Reactive Power   Kvar3",
+    "desc": "Reactive Power   Kvar3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "Power Factor   Pf3",
+    "desc": "Power Factor   Pf3",
+    "unit": "PF",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Three Phase Active Power Kwiii",
+    "desc": "Three Phase Active Power Kwiii",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Three Phase Inductive Power Kvarl Iii",
+    "desc": "Three Phase Inductive Power Kvarl Iii",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Three Phase Capacitive Power Kvarc Iii",
+    "desc": "Three Phase Capacitive Power Kvarc Iii",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Cos M Iii",
+    "desc": "Cos M Iii",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Three Phase Power Factor   Pf Iii",
+    "desc": "Three Phase Power Factor   Pf Iii",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Frequency (L1)   Hz",
+    "desc": "Frequency (L1)   Hz",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Line Voltage L1 L2   V12",
+    "desc": "Line Voltage L1 L2   V12",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Line Voltage L2 L3   V23",
+    "desc": "Line Voltage L2 L3   V23",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Line Voltage L3 L1   V31",
+    "desc": "Line Voltage L3 L1   V31",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "%Thd V1",
+    "desc": "%Thd V1",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "%Thd V2",
+    "desc": "%Thd V2",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "%Thd V3",
+    "desc": "%Thd V3",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "%Thd I1",
+    "desc": "%Thd I1",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "%Thd I2",
+    "desc": "%Thd I2",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "%Thd I3",
+    "desc": "%Thd I3",
+    "unit": "%",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Active Energy   Kwh",
+    "desc": "Active Energy   Kwh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Inductive Reactive Energy   Kvarh L",
+    "desc": "Inductive Reactive Energy   Kvarh L",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Capacitive Reactive Energy   Kvarh C",
+    "desc": "Capacitive Reactive Energy   Kvarh C",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Three Phase Apparent Power",
+    "desc": "Three Phase Apparent Power",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Power Demand (L1)",
+    "desc": "Power Demand (L1)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Three Phase Current",
+    "desc": "Three Phase Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Analog Input 1",
+    "desc": "Analog Input 1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "Analog Input 2",
+    "desc": "Analog Input 2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "Analog Input 3",
+    "desc": "Analog Input 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "Residual (Earth Leakage) Current",
+    "desc": "Residual (Earth Leakage) Current",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Power Demand (L2)",
+    "desc": "Power Demand (L2)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Power Demand (L3)",
+    "desc": "Power Demand (L3)",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 500,
+    "type": "HR",
+    "name": "Fundamental",
+    "desc": "Fundamental",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 502,
+    "type": "HR",
+    "name": "Harmonic 2",
+    "desc": "Harmonic 2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 504,
+    "type": "HR",
+    "name": "Harmonic 3",
+    "desc": "Harmonic 3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 506,
+    "type": "HR",
+    "name": "Harmonic 4",
+    "desc": "Harmonic 4",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 508,
+    "type": "HR",
+    "name": "Harmonic 5",
+    "desc": "Harmonic 5",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 510,
+    "type": "HR",
+    "name": "Harmonic 6",
+    "desc": "Harmonic 6",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Harmonic 7",
+    "desc": "Harmonic 7",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "Harmonic 8",
+    "desc": "Harmonic 8",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Meter Type",
+    "desc": "Meter Type",
+    "unit": "bit-mapped",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Firmware Version",
+    "desc": "Firmware Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Map Version",
+    "desc": "Map Version",
+    "unit": "0 to 65535",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Meter Configuration",
+    "desc": "Meter Configuration",
+    "unit": "bit-mapped",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Asic Version",
+    "desc": "Asic Version",
+    "unit": "0-65535",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 899,
+    "type": "HR",
+    "name": "Watts, 3 Ph Total",
+    "desc": "Watts, 3 Ph Total",
+    "unit": "Watt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 901,
+    "type": "HR",
+    "name": "Vars, 3 Ph Total",
+    "desc": "Vars, 3 Ph Total",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 903,
+    "type": "HR",
+    "name": "Vas, 3 Ph Total",
+    "desc": "Vas, 3 Ph Total",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 999,
+    "type": "HR",
+    "name": "Voits A N",
+    "desc": "Voits A N",
+    "unit": "voIts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1001,
+    "type": "HR",
+    "name": "Voits B N",
+    "desc": "Voits B N",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1003,
+    "type": "HR",
+    "name": "Voits C N",
+    "desc": "Voits C N",
+    "unit": "voIts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1005,
+    "type": "HR",
+    "name": "Voits A B",
+    "desc": "Voits A B",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1007,
+    "type": "HR",
+    "name": "Voits B C",
+    "desc": "Voits B C",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1009,
+    "type": "HR",
+    "name": "Voits C A",
+    "desc": "Voits C A",
+    "unit": "volts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1011,
+    "type": "HR",
+    "name": "Amps A",
+    "desc": "Amps A",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1013,
+    "type": "HR",
+    "name": "Amps B",
+    "desc": "Amps B",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1015,
+    "type": "HR",
+    "name": "Amps C",
+    "desc": "Amps C",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1017,
+    "type": "HR",
+    "name": "Watts, 3 Ph Total",
+    "desc": "Watts, 3 Ph Total",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1019,
+    "type": "HR",
+    "name": "Vars, 3 Ph Total",
+    "desc": "Vars, 3 Ph Total",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1021,
+    "type": "HR",
+    "name": "Vas, 3 Ph Total",
+    "desc": "Vas, 3 Ph Total",
+    "unit": "VAs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1099,
+    "type": "HR",
+    "name": "W Hours, Received",
+    "desc": "W Hours, Received",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1101,
+    "type": "HR",
+    "name": "W Hours, Delivered",
+    "desc": "W Hours, Delivered",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1103,
+    "type": "HR",
+    "name": "W Hours, Net",
+    "desc": "W Hours, Net",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1105,
+    "type": "HR",
+    "name": "W Hours, Total",
+    "desc": "W Hours, Total",
+    "unit": "Wh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1107,
+    "type": "HR",
+    "name": "Var Hours, Positive",
+    "desc": "Var Hours, Positive",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1109,
+    "type": "HR",
+    "name": "Var Hours, Negative",
+    "desc": "Var Hours, Negative",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1111,
+    "type": "HR",
+    "name": "Var Hours, Net",
+    "desc": "Var Hours, Net",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1113,
+    "type": "HR",
+    "name": "Var Hours, Total",
+    "desc": "Var Hours, Total",
+    "unit": "VARh",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1115,
+    "type": "HR",
+    "name": "Va Hours, Total",
+    "desc": "Va Hours, Total",
+    "unit": "0 to 99999999",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 1999,
+    "type": "HR",
+    "name": "Amps A, Average",
+    "desc": "Amps A, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2001,
+    "type": "HR",
+    "name": "Amps B, Average",
+    "desc": "Amps B, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2003,
+    "type": "HR",
+    "name": "Amps C, Average",
+    "desc": "Amps C, Average",
+    "unit": "amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2005,
+    "type": "HR",
+    "name": "Positive Watts, 3 Ph, Average",
+    "desc": "Positive Watts, 3 Ph, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2007,
+    "type": "HR",
+    "name": "Positive Vars, 3 Ph, Average",
+    "desc": "Positive Vars, 3 Ph, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2009,
+    "type": "HR",
+    "name": "Negative Watts, 3 Ph, Average",
+    "desc": "Negative Watts, 3 Ph, Average",
+    "unit": "watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2011,
+    "type": "HR",
+    "name": "Negative Vars, 3 Ph, Average",
+    "desc": "Negative Vars, 3 Ph, Average",
+    "unit": "VARs",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2013,
+    "type": "HR",
+    "name": "Vas, 3 Ph, Average",
+    "desc": "Vas, 3 Ph, Average",
+    "unit": "-9999 M to +9999 M",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2015,
+    "type": "HR",
+    "name": "Positive Pf, 3 Ph, Average",
+    "desc": "Positive Pf, 3 Ph, Average",
+    "unit": "-1.00 to +1.00",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2017,
+    "type": "HR",
+    "name": "Negative Pf, 3 Pf, Average",
+    "desc": "Negative Pf, 3 Pf, Average",
+    "unit": "-1.00 to +1.00",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3001,
+    "type": "HR",
+    "name": "Volts B N, Minimum",
+    "desc": "Volts B N, Minimum",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 3129,
+    "type": "HR",
+    "name": "Negative Power Factor, 3 Ph, Maximum Avg Demand",
+    "desc": "Negative Power Factor, 3 Ph, Maximum Avg Demand",
+    "unit": "-1.00 to +1.00",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Phase A Current",
+    "desc": "Phase A Current",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Phase B Current",
+    "desc": "Phase B Current",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4101,
+    "type": "HR",
+    "name": "Phase C Current",
+    "desc": "Phase C Current",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4102,
+    "type": "HR",
+    "name": "Angle, Volts A B",
+    "desc": "Angle, Volts A B",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4103,
+    "type": "HR",
+    "name": "Angle, Volts B C",
+    "desc": "Angle, Volts B C",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4104,
+    "type": "HR",
+    "name": "Angle, Volts C A",
+    "desc": "Angle, Volts C A",
+    "unit": "-1800 to +1800",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 4999,
+    "type": "HR",
+    "name": "Meter Status",
+    "desc": "Meter Status",
+    "unit": "bit-mapped",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

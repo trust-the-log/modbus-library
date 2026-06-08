@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 20480,
+    "type": "HR",
+    "name": "Active Energy   Import",
+    "desc": "Active Energy   Import",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20484,
+    "type": "HR",
+    "name": "Active Energy   Export",
+    "desc": "Active Energy   Export",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20488,
+    "type": "HR",
+    "name": "Active Energy   Net",
+    "desc": "Active Energy   Net",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20492,
+    "type": "HR",
+    "name": "Reactive Energy   Import",
+    "desc": "Reactive Energy   Import",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20496,
+    "type": "HR",
+    "name": "Reactive Energy   Export",
+    "desc": "Reactive Energy   Export",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20500,
+    "type": "HR",
+    "name": "Reactive Energy   Net",
+    "desc": "Reactive Energy   Net",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20504,
+    "type": "HR",
+    "name": "Apparent Energy   Import",
+    "desc": "Apparent Energy   Import",
+    "unit": "kVA",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20508,
+    "type": "HR",
+    "name": "Apparent Energy   Export",
+    "desc": "Apparent Energy   Export",
+    "unit": "kVA",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20512,
+    "type": "HR",
+    "name": "Apparent Energy   Net",
+    "desc": "Apparent Energy   Net",
+    "unit": "kVA",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20516,
+    "type": "HR",
+    "name": "Active Energy   Import, Co2 Conversion Factor",
+    "desc": "Active Energy   Import, Co2 Conversion Factor",
+    "unit": "kg / kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20532,
+    "type": "HR",
+    "name": "Active Energy   Import, Currency Conversion Factor",
+    "desc": "Active Energy   Import, Currency Conversion Factor",
+    "unit": "Currency / kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20848,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 1",
+    "desc": "Active Energy   Import (Tariffs), 1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20852,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 2",
+    "desc": "Active Energy   Import (Tariffs), 2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20856,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 3",
+    "desc": "Active Energy   Import (Tariffs), 3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20860,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 4",
+    "desc": "Active Energy   Import (Tariffs), 4",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20864,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 5",
+    "desc": "Active Energy   Import (Tariffs), 5",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20868,
+    "type": "HR",
+    "name": "Active Energy   Import (Tariffs), 6",
+    "desc": "Active Energy   Import (Tariffs), 6",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20880,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 1",
+    "desc": "Active Energy   Export (Tariffs), 1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20884,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 2",
+    "desc": "Active Energy   Export (Tariffs), 2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20888,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 3",
+    "desc": "Active Energy   Export (Tariffs), 3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20892,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 4",
+    "desc": "Active Energy   Export (Tariffs), 4",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20896,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 5",
+    "desc": "Active Energy   Export (Tariffs), 5",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20900,
+    "type": "HR",
+    "name": "Active Energy   Export (Tariffs), 6",
+    "desc": "Active Energy   Export (Tariffs), 6",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20912,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 1",
+    "desc": "Reactive Energy   Import (Tariffs), 1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20916,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 2",
+    "desc": "Reactive Energy   Import (Tariffs), 2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20920,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 3",
+    "desc": "Reactive Energy   Import (Tariffs), 3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20924,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 4",
+    "desc": "Reactive Energy   Import (Tariffs), 4",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20928,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 5",
+    "desc": "Reactive Energy   Import (Tariffs), 5",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20932,
+    "type": "HR",
+    "name": "Reactive Energy   Import (Tariffs), 6",
+    "desc": "Reactive Energy   Import (Tariffs), 6",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20944,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 1",
+    "desc": "Reactive Energy   Export (Tariffs), 1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20948,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 2",
+    "desc": "Reactive Energy   Export (Tariffs), 2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20952,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 3",
+    "desc": "Reactive Energy   Export (Tariffs), 3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20956,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 4",
+    "desc": "Reactive Energy   Export (Tariffs), 4",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20960,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 5",
+    "desc": "Reactive Energy   Export (Tariffs), 5",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 20964,
+    "type": "HR",
+    "name": "Reactive Energy   Export (Tariffs), 6",
+    "desc": "Reactive Energy   Export (Tariffs), 6",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21600,
+    "type": "HR",
+    "name": "Active Energy   Import, L1",
+    "desc": "Active Energy   Import, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21604,
+    "type": "HR",
+    "name": "Active Energy   Import, L2",
+    "desc": "Active Energy   Import, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21608,
+    "type": "HR",
+    "name": "Active Energy   Import, L3",
+    "desc": "Active Energy   Import, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21612,
+    "type": "HR",
+    "name": "Active Energy   Export, L1",
+    "desc": "Active Energy   Export, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21616,
+    "type": "HR",
+    "name": "Active Energy   Export, L2",
+    "desc": "Active Energy   Export, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21620,
+    "type": "HR",
+    "name": "Active Energy   Export, L3",
+    "desc": "Active Energy   Export, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21624,
+    "type": "HR",
+    "name": "Active Energy   Net, L1",
+    "desc": "Active Energy   Net, L1",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21628,
+    "type": "HR",
+    "name": "Active Energy   Net, L2",
+    "desc": "Active Energy   Net, L2",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21632,
+    "type": "HR",
+    "name": "Active Energy   Net, L3",
+    "desc": "Active Energy   Net, L3",
+    "unit": "kWh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21636,
+    "type": "HR",
+    "name": "Reactive Energy   Import, L1",
+    "desc": "Reactive Energy   Import, L1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21640,
+    "type": "HR",
+    "name": "Reactive Energy   Import, L2",
+    "desc": "Reactive Energy   Import, L2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21644,
+    "type": "HR",
+    "name": "Reactive Energy   Import, L3",
+    "desc": "Reactive Energy   Import, L3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21648,
+    "type": "HR",
+    "name": "Reactive Energy   Export, L1",
+    "desc": "Reactive Energy   Export, L1",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21652,
+    "type": "HR",
+    "name": "Reactive Energy   Export, L2",
+    "desc": "Reactive Energy   Export, L2",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 21656,
+    "type": "HR",
+    "name": "Reactive Energy   Export, L3",
+    "desc": "Reactive Energy   Export, L3",
+    "unit": "kvarh",
+    "dataType": "int64",
+    "access": "R"
+  }
+]

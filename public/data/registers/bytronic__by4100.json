@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 512,
+    "type": "HR",
+    "name": "Famiglia Strumento",
+    "desc": "Famiglia Strumento",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 513,
+    "type": "HR",
+    "name": "Versione",
+    "desc": "Versione",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 514,
+    "type": "HR",
+    "name": "K Rms Factor",
+    "desc": "K Rms Factor",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 515,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala I1",
+    "desc": "Valore Calibrazione Fondoscala I1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 516,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala I2",
+    "desc": "Valore Calibrazione Fondoscala I2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 517,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala I3",
+    "desc": "Valore Calibrazione Fondoscala I3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 518,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala V1",
+    "desc": "Valore Calibrazione Fondoscala V1",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 519,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala V2",
+    "desc": "Valore Calibrazione Fondoscala V2",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 520,
+    "type": "HR",
+    "name": "Valore Calibrazione Fondoscala V3",
+    "desc": "Valore Calibrazione Fondoscala V3",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 521,
+    "type": "HR",
+    "name": "Valore Calibrazione Frequenzimetro",
+    "desc": "Valore Calibrazione Frequenzimetro",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 523,
+    "type": "HR",
+    "name": "Media Misura Frequenzimetro",
+    "desc": "Media Misura Frequenzimetro",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 526,
+    "type": "HR",
+    "name": "Tensione V1",
+    "desc": "Tensione V1",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 527,
+    "type": "HR",
+    "name": "Tensione V2",
+    "desc": "Tensione V2",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 528,
+    "type": "HR",
+    "name": "Tensione V3",
+    "desc": "Tensione V3",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 529,
+    "type": "HR",
+    "name": "Tensione V12",
+    "desc": "Tensione V12",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 530,
+    "type": "HR",
+    "name": "Tensione V23",
+    "desc": "Tensione V23",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 531,
+    "type": "HR",
+    "name": "Tensione V31",
+    "desc": "Tensione V31",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 532,
+    "type": "HR",
+    "name": "Tensione Media Trifase",
+    "desc": "Tensione Media Trifase",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 533,
+    "type": "HR",
+    "name": "Tensione Asimmetria Fasi",
+    "desc": "Tensione Asimmetria Fasi",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 534,
+    "type": "HR",
+    "name": "Corrente I1",
+    "desc": "Corrente I1",
+    "unit": "Amp",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 535,
+    "type": "HR",
+    "name": "Corrente I2",
+    "desc": "Corrente I2",
+    "unit": "Amp",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 536,
+    "type": "HR",
+    "name": "Corrente I3",
+    "desc": "Corrente I3",
+    "unit": "Amp",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 537,
+    "type": "HR",
+    "name": "Corrente Media",
+    "desc": "Corrente Media",
+    "unit": "Amp",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 538,
+    "type": "HR",
+    "name": "Corrente Nel Neutro",
+    "desc": "Corrente Nel Neutro",
+    "unit": "Amp",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 540,
+    "type": "HR",
+    "name": "Misura Frequenza",
+    "desc": "Misura Frequenza",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 541,
+    "type": "HR",
+    "name": "Fattore Di Potenza Fase 1",
+    "desc": "Fattore Di Potenza Fase 1",
+    "unit": "Cos",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 542,
+    "type": "HR",
+    "name": "Fattore Di Potenza Fase 2",
+    "desc": "Fattore Di Potenza Fase 2",
+    "unit": "Cos",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 543,
+    "type": "HR",
+    "name": "Fattore Di Potenza Fase 3",
+    "desc": "Fattore Di Potenza Fase 3",
+    "unit": "Cos",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 544,
+    "type": "HR",
+    "name": "Fattore Di Potenza Totale",
+    "desc": "Fattore Di Potenza Totale",
+    "unit": "Cos",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 546,
+    "type": "HR",
+    "name": "Potenza Attiva Fase 1",
+    "desc": "Potenza Attiva Fase 1",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 548,
+    "type": "HR",
+    "name": "Potenza Attiva Fase 2",
+    "desc": "Potenza Attiva Fase 2",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 550,
+    "type": "HR",
+    "name": "Potenza Attiva Fase 3",
+    "desc": "Potenza Attiva Fase 3",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 552,
+    "type": "HR",
+    "name": "Potenza Attiva Totale",
+    "desc": "Potenza Attiva Totale",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 554,
+    "type": "HR",
+    "name": "Potenza Reattiva Fase 1",
+    "desc": "Potenza Reattiva Fase 1",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 556,
+    "type": "HR",
+    "name": "Potenza Reattiva Fase 2",
+    "desc": "Potenza Reattiva Fase 2",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 558,
+    "type": "HR",
+    "name": "Potenza Reattiva Fase 3",
+    "desc": "Potenza Reattiva Fase 3",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 560,
+    "type": "HR",
+    "name": "Potenza Reattiva Totale",
+    "desc": "Potenza Reattiva Totale",
+    "unit": "var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 562,
+    "type": "HR",
+    "name": "Potenza Apparente Fase 1",
+    "desc": "Potenza Apparente Fase 1",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 564,
+    "type": "HR",
+    "name": "Potenza Apparente Fase 2",
+    "desc": "Potenza Apparente Fase 2",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 566,
+    "type": "HR",
+    "name": "Potenza Apparente Fase 3",
+    "desc": "Potenza Apparente Fase 3",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 568,
+    "type": "HR",
+    "name": "Potenza Apparente Totale",
+    "desc": "Potenza Apparente Totale",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 570,
+    "type": "HR",
+    "name": "Energia Attiva Consumata",
+    "desc": "Energia Attiva Consumata",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 572,
+    "type": "HR",
+    "name": "Energia Attiva Prodotta",
+    "desc": "Energia Attiva Prodotta",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 574,
+    "type": "HR",
+    "name": "Energia Reattiva Totale",
+    "desc": "Energia Reattiva Totale",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 576,
+    "type": "HR",
+    "name": "Ore Del Contaore Totale",
+    "desc": "Ore Del Contaore Totale",
+    "unit": "h",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 578,
+    "type": "HR",
+    "name": "Minuti Del Contaore Totale",
+    "desc": "Minuti Del Contaore Totale",
+    "unit": "min",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 579,
+    "type": "HR",
+    "name": "Ore Del Contaore Parziale",
+    "desc": "Ore Del Contaore Parziale",
+    "unit": "h",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 581,
+    "type": "HR",
+    "name": "Minuti Del Contaore Parziale",
+    "desc": "Minuti Del Contaore Parziale",
+    "unit": "min",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 582,
+    "type": "HR",
+    "name": "Secondi Dei Contaore",
+    "desc": "Secondi Dei Contaore",
+    "unit": "sec",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 586,
+    "type": "HR",
+    "name": "Display: 0=Nor   1=Copertina   2 = Progmode",
+    "desc": "Display: 0=Nor   1=Copertina   2 = Progmode",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

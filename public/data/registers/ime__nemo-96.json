@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 769,
+    "type": "HR",
+    "name": "Phase 1 : Phase Voltage",
+    "desc": "Phase 1 : Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 773,
+    "type": "HR",
+    "name": "Phase 2 : Phase Voltage",
+    "desc": "Phase 2 : Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 777,
+    "type": "HR",
+    "name": "Phase 3 : Phase Voltage",
+    "desc": "Phase 3 : Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 781,
+    "type": "HR",
+    "name": "Phase 1 : Current",
+    "desc": "Phase 1 : Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 785,
+    "type": "HR",
+    "name": "Phase 2 : Current",
+    "desc": "Phase 2 : Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 789,
+    "type": "HR",
+    "name": "Phase 3 : Current",
+    "desc": "Phase 3 : Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 793,
+    "type": "HR",
+    "name": "3 Phase : Active Power",
+    "desc": "3 Phase : Active Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 797,
+    "type": "HR",
+    "name": "3 Phase : Reactive Power",
+    "desc": "3 Phase : Reactive Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 801,
+    "type": "HR",
+    "name": "3 Phase : Apparent Power",
+    "desc": "3 Phase : Apparent Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 805,
+    "type": "HR",
+    "name": "3 Phase : Positive Active Energy",
+    "desc": "3 Phase : Positive Active Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 809,
+    "type": "HR",
+    "name": "Chained Voltage : L1 L2",
+    "desc": "Chained Voltage : L1 L2",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 813,
+    "type": "HR",
+    "name": "Chained Voltage : L2 L3",
+    "desc": "Chained Voltage : L2 L3",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 817,
+    "type": "HR",
+    "name": "Chained Voltage : L3 L1",
+    "desc": "Chained Voltage : L3 L1",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 821,
+    "type": "HR",
+    "name": "3 Phase : Negative Active Energy",
+    "desc": "3 Phase : Negative Active Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 825,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 827,
+    "type": "HR",
+    "name": "Operating Timer Counter",
+    "desc": "Operating Timer Counter",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 829,
+    "type": "HR",
+    "name": "3 Phase : Power Factor",
+    "desc": "3 Phase : Power Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 831,
+    "type": "HR",
+    "name": "3 Phase : Sector Of Power Factor (Cap Or Ind)",
+    "desc": "3 Phase : Sector Of Power Factor (Cap Or Ind)",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 832,
+    "type": "HR",
+    "name": "Voltages Sequence Diagnostic",
+    "desc": "Voltages Sequence Diagnostic",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 833,
+    "type": "HR",
+    "name": "Output Relay Status",
+    "desc": "Output Relay Status",
+    "unit": "(2)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 835,
+    "type": "HR",
+    "name": "3 Phase : Positive Reactive Energy",
+    "desc": "3 Phase : Positive Reactive Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 839,
+    "type": "HR",
+    "name": "3 Phase : Sign Of Active Power",
+    "desc": "3 Phase : Sign Of Active Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 840,
+    "type": "HR",
+    "name": "3 Phase : Negative Reactive Energy",
+    "desc": "3 Phase : Negative Reactive Energy",
+    "unit": "Wh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 844,
+    "type": "HR",
+    "name": "3 Phase : Sign Of Reactive Power",
+    "desc": "3 Phase : Sign Of Reactive Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 848,
+    "type": "HR",
+    "name": "3 Phase : Average Power",
+    "desc": "3 Phase : Average Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 852,
+    "type": "HR",
+    "name": "3 Phase : Peak Maximum Demand",
+    "desc": "3 Phase : Peak Maximum Demand",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 856,
+    "type": "HR",
+    "name": "Time Counter For Average Power",
+    "desc": "Time Counter For Average Power",
+    "unit": "minutes",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 857,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 861,
+    "type": "HR",
+    "name": "Phase 1 : Active Power",
+    "desc": "Phase 1 : Active Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 865,
+    "type": "HR",
+    "name": "Phase 2 : Active Power",
+    "desc": "Phase 2 : Active Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 869,
+    "type": "HR",
+    "name": "Phase 3 : Active Power",
+    "desc": "Phase 3 : Active Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 873,
+    "type": "HR",
+    "name": "Phase 1 : Sign Of Active Power",
+    "desc": "Phase 1 : Sign Of Active Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 874,
+    "type": "HR",
+    "name": "Phase 2 : Sign Of Active Power",
+    "desc": "Phase 2 : Sign Of Active Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 875,
+    "type": "HR",
+    "name": "Phase 3 : Sign Of Active Power",
+    "desc": "Phase 3 : Sign Of Active Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 876,
+    "type": "HR",
+    "name": "Phase 1 : Reactive Power",
+    "desc": "Phase 1 : Reactive Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 880,
+    "type": "HR",
+    "name": "Phase 2 : Reactive Power",
+    "desc": "Phase 2 : Reactive Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 884,
+    "type": "HR",
+    "name": "Phase 3 : Reactive Power",
+    "desc": "Phase 3 : Reactive Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 888,
+    "type": "HR",
+    "name": "Phase 1 : Sign Of Reactive Power",
+    "desc": "Phase 1 : Sign Of Reactive Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 889,
+    "type": "HR",
+    "name": "Phase 2 : Sign Of Reactive Power",
+    "desc": "Phase 2 : Sign Of Reactive Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 890,
+    "type": "HR",
+    "name": "Phase 3 : Sign Of Reactive Power",
+    "desc": "Phase 3 : Sign Of Reactive Power",
+    "unit": "(5)",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 891,
+    "type": "HR",
+    "name": "Phase 1 : Apparent Power",
+    "desc": "Phase 1 : Apparent Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 895,
+    "type": "HR",
+    "name": "Phase 2 : Apparent Power",
+    "desc": "Phase 2 : Apparent Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 899,
+    "type": "HR",
+    "name": "Phase 3 : Apparent Power",
+    "desc": "Phase 3 : Apparent Power",
+    "unit": "W/var/VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 903,
+    "type": "HR",
+    "name": "Phase 1 : Power Factor",
+    "desc": "Phase 1 : Power Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 905,
+    "type": "HR",
+    "name": "Phase 2 : Power Factor",
+    "desc": "Phase 2 : Power Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 907,
+    "type": "HR",
+    "name": "Phase 3 : Power Factor",
+    "desc": "Phase 3 : Power Factor",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 909,
+    "type": "HR",
+    "name": "Phase 1 : Power Factor Sector",
+    "desc": "Phase 1 : Power Factor Sector",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 910,
+    "type": "HR",
+    "name": "Phase 2 : Power Factor Sector",
+    "desc": "Phase 2 : Power Factor Sector",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 911,
+    "type": "HR",
+    "name": "Phase 3 : Power Factor Sector",
+    "desc": "Phase 3 : Power Factor Sector",
+    "unit": "a",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 912,
+    "type": "HR",
+    "name": "Phase 1 : Thd V1",
+    "desc": "Phase 1 : Thd V1",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

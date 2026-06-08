@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 40005,
+    "type": "HR",
+    "name": "Manufacturer",
+    "desc": "Manufacturer",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40021,
+    "type": "HR",
+    "name": "Device Model",
+    "desc": "Device Model",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40037,
+    "type": "HR",
+    "name": "Options",
+    "desc": "Options",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40045,
+    "type": "HR",
+    "name": "Sw Version Of Meter",
+    "desc": "Sw Version Of Meter",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40053,
+    "type": "HR",
+    "name": "Serialnumber Of The Meter",
+    "desc": "Serialnumber Of The Meter",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 40069,
+    "type": "HR",
+    "name": "Modbus Device Address",
+    "desc": "Modbus Device Address",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40072,
+    "type": "HR",
+    "name": "Ac Total Current Value",
+    "desc": "Ac Total Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40074,
+    "type": "HR",
+    "name": "Ac Phase A Current Value",
+    "desc": "Ac Phase A Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40076,
+    "type": "HR",
+    "name": "Ac Phase B Current Value",
+    "desc": "Ac Phase B Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40078,
+    "type": "HR",
+    "name": "Ac Phase C Current Value",
+    "desc": "Ac Phase C Current Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40080,
+    "type": "HR",
+    "name": "Ac Voltage Average Phase To Neutral Value",
+    "desc": "Ac Voltage Average Phase To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40082,
+    "type": "HR",
+    "name": "Ac Voltage Phase A To Neutral Value",
+    "desc": "Ac Voltage Phase A To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40084,
+    "type": "HR",
+    "name": "Ac Voltage Phase B To Neutral Value",
+    "desc": "Ac Voltage Phase B To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40086,
+    "type": "HR",
+    "name": "Ac Voltage Phase C To Neutral Value",
+    "desc": "Ac Voltage Phase C To Neutral Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40088,
+    "type": "HR",
+    "name": "Ac Voltage Average Phase To Phase Value",
+    "desc": "Ac Voltage Average Phase To Phase Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40090,
+    "type": "HR",
+    "name": "Ac Voltage Phase Ab Value",
+    "desc": "Ac Voltage Phase Ab Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40092,
+    "type": "HR",
+    "name": "Ac Voltage Phase Bc Value",
+    "desc": "Ac Voltage Phase Bc Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40094,
+    "type": "HR",
+    "name": "Ac Voltage Phase Ca Value",
+    "desc": "Ac Voltage Phase Ca Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40096,
+    "type": "HR",
+    "name": "Ac Frequency Value",
+    "desc": "Ac Frequency Value",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40098,
+    "type": "HR",
+    "name": "Ac Power Value",
+    "desc": "Ac Power Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40100,
+    "type": "HR",
+    "name": "Ac Power Phase A Value",
+    "desc": "Ac Power Phase A Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40102,
+    "type": "HR",
+    "name": "Ac Power Phase B Value",
+    "desc": "Ac Power Phase B Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40104,
+    "type": "HR",
+    "name": "Ac Power Phase C Value",
+    "desc": "Ac Power Phase C Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40106,
+    "type": "HR",
+    "name": "Ac Apparent Power Value",
+    "desc": "Ac Apparent Power Value",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40108,
+    "type": "HR",
+    "name": "Ac Apparent Power Phase A Value",
+    "desc": "Ac Apparent Power Phase A Value",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40110,
+    "type": "HR",
+    "name": "Ac Apparent Power Phase B Value",
+    "desc": "Ac Apparent Power Phase B Value",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40112,
+    "type": "HR",
+    "name": "Ac Apparent Power Phase C Value",
+    "desc": "Ac Apparent Power Phase C Value",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40114,
+    "type": "HR",
+    "name": "Ac Reactive Power Value",
+    "desc": "Ac Reactive Power Value",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40116,
+    "type": "HR",
+    "name": "Ac Reactive Power Phase A Value",
+    "desc": "Ac Reactive Power Phase A Value",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40118,
+    "type": "HR",
+    "name": "Ac Reactive Power Phase B Value",
+    "desc": "Ac Reactive Power Phase B Value",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40120,
+    "type": "HR",
+    "name": "Ac Reactive Power Phase C Value",
+    "desc": "Ac Reactive Power Phase C Value",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40122,
+    "type": "HR",
+    "name": "Power Factor Value",
+    "desc": "Power Factor Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40124,
+    "type": "HR",
+    "name": "Power Factor Phase A Value",
+    "desc": "Power Factor Phase A Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40126,
+    "type": "HR",
+    "name": "Power Factor Phase B Value",
+    "desc": "Power Factor Phase B Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40128,
+    "type": "HR",
+    "name": "Power Factor Phase C Value",
+    "desc": "Power Factor Phase C Value",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40130,
+    "type": "HR",
+    "name": "Total Watt Hours Exported",
+    "desc": "Total Watt Hours Exported",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40132,
+    "type": "HR",
+    "name": "Total Watt Hours Exported Phase A",
+    "desc": "Total Watt Hours Exported Phase A",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40134,
+    "type": "HR",
+    "name": "Total Watt Hours Exported Phase B",
+    "desc": "Total Watt Hours Exported Phase B",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40136,
+    "type": "HR",
+    "name": "Total Watt Hours Exported Phase C",
+    "desc": "Total Watt Hours Exported Phase C",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40138,
+    "type": "HR",
+    "name": "Total Watt Hours Imported",
+    "desc": "Total Watt Hours Imported",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40140,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase A",
+    "desc": "Total Watt Hours Imported Phase A",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40142,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase B",
+    "desc": "Total Watt Hours Imported Phase B",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40144,
+    "type": "HR",
+    "name": "Total Watt Hours Imported Phase C",
+    "desc": "Total Watt Hours Imported Phase C",
+    "unit": "Wh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40146,
+    "type": "HR",
+    "name": "Total Va Hours Exported",
+    "desc": "Total Va Hours Exported",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40148,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase A",
+    "desc": "Total Va Hours Exported Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40150,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase B",
+    "desc": "Total Va Hours Exported Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40152,
+    "type": "HR",
+    "name": "Total Va Hours Exported Phase C",
+    "desc": "Total Va Hours Exported Phase C",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40154,
+    "type": "HR",
+    "name": "Total Va Hours Imported",
+    "desc": "Total Va Hours Imported",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40156,
+    "type": "HR",
+    "name": "Total Va Hours Imported Phase A",
+    "desc": "Total Va Hours Imported Phase A",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 40158,
+    "type": "HR",
+    "name": "Total Va Hours Imported Phase B",
+    "desc": "Total Va Hours Imported Phase B",
+    "unit": "VA",
+    "dataType": "float",
+    "access": "R"
+  }
+]

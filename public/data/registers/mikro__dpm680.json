@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Device Type Sub",
+    "desc": "Device Type Sub",
+    "unit": "x0000",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Version Number Main",
+    "desc": "Version Number Main",
+    "unit": "x0000 ; 0x0002",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Version Number Sub",
+    "desc": "Version Number Sub",
+    "unit": "x0000 ; 0x0000",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1001,
+    "type": "HR",
+    "name": "Parity Selection",
+    "desc": "Parity Selection",
+    "unit": "=none, 1 stop bit 1=none, 2 stop bit 2=odd, 1 stop bit 3=even, 1 stop bit",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1002,
+    "type": "HR",
+    "name": "Baudrate Selection",
+    "desc": "Baudrate Selection",
+    "unit": "=300 2=600 3=1200 4=2400 5=4800 6=9600 7=19200 8=38400",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1003,
+    "type": "HR",
+    "name": "Ip Address",
+    "desc": "Ip Address",
+    "unit": "x00 | 0x00 ; 0x00 | 0x00",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1005,
+    "type": "HR",
+    "name": "Subnet Mask",
+    "desc": "Subnet Mask",
+    "unit": "x00 | 0x00 ; 0x00 | 0x00",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4000,
+    "type": "HR",
+    "name": "Real Energy",
+    "desc": "Real Energy",
+    "unit": "Wh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4004,
+    "type": "HR",
+    "name": "Apparent Energy",
+    "desc": "Apparent Energy",
+    "unit": "VAh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4008,
+    "type": "HR",
+    "name": "Reactive Energy",
+    "desc": "Reactive Energy",
+    "unit": "VArh",
+    "dataType": "int64",
+    "access": "R"
+  },
+  {
+    "addr": 4012,
+    "type": "HR",
+    "name": "Total Real Power",
+    "desc": "Total Real Power",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4014,
+    "type": "HR",
+    "name": "Total Apparent Power",
+    "desc": "Total Apparent Power",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4016,
+    "type": "HR",
+    "name": "Total Reactive Power",
+    "desc": "Total Reactive Power",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4018,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "1",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4019,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4020,
+    "type": "HR",
+    "name": "Instantaneous Current A",
+    "desc": "Instantaneous Current A",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4022,
+    "type": "HR",
+    "name": "Instantaneous Current B",
+    "desc": "Instantaneous Current B",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4024,
+    "type": "HR",
+    "name": "Instantaneous Current C",
+    "desc": "Instantaneous Current C",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4026,
+    "type": "HR",
+    "name": "Instantaneous Current N",
+    "desc": "Instantaneous Current N",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4028,
+    "type": "HR",
+    "name": "Voltage Line Ab",
+    "desc": "Voltage Line Ab",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4030,
+    "type": "HR",
+    "name": "Voltage Line Bc",
+    "desc": "Voltage Line Bc",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4032,
+    "type": "HR",
+    "name": "Voltage Line Ac",
+    "desc": "Voltage Line Ac",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4034,
+    "type": "HR",
+    "name": "Voltage Phase An",
+    "desc": "Voltage Phase An",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4036,
+    "type": "HR",
+    "name": "Voltage Phase Bn",
+    "desc": "Voltage Phase Bn",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4038,
+    "type": "HR",
+    "name": "Voltage Phase Cn",
+    "desc": "Voltage Phase Cn",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4040,
+    "type": "HR",
+    "name": "Real Power A",
+    "desc": "Real Power A",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4042,
+    "type": "HR",
+    "name": "Real Power B",
+    "desc": "Real Power B",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4044,
+    "type": "HR",
+    "name": "Real Power C",
+    "desc": "Real Power C",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4046,
+    "type": "HR",
+    "name": "Apparent Power A",
+    "desc": "Apparent Power A",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4048,
+    "type": "HR",
+    "name": "Apparent Power B",
+    "desc": "Apparent Power B",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4050,
+    "type": "HR",
+    "name": "Apparent Power C",
+    "desc": "Apparent Power C",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4052,
+    "type": "HR",
+    "name": "Reactive Power A",
+    "desc": "Reactive Power A",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4054,
+    "type": "HR",
+    "name": "Reactive Power B",
+    "desc": "Reactive Power B",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4056,
+    "type": "HR",
+    "name": "Reactive Power C",
+    "desc": "Reactive Power C",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4058,
+    "type": "HR",
+    "name": "Current Demand A",
+    "desc": "Current Demand A",
+    "unit": "Arms",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4060,
+    "type": "HR",
+    "name": "Current Demand B",
+    "desc": "Current Demand B",
+    "unit": "Arms",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4062,
+    "type": "HR",
+    "name": "Current Demand C",
+    "desc": "Current Demand C",
+    "unit": "Arms",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4064,
+    "type": "HR",
+    "name": "Real Power Demand",
+    "desc": "Real Power Demand",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4066,
+    "type": "HR",
+    "name": "Reactive Power Demand",
+    "desc": "Reactive Power Demand",
+    "unit": "VAr",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4068,
+    "type": "HR",
+    "name": "Apparent Power Demand",
+    "desc": "Apparent Power Demand",
+    "unit": "VA",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4070,
+    "type": "HR",
+    "name": "Positive Sequence Current",
+    "desc": "Positive Sequence Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4072,
+    "type": "HR",
+    "name": "Negative Sequence Current",
+    "desc": "Negative Sequence Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4074,
+    "type": "HR",
+    "name": "Zero Sequence Current",
+    "desc": "Zero Sequence Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4076,
+    "type": "HR",
+    "name": "Positive Sequence Phase Voltage",
+    "desc": "Positive Sequence Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4078,
+    "type": "HR",
+    "name": "Negative Sequence Phase Voltage",
+    "desc": "Negative Sequence Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4080,
+    "type": "HR",
+    "name": "Zero Sequence Phase Voltage",
+    "desc": "Zero Sequence Phase Voltage",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4082,
+    "type": "HR",
+    "name": "Current Thd A",
+    "desc": "Current Thd A",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4083,
+    "type": "HR",
+    "name": "Current Thd B",
+    "desc": "Current Thd B",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4084,
+    "type": "HR",
+    "name": "Current Thd C",
+    "desc": "Current Thd C",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4085,
+    "type": "HR",
+    "name": "Voltage Thd A",
+    "desc": "Voltage Thd A",
+    "unit": "%",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

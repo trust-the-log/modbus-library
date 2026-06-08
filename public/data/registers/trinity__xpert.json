@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 199,
+    "type": "HR",
+    "name": "Vrn",
+    "desc": "Vrn",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 203,
+    "type": "HR",
+    "name": "Vbn",
+    "desc": "Vbn",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 213,
+    "type": "HR",
+    "name": "Avg. Vpp",
+    "desc": "Avg. Vpp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 215,
+    "type": "HR",
+    "name": "Ir",
+    "desc": "Ir",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 219,
+    "type": "HR",
+    "name": "Lb",
+    "desc": "Lb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 221,
+    "type": "HR",
+    "name": "Avg. I",
+    "desc": "Avg. I",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 229,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 231,
+    "type": "HR",
+    "name": "System Pf",
+    "desc": "System Pf",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 239,
+    "type": "HR",
+    "name": "System Kw",
+    "desc": "System Kw",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 241,
+    "type": "HR",
+    "name": "System Kvar",
+    "desc": "System Kvar",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 243,
+    "type": "HR",
+    "name": "System Kva",
+    "desc": "System Kva",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 267,
+    "type": "HR",
+    "name": "Rising Demand",
+    "desc": "Rising Demand",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 269,
+    "type": "HR",
+    "name": "Max Demand",
+    "desc": "Max Demand",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 271,
+    "type": "HR",
+    "name": "Dg Kwh",
+    "desc": "Dg Kwh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 273,
+    "type": "HR",
+    "name": "Dg Kvarh",
+    "desc": "Dg Kvarh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 275,
+    "type": "HR",
+    "name": "Eb Kwh",
+    "desc": "Eb Kwh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 277,
+    "type": "HR",
+    "name": "Eb Kvarh",
+    "desc": "Eb Kvarh",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 281,
+    "type": "HR",
+    "name": "Dg Kvah",
+    "desc": "Dg Kvah",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 283,
+    "type": "HR",
+    "name": "Eb Kvah",
+    "desc": "Eb Kvah",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 285,
+    "type": "HR",
+    "name": "3Rd Hvr",
+    "desc": "3Rd Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 287,
+    "type": "HR",
+    "name": "Sth Hvr",
+    "desc": "Sth Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 289,
+    "type": "HR",
+    "name": "7Th Hvr",
+    "desc": "7Th Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 291,
+    "type": "HR",
+    "name": "9Th Hvr",
+    "desc": "9Th Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 293,
+    "type": "HR",
+    "name": "11Th Hvr",
+    "desc": "11Th Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 295,
+    "type": "HR",
+    "name": "13Th Hvr",
+    "desc": "13Th Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 297,
+    "type": "HR",
+    "name": "15Th Hvr",
+    "desc": "15Th Hvr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 299,
+    "type": "HR",
+    "name": "Thd Vr",
+    "desc": "Thd Vr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 301,
+    "type": "HR",
+    "name": "3Rd Hlr",
+    "desc": "3Rd Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 303,
+    "type": "HR",
+    "name": "Sth Hlr",
+    "desc": "Sth Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 305,
+    "type": "HR",
+    "name": "7Th Hlr",
+    "desc": "7Th Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 307,
+    "type": "HR",
+    "name": "9Th Hlr",
+    "desc": "9Th Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 309,
+    "type": "HR",
+    "name": "11Th Hlr",
+    "desc": "11Th Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 311,
+    "type": "HR",
+    "name": "13Th Hlr",
+    "desc": "13Th Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 313,
+    "type": "HR",
+    "name": "15Th Hlr",
+    "desc": "15Th Hlr",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 315,
+    "type": "HR",
+    "name": "Thd Ir",
+    "desc": "Thd Ir",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 349,
+    "type": "HR",
+    "name": "3Rd Hvb",
+    "desc": "3Rd Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 351,
+    "type": "HR",
+    "name": "Sth Hvb",
+    "desc": "Sth Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 353,
+    "type": "HR",
+    "name": "7Th Hvb",
+    "desc": "7Th Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 355,
+    "type": "HR",
+    "name": "9Th Hvb",
+    "desc": "9Th Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 357,
+    "type": "HR",
+    "name": "11Th Hvb",
+    "desc": "11Th Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 359,
+    "type": "HR",
+    "name": "13Th Hvb",
+    "desc": "13Th Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 361,
+    "type": "HR",
+    "name": "15Th Hvb",
+    "desc": "15Th Hvb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 363,
+    "type": "HR",
+    "name": "Thd Vb",
+    "desc": "Thd Vb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 365,
+    "type": "HR",
+    "name": "3Rd Hlb",
+    "desc": "3Rd Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 367,
+    "type": "HR",
+    "name": "Sth Hlb",
+    "desc": "Sth Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 369,
+    "type": "HR",
+    "name": "7Th Hlb",
+    "desc": "7Th Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 371,
+    "type": "HR",
+    "name": "9Th Hlb",
+    "desc": "9Th Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 373,
+    "type": "HR",
+    "name": "11Th Hlb",
+    "desc": "11Th Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 375,
+    "type": "HR",
+    "name": "13Th Hlb",
+    "desc": "13Th Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 377,
+    "type": "HR",
+    "name": "15Th Hlb",
+    "desc": "15Th Hlb",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

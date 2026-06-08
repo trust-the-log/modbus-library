@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "L2 L3 Voltage",
+    "desc": "L2 L3 Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "L3 L1 Voltage",
+    "desc": "L3 L1 Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "L1 L0 Voltage",
+    "desc": "L1 L0 Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "L2 L0 Voltage",
+    "desc": "L2 L0 Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "L3 L0 Voltage",
+    "desc": "L3 L0 Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "Amps AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "Amps AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "Amps AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Total Kw",
+    "desc": "Total Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Percent Of Rated Kw",
+    "desc": "Percent Of Rated Kw",
+    "unit": "% Rated kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Total Power Factor",
+    "desc": "Total Power Factor",
+    "unit": "PF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "L1 Kw",
+    "desc": "L1 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "L1 Power Factor",
+    "desc": "L1 Power Factor",
+    "unit": "PF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "L2 Kw",
+    "desc": "L2 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L2 Power Factor",
+    "desc": "L2 Power Factor",
+    "unit": "PF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "L3 Kw",
+    "desc": "L3 Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L3 Power Factor",
+    "desc": "L3 Power Factor",
+    "unit": "PF ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Total Kvar",
+    "desc": "Total Kvar",
+    "unit": "kVAR ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "L1 Kvar",
+    "desc": "L1 Kvar",
+    "unit": "kVAR ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "L2 Kvar",
+    "desc": "L2 Kvar",
+    "unit": "kVAR ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "L3 Kvar",
+    "desc": "L3 Kvar",
+    "unit": "kVAR ",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 23,
+    "type": "HR",
+    "name": "Total Kva",
+    "desc": "Total Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "L1 Kva",
+    "desc": "L1 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "L2 Kva",
+    "desc": "L2 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "L3 Kva",
+    "desc": "L3 Kva",
+    "unit": "kVA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 27,
+    "type": "HR",
+    "name": "Current Lead/Lag",
+    "desc": "Current Lead/Lag",
+    "unit": "Bits 0-1 Total Current - Leading = 10 Lagging = 01 Bits 2-3 L1 Current Leading = 10 Lagging = 01 Bits 4-5 L2 Current - Leading = 10 Lagging = 01 Bits 6-7 L3 Current - Leading = 10 Lagging = 01",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "Oil Pressure",
+    "desc": "Oil Pressure",
+    "unit": "kPa/psi",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 33,
+    "type": "HR",
+    "name": "Coolant Temperature",
+    "desc": "Coolant Temperature",
+    "unit": "Degrees C/Degrees F",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "Engine Speed",
+    "desc": "Engine Speed",
+    "unit": "RPM",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 35,
+    "type": "HR",
+    "name": "Local Battery Voltage",
+    "desc": "Local Battery Voltage",
+    "unit": "Volts DC ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Fuel Pressure",
+    "desc": "Fuel Pressure",
+    "unit": "kPa/psi DDEC/MDEC/ADEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 37,
+    "type": "HR",
+    "name": "Fuel Temperature",
+    "desc": "Fuel Temperature",
+    "unit": "Degrees C/Degrees F DDEC/MDEC/ADEC only",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Fuel Rate",
+    "desc": "Fuel Rate",
+    "unit": "Liters/Hour ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Used Last Run",
+    "desc": "Used Last Run",
+    "unit": "Liters/Gallons DDEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Coolant Pressure",
+    "desc": "Coolant Pressure",
+    "unit": "kPa/psi DDEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Coolant Level",
+    "desc": "Coolant Level",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Lube Oil Temperature",
+    "desc": "Lube Oil Temperature",
+    "unit": "Degrees C/Degrees F DDEC/MDEC/ADEC only",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Oil Level",
+    "desc": "Oil Level",
+    "unit": "% ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Crankcase Pressure",
+    "desc": "Crankcase Pressure",
+    "unit": "kPa/psi DDEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Ambient Temperature",
+    "desc": "Ambient Temperature",
+    "unit": "Degrees C/Degrees F DDEC only",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Ecm Battery Voltage",
+    "desc": "Ecm Battery Voltage",
+    "unit": "Volts DC ",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Ecm Status",
+    "desc": "Ecm Status",
+    "unit": "0 = DDEC-Equipped, 1 = Non-ECM, 2 = MDEC/ADEC-Equipped",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Intake Air Temperature",
+    "desc": "Intake Air Temperature",
+    "unit": "Degrees C/Degrees F MDEC/ADEC only",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Intake Air Pressure",
+    "desc": "Intake Air Pressure",
+    "unit": "Degrees C/Degrees F MDEC/ADEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Mdec/Adec Fault Codes",
+    "desc": "Mdec/Adec Fault Codes",
+    "unit": "Numeric Fault Code MDEC/ADEC only",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Analog Input 00 (Battery Voltage)",
+    "desc": "Analog Input 00 (Battery Voltage)",
+    "unit": "Volts DC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Analog Input01",
+    "desc": "Analog Input01",
+    "unit": "User-defined and calibrated through the 6000 controller. See the controller operation manual.",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Analog Input02",
+    "desc": "Analog Input02",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Analog Input03",
+    "desc": "Analog Input03",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

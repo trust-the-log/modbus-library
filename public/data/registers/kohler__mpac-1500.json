@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "Source N Line Neutral L1L0",
+    "desc": "Source N Line Neutral L1L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "Source N Line Neutral L2 L0",
+    "desc": "Source N Line Neutral L2 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "Source N Line Neutral L3L0",
+    "desc": "Source N Line Neutral L3L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "Source E Line Neutral L1 L0",
+    "desc": "Source E Line Neutral L1 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "Source E Lineneutral L2L0",
+    "desc": "Source E Lineneutral L2L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Source E Line Neutral L3 L0",
+    "desc": "Source E Line Neutral L3 L0",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Source N Line Voltage L1 L2",
+    "desc": "Source N Line Voltage L1 L2",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Source N Line Voltage L2 L3",
+    "desc": "Source N Line Voltage L2 L3",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Source N Line Voltage L3 L1",
+    "desc": "Source N Line Voltage L3 L1",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Source E Line Voltage L1 L2",
+    "desc": "Source E Line Voltage L1 L2",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 11,
+    "type": "HR",
+    "name": "Source E Line Voltage L2L3",
+    "desc": "Source E Line Voltage L2L3",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Source E Line Voltage L3 L1",
+    "desc": "Source E Line Voltage L3 L1",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 13,
+    "type": "HR",
+    "name": "Source N Frequency",
+    "desc": "Source N Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "Source E Frequency",
+    "desc": "Source E Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 15,
+    "type": "HR",
+    "name": "Current L1",
+    "desc": "Current L1",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Current L2",
+    "desc": "Current L2",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Current L3",
+    "desc": "Current L3",
+    "unit": "Amps",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Closed Transition In Phase Degree Delta",
+    "desc": "Closed Transition In Phase Degree Delta",
+    "unit": "Degrees",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "Closed Programmed Transition Override Mode",
+    "desc": "Closed Programmed Transition Override Mode",
+    "unit": "0 = Auto Override, 1 = Non-Automatic",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 39,
+    "type": "HR",
+    "name": "Password For Writing Register 40042",
+    "desc": "Password For Writing Register 40042",
+    "unit": "0-32768",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "Synchronous Voltage Phase Angle",
+    "desc": "Synchronous Voltage Phase Angle",
+    "unit": "0-10 degrees",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 41,
+    "type": "HR",
+    "name": "Synchronous Voltage Differential",
+    "desc": "Synchronous Voltage Differential",
+    "unit": "0%-5%",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "Synchronous Frequency Differential",
+    "desc": "Synchronous Frequency Differential",
+    "unit": "0.0Hz.-0.3Hz.",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 43,
+    "type": "HR",
+    "name": "Service Entrance Type",
+    "desc": "Service Entrance Type",
+    "unit": "0 = None; 1 = Insulated Case Circuit Breaker, 2 = Molded Case Circuit Breaker, 3 = Contactor",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "Phase Rotation Actual",
+    "desc": "Phase Rotation Actual",
+    "unit": "0 = disabled; 1 = ABC; 2 = CBA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 45,
+    "type": "HR",
+    "name": "Phase Rotation Expected",
+    "desc": "Phase Rotation Expected",
+    "unit": "0 = disabled; 1 = ABC; 2 = CBA",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "Nominal Normal Voltage",
+    "desc": "Nominal Normal Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 47,
+    "type": "HR",
+    "name": "Nominal Emergency Voltage",
+    "desc": "Nominal Emergency Voltage",
+    "unit": "Volts AC",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "Nominal Normal Frequency",
+    "desc": "Nominal Normal Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 49,
+    "type": "HR",
+    "name": "Nominal Emergency Frequency",
+    "desc": "Nominal Emergency Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "Normal Number Of Phases",
+    "desc": "Normal Number Of Phases",
+    "unit": "1 or 3",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 51,
+    "type": "HR",
+    "name": "Emergency Number Of Phases",
+    "desc": "Emergency Number Of Phases",
+    "unit": "1 or 3",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "Rated Amperage",
+    "desc": "Rated Amperage",
+    "unit": "04000",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 57,
+    "type": "HR",
+    "name": "Password For Writing Register 40057",
+    "desc": "Password For Writing Register 40057",
+    "unit": "0 32768",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "Normal Engine Start Time Delay",
+    "desc": "Normal Engine Start Time Delay",
+    "unit": "0-10 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 59,
+    "type": "HR",
+    "name": "Emergency Engine Start Time Delay",
+    "desc": "Emergency Engine Start Time Delay",
+    "unit": "010 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "Normal Ext. Engine Start Time Delay",
+    "desc": "Normal Ext. Engine Start Time Delay",
+    "unit": "0-3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 61,
+    "type": "HR",
+    "name": "Emergency Ext. Engine Start Time Delay",
+    "desc": "Emergency Ext. Engine Start Time Delay",
+    "unit": "03600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "Normal Engine Cooldown",
+    "desc": "Normal Engine Cooldown",
+    "unit": "0-3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 63,
+    "type": "HR",
+    "name": "Emergency Engine Cooldown",
+    "desc": "Emergency Engine Cooldown",
+    "unit": "03600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "Standby To Preferred",
+    "desc": "Standby To Preferred",
+    "unit": "0-3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 65,
+    "type": "HR",
+    "name": "Preferred To Standby",
+    "desc": "Preferred To Standby",
+    "unit": "03600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "Off (Preferred To Standby Prog. Transition)",
+    "desc": "Off (Preferred To Standby Prog. Transition)",
+    "unit": "0-3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 67,
+    "type": "HR",
+    "name": "Off (Standby To Preferred Prog. Transition)",
+    "desc": "Off (Standby To Preferred Prog. Transition)",
+    "unit": "03600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "Fail To Acquire Preferred",
+    "desc": "Fail To Acquire Preferred",
+    "unit": "1 -3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 69,
+    "type": "HR",
+    "name": "Fail To Acquire Standby",
+    "desc": "Fail To Acquire Standby",
+    "unit": "13600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Fail To Synchronize",
+    "desc": "Fail To Synchronize",
+    "unit": "1 -3600 sec",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 71,
+    "type": "HR",
+    "name": "Fail To Synch. Enable",
+    "desc": "Fail To Synch. Enable",
+    "unit": "0 = disabled; 1 = enabled",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Active Time Delay",
+    "desc": "Active Time Delay",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 75,
+    "type": "HR",
+    "name": "Active Time Delay Remaining",
+    "desc": "Active Time Delay Remaining",
+    "unit": "Seconds",
+    "dataType": "uint16",
+    "access": "R"
+  }
+]

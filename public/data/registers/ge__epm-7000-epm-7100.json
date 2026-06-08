@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Meter Serialnumber",
+    "desc": "Meter Serialnumber",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "Meter Type",
+    "desc": "Meter Type",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 17,
+    "type": "HR",
+    "name": "Firmware Version",
+    "desc": "Firmware Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 19,
+    "type": "HR",
+    "name": "Map Version",
+    "desc": "Map Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Meterconfiguration",
+    "desc": "Meterconfiguration",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 21,
+    "type": "HR",
+    "name": "Asic Version",
+    "desc": "Asic Version",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "Boot Firmware Version",
+    "desc": "Boot Firmware Version",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Option Slot 1Usage",
+    "desc": "Option Slot 1Usage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 25,
+    "type": "HR",
+    "name": "Option Slot 2Usage",
+    "desc": "Option Slot 2Usage",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "Meter Type Name",
+    "desc": "Meter Type Name",
+    "unit": "",
+    "dataType": "string",
+    "access": "R"
+  },
+  {
+    "addr": 278,
+    "type": "HR",
+    "name": "Integer Readings Block Occupies These Registers, S",
+    "desc": "Integer Readings Block Occupies These Registers, See Below",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 279,
+    "type": "HR",
+    "name": "Volts B N",
+    "desc": "Volts B N",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 280,
+    "type": "HR",
+    "name": "Volts C N",
+    "desc": "Volts C N",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 281,
+    "type": "HR",
+    "name": "Volts A B",
+    "desc": "Volts A B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 282,
+    "type": "HR",
+    "name": "Volts B C",
+    "desc": "Volts B C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 283,
+    "type": "HR",
+    "name": "Volts C A",
+    "desc": "Volts C A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 284,
+    "type": "HR",
+    "name": "Amps A",
+    "desc": "Amps A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 285,
+    "type": "HR",
+    "name": "Amps B",
+    "desc": "Amps B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 286,
+    "type": "HR",
+    "name": "Amps C",
+    "desc": "Amps C",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 289,
+    "type": "HR",
+    "name": "Vars, 3 Ph Total",
+    "desc": "Vars, 3 Ph Total",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 290,
+    "type": "HR",
+    "name": "Vas, 3 Ph Total",
+    "desc": "Vas, 3 Ph Total",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 291,
+    "type": "HR",
+    "name": "Power Factor, 3 Phtotal",
+    "desc": "Power Factor, 3 Phtotal",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 294,
+    "type": "HR",
+    "name": "Watts, Phase B",
+    "desc": "Watts, Phase B",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 295,
+    "type": "HR",
+    "name": "Watts, Phase C",
+    "desc": "Watts, Phase C",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 296,
+    "type": "HR",
+    "name": "Vars, Phase A",
+    "desc": "Vars, Phase A",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 297,
+    "type": "HR",
+    "name": "Vars, Phase B",
+    "desc": "Vars, Phase B",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 298,
+    "type": "HR",
+    "name": "Vars, Phase C",
+    "desc": "Vars, Phase C",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 299,
+    "type": "HR",
+    "name": "Vas, Phase A",
+    "desc": "Vas, Phase A",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 300,
+    "type": "HR",
+    "name": "Vas, Phase B",
+    "desc": "Vas, Phase B",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 303,
+    "type": "HR",
+    "name": "Power Factor,Phase B",
+    "desc": "Power Factor,Phase B",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 304,
+    "type": "HR",
+    "name": "Power Factor,Phase C",
+    "desc": "Power Factor,Phase C",
+    "unit": "",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 999,
+    "type": "HR",
+    "name": "Volts A N",
+    "desc": "Volts A N",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1001,
+    "type": "HR",
+    "name": "Volts B N",
+    "desc": "Volts B N",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1003,
+    "type": "HR",
+    "name": "Volts C N",
+    "desc": "Volts C N",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1005,
+    "type": "HR",
+    "name": "Volts A B",
+    "desc": "Volts A B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1007,
+    "type": "HR",
+    "name": "Volts B C",
+    "desc": "Volts B C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1009,
+    "type": "HR",
+    "name": "Volts C A",
+    "desc": "Volts C A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1011,
+    "type": "HR",
+    "name": "Amps A",
+    "desc": "Amps A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1013,
+    "type": "HR",
+    "name": "Amps B",
+    "desc": "Amps B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1015,
+    "type": "HR",
+    "name": "Amps C",
+    "desc": "Amps C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1017,
+    "type": "HR",
+    "name": "Watts, 3 Ph Total",
+    "desc": "Watts, 3 Ph Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1019,
+    "type": "HR",
+    "name": "Vars, 3 Ph Total",
+    "desc": "Vars, 3 Ph Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1021,
+    "type": "HR",
+    "name": "Vas, 3 Ph Total",
+    "desc": "Vas, 3 Ph Total",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1023,
+    "type": "HR",
+    "name": "Power Factor, 3 Phtotal",
+    "desc": "Power Factor, 3 Phtotal",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Watts, Phase A",
+    "desc": "Watts, Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1031,
+    "type": "HR",
+    "name": "Watts, Phase B",
+    "desc": "Watts, Phase B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1033,
+    "type": "HR",
+    "name": "Watts, Phase C",
+    "desc": "Watts, Phase C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1035,
+    "type": "HR",
+    "name": "Vars, Phase A",
+    "desc": "Vars, Phase A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  }
+]

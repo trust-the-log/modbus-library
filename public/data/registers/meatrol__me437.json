@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Phase 1 Power Factor",
+    "desc": "Phase 1 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Phase 2 Power Factor",
+    "desc": "Phase 2 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Phase 3 Power Factor",
+    "desc": "Phase 3 Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "Average Of Pf1, Pf2, Pf3",
+    "desc": "Average Of Pf1, Pf2, Pf3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2008,
+    "type": "HR",
+    "name": "Phase 1 Displacement Power Factor",
+    "desc": "Phase 1 Displacement Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2010,
+    "type": "HR",
+    "name": "Phase 2 Displacement Power Factor",
+    "desc": "Phase 2 Displacement Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2012,
+    "type": "HR",
+    "name": "Phase 3 Displacement Power Factor",
+    "desc": "Phase 3 Displacement Power Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2014,
+    "type": "HR",
+    "name": "Average Of Dpf1, Dpf2, Dpf3",
+    "desc": "Average Of Dpf1, Dpf2, Dpf3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2016,
+    "type": "HR",
+    "name": "Phase 1 Frequency",
+    "desc": "Phase 1 Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2018,
+    "type": "HR",
+    "name": "Phase 2 Frequency",
+    "desc": "Phase 2 Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2020,
+    "type": "HR",
+    "name": "Phase 3 Frequency",
+    "desc": "Phase 3 Frequency",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2022,
+    "type": "HR",
+    "name": "Average Of Freq1, Freq2, Freq3",
+    "desc": "Average Of Freq1, Freq2, Freq3",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2024,
+    "type": "HR",
+    "name": "Range:2 52",
+    "desc": "Range:2 52",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2025,
+    "type": "HR",
+    "name": "Range:2 52",
+    "desc": "Range:2 52",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2026,
+    "type": "HR",
+    "name": "Range:2 52",
+    "desc": "Range:2 52",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2027,
+    "type": "HR",
+    "name": "Phase 1 X Times Harmonics Current Distortion",
+    "desc": "Phase 1 X Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2029,
+    "type": "HR",
+    "name": "Phase 2 X Times Harmonics Current",
+    "desc": "Phase 2 X Times Harmonics Current",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2031,
+    "type": "HR",
+    "name": "Phase 3 X Times Harmonics Current Distortion",
+    "desc": "Phase 3 X Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2033,
+    "type": "HR",
+    "name": "Average Of I1Thdx, I2Thdx, I3Thdx",
+    "desc": "Average Of I1Thdx, I2Thdx, I3Thdx",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2035,
+    "type": "HR",
+    "name": "Phase 1 Y Times Harmonics Current Distortion",
+    "desc": "Phase 1 Y Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2037,
+    "type": "HR",
+    "name": "Phase 2 Y Times Harmonics Current Distortion",
+    "desc": "Phase 2 Y Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2039,
+    "type": "HR",
+    "name": "Phase 3 Y Times Harmonics Current Distortion",
+    "desc": "Phase 3 Y Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2041,
+    "type": "HR",
+    "name": "Average Of U1Thdy, U2Thdy, U3Thdy",
+    "desc": "Average Of U1Thdy, U2Thdy, U3Thdy",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2043,
+    "type": "HR",
+    "name": "Phase 1 Z Times Harmonics Current Distortion",
+    "desc": "Phase 1 Z Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2045,
+    "type": "HR",
+    "name": "Phase 2 Z Times Harmonics Current Distortion",
+    "desc": "Phase 2 Z Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2047,
+    "type": "HR",
+    "name": "Phase 3 Z Times Harmonics Current Distortion",
+    "desc": "Phase 3 Z Times Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2049,
+    "type": "HR",
+    "name": "Average Of U1Thdz, U2Thdz, U3Thdz",
+    "desc": "Average Of U1Thdz, U2Thdz, U3Thdz",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2051,
+    "type": "HR",
+    "name": "Phase 1 Total Harmonics Current Distortion",
+    "desc": "Phase 1 Total Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2053,
+    "type": "HR",
+    "name": "Phase 2 Total Harmonics Current Distortion",
+    "desc": "Phase 2 Total Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2055,
+    "type": "HR",
+    "name": "Phase 3 Total Harmonics Current Distortion",
+    "desc": "Phase 3 Total Harmonics Current Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2057,
+    "type": "HR",
+    "name": "Average Of U1Thd, U2Thd, U3Thd",
+    "desc": "Average Of U1Thd, U2Thd, U3Thd",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2059,
+    "type": "HR",
+    "name": "Phase 1 X Times Harmonics Current",
+    "desc": "Phase 1 X Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2061,
+    "type": "HR",
+    "name": "Phase 2 X Times Harmonics Current",
+    "desc": "Phase 2 X Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2063,
+    "type": "HR",
+    "name": "Phase 3 X Times Harmonics Current",
+    "desc": "Phase 3 X Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2065,
+    "type": "HR",
+    "name": "Average Of U1Thx, U2Thx, U3Thx",
+    "desc": "Average Of U1Thx, U2Thx, U3Thx",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2067,
+    "type": "HR",
+    "name": "Phase 1 Y Times Harmonics Current",
+    "desc": "Phase 1 Y Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2069,
+    "type": "HR",
+    "name": "Phase 2 Y Times Harmonics Current",
+    "desc": "Phase 2 Y Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2071,
+    "type": "HR",
+    "name": "Phase 3 Y Times Harmonics Current",
+    "desc": "Phase 3 Y Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2073,
+    "type": "HR",
+    "name": "Average Of U1Thy, U2Thy, U3Thy",
+    "desc": "Average Of U1Thy, U2Thy, U3Thy",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2075,
+    "type": "HR",
+    "name": "Phase 1 Z Times Harmonics Current",
+    "desc": "Phase 1 Z Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2077,
+    "type": "HR",
+    "name": "Phase 2 Z Times Harmonics Current",
+    "desc": "Phase 2 Z Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2079,
+    "type": "HR",
+    "name": "Phase 3 Z Times Harmonics Current",
+    "desc": "Phase 3 Z Times Harmonics Current",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2081,
+    "type": "HR",
+    "name": "Average Of U1Thz, U2Thz, U3Thz",
+    "desc": "Average Of U1Thz, U2Thz, U3Thz",
+    "unit": "V",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2083,
+    "type": "HR",
+    "name": "Phase 1 X Times Harmonics Voltage Distortion",
+    "desc": "Phase 1 X Times Harmonics Voltage Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2085,
+    "type": "HR",
+    "name": "Phase 2 X Times Harmonics Voltage Distortion",
+    "desc": "Phase 2 X Times Harmonics Voltage Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2087,
+    "type": "HR",
+    "name": "Phase 3 X Times Harmonics Voltage",
+    "desc": "Phase 3 X Times Harmonics Voltage",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2089,
+    "type": "HR",
+    "name": "Average Of U1Thdx, U2Thdx, U3Thdx",
+    "desc": "Average Of U1Thdx, U2Thdx, U3Thdx",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2091,
+    "type": "HR",
+    "name": "Phase 1 Y Times Harmonics Voltage Distortion",
+    "desc": "Phase 1 Y Times Harmonics Voltage Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2093,
+    "type": "HR",
+    "name": "Phase 2 Y Times Harmonics Voltage Distortion",
+    "desc": "Phase 2 Y Times Harmonics Voltage Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2095,
+    "type": "HR",
+    "name": "Phase 3 Y Times Harmonics Voltage Distortion",
+    "desc": "Phase 3 Y Times Harmonics Voltage Distortion",
+    "unit": "%",
+    "dataType": "float",
+    "access": "R"
+  }
+]

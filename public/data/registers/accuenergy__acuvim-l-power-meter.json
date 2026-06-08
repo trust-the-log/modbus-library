@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 1536,
+    "type": "HR",
+    "name": "Frequency F",
+    "desc": "Frequency F",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1538,
+    "type": "HR",
+    "name": "Phase Voltage V1",
+    "desc": "Phase Voltage V1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1540,
+    "type": "HR",
+    "name": "Phase Voltage V2",
+    "desc": "Phase Voltage V2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1542,
+    "type": "HR",
+    "name": "Phase Voltage V3",
+    "desc": "Phase Voltage V3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1544,
+    "type": "HR",
+    "name": "Line Voltage V12",
+    "desc": "Line Voltage V12",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1546,
+    "type": "HR",
+    "name": "Line Voltage V23",
+    "desc": "Line Voltage V23",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1548,
+    "type": "HR",
+    "name": "Line Voltage V31",
+    "desc": "Line Voltage V31",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1550,
+    "type": "HR",
+    "name": "Phase (Line) Current I1",
+    "desc": "Phase (Line) Current I1",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1552,
+    "type": "HR",
+    "name": "Phase (Line) Current I2",
+    "desc": "Phase (Line) Current I2",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1554,
+    "type": "HR",
+    "name": "Phase (Line) Current I3",
+    "desc": "Phase (Line) Current I3",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1556,
+    "type": "HR",
+    "name": "Neutral Line Current In",
+    "desc": "Neutral Line Current In",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1558,
+    "type": "HR",
+    "name": "Phase Power Pa",
+    "desc": "Phase Power Pa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1560,
+    "type": "HR",
+    "name": "Phase Power Pb",
+    "desc": "Phase Power Pb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1562,
+    "type": "HR",
+    "name": "Phase Power Pc",
+    "desc": "Phase Power Pc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1564,
+    "type": "HR",
+    "name": "System Power Psum",
+    "desc": "System Power Psum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1566,
+    "type": "HR",
+    "name": "Phase Reactive Power Qa",
+    "desc": "Phase Reactive Power Qa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1568,
+    "type": "HR",
+    "name": "Phase Reactive Power Qb",
+    "desc": "Phase Reactive Power Qb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1570,
+    "type": "HR",
+    "name": "Phase Reactive Power Qc",
+    "desc": "Phase Reactive Power Qc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1572,
+    "type": "HR",
+    "name": "System Reactive Power",
+    "desc": "System Reactive Power",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1574,
+    "type": "HR",
+    "name": "System Apparent Ssum",
+    "desc": "System Apparent Ssum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1576,
+    "type": "HR",
+    "name": "Phase Power Factor Pfa",
+    "desc": "Phase Power Factor Pfa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1578,
+    "type": "HR",
+    "name": "Phase Power Factor Pfb",
+    "desc": "Phase Power Factor Pfb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1580,
+    "type": "HR",
+    "name": "Phase Power Factor Pfc",
+    "desc": "Phase Power Factor Pfc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1582,
+    "type": "HR",
+    "name": "System Power Pfsum",
+    "desc": "System Power Pfsum",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1584,
+    "type": "HR",
+    "name": "Voltage Unbalance Factor",
+    "desc": "Voltage Unbalance Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1586,
+    "type": "HR",
+    "name": "Current Unbalance Factor",
+    "desc": "Current Unbalance Factor",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1590,
+    "type": "HR",
+    "name": "Phase Apparent Power Sa",
+    "desc": "Phase Apparent Power Sa",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1592,
+    "type": "HR",
+    "name": "Phase Apparent Power Sb",
+    "desc": "Phase Apparent Power Sb",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1594,
+    "type": "HR",
+    "name": "Phase Apparent Power Sc",
+    "desc": "Phase Apparent Power Sc",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1598,
+    "type": "HR",
+    "name": "Apparent Power Demand",
+    "desc": "Apparent Power Demand",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1600,
+    "type": "HR",
+    "name": "Power Demand P Dmd",
+    "desc": "Power Demand P Dmd",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1602,
+    "type": "HR",
+    "name": "Reactive Power Demand",
+    "desc": "Reactive Power Demand",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1604,
+    "type": "HR",
+    "name": "Phase A Current Demand",
+    "desc": "Phase A Current Demand",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1606,
+    "type": "HR",
+    "name": "Phase A Current Demand",
+    "desc": "Phase A Current Demand",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1608,
+    "type": "HR",
+    "name": "Phase C Current Demand",
+    "desc": "Phase C Current Demand",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 1024,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of V1 Or V12",
+    "desc": "Total Harmonic Distortion Of V1 Or V12",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1025,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of V2 Or V23",
+    "desc": "Total Harmonic Distortion Of V2 Or V23",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1026,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of V3 Or V31",
+    "desc": "Total Harmonic Distortion Of V3 Or V31",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1027,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of I1 Thd  I1",
+    "desc": "Total Harmonic Distortion Of I1 Thd  I1",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1028,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of I2 Thd  I2",
+    "desc": "Total Harmonic Distortion Of I2 Thd  I2",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1029,
+    "type": "HR",
+    "name": "Total Harmonic Distortion Of I3 Thd  I3",
+    "desc": "Total Harmonic Distortion Of I3 Thd  I3",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 342,
+    "type": "HR",
+    "name": "Import Energy Ep Imp",
+    "desc": "Import Energy Ep Imp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 344,
+    "type": "HR",
+    "name": "Export Energy Ep Exp",
+    "desc": "Export Energy Ep Exp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 346,
+    "type": "HR",
+    "name": "Import Reactive Energy Eq Imp",
+    "desc": "Import Reactive Energy Eq Imp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 348,
+    "type": "HR",
+    "name": "Export Reactive Energy Eq Exp",
+    "desc": "Export Reactive Energy Eq Exp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 350,
+    "type": "HR",
+    "name": "Apparent Energy Es",
+    "desc": "Apparent Energy Es",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 352,
+    "type": "HR",
+    "name": "Phase A Import Energy Ep Imp",
+    "desc": "Phase A Import Energy Ep Imp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 354,
+    "type": "HR",
+    "name": "Phase A Export Energy Ep Exp",
+    "desc": "Phase A Export Energy Ep Exp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 356,
+    "type": "HR",
+    "name": "Phase B Import Energy Ep Imp",
+    "desc": "Phase B Import Energy Ep Imp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 358,
+    "type": "HR",
+    "name": "Phase B Export Energy Ep Exp",
+    "desc": "Phase B Export Energy Ep Exp",
+    "unit": "",
+    "dataType": "uint32",
+    "access": "R"
+  }
+]

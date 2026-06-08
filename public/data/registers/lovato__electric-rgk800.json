@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "L1 Phase Voltage   Mains",
+    "desc": "L1 Phase Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "L2 Phase Voltage   Mains",
+    "desc": "L2 Phase Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "L3 Phase Voltage   Mains",
+    "desc": "L3 Phase Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "L1 Phase Voltage   Generator",
+    "desc": "L1 Phase Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "L2 Phase Voltage   Generator",
+    "desc": "L2 Phase Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "L3 Phase Voltage   Generator",
+    "desc": "L3 Phase Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 14,
+    "type": "HR",
+    "name": "L1 Current",
+    "desc": "L1 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 16,
+    "type": "HR",
+    "name": "L2 Current",
+    "desc": "L2 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "L3 Current",
+    "desc": "L3 Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 20,
+    "type": "HR",
+    "name": "Neutral Current",
+    "desc": "Neutral Current",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 22,
+    "type": "HR",
+    "name": "L1 L2 Voltage   Mains",
+    "desc": "L1 L2 Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "L2 L3 Voltage   Mains",
+    "desc": "L2 L3 Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 26,
+    "type": "HR",
+    "name": "L3 L1 Voltage   Mains",
+    "desc": "L3 L1 Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 28,
+    "type": "HR",
+    "name": "L1 L2 Voltage   Generator",
+    "desc": "L1 L2 Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "L2 L3 Voltage   Generator",
+    "desc": "L2 L3 Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 32,
+    "type": "HR",
+    "name": "L3 L1 Voltage   Generator",
+    "desc": "L3 L1 Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 34,
+    "type": "HR",
+    "name": "L1 Active Power   Mains",
+    "desc": "L1 Active Power   Mains",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "L2 Active Power   Mains",
+    "desc": "L2 Active Power   Mains",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 38,
+    "type": "HR",
+    "name": "L3 Active Power   Mains",
+    "desc": "L3 Active Power   Mains",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 40,
+    "type": "HR",
+    "name": "L1 Active Power   Generator",
+    "desc": "L1 Active Power   Generator",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 42,
+    "type": "HR",
+    "name": "L2 Active Power   Generator",
+    "desc": "L2 Active Power   Generator",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 44,
+    "type": "HR",
+    "name": "L3 Active Power   Generator",
+    "desc": "L3 Active Power   Generator",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 46,
+    "type": "HR",
+    "name": "L1 Reactive Power   Mains",
+    "desc": "L1 Reactive Power   Mains",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 48,
+    "type": "HR",
+    "name": "L2 Reactive Power   Mains",
+    "desc": "L2 Reactive Power   Mains",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 50,
+    "type": "HR",
+    "name": "L3 Reactive Power   Mains",
+    "desc": "L3 Reactive Power   Mains",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 52,
+    "type": "HR",
+    "name": "L1 Reactive Power   Generator",
+    "desc": "L1 Reactive Power   Generator",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 54,
+    "type": "HR",
+    "name": "L2 Reactive Power   Generator",
+    "desc": "L2 Reactive Power   Generator",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 56,
+    "type": "HR",
+    "name": "L3 Reactive Power   Generator",
+    "desc": "L3 Reactive Power   Generator",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 58,
+    "type": "HR",
+    "name": "L1 Apparent Power   Mains",
+    "desc": "L1 Apparent Power   Mains",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 60,
+    "type": "HR",
+    "name": "L2 Apparent Power   Mains",
+    "desc": "L2 Apparent Power   Mains",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 62,
+    "type": "HR",
+    "name": "L3 Apparent Power   Mains",
+    "desc": "L3 Apparent Power   Mains",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 64,
+    "type": "HR",
+    "name": "L1 Apparent Power   Generator",
+    "desc": "L1 Apparent Power   Generator",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 66,
+    "type": "HR",
+    "name": "L2 Apparent Power   Generator",
+    "desc": "L2 Apparent Power   Generator",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 68,
+    "type": "HR",
+    "name": "L3 Apparent Power   Generator",
+    "desc": "L3 Apparent Power   Generator",
+    "unit": "VA",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "L1 Power Factor   Mains",
+    "desc": "L1 Power Factor   Mains",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "L2 Power Factor   Mains",
+    "desc": "L2 Power Factor   Mains",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "L3 Power Factor   Mains",
+    "desc": "L3 Power Factor   Mains",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 76,
+    "type": "HR",
+    "name": "L1 Power Factor   Generator",
+    "desc": "L1 Power Factor   Generator",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 78,
+    "type": "HR",
+    "name": "L2 Power Factor   Generator",
+    "desc": "L2 Power Factor   Generator",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 80,
+    "type": "HR",
+    "name": "L3 Power Factor   Generator",
+    "desc": "L3 Power Factor   Generator",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 82,
+    "type": "HR",
+    "name": "Eqv. Phase Voltage   Mains",
+    "desc": "Eqv. Phase Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 84,
+    "type": "HR",
+    "name": "Eqv. Phase To Phase Voltage   Mains",
+    "desc": "Eqv. Phase To Phase Voltage   Mains",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 86,
+    "type": "HR",
+    "name": "Frequency   Mains",
+    "desc": "Frequency   Mains",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 88,
+    "type": "HR",
+    "name": "Eqv. Phase Voltage   Generator",
+    "desc": "Eqv. Phase Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 90,
+    "type": "HR",
+    "name": "Eqv. Phase To Phase Voltage   Generator",
+    "desc": "Eqv. Phase To Phase Voltage   Generator",
+    "unit": "V",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 92,
+    "type": "HR",
+    "name": "Frequency   Generator",
+    "desc": "Frequency   Generator",
+    "unit": "Hz",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 94,
+    "type": "HR",
+    "name": "Eqv Power Factor   Mains",
+    "desc": "Eqv Power Factor   Mains",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 100,
+    "type": "HR",
+    "name": "Eqv Power Factor   Generator",
+    "desc": "Eqv Power Factor   Generator",
+    "unit": "",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 106,
+    "type": "HR",
+    "name": "Eqv. Active Power   Mains",
+    "desc": "Eqv. Active Power   Mains",
+    "unit": "W",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 108,
+    "type": "HR",
+    "name": "Eqv. Reactive Power   Mains",
+    "desc": "Eqv. Reactive Power   Mains",
+    "unit": "Var",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

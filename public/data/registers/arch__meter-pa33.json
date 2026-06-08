@@ -1,0 +1,488 @@
+[
+  {
+    "addr": 4098,
+    "type": "HR",
+    "name": "Meter Ratio",
+    "desc": "Meter Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4099,
+    "type": "HR",
+    "name": "Pt Ratio",
+    "desc": "Pt Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4100,
+    "type": "HR",
+    "name": "Ct Ratio",
+    "desc": "Ct Ratio",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4106,
+    "type": "HR",
+    "name": "Wiring Mode",
+    "desc": "Wiring Mode",
+    "unit": "",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 1,
+    "type": "HR",
+    "name": "S(S T) Voltage",
+    "desc": "S(S T) Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 2,
+    "type": "HR",
+    "name": "T(T R) Voltage",
+    "desc": "T(T R) Voltage",
+    "unit": "Volt",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 3,
+    "type": "HR",
+    "name": "R Current",
+    "desc": "R Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 4,
+    "type": "HR",
+    "name": "S Current",
+    "desc": "S Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 5,
+    "type": "HR",
+    "name": "T Current",
+    "desc": "T Current",
+    "unit": "A",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Frequency",
+    "desc": "Frequency",
+    "unit": "Hz",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 7,
+    "type": "HR",
+    "name": "Pf",
+    "desc": "Pf",
+    "unit": "PF",
+    "dataType": "int16",
+    "access": "R"
+  },
+  {
+    "addr": 8,
+    "type": "HR",
+    "name": "Kw",
+    "desc": "Kw",
+    "unit": "kW",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 9,
+    "type": "HR",
+    "name": "Kvar",
+    "desc": "Kvar",
+    "unit": "kvar",
+    "dataType": "uint16",
+    "access": "R"
+  },
+  {
+    "addr": 10,
+    "type": "HR",
+    "name": "Kwh",
+    "desc": "Kwh",
+    "unit": "kWh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Kvarh",
+    "desc": "Kvarh",
+    "unit": "kvarh",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4352,
+    "type": "HR",
+    "name": "V A",
+    "desc": "V A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4354,
+    "type": "HR",
+    "name": "I A",
+    "desc": "I A",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4356,
+    "type": "HR",
+    "name": "Kw A",
+    "desc": "Kw A",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4358,
+    "type": "HR",
+    "name": "Kvar A",
+    "desc": "Kvar A",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4360,
+    "type": "HR",
+    "name": "Kva A",
+    "desc": "Kva A",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4362,
+    "type": "HR",
+    "name": "Pf A",
+    "desc": "Pf A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4364,
+    "type": "HR",
+    "name": "Kwh A",
+    "desc": "Kwh A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4366,
+    "type": "HR",
+    "name": "Kvarh A",
+    "desc": "Kvarh A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4368,
+    "type": "HR",
+    "name": "Kvah A",
+    "desc": "Kvah A",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4370,
+    "type": "HR",
+    "name": "V B",
+    "desc": "V B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4372,
+    "type": "HR",
+    "name": "I B",
+    "desc": "I B",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4374,
+    "type": "HR",
+    "name": "Kw B",
+    "desc": "Kw B",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4376,
+    "type": "HR",
+    "name": "Kvar B",
+    "desc": "Kvar B",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4378,
+    "type": "HR",
+    "name": "Kva B",
+    "desc": "Kva B",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4380,
+    "type": "HR",
+    "name": "Pf B",
+    "desc": "Pf B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4382,
+    "type": "HR",
+    "name": "Kwh B",
+    "desc": "Kwh B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4384,
+    "type": "HR",
+    "name": "Kvarh B",
+    "desc": "Kvarh B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4386,
+    "type": "HR",
+    "name": "Kvah B",
+    "desc": "Kvah B",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4388,
+    "type": "HR",
+    "name": "V C",
+    "desc": "V C",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4390,
+    "type": "HR",
+    "name": "I C",
+    "desc": "I C",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4392,
+    "type": "HR",
+    "name": "Kw C",
+    "desc": "Kw C",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4394,
+    "type": "HR",
+    "name": "Kvar C",
+    "desc": "Kvar C",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4396,
+    "type": "HR",
+    "name": "Kva C",
+    "desc": "Kva C",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4398,
+    "type": "HR",
+    "name": "Pf C",
+    "desc": "Pf C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4400,
+    "type": "HR",
+    "name": "Kwh C",
+    "desc": "Kwh C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4402,
+    "type": "HR",
+    "name": "Kvarh C",
+    "desc": "Kvarh C",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4406,
+    "type": "HR",
+    "name": "V Avg(V D)",
+    "desc": "V Avg(V D)",
+    "unit": "Volt",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4408,
+    "type": "HR",
+    "name": "I Avg(I D)",
+    "desc": "I Avg(I D)",
+    "unit": "Amp",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4410,
+    "type": "HR",
+    "name": "Kw Tot(Kw D)",
+    "desc": "Kw Tot(Kw D)",
+    "unit": "kW",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4412,
+    "type": "HR",
+    "name": "Kvar Tot(Kvar D)",
+    "desc": "Kvar Tot(Kvar D)",
+    "unit": "kvar",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4414,
+    "type": "HR",
+    "name": "Kva Tot(Kva D)",
+    "desc": "Kva Tot(Kva D)",
+    "unit": "kVA",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4416,
+    "type": "HR",
+    "name": "Pf Tot(Pf D)",
+    "desc": "Pf Tot(Pf D)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4418,
+    "type": "HR",
+    "name": "Kwh Tot(Kwh D)",
+    "desc": "Kwh Tot(Kwh D)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4420,
+    "type": "HR",
+    "name": "Kvarh Totkvarh D)",
+    "desc": "Kvarh Totkvarh D)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4422,
+    "type": "HR",
+    "name": "Kvah Tot(Kvah D)",
+    "desc": "Kvah Tot(Kvah D)",
+    "unit": "",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 4608,
+    "type": "HR",
+    "name": "V A",
+    "desc": "V A",
+    "unit": "Volt",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4610,
+    "type": "HR",
+    "name": "I A",
+    "desc": "I A",
+    "unit": "A",
+    "dataType": "uint32",
+    "access": "R"
+  },
+  {
+    "addr": 4612,
+    "type": "HR",
+    "name": "Kw A",
+    "desc": "Kw A",
+    "unit": "kW",
+    "dataType": "int32",
+    "access": "R"
+  },
+  {
+    "addr": 4614,
+    "type": "HR",
+    "name": "Kvar A",
+    "desc": "Kvar A",
+    "unit": "kvar",
+    "dataType": "int32",
+    "access": "R"
+  }
+]

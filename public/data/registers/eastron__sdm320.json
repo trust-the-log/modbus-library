@@ -1,0 +1,452 @@
+[
+  {
+    "addr": 6,
+    "type": "HR",
+    "name": "Current",
+    "desc": "Current",
+    "unit": "Amps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 12,
+    "type": "HR",
+    "name": "Power",
+    "desc": "Power",
+    "unit": "Watts",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 18,
+    "type": "HR",
+    "name": "Volt Amps",
+    "desc": "Volt Amps",
+    "unit": "VoltAmps",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 24,
+    "type": "HR",
+    "name": "Volt Amps Reactive",
+    "desc": "Volt Amps Reactive",
+    "unit": "VAr",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 30,
+    "type": "HR",
+    "name": "Power Factor",
+    "desc": "Power Factor",
+    "unit": "None",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 36,
+    "type": "HR",
+    "name": "Phase Angle",
+    "desc": "Phase Angle",
+    "unit": "Degrees",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 70,
+    "type": "HR",
+    "name": "Frequency Of Supply Voltages",
+    "desc": "Frequency Of Supply Voltages",
+    "unit": "Hz",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 72,
+    "type": "HR",
+    "name": "Import Wh Since Last Reset",
+    "desc": "Import Wh Since Last Reset",
+    "unit": "kWh/MWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 74,
+    "type": "HR",
+    "name": "Export Wh Since Last Reset",
+    "desc": "Export Wh Since Last Reset",
+    "unit": "kWH/MWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 342,
+    "type": "HR",
+    "name": "Total Kwh",
+    "desc": "Total Kwh",
+    "unit": "kwh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 529,
+    "type": "HR",
+    "name": "Total Last 1 Month Energy, Total",
+    "desc": "Total Last 1 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 533,
+    "type": "HR",
+    "name": "Total Last 1 Month Energy, Rate 1",
+    "desc": "Total Last 1 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 537,
+    "type": "HR",
+    "name": "Total Last 1 Month Energy, Rate 2",
+    "desc": "Total Last 1 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 545,
+    "type": "HR",
+    "name": "Total Last 2 Month Energy, Total",
+    "desc": "Total Last 2 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 549,
+    "type": "HR",
+    "name": "Total Last 2 Month Energy, Rate 1",
+    "desc": "Total Last 2 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 553,
+    "type": "HR",
+    "name": "Total Last 2 Month Energy, Rate 2",
+    "desc": "Total Last 2 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 561,
+    "type": "HR",
+    "name": "Total Last 3 Month Energy, Total",
+    "desc": "Total Last 3 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 565,
+    "type": "HR",
+    "name": "Total Last 3 Month Energy, Rate 1",
+    "desc": "Total Last 3 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 569,
+    "type": "HR",
+    "name": "Total Last 3 Month Energy, Rate 2",
+    "desc": "Total Last 3 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 577,
+    "type": "HR",
+    "name": "Total Last 4 Month Energy, Total",
+    "desc": "Total Last 4 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 581,
+    "type": "HR",
+    "name": "Total Last 4 Month Energy, Rate 1",
+    "desc": "Total Last 4 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 585,
+    "type": "HR",
+    "name": "Total Last 4 Month Energy, Rate 2",
+    "desc": "Total Last 4 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 593,
+    "type": "HR",
+    "name": "Total Last 5 Month Energy, Total",
+    "desc": "Total Last 5 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 597,
+    "type": "HR",
+    "name": "Total Last 5 Month Energy, Rate 1",
+    "desc": "Total Last 5 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 601,
+    "type": "HR",
+    "name": "Total Last 5 Month Energy, Rate 2",
+    "desc": "Total Last 5 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 609,
+    "type": "HR",
+    "name": "Total Last 6 Month Energy, Total",
+    "desc": "Total Last 6 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 613,
+    "type": "HR",
+    "name": "Total Last 6 Month Energy, Rate 1",
+    "desc": "Total Last 6 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 617,
+    "type": "HR",
+    "name": "Total Last 6 Month Energy, Rate 2",
+    "desc": "Total Last 6 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 625,
+    "type": "HR",
+    "name": "Total Last 7 Month Energy, Total",
+    "desc": "Total Last 7 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 629,
+    "type": "HR",
+    "name": "Total Last 7 Month Energy, Rate 1",
+    "desc": "Total Last 7 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 633,
+    "type": "HR",
+    "name": "Total Last 7 Month Energy, Rate 2",
+    "desc": "Total Last 7 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 641,
+    "type": "HR",
+    "name": "Total Last 8 Month Energy, Total",
+    "desc": "Total Last 8 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 645,
+    "type": "HR",
+    "name": "Total Last 8 Month Energy, Rate 1",
+    "desc": "Total Last 8 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 649,
+    "type": "HR",
+    "name": "Total Last 8 Month Energy, Rate 2",
+    "desc": "Total Last 8 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 657,
+    "type": "HR",
+    "name": "Total Last 9 Month Energy, Total",
+    "desc": "Total Last 9 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 661,
+    "type": "HR",
+    "name": "Total Last 9 Month Energy, Rate 1",
+    "desc": "Total Last 9 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 665,
+    "type": "HR",
+    "name": "Total Last 9 Month Energy, Rate 2",
+    "desc": "Total Last 9 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 673,
+    "type": "HR",
+    "name": "Total Last 10 Month Energy",
+    "desc": "Total Last 10 Month Energy",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 689,
+    "type": "HR",
+    "name": "Total Last 11 Month Energy, Total",
+    "desc": "Total Last 11 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 693,
+    "type": "HR",
+    "name": "Total Last 11 Month Energy, Rate 1",
+    "desc": "Total Last 11 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 697,
+    "type": "HR",
+    "name": "Total Last 11 Month Energy, Rate 2",
+    "desc": "Total Last 11 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 705,
+    "type": "HR",
+    "name": "Total Last 12 Month Energy, Total",
+    "desc": "Total Last 12 Month Energy, Total",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 709,
+    "type": "HR",
+    "name": "Total Last 12 Month Energy, Rate 1",
+    "desc": "Total Last 12 Month Energy, Rate 1",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 713,
+    "type": "HR",
+    "name": "Total Last 12 Month Energy, Rate 2",
+    "desc": "Total Last 12 Month Energy, Rate 2",
+    "unit": "KWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2000,
+    "type": "HR",
+    "name": "Import Energy Rate 1",
+    "desc": "Import Energy Rate 1",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2002,
+    "type": "HR",
+    "name": "Import Energy Rate 2",
+    "desc": "Import Energy Rate 2",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2004,
+    "type": "HR",
+    "name": "Import Energy Rate 3",
+    "desc": "Import Energy Rate 3",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2006,
+    "type": "HR",
+    "name": "Import Energy Rate 4",
+    "desc": "Import Energy Rate 4",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2256,
+    "type": "HR",
+    "name": "Export Energy Rate 1",
+    "desc": "Export Energy Rate 1",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  },
+  {
+    "addr": 2258,
+    "type": "HR",
+    "name": "Export Energy Rate 2",
+    "desc": "Export Energy Rate 2",
+    "unit": "kWh",
+    "dataType": "float",
+    "access": "R"
+  }
+]
