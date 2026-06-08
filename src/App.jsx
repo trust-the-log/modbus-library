@@ -164,14 +164,12 @@ function Sidebar({ devices, navMode, setNavMode, selectedId, onSelect, filter, s
               <div className="tree-group-header" onClick={()=>toggle(group)}>
                 <span className={`tree-arrow${isOpen?' open':''}`}>▶</span>
                 <span className="tree-group-name">{group}</span>
-                <span className="tree-group-badge">{devs.length} · {totalRegs.toLocaleString()}</span>
               </div>
               {isOpen && (
                 <div className="tree-children">
                   {devs.sort((a,b)=>a.model.localeCompare(b.model)).map(d => (
                     <div key={d.id} className={`tree-device${selectedId===d.id?' selected':''}`} onClick={()=>onSelect(d.id)}>
                       <span className="tree-device-name">{navMode==='brand' ? d.model : `${d.brand} ${d.model.split(' ')[0]}`}</span>
-                      <span className="tree-device-count">{d.regCount}</span>
                     </div>
                   ))}
                 </div>
@@ -204,7 +202,7 @@ export default function App() {
   useEffect(() => {
     fetch(`${BASE}data/devices.json`)
       .then(r => r.json())
-      .then(d => { setAllDevices(d); setStatus(`${d.length} dispositivi caricati`); })
+      .then(d => { setAllDevices(d); })
       .catch(() => setStatus('Errore caricamento dati'));
     // Load build date
     fetch(`${BASE}version.json`)
@@ -285,7 +283,6 @@ export default function App() {
       <div className="toolbar">
         <div className="toolbar-title">
           <span>⚡</span> Modbus Register Library
-          <span className="toolbar-badge">{devices.length} dispositivi · {totalRegs.toLocaleString()} reg</span>
         </div>
         <div className="toolbar-search">
           <span className="icon">🔍</span>
@@ -400,8 +397,7 @@ export default function App() {
 
       {/* Status bar */}
       <div className="statusbar">
-        <span>{status || (buildDate ? `Aggiornato il ${buildDate}` : '')}</span>
-        {selectedDevice && <span>{filteredRegs.length !== registers.length ? `${filteredRegs.length} di ${registers.length} registri` : `${registers.length} registri`}</span>}
+        <span>{buildDate ? `Aggiornato il ${buildDate}` : ''}</span>
       </div>
     </div>
   );
